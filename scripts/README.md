@@ -5,18 +5,17 @@
 
 
 
-All ten bash scripts are tested in Linux systems. Their functions are described below.
+All nine bash scripts are tested in Linux systems. Their functions are described below.
 
 1. BUSCO_extraction.sh: this script extracts the amino acid and nucleotides sequences for all the BUSCO results (run_* folders), i.e., modifying the head name of the fasta files for each locus and merging sequences of the same locus into the fasta files, then filtering loci having too few taxa (less than three).
 2. align_MAFFT.sh: this script performs multiple sequence alignment by using MAFFT or MAGUS.
 3. trmming_alignments.sh: this script performs trimming of multiple sequence alignments by using trimAl, BMGE or ClipKIT, i.e., identifying and removing highly divergent sites, or retaining parsimony-informative/constant sites from multiple sequence alignments.
 4. loci_filtering_alignment-based.sh: this script filters loci by detecting alignment length, number of parsimony-informative sites, percentage of parsimony-informative sites in the alignment, GC content, compositional heterogeneity (RCV, Relative composition variability), evolutionary rate (average pairwise identity) and likelihood mapping criteria.
-5. gene_trees.sh: this script generate individual gene trees for a set of alignments
-6. treeshrink.sh: 
-7. loci_filtering_tree-based.sh: 
-8. matrix_generation.sh: 
-9. astral.sh: 
-10. mcmctree_AA.sh: 
+5. gene_trees.sh: this script generate individual gene trees for a set of alignments.
+6. loci_filtering_tree-based.sh: this script 
+7. matrix_generation.sh: 
+8. astral.sh: 
+9. mcmctree_AA.sh: 
 
 ## Requirements
 
