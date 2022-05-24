@@ -17,6 +17,7 @@ Minia v3.2.4 (https://github.com/GATB/minia)
 Redundans v0.14c (https://github.com/lpryszcz/redundans) 
 
 Minimap2 v2.12 (https://github.com/lh3/minimap2) 
+
 Samtools v1.9 (http://www.htslib.org/) 
 
 BESST v2.2.8 (https://github.com/ksahlin/BESST) 
@@ -57,4 +58,6 @@ ASTRAL-III (https://github.com/smirarab/ASTRAL)
 
 pbmpi-1.8c (https://github.com/bayesiancook/pbmpi)
 
+
+## User manual
 
