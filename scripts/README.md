@@ -1,5 +1,5 @@
 
-# Phologenomics
+# Scripts of phologenomics
 
 ## Introduction
 
@@ -41,8 +41,6 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
   FASconCAT-G v1.04 (https://github.com/PatrickKueck/FASconCAT-G) 
   
   PHYLUCE v1.6.6 (http://phyluce.readthedocs.io/en/latest/index.html) 
-  
-  faToTwoBit (http://hgdownload.soe.ucsc.edu/admin/exe/) 
   
   ART-20160605 (https://www.niehs.nih.gov/research/resources/software/biostatistics/art/index.cfm) 
   
