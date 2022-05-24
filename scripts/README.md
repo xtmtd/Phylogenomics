@@ -11,9 +11,9 @@ All nine bash scripts are tested in Linux systems. Their functions are described
 2. align_MAFFT.sh: this script performs multiple sequence alignment by using MAFFT or MAGUS.
 3. trmming_alignments.sh: this script performs trimming of multiple sequence alignments by using trimAl, BMGE or ClipKIT, i.e., identifying and removing highly divergent sites, or retaining parsimony-informative/constant sites from multiple sequence alignments.
 4. loci_filtering_alignment-based.sh: this script filters loci by detecting alignment length, number of parsimony-informative sites, percentage of parsimony-informative sites in the alignment, GC content, compositional heterogeneity (RCV, Relative composition variability), evolutionary rate (average pairwise identity) and likelihood mapping criteria.
-5. gene_trees.sh: this script generate individual gene trees for a set of alignments.
-6. loci_filtering_tree-based.sh: this script 
-7. matrix_generation.sh: 
+5. gene_trees.sh: this script generates individual gene trees for a set of alignments.
+6. loci_filtering_tree-based.sh: this script filter loci using gene tree-based methods, i.e., average bootstrap support (ABS), Degree of violation of the molecular clock (DVMC), treeness, signal-to-noise ratio (treeness over rcv), and spurious homologs (possible paralogs, incorrectly assembled sequences).
+7. matrix_generation.sh: this script generates the supermaxtrix, partition and occupancy for alignments.
 8. astral.sh: 
 9. mcmctree_AA.sh: 
 
