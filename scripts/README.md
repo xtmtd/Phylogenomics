@@ -38,8 +38,6 @@ Stampy v1.0.32 (http://www.well.ox.ac.uk/project-stampy)
 
 PhyKIT (https://github.com/JLSteenwyk/PhyKIT)
 
-ClipKIT (https://github.com/JLSteenwyk/ClipKIT) 
-
 R v4.1.2 (https://www.r-project.org/) 
 
 TransDecoder v5.5.0 (https://github.com/TransDecoder/TransDecoder)
