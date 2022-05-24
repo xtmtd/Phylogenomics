@@ -14,8 +14,8 @@ All nine bash scripts are tested in Linux systems. Their functions are described
 5. gene_trees.sh: this script generates individual gene trees for a set of alignments by using IQ-TREE.
 6. loci_filtering_tree-based.sh: this script filter loci using gene tree-based methods, i.e., average bootstrap support (ABS), Degree of violation of the molecular clock (DVMC), treeness, signal-to-noise ratio (treeness over rcv), and spurious homologs (possible paralogs, incorrectly assembled sequences) by using PhyKIT or IQ-TREE.
 7. matrix_generation.sh: this script generates the supermaxtrix, partition and occupancy for alignments by using PhyKIT.
-8. astral.sh: 
-9. mcmctree_AA.sh: 
+8. astral.sh: this script generates the species tree by using ASTRAL.
+9. mcmctree_AA.sh: this script estimates divergence time by using MCMCTree for large amino acid dataset.
 
 ## Requirements
 
@@ -68,6 +68,8 @@ IQ-TREE v2.1.3 (https://github.com/iqtree/iqtree2)
 ASTRAL-III (https://github.com/smirarab/ASTRAL) 
 
 pbmpi-1.8c (https://github.com/bayesiancook/pbmpi)
+
+paml4.9j (http://abacus.gene.ucl.ac.uk/software/) 
 
 ## User manual
 
