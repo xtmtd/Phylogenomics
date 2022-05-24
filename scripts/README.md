@@ -5,6 +5,11 @@
 
 
 
+All nine bash scripts are tested in Linux systems. Their functions are described below.
+
+
+
+
 
 ## Requirements
 
@@ -42,6 +47,8 @@ R v4.1.2 (https://www.r-project.org/)
 
 TransDecoder v5.5.0 (https://github.com/TransDecoder/TransDecoder)
 
+TreeShrink v1.3.8 (https://github.com/uym2/TreeShrink/tree/v1.3.8)
+
 MAGUS (https://github.com/vlasmirnov/MAGUS) 
 
 MAFFT v7.407 (https://mafft.cbrc.jp/alignment/software/) 
@@ -56,6 +63,6 @@ ASTRAL-III (https://github.com/smirarab/ASTRAL)
 
 pbmpi-1.8c (https://github.com/bayesiancook/pbmpi)
 
-
 ## User manual
+
 
