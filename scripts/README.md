@@ -21,53 +21,44 @@ All nine bash scripts are tested in Linux systems. Their functions are described
 
 Some bioinformatic tools are neccessary for above scripts. Most of them are recommended to be added into the environmental paths. Softwares, versions and source are listed below. All the softwares must be installed in Linux systems.
 
-
-  BBTools v38.32 (https://sourceforge.net/projects/bbmap/)  
-  
-  Minia v3.2.4	(https://github.com/GATB/minia)  
-  
-  Redundans v0.14c	(https://github.com/lpryszcz/redundans)  
-  
-  Minimap2 v2.12	(https://github.com/lh3/minimap2)  
-  
-  Samtools v1.9	(http://www.htslib.org/)  
-  
-  BESST v2.2.8	(https://github.com/ksahlin/BESST)  
-  
-  GapCloser v1.12 (http://soap.genomics.org.cn/)
-  
-  BUSCO v3.0.2 (http://busco.ezlab.org/) 
-  
-  FASconCAT-G v1.04 (https://github.com/PatrickKueck/FASconCAT-G) 
-  
-  PHYLUCE v1.6.6 (http://phyluce.readthedocs.io/en/latest/index.html) 
-  
-  ART-20160605 (https://www.niehs.nih.gov/research/resources/software/biostatistics/art/index.cfm) 
-  
-  Stampy v1.0.32 (http://www.well.ox.ac.uk/project-stampy) 
-  
-  PhyKIT (https://github.com/JLSteenwyk/PhyKIT)
-  
-  R v4.1.2 (https://www.r-project.org/) 
-  
-  TransDecoder v5.5.0 (https://github.com/TransDecoder/TransDecoder)
-  
-  MAGUS (https://github.com/vlasmirnov/MAGUS) 
-  
-  MAFFT v7.407 (https://mafft.cbrc.jp/alignment/software/)
-  
-  ClipKIT (https://github.com/JLSteenwyk/ClipKIT) 
-  
-  trimAl v1.4.1 (http://trimal.cgenomics.org/) 
-  
-  IQ-TREE v2.1.3 (https://github.com/iqtree/iqtree2) 
-  
-  ASTRAL-III (https://github.com/smirarab/ASTRAL) 
-  
-  pbmpi-1.8c (https://github.com/bayesiancook/pbmpi)
-  
-  paml4.9j (http://abacus.gene.ucl.ac.uk/software/) 
+   BBTools v38.32 (https://sourceforge.net/projects/bbmap/)  
+   Minia v3.2.4 (https://github.com/GATB/minia)  
+   Redundans v0.14c (https://github.com/lpryszcz/redundans)  
+   Minimap2 v2.12 (https://github.com/lh3/minimap2)  
+   Samtools v1.9 (http://www.htslib.org/)  
+   BESST v2.2.8 (https://github.com/ksahlin/BESST)  
+   GapCloser v1.12 (http://soap.genomics.org.cn/)  
+   BUSCO v3.0.2 (http://busco.ezlab.org/)  
+   FASconCAT-G v1.04 (https://github.com/PatrickKueck/FASconCAT-G)  
+   PHYLUCE v1.6.6 (http://phyluce.readthedocs.io/en/latest/index.html)  
+   ART-20160605 (https://www.niehs.nih.gov/research/resources/software/biostatistics/art/index.cfm)  
+   Stampy v1.0.32 (http://www.well.ox.ac.uk/project-stampy)  
+   PhyKIT (https://github.com/JLSteenwyk/PhyKIT)  
+   R v4.1.2 (https://www.r-project.org/)  
+   TransDecoder v5.5.0 (https://github.com/TransDecoder/TransDecoder)  
+   MAGUS (https://github.com/vlasmirnov/MAGUS)  
+   MAFFT v7.407 (https://mafft.cbrc.jp/alignment/software/)  
+   ClipKIT (https://github.com/JLSteenwyk/ClipKIT)  
+   trimAl v1.4.1 (http://trimal.cgenomics.org/)  
+   IQ-TREE v2.1.3 (https://github.com/iqtree/iqtree2)  
+   ASTRAL-III (https://github.com/smirarab/ASTRAL)  
+   pbmpi-1.8c (https://github.com/bayesiancook/pbmpi)  
+   paml4.9j (http://abacus.gene.ucl.ac.uk/software/)
 
 ## User manual
+
+The requirements for each script have been described in the beginning of the bash script text. Values of variables/parameters, such as tool path, number of threads etc., can be modified at the beginning of analyses following the script guidance.
+
+Details of all commands and scripts usage are shown below. Operating system is popular Linux ones with ‘BASH’ shell, such as Centos, UBUNTU etc.
+
+ ● BUSCO_extraction.sh:
+
+1. Type 'bash BUSCO_extraction.sh BUSCO_folder', e.g., sh BUSCO_extraction.sh BUSCOs/. All the BUSCO results (run_* folders) are deposited in the same folder, e.g., BUSCOs/.
+2. Tools TransDecoder, parallel are used in this script and will be automatically checked prior to formal analyses.
+3. 
+
+
+
+
 
 
