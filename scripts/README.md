@@ -31,9 +31,11 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
    MAFFT v7.407 (https://mafft.cbrc.jp/alignment/software/)  
    ClipKIT (https://github.com/JLSteenwyk/ClipKIT)  
    trimAl v1.4.1 (http://trimal.cgenomics.org/)  
+   BMGE v1.12 (https://anaconda.org/bioconda/bmge/files)  
    IQ-TREE v2.1.3 (https://github.com/iqtree/iqtree2)  
    ASTRAL-III v5.6.1 (https://github.com/smirarab/ASTRAL)  
-   paml4.9j (http://abacus.gene.ucl.ac.uk/software/)
+   paml4.9j (http://abacus.gene.ucl.ac.uk/software/)  
+   GNU Parallel 2018 (http://www.gnu.org/software/parallel/)
 
 ## User manual
 
