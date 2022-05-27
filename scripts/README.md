@@ -5,6 +5,7 @@
 
 
 
+
 All ten bash scripts are tested in Linux systems. Their functions are described below.
 
 1. BUSCO_extraction.sh: this script extracts the amino acid and nucleotides sequences for all the BUSCO results (run_* folders) by using TransDecoder, i.e., modifying the head name of the fasta files for each locus and merging sequences of the same locus into the fasta files, then filtering loci having too few taxa (less than three).
@@ -24,10 +25,7 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
 
    FASconCAT-G v1.04 (https://github.com/PatrickKueck/FASconCAT-G)  
    PHYLUCE v1.6.6 (http://phyluce.readthedocs.io/en/latest/index.html)  
-   ART-20160605 (https://www.niehs.nih.gov/research/resources/software/biostatistics/art/index.cfm)  
-   Stampy v1.0.32 (http://www.well.ox.ac.uk/project-stampy)  
    PhyKIT (https://github.com/JLSteenwyk/PhyKIT)  
-   R v4.1.2 (https://www.r-project.org/)  
    TransDecoder v5.5.0 (https://github.com/TransDecoder/TransDecoder)  
    MAGUS (https://github.com/vlasmirnov/MAGUS)  
    MAFFT v7.407 (https://mafft.cbrc.jp/alignment/software/)  
@@ -35,7 +33,6 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
    trimAl v1.4.1 (http://trimal.cgenomics.org/)  
    IQ-TREE v2.1.3 (https://github.com/iqtree/iqtree2)  
    ASTRAL-III v5.6.1 (https://github.com/smirarab/ASTRAL)  
-   pbmpi-1.8c (https://github.com/bayesiancook/pbmpi)  
    paml4.9j (http://abacus.gene.ucl.ac.uk/software/)
 
 ## User manual
