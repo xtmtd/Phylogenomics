@@ -45,10 +45,26 @@ Details of all commands and scripts usage are shown below. Operating system is p
 
  ● BUSCO_extraction.sh:
 
-1. Type 'bash BUSCO_extraction.sh BUSCO_folder', e.g., sh BUSCO_extraction.sh BUSCOs/. All the BUSCO results (run_* folders) are deposited in the same folder, e.g., BUSCOs/.
+1. Type 'bash BUSCO_extraction.sh BUSCO_folder', e.g., bash BUSCO_extraction.sh BUSCOs/. All the BUSCO results (run_* folders) are deposited in the same folder, e.g., BUSCOs/.
 2. Tools TransDecoder, parallel are used in this script and will be automatically checked prior to formal analyses.
-3. 
+3. Modifying the head name of the fasta files for each locus, and placed all them in 0-raw_busco/.
+4. Merging sequences of the same locus into the fasta files, and placed all these fasta files in 1-raw_loci/.
+5. Filtering loci having too few taxa (less than three), and palced the rest of the fasta files in 2-loci_filter/.
 
+ ● align_MAFFT.sh:
+
+1. Type 'bash align_MAFFT.sh', e.g., bash align_MAFFT.sh.
+2. Tools MAFFT and MAGUS are used in this script and will be automatically checked prior to formal analyses.
+3. input the option for MAFFT-based strategy: 1. mafft-auto; 2. linsi; 3. einsi; 4. ginsi; 5. MAGUS. Enter the number which strategy will be choosen.
+4. Input the number of threads/cores (e.g. 8).
+5. Input the name of input directory, e.g., 2-loci_filter/faa/.
+6. Input the name of output directory, e.g., 3-faa_align. All the fasta files after aligning will be palced in this folder.
+
+ ● trmming_alignments.sh:
+ 
+1. Type 'bash trmming_alignments.sh', e.g., bash trmming_alignments.sh.
+2. Tools trimAl, BMGE and ClipKIT are used in this script and will be automatically checked prior to formal analyses.
+3. 
 
 
 
