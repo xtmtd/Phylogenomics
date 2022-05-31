@@ -42,6 +42,7 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
    paml4.9j (http://abacus.gene.ucl.ac.uk/software/)  
    GNU Parallel 2018 (http://www.gnu.org/software/parallel/)  
    R v4.1.2 (https://www.r-project.org/)  
+   TreeShrink v1.3.8 (https://github.com/uym2/TreeShrink)  
 
 ## User manual
 
