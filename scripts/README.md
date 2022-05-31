@@ -1,9 +1,6 @@
-
 # Scripts of phologenomics
 
 ## Introduction
-
-
 
 
 
