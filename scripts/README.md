@@ -52,25 +52,27 @@ Details of all commands and scripts usage are shown below. Operating system is p
 
  ● **BUSCO_extraction.sh**:
 
-1. Type 'bash BUSCO_extraction.sh BUSCO_folder', e.g., bash BUSCO_extraction.sh BUSCOs/. All the BUSCO results (run_* folders) are deposited in the same folder, e.g., BUSCOs/.
+1. Type 'bash BUSCO_extraction.sh'.
 2. Tools TransDecoder, parallel are used in this script and will be automatically checked prior to formal analyses.
-3. Modify the head name of the fasta files for each locus, and placed all them in 0-raw_busco/.
-4. Merge sequences of the same locus into the fasta files, and placed all these fasta files in 1-raw_loci/.
-5. Filter loci having too few taxa (less than three), and palced the rest of the fasta files in 2-loci_filter/.
+3. Input the number of threads/cores (e.g., 8).
+4. Input the name of input directory containing all alignments, e.g., /PATH/BUSCOs/ (All the BUSCO results (run_* folders) are deposited in the same folder, e.g., BUSCOs/).
+5. Modify the head name of the fasta files for each locus, and placed all them in 0-raw_busco/.
+6. Merge sequences of the same locus into the fasta files, and placed all these fasta files in 1-raw_loci/.
+7. Filter loci having too few taxa (less than three), and palced the rest of the fasta files in 2-loci_filter/.
 
  ● **align_MAFFT.sh**:
 
-1. Type 'bash align_MAFFT.sh', e.g., bash align_MAFFT.sh.
+1. Type 'bash align_MAFFT.sh'.
 2. Tools MAFFT and MAGUS are used in this script and will be automatically checked prior to formal analyses.
 3. Input the option for MAFFT-based strategy: 1. mafft-auto; 2. linsi; 3. einsi; 4. ginsi; 5. MAGUS. Enter the number which strategy will be choosen.
 4. Input the number of threads/cores (e.g., 8).
-5. Input the name of input directory, e.g., 2-loci_filter/faa/.
-6. Input the name of output directory, e.g., 3-faa_align. All the fasta files after aligning will be palced in this folder.
+5. Input the name of input directory containing all alignments, e.g., 2-loci_filter/faa/.
+6. input the name of output directory, or an existing directory, e.g., 3-faa_align. All the fasta files after aligning will be palced in this folder.
 
  ● **trmming_alignments.sh**:
  
-1. Type 'bash trmming_alignments.sh', e.g., bash trmming_alignments.sh.
-2. Tools trimAl, BMGE and ClipKIT are used in this script and will be automatically checked prior to formal analyses. 
+1. Type 'bash trmming_alignments.sh'.
+2. Tools parallel, trimAl, BMGE and ClipKIT are used in this script and will be automatically checked prior to formal analyses. 
 3. Input the number of threads/cores (e.g., 8).
 4. Input the option for input alignments: 1. amino acid; 2. nucleotide. Enter the number which alignments will be choosen.
 5. Input the option for trimming tool: 1. trimAl; 2. BMGE; 3. ClipKIT. Enter the number which trimming tools will be choosen.
@@ -79,7 +81,7 @@ Details of all commands and scripts usage are shown below. Operating system is p
 
  ● **loci_filtering_alignment-based.sh**:
  
-1. Type 'bash loci_filtering_alignment-based.sh', e.g., bash loci_filtering_alignment-based.sh.
+1. Type 'bash loci_filtering_alignment-based.sh'.
 2. Tools parallel, PhyKIT and IQ-TREE are used in this script and will be automatically checked prior to formal analyses.
 3. Input the number of threads/cores (e.g., 8).
 4. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
@@ -89,28 +91,29 @@ Details of all commands and scripts usage are shown below. Operating system is p
 
  ● **gene_trees.sh**:
  
-1. Type 'bash gene_trees.sh', e.g., bash gene_trees.sh.
+1. Type 'bash gene_trees.sh'.
 2. Tools IQ-TREE and parallel are used in this script and will be automatically checked prior to formal analyses.
 3. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
-4. Input the name of output directory, or an existing directory, e.g., gene_trees. All the gene trees will be palced in this folder.
+4. Input the name of output directory, or an existing directory, e.g., gene_trees. All gene trees have been deposited in this folder.
 5. Input the option for input alignments: 1. amino acid; 2. nucleotide. Enter the number which alignments will be choosen.
 6. Input the option for protein substitution model: 1. automatically ModelFinder searching; 2. restricted to LG model to reduce computational burden (-mset LG); 3. mixture model EX_EHO (-mset EX_EHO, may be very time-consuming but more accurate); 4. insect universal model Q.insect (may be better than LG model for insects); 5. mitochondrial (--msub mitochondrial). Or input the option for DNA substitution model: 1. automatically ModelFinder searching; 2. restricted to HKY/GTR model to reduce computational burden (-mset HKY,GTR). Enter the number which protein or DNA substitution model will be choosen.
-7. Input the correct integer for the number of threads/cores used for each IQ-TREE analysis (e.g., 8).
-8. Input the number of IQ-TREE jobs/tasks (e.g., 4).
+7. Input the number of threads/cores used for each IQ-TREE analysis (e.g., 1).
+8. Input the number of IQ-TREE jobs/tasks (e.g., 8).
 
  ● **loci_filtering_tree-based.sh**:
  
-1. Type 'bash loci_filtering_tree-based.sh', e.g., bash loci_filtering_tree-based.sh.
+1. Type 'bash loci_filtering_tree-based.sh'.
 2. Tools parallel, PhyKIT and Seqkit are used in this script and will be automatically checked prior to formal analyses.
 3. Input the number of threads/cores (e.g., 8).
-4. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
-5. Input the name of output directory, or an existing directory, e.g., ABS (the name of output directory can write according to the tree-based strategy). All the fasta files after filtering based gene trees, and the list of loci will be palced in this folder.
-6. Input the option for tree-based strategy for loci filtering: 1. average bootstrap support (ABS); 2. degree of violation of the molecular clock (DVMC); 3. treeness; 4. signal-to-noise ratio (treeness over RCV); 5. spurious homologs identification. Enter the number which tree-based strategy for loci filtering will be choosen.
-7. Input the threshod, i.e., the ABS threshod (the minimum value), the DVMC threshod (the maximum value), the treeness or treeness/RCV threshod (the minimum value).
+4. Input the name of input directory containing all gene trees, e.g., gene_trees/.
+5. Input the name of input directory containing all loci alignments, e.g. 4-trim/clipkit-kpic/.
+6. Input the name of output directory, or an existing directory, e.g., ABS (the name of output directory can write according to the tree-based strategy). All the fasta files after filtering based gene trees, and the list of loci will be palced in this folder.
+7. Input the option for tree-based strategy for loci filtering: 1. average bootstrap support (ABS); 2. degree of violation of the molecular clock (DVMC); 3. treeness; 4. signal-to-noise ratio (treeness over RCV); 5. spurious homologs identification. Enter the number which tree-based strategy for loci filtering will be choosen.
+8. Input the threshod, i.e., the ABS threshod (the minimum value), the DVMC threshod (the maximum value), the treeness or treeness/RCV threshod (the minimum value).
 
  ● **treeshrink.sh**:
  
-1. Type 'bash treeshrink.sh', e.g., bash treeshrink.sh.
+1. Type 'bash treeshrink.sh'.
 2. Tools TreeShrink and R are used in this script and will be automatically checked prior to formal analyses.
 3. Input the name of input directory containing all gene trees, e.g., gene_trees/.
 4. Input the name of input directory containing all loci alignments, e.g., 4-trim/clipkit-kpic/.
@@ -119,17 +122,18 @@ Details of all commands and scripts usage are shown below. Operating system is p
 
  ● **matrix_generation.sh**:
  
-1. Type 'bash matrix_generation.sh', e.g., bash matrix_generation.sh.
-2. Tools parallel and PhyKIT are used in this script and will be automatically checked prior to formal analyses.
+1. Type 'bash matrix_generation.sh'.
+2. Tools Seqkit and PhyKIT are used in this script and will be automatically checked prior to formal analyses.
 3. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
 4. Input the name of output directory, or an existing directory, e.g., matrix90.
 5. Input the name of a prefix for the generated matrix-related files, e.g., DATASET1.
 6. Input the minimum percentage value for taxa occupancy, usually ranging from 50% to 100% (e.g., 50, 75, 90): 90.
-7. Individual loci alignments, concatenated matrix and partition file are deposited in the OUTPUT/matrix$OCCUPANCY.
+7. Move the outgroup species to the first one in the alignment matrix? 1. Yes; 2. No (Many phylogenetic tools, such as IQ-TREE, will view the first taxon of the alignment as the 'outgroup' in the final tree file). If 'Yes' (i.e., input '1'), please input the species name of outgroup taxon, such as 'Zootermopsis_nevadensis'.
+8. Individual loci alignments, concatenated matrix and partition file are deposited in the OUTPUT/matrix$OCCUPANCY.
 
  ● **astral.sh**:
  
-1. Type 'bash astral.sh', e.g., bash astral.sh.
+1. Type 'bash astral.sh'.
 2. Tool ASTRAL is used in this script and will be automatically checked prior to formal analyses.
 3. Input a list containing all loci names or gene tree names, one name one line, e.g., /PATH/loci.ABS.
 4. Input the name of input directory containing all gene trees, e.g., /PATH/gene_trees/.
@@ -138,12 +142,12 @@ Details of all commands and scripts usage are shown below. Operating system is p
 
  ● **mcmctree_AA.sh**:
  
-1. Type 'bash mcmctree_AA.sh', e.g., bash mcmctree_AA.sh.
-2. Tools FASconCAT, PAML and parallel are used in this script and will be automatically checked prior to formal analyses.
-3. Input the correct integer for the number of threads/cores (e.g. 8).
-4. input the correct integer for the number of samples/generations kept for MCMCTree (e.g. 10000, 20000).
-5. 
-
+1. Type 'bash mcmctree_AA.sh'.
+2. Tools PhyKIT, PAML, trimAl, parallel and csvtk are used in this script and will be automatically checked prior to formal analyses.
+3. Input the number of threads/cores (e.g., 8).
+4. Default burnin and sample frequency (sampfreq) are set as 50000 and 5 in this script. Please input the number of samples/generations kept for MCMCTree, 10000~20000 could be enough for most cases), e.g., 20000.
+5. Input the name of input directory containing all alignments, e.g., /PATH/alignments.
+6. Input the partition file 'XXXbest_model.nex' (with its path) generated by IQ-TREE, e.g., /PATH/test.partition.best_model.nex.
 
 
 ## Contact
