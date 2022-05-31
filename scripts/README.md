@@ -26,7 +26,9 @@ All ten bash scripts are tested in Linux systems. Their functions are described 
 
 ## Requirements
 
-Some bioinformatic tools are neccessary for above scripts. Most of them are recommended to be added into the environmental paths. Softwares, versions and source are listed below. All the softwares must be installed in Linux systems.
+Some bioinformatic tools are neccessary for above scripts. Most of them are recommended to be added into the environmental paths. 
+
+Softwares, versions and source are listed below. All the softwares must be installed in Linux systems.
 
    FASconCAT-G v1.04 (https://github.com/PatrickKueck/FASconCAT-G)  
    PHYLUCE v1.6.6 (http://phyluce.readthedocs.io/en/latest/index.html)  
