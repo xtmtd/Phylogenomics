@@ -35,7 +35,8 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
    IQ-TREE v2.1.3 (https://github.com/iqtree/iqtree2)  
    ASTRAL-III v5.6.1 (https://github.com/smirarab/ASTRAL)  
    paml4.9j (http://abacus.gene.ucl.ac.uk/software/)  
-   GNU Parallel 2018 (http://www.gnu.org/software/parallel/)
+   GNU Parallel 2018 (http://www.gnu.org/software/parallel/)  
+   R v4.1.2 (https://www.r-project.org/)  
 
 ## User manual
 
@@ -87,9 +88,9 @@ Details of all commands and scripts usage are shown below. Operating system is p
 3. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
 4. Input the name of output directory, or an existing directory, e.g., gene_trees. All the gene trees will be palced in this folder.
 5. Input the option for input alignments: 1. amino acid; 2. nucleotide. Enter the number which alignments will be choosen.
-6. Input the option for protein substitution model: 1. automatically ModelFinder searching; 2. restricted to LG model to reduce computational burden (-mset LG); 3. mixture model EX_EHO (-mset EX_EHO, may be very time-consuming but more accurate); 4. insect universal model Q.insect (may be better than LG model for insects); 5. mitochondrial (--msub mitochondrial). Or input the option for DNA substitution model: 1. automatically ModelFinder searching; 2. restricted to HKY/GTR model to reduce computational burden (-mset HKY,GTR). 
-7. Input the correct integer for the number of threads/cores used for each IQ-TREE analysis (e.g. 8).
-8. Input the number of IQ-TREE jobs/tasks (e.g. 4).
+6. Input the option for protein substitution model: 1. automatically ModelFinder searching; 2. restricted to LG model to reduce computational burden (-mset LG); 3. mixture model EX_EHO (-mset EX_EHO, may be very time-consuming but more accurate); 4. insect universal model Q.insect (may be better than LG model for insects); 5. mitochondrial (--msub mitochondrial). Or input the option for DNA substitution model: 1. automatically ModelFinder searching; 2. restricted to HKY/GTR model to reduce computational burden (-mset HKY,GTR). Enter the number which protein or DNA substitution model will be choosen.
+7. Input the correct integer for the number of threads/cores used for each IQ-TREE analysis (e.g., 8).
+8. Input the number of IQ-TREE jobs/tasks (e.g., 4).
 
  ● loci_filtering_tree-based.sh:
  
@@ -101,11 +102,40 @@ Details of all commands and scripts usage are shown below. Operating system is p
 6. Input the option for tree-based strategy for loci filtering: 1. average bootstrap support (ABS); 2. degree of violation of the molecular clock (DVMC); 3. treeness; 4. signal-to-noise ratio (treeness over RCV); 5. spurious homologs identification. Enter the number which tree-based strategy for loci filtering will be choosen.
 7. Input the threshod, i.e., the ABS threshod (the minimum value), the DVMC threshod (the maximum value), the treeness or treeness/RCV threshod (the minimum value).
 
+ ● treeshrink.sh:
+ 
+1. Type 'bash treeshrink.sh', e.g., bash treeshrink.sh.
+2. Tools TreeShrink and R are used in this script and will be automatically checked prior to formal analyses.
+3. Input the name of input directory containing all gene trees, e.g., gene_trees/.
+4. Input the name of input directory containing all loci alignments, e.g., 4-trim/clipkit-kpic/.
+5. Input the number of α threshold (e.g., 0.05).
+6. All alignments after treeshrink are palced in treeshrink_fas/ folder.
 
+ ● matrix_generation.sh:
+ 
+1. Type 'bash matrix_generation.sh', e.g., bash matrix_generation.sh.
+2. Tools parallel and PhyKIT are used in this script and will be automatically checked prior to formal analyses.
+3. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
+4. Input the name of output directory, or an existing directory, e.g., matrix90.
+5. Input the name of a prefix for the generated matrix-related files, e.g., DATASET1.
+6. Input the minimum percentage value for taxa occupancy, usually ranging from 50% to 100% (e.g., 50, 75, 90): 90.
+7. Individual loci alignments, concatenated matrix and partition file are deposited in the OUTPUT/matrix$OCCUPANCY.
 
+ ● astral.sh:
+ 
+1. Type 'bash astral.sh', e.g., bash astral.sh.
+2. Tool ASTRAL is used in this script and will be automatically checked prior to formal analyses.
+3. Input a list containing all loci names or gene tree names, one name one line, e.g., /PATH/loci.ABS.
+4. Input the name of input directory containing all gene trees, e.g., /PATH/gene_trees/.
+5. Input the name of output directory, or an existing directory, e.g., ASTRAL.
+6. The file 'species_tree.tre' in the output directory is the MSC tree inferred from ASTRAL.
 
-
-
+ ● mcmctree_AA.sh:
+ 
+1. Type 'bash mcmctree_AA.sh', e.g., bash mcmctree_AA.sh.
+2. Tools FASconCAT, PAML and parallel are used in this script and will be automatically checked prior to formal analyses.
+3. Input the correct integer for the number of threads/cores (e.g. 8).
+4. input the correct integer for the number of samples/generations kept for MCMCTree (e.g. 10000, 20000)
 
 
 
