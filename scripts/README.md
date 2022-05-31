@@ -73,12 +73,25 @@ Details of all commands and scripts usage are shown below. Operating system is p
  ● loci_filtering_alignment-based.sh:
  
 1. Type 'bash loci_filtering_alignment-based.sh', e.g., bash loci_filtering_alignment-based.sh.
-2. Tools PhyKIT and IQ-TREE are used in this script and will be automatically checked prior to formal analyses.
+2. Tools parallel, PhyKIT and IQ-TREE are used in this script and will be automatically checked prior to formal analyses.
 3. Input the number of threads/cores (e.g., 8).
 4. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
-5. Input the name of output directory, or an existing directory, e.g., length (the name of output directory can write according to the alignment-based strategy).
+5. Input the name of output directory, or an existing directory, e.g., length (the name of output directory can write according to the alignment-based strategy). All the fasta files after filtering based alignments, and the list of loci will be palced in this folder.
 6. Input the option for alignment-based strategy for loci filtering: 1. alignment length; 2. number of parsimony-informative sites; 3. percentage of parsimony-informative sites in the alignment; 4. GC content; 5. RCV (Relative composition variability); 6. evolutionary rate (average pairwise identity); 7. likelihood mapping; 8. symmetry tests against SRH hypotheses. Enter the number which alignment-based strategy for loci filtering will be choosen.
-7. Input the threshod. 
+7. Input the threshod, i.e., the length or number of parsimony-informative sites threshod (the minimum value), the RCV threshod (the maximum value), the GC percentage threshod (the maximum value), the evolutionary rate threshod (the maximum value), the FcLM quartet threshod (the minimum value), the symtest p-value threshod (the maximum value).
+
+ ● loci_filtering_tree-based.sh:
+ 
+1. Type 'bash loci_filtering_tree-based.sh', e.g., bash loci_filtering_tree-based.sh.
+2. Tools parallel, PhyKIT and Seqkit are used in this script and will be automatically checked prior to formal analyses.
+3. Input the number of threads/cores (e.g., 8).
+4. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
+5. Input the name of output directory, or an existing directory, e.g., ABS (the name of output directory can write according to the tree-based strategy). All the fasta files after filtering based gene trees, and the list of loci will be palced in this folder.
+6. Input the option for tree-based strategy for loci filtering: 1. average bootstrap support (ABS); 2. degree of violation of the molecular clock (DVMC); 3. treeness; 4. signal-to-noise ratio (treeness over RCV); 5. spurious homologs identification. Enter the number which tree-based strategy for loci filtering will be choosen.
+7. Input the threshod, i.e., the ABS threshod (the minimum value), the DVMC threshod (the maximum value), the GC percentage threshod (the maximum value), the evolutionary rate threshod (the maximum value), the quartet threshod (the minimum value), the symtest p-value threshod (the maximum value).
+
+
+
 
 
 
