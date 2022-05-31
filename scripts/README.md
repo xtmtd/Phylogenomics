@@ -47,9 +47,9 @@ Details of all commands and scripts usage are shown below. Operating system is p
 
 1. Type 'bash BUSCO_extraction.sh BUSCO_folder', e.g., bash BUSCO_extraction.sh BUSCOs/. All the BUSCO results (run_* folders) are deposited in the same folder, e.g., BUSCOs/.
 2. Tools TransDecoder, parallel are used in this script and will be automatically checked prior to formal analyses.
-3. Modifying the head name of the fasta files for each locus, and placed all them in 0-raw_busco/.
-4. Merging sequences of the same locus into the fasta files, and placed all these fasta files in 1-raw_loci/.
-5. Filtering loci having too few taxa (less than three), and palced the rest of the fasta files in 2-loci_filter/.
+3. Modify the head name of the fasta files for each locus, and placed all them in 0-raw_busco/.
+4. Merge sequences of the same locus into the fasta files, and placed all these fasta files in 1-raw_loci/.
+5. Filter loci having too few taxa (less than three), and palced the rest of the fasta files in 2-loci_filter/.
 
  ● align_MAFFT.sh:
 
@@ -80,6 +80,17 @@ Details of all commands and scripts usage are shown below. Operating system is p
 6. Input the option for alignment-based strategy for loci filtering: 1. alignment length; 2. number of parsimony-informative sites; 3. percentage of parsimony-informative sites in the alignment; 4. GC content; 5. RCV (Relative composition variability); 6. evolutionary rate (average pairwise identity); 7. likelihood mapping; 8. symmetry tests against SRH hypotheses. Enter the number which alignment-based strategy for loci filtering will be choosen.
 7. Input the threshod, i.e., the length or number of parsimony-informative sites threshod (the minimum value), the RCV threshod (the maximum value), the GC percentage threshod (the maximum value), the evolutionary rate threshod (the maximum value), the FcLM quartet threshod (the minimum value), the symtest p-value threshod (the maximum value).
 
+ ● gene_trees.sh:
+ 
+1. Type 'bash gene_trees.sh', e.g., bash gene_trees.sh.
+2. Tools IQ-TREE and parallel are used in this script and will be automatically checked prior to formal analyses.
+3. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
+4. Input the name of output directory, or an existing directory, e.g., gene_trees. All the gene trees will be palced in this folder.
+5. Input the option for input alignments: 1. amino acid; 2. nucleotide. Enter the number which alignments will be choosen.
+6. Input the option for protein substitution model: 1. automatically ModelFinder searching; 2. restricted to LG model to reduce computational burden (-mset LG); 3. mixture model EX_EHO (-mset EX_EHO, may be very time-consuming but more accurate); 4. insect universal model Q.insect (may be better than LG model for insects); 5. mitochondrial (--msub mitochondrial). Or input the option for DNA substitution model: 1. automatically ModelFinder searching; 2. restricted to HKY/GTR model to reduce computational burden (-mset HKY,GTR). 
+7. Input the correct integer for the number of threads/cores used for each IQ-TREE analysis (e.g. 8).
+8. Input the number of IQ-TREE jobs/tasks (e.g. 4).
+
  ● loci_filtering_tree-based.sh:
  
 1. Type 'bash loci_filtering_tree-based.sh', e.g., bash loci_filtering_tree-based.sh.
@@ -88,7 +99,8 @@ Details of all commands and scripts usage are shown below. Operating system is p
 4. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
 5. Input the name of output directory, or an existing directory, e.g., ABS (the name of output directory can write according to the tree-based strategy). All the fasta files after filtering based gene trees, and the list of loci will be palced in this folder.
 6. Input the option for tree-based strategy for loci filtering: 1. average bootstrap support (ABS); 2. degree of violation of the molecular clock (DVMC); 3. treeness; 4. signal-to-noise ratio (treeness over RCV); 5. spurious homologs identification. Enter the number which tree-based strategy for loci filtering will be choosen.
-7. Input the threshod, i.e., the ABS threshod (the minimum value), the DVMC threshod (the maximum value), the GC percentage threshod (the maximum value), the evolutionary rate threshod (the maximum value), the quartet threshod (the minimum value), the symtest p-value threshod (the maximum value).
+7. Input the threshod, i.e., the ABS threshod (the minimum value), the DVMC threshod (the maximum value), the treeness or treeness/RCV threshod (the minimum value).
+
 
 
 
