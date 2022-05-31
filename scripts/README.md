@@ -76,7 +76,7 @@ Details of all commands and scripts usage are shown below. Operating system is p
 2. Tools PhyKIT and IQ-TREE are used in this script and will be automatically checked prior to formal analyses.
 3. Input the number of threads/cores (e.g., 8).
 4. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
-5. Input the name of output directory, or an existing directory, e.g., 5-filtering_alignment_baed/.
+5. Input the name of output directory, or an existing directory, e.g., length (the name of output directory can write according to the alignment-based strategy).
 6. Input the option for alignment-based strategy for loci filtering: 1. alignment length; 2. number of parsimony-informative sites; 3. percentage of parsimony-informative sites in the alignment; 4. GC content; 5. RCV (Relative composition variability); 6. evolutionary rate (average pairwise identity); 7. likelihood mapping; 8. symmetry tests against SRH hypotheses. Enter the number which alignment-based strategy for loci filtering will be choosen.
 7. Input the threshod. 
 
