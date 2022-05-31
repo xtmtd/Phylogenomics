@@ -55,18 +55,35 @@ Details of all commands and scripts usage are shown below. Operating system is p
 
 1. Type 'bash align_MAFFT.sh', e.g., bash align_MAFFT.sh.
 2. Tools MAFFT and MAGUS are used in this script and will be automatically checked prior to formal analyses.
-3. input the option for MAFFT-based strategy: 1. mafft-auto; 2. linsi; 3. einsi; 4. ginsi; 5. MAGUS. Enter the number which strategy will be choosen.
-4. Input the number of threads/cores (e.g. 8).
+3. Input the option for MAFFT-based strategy: 1. mafft-auto; 2. linsi; 3. einsi; 4. ginsi; 5. MAGUS. Enter the number which strategy will be choosen.
+4. Input the number of threads/cores (e.g., 8).
 5. Input the name of input directory, e.g., 2-loci_filter/faa/.
 6. Input the name of output directory, e.g., 3-faa_align. All the fasta files after aligning will be palced in this folder.
 
  ● trmming_alignments.sh:
  
 1. Type 'bash trmming_alignments.sh', e.g., bash trmming_alignments.sh.
-2. Tools trimAl, BMGE and ClipKIT are used in this script and will be automatically checked prior to formal analyses.
-3. 
+2. Tools trimAl, BMGE and ClipKIT are used in this script and will be automatically checked prior to formal analyses. 
+3. Input the number of threads/cores (e.g., 8).
+4. Input the option for input alignments: 1. amino acid; 2. nucleotide. Enter the number which alignments will be choosen.
+5. Input the option for trimming tool: 1. trimAl; 2. BMGE; 3. ClipKIT. Enter the number which trimming tools will be choosen.
+6. After selecting the appropriate tool, enter the corresponding file and the absolute path as prompted.
+7. Input the name of output directory, e.g., 4-trim. All the fasta files after trimming will be palced in this folder.
+
+ ● loci_filtering_alignment-based.sh:
+ 
+1. Type 'bash loci_filtering_alignment-based.sh', e.g., bash loci_filtering_alignment-based.sh.
+2. Tools PhyKIT and IQ-TREE are used in this script and will be automatically checked prior to formal analyses.
+3. Input the number of threads/cores (e.g., 8).
+4. Input the name of input directory containing all alignments, e.g., 4-trim/clipkit-kpic/.
+5. Input the name of output directory, or an existing directory, e.g., 5-filtering_alignment_baed/.
+6. Input the option for alignment-based strategy for loci filtering: 1. alignment length; 2. number of parsimony-informative sites; 3. percentage of parsimony-informative sites in the alignment; 4. GC content; 5. RCV (Relative composition variability); 6. evolutionary rate (average pairwise identity); 7. likelihood mapping; 8. symmetry tests against SRH hypotheses. Enter the number which alignment-based strategy for loci filtering will be choosen.
+7. Input the threshod. 
 
 
 
 
 
+## Contact
+
+Please send emails to Dr. Feng Zhang (xtmtd.zf@gmail.com).
