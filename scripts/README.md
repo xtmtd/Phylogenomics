@@ -2,8 +2,7 @@
 
 ## Introduction
 
-
-
+We present a set of custom scripts for aligning, trimming, filtering and creating concatenation matrix before reconstructing the phylogenetic trees using Benchmarking Universal Single-Copy Orthologs (BUSCOs), employing a series of computationally efficient bioinformatic tools. 
 
 ![image](https://user-images.githubusercontent.com/45136134/171111855-087142cd-a3b5-477d-8746-b936953be912.png)
 
@@ -11,7 +10,7 @@ All ten bash scripts are tested in Linux systems. Their functions are described 
 
 1. **BUSCO_extraction.sh**: this script extracts the amino acid and nucleotides sequences for all the BUSCO results (run_* folders) by using TransDecoder, i.e., modifying the head name of the fasta files for each locus and merging sequences of the same locus into the fasta files, then filtering loci having too few taxa (less than three).
 2. **align_MAFFT.sh**: this script performs multiple sequence alignment by using MAFFT or MAGUS.
-3. **trmming_alignments.sh**: this script performs trimming of multiple sequence alignments by using trimAl, BMGE or ClipKIT, i.e., identifying and removing highly divergent sites, or retaining parsimony-informative/constant sites from multiple sequence alignments.
+3. **trimming_alignments.sh**: this script performs trimming of multiple sequence alignments by using trimAl, BMGE or ClipKIT, i.e., identifying and removing highly divergent sites, or retaining parsimony-informative/constant sites from multiple sequence alignments.
 4. **loci_filtering_alignment-based.sh**: this script filters loci by detecting alignment length, number of parsimony-informative sites, percentage of parsimony-informative sites in the alignment, GC content, compositional heterogeneity (RCV, Relative composition variability), evolutionary rate (average pairwise identity) and likelihood mapping criteria by using PhyKIT or IQ-TREE.
 5. **gene_trees.sh**: this script generates individual gene trees for a set of alignments by using IQ-TREE.
 6. **loci_filtering_tree-based.sh**: this script filter loci using gene tree-based methods, i.e., average bootstrap support (ABS), Degree of violation of the molecular clock (DVMC), treeness, signal-to-noise ratio (treeness over rcv), and spurious homologs (possible paralogs, incorrectly assembled sequences) by using PhyKIT or IQ-TREE.
@@ -24,27 +23,27 @@ All ten bash scripts are tested in Linux systems. Their functions are described 
 
 Some bioinformatic tools are neccessary for above scripts. Most of them are recommended to be added into the environmental paths. Softwares, versions and source are listed below. All the softwares must be installed in Linux systems.
 
-   FASconCAT-G v1.04 (https://github.com/PatrickKueck/FASconCAT-G)  
-   PHYLUCE v1.6.6 (http://phyluce.readthedocs.io/en/latest/index.html)  
-   PhyKIT (https://github.com/JLSteenwyk/PhyKIT)  
-   TransDecoder v5.5.0 (https://github.com/TransDecoder/TransDecoder)  
-   MAGUS (https://github.com/vlasmirnov/MAGUS)  
-   MAFFT v7.407 (https://mafft.cbrc.jp/alignment/software/)  
-   ClipKIT (https://github.com/JLSteenwyk/ClipKIT)  
-   trimAl v1.4.1 (http://trimal.cgenomics.org/)  
-   BMGE v1.12 (https://anaconda.org/bioconda/bmge/files)  
-   IQ-TREE v2.1.3 (https://github.com/iqtree/iqtree2)  
-   ASTRAL-III v5.6.1 (https://github.com/smirarab/ASTRAL)  
-   paml4.9j (http://abacus.gene.ucl.ac.uk/software/)  
-   GNU Parallel 2018 (http://www.gnu.org/software/parallel/)  
-   R v4.1.2 (https://www.r-project.org/)  
-   TreeShrink v1.3.8 (https://github.com/uym2/TreeShrink)  
+   FASconCAT-G v1.04 (https://github.com/PatrickKueck/FASconCAT-G)   
+   PHYLUCE v1.6.6 (http://phyluce.readthedocs.io/en/latest/index.html)   
+   PhyKIT (https://github.com/JLSteenwyk/PhyKIT)   
+   TransDecoder v5.5.0 (https://github.com/TransDecoder/TransDecoder)   
+   MAGUS (https://github.com/vlasmirnov/MAGUS)   
+   MAFFT v7.407 (https://mafft.cbrc.jp/alignment/software/)   
+   ClipKIT (https://github.com/JLSteenwyk/ClipKIT)   
+   trimAl v1.4.1 (http://trimal.cgenomics.org/)   
+   BMGE v1.12 (https://anaconda.org/bioconda/bmge/files)   
+   IQ-TREE v2.1.3 (https://github.com/iqtree/iqtree2)   
+   ASTRAL-III v5.6.1 (https://github.com/smirarab/ASTRAL)   
+   paml4.9j (http://abacus.gene.ucl.ac.uk/software/)   
+   GNU Parallel 2018 (http://www.gnu.org/software/parallel/)   
+   R v4.1.2 (https://www.r-project.org/)   
+   TreeShrink v1.3.8 (https://github.com/uym2/TreeShrink)   
 
 ## User manual
 
 The requirements for each script have been described in the beginning of the bash script text. Values of variables/parameters, such as tool path, number of threads etc., can be modified at the beginning of analyses following the script guidance.
 
-Details of all commands and scripts usage are shown below. Operating system is popular Linux ones with ‘BASH’ shell, such as Centos, UBUNTU etc.
+Details of all scripts usage are shown below. Operating system is popular Linux ones with ‘BASH’ shell, such as Centos, UBUNTU etc.
 
  ● **BUSCO_extraction.sh**:
 
@@ -65,9 +64,9 @@ Details of all commands and scripts usage are shown below. Operating system is p
 5. Input the name of input directory containing all alignments, e.g., 2-loci_filter/faa/.
 6. input the name of output directory, or an existing directory, e.g., 3-faa_align. All the fasta files after aligning will be palced in this folder.
 
- ● **trmming_alignments.sh**:
+ ● **trimming_alignments.sh**:
  
-1. Type 'bash trmming_alignments.sh'.
+1. Type 'bash trimming_alignments.sh'.
 2. Tools parallel, trimAl, BMGE and ClipKIT are used in this script and will be automatically checked prior to formal analyses. 
 3. Input the number of threads/cores (e.g., 8).
 4. Input the option for input alignments: 1. amino acid; 2. nucleotide. Enter the number which alignments will be choosen.
