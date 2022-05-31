@@ -6,6 +6,11 @@
 
 
 
+
+
+
+
+
 All ten bash scripts are tested in Linux systems. Their functions are described below.
 
 1. BUSCO_extraction.sh: this script extracts the amino acid and nucleotides sequences for all the BUSCO results (run_* folders) by using TransDecoder, i.e., modifying the head name of the fasta files for each locus and merging sequences of the same locus into the fasta files, then filtering loci having too few taxa (less than three).
@@ -135,7 +140,8 @@ Details of all commands and scripts usage are shown below. Operating system is p
 1. Type 'bash mcmctree_AA.sh', e.g., bash mcmctree_AA.sh.
 2. Tools FASconCAT, PAML and parallel are used in this script and will be automatically checked prior to formal analyses.
 3. Input the correct integer for the number of threads/cores (e.g. 8).
-4. input the correct integer for the number of samples/generations kept for MCMCTree (e.g. 10000, 20000)
+4. input the correct integer for the number of samples/generations kept for MCMCTree (e.g. 10000, 20000).
+5. 
 
 
 
