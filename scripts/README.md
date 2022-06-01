@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We present a set of custom scripts for aligning, trimming, filtering and creating concatenation matrix before reconstructing the phylogenetic trees, employing a series of computationally efficient bioinformatic tools. All the scripts must be used in Linux systems. The analysis process is shown in the following figure. These scripts have major advantages in data analysis automatically, and reducing computing consumption. It provides an important process for phologenomics.
+We present a set of custom scripts for aligning, trimming, filtering and creating concatenation matrix before reconstructing the phylogenetic trees, employing a series of computationally efficient bioinformatic tools. All the scripts must be used in Linux systems. The analysis process is shown in the following figure. These scripts have major advantages in data analysis automatically, and reducing computing consumption. Most scripts are already parallelized. It provides an important process for phologenomics.
 
 ![image](https://user-images.githubusercontent.com/45136134/171126928-a850eabf-60d6-4b60-8623-3afd2b5468a1.png)
 
