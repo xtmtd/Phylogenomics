@@ -147,4 +147,4 @@ Details of all scripts usage are shown below. Operating system is popular Linux 
 
 ## Contact
 
-Please send emails to Dr. Shiyu Du (zjjhdsy@126.com) or Dr. Feng Zhang (xtmtd.zf@gmail.com).
+Please send emails to Dr. Shiyu Du (zjjhdsy@126.com) or Prof. Feng Zhang (xtmtd.zf@gmail.com).
