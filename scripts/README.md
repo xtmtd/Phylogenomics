@@ -6,7 +6,7 @@ We present a set of custom scripts for aligning, trimming, filtering and creatin
 
 ![image](https://user-images.githubusercontent.com/45136134/171126928-a850eabf-60d6-4b60-8623-3afd2b5468a1.png)
 
-All ten bash scripts are tested in Linux systems. Their functions are described below.
+All ten bash scripts are tested in Linux systems, such as Centos, UBUNTU etc. Their functions are described below.
 
 1. **BUSCO_extraction.sh:** this script extracts the amino acid and nucleotides sequences for all the BUSCO results (run_* folders) by using TransDecoder, i.e., modifying the head name of the fasta files for each locus and merging sequences of the same locus into the fasta files, then filtering loci having too few taxa (less than three).
 2. **align_MAFFT.sh:** this script performs multiple sequence alignment by using MAFFT or MAGUS.
@@ -17,7 +17,7 @@ All ten bash scripts are tested in Linux systems. Their functions are described 
 7. **treeshrink.sh:** this script performs detection of outlier long branches in collections of phylogenetic trees by using TreeShrink.
 8. **matrix_generation.sh:** this script generates the supermaxtrix, partition and occupancy for alignments by using PhyKIT.
 9. **astral.sh:** this script generates the species tree by using ASTRAL.
-10. **mcmctree_AA.sh:** this script estimates divergence time by using MCMCTree for large amino acid dataset.
+10. **mcmctree_AA.sh:** this script estimates divergence time by using MCMCTree for large scale amino acid dataset.
 
 ## Requirements
 
@@ -147,4 +147,4 @@ Details of all scripts usage are shown below. Operating system is popular Linux 
 
 ## Contact
 
-Please send emails to Dr. Feng Zhang (xtmtd.zf@gmail.com).
+Please send emails to Dr. Shiyu Du (zjjhdsy@126.com) and Dr. Feng Zhang (xtmtd.zf@gmail.com).
