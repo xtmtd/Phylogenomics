@@ -17,7 +17,7 @@ All ten bash scripts are tested in Linux systems, such as Centos 7, Centos 8, ub
 7. **treeshrink.sh:** this script performs detection of outlier long branches in collections of phylogenetic trees by using TreeShrink.
 8. **matrix_generation.sh:** this script generates the supermaxtrix, partition and occupancy for alignments by using PhyKIT.
 9. **astral.sh:** this script generates the species tree by using ASTRAL.
-10. **mcmctree_AA.sh:** this script estimates divergence time by using MCMCTree for large scale amino acid dataset.
+10. **mcmctree_AA.sh:** this script estimates divergence time by using MCMCTree for "large scale" amino acid dataset.
 
 ## Requirements
 
@@ -25,11 +25,11 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
 
    FASconCAT-G v1.04 (https://github.com/PatrickKueck/FASconCAT-G)   
    PHYLUCE v1.6.6 (http://phyluce.readthedocs.io/en/latest/index.html)   
-   PhyKIT (https://github.com/JLSteenwyk/PhyKIT)   
+   PhyKIT v1.11.10 (https://github.com/JLSteenwyk/PhyKIT)   
    TransDecoder v5.5.0 (https://github.com/TransDecoder/TransDecoder)   
-   MAGUS (https://github.com/vlasmirnov/MAGUS)   
+   MAGUS v0.1.0b0 (https://github.com/vlasmirnov/MAGUS)   
    MAFFT v7.407 (https://mafft.cbrc.jp/alignment/software/)   
-   ClipKIT (https://github.com/JLSteenwyk/ClipKIT)   
+   ClipKIT v1.1.5 (https://github.com/JLSteenwyk/ClipKIT)   
    trimAl v1.4.1 (http://trimal.cgenomics.org/)   
    BMGE v1.12 (https://anaconda.org/bioconda/bmge/files)   
    IQ-TREE v2.1.3 (https://github.com/iqtree/iqtree2)   
