@@ -112,11 +112,14 @@ Details of all scripts usage are shown below. Operating system is popular Linux 
  ● **treeshrink.sh:**
  
 1. Type 'bash treeshrink.sh'.
-2. Tools TreeShrink and R are used in this script and will be automatically checked prior to formal analyses.
+2. Tools TreeShrink, parallel and R are used in this script and will be automatically checked prior to formal analyses.
 3. Input the name of input directory containing all gene trees, e.g., gene_trees/.
 4. Input the name of input directory containing all loci alignments, e.g., 4-trim/clipkit-kpic/.
-5. Input the number of α threshold (e.g., 0.05).
-6. All alignments after treeshrink are palced in treeshrink_fas/ folder.
+5. Please input the name of output directory, or an existing directory, e.g., treeshrink/. All the fasta files after aligning will be placed in this folder.
+6. Input the number of α threshold. Default is 0.05 (e.g., 0.05).
+7. Please input the number of threads/cores used for each TreeShrink analysis (e.g. 8).
+8. Filtered alignments (removed the taxa with abnormally long branches) have been deposited in the folder $DIR_OUTPUT/treeshrink_clean/ (all these alignments should be redone the gene trees), and list of loci containing outlier sequences was saved in the file $DIR_OUTPUT/list.clean. If all alignments have no abnormally long branches, the file list.clean and the folder treeshrink_clean/ are nonexistent.
+9. *NOTE*: The taxa of each alignment must more than 10. If not, these alignments will not be analysed. Check them carefully!
 
  ● **matrix_generation.sh:**
  
