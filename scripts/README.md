@@ -45,6 +45,10 @@ The requirements for each script have been described in the beginning of the bas
 
 Details of all scripts usage are shown below. Operating system is popular Linux ones with ‘BASH’ shell, such as Centos, UBUNTU etc.
 
+** *NOTE*: Do not change the file name (loci name) arbitrarily! **
+
+** *SUGGSET*: After each step of analysing, please check the number of loci! **
+
  ● **BUSCO_extraction.sh:**
 
 1. Type 'bash BUSCO_extraction.sh'.
@@ -69,7 +73,7 @@ Details of all scripts usage are shown below. Operating system is popular Linux 
  ● **trimming_alignments.sh:**
  
 1. Type 'bash trimming_alignments.sh'.
-2. Tools parallel, trimAl, BMGE and ClipKIT are used in this script and will be automatically checked prior to formal analyses. 
+2. Tools parallel, trimAl, BMGE, ClipKIT and PhyKIT are used in this script and will be automatically checked prior to formal analyses. 
 3. Input the number of threads/cores (e.g., 8).
 4. Input the option for input alignments: 1. amino acid; 2. nucleotide. Enter the number which alignments be choosen.
 5. Input the option for trimming tool: 1. trimAl; 2. BMGE; 3. ClipKIT. Enter the number which trimming tools be choosen.
