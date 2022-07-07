@@ -61,8 +61,10 @@ Details of all scripts usage are shown below. Operating system is popular Linux 
 2. Tools MAFFT and MAGUS are used in this script and will be automatically checked prior to formal analyses.
 3. Input the option for MAFFT-based strategy: 1. mafft-auto; 2. linsi; 3. einsi; 4. ginsi; 5. MAGUS. Enter the number which strategy be choosen.
 4. Input the number of threads/cores (e.g., 8).
-5. Input the name of input directory containing all alignments, e.g., 2-loci_filter/faa/.
-6. input the name of output directory, or an existing directory, e.g., 3-faa_align. All the fasta files after aligning will be placed in this folder.
+5. Please input the option for input unalignments: 1. amino acid; 2. nucleotide. Enter the number which alignments be choosen.
+6. Input the name of input directory containing all alignments, e.g., 2-loci_filter/faa/.
+7. input the name of output directory, or an existing directory, e.g., 3-faa_align. All the fasta files after aligning will be placed in this folder.
+8. Please input the folder names (with its path) containing unaligned nucleotide sequences, for example '2-loci_filter/fna': 2-loci_filter/fna/. (This step is performed only when 1 [amino acid] is selected in Step 5)
 
  ● **trimming_alignments.sh:**
  
@@ -72,7 +74,8 @@ Details of all scripts usage are shown below. Operating system is popular Linux 
 4. Input the option for input alignments: 1. amino acid; 2. nucleotide. Enter the number which alignments be choosen.
 5. Input the option for trimming tool: 1. trimAl; 2. BMGE; 3. ClipKIT. Enter the number which trimming tools be choosen.
 6. After selecting the appropriate tool, enter the corresponding file and the absolute path as prompted.
-7. Input the name of output directory, e.g., 4-trim. All the fasta files after trimming will be placed in this folder.
+7. Input the name of output directory, e.g., 4-trim/. All the fasta files after trimming will be placed in this folder.
+8. Please input the folder names (with its path) containing nucleotide alignments, for example '3-faa_align/fna', e.g., 3-faa_align/fna/. (This step is performed only when 1 [amino acid] is selected in Step 4, and 3 [ClipKIT] is selected in Step 5)
 
  ● **loci_filtering_alignment-based.sh:**
  
