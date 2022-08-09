@@ -123,7 +123,8 @@ Details of all scripts usage are shown below. Operating system is popular Linux 
 6. Input the number of α threshold. Default is 0.05 (e.g., 0.05).
 7. Please input the number of threads/cores used for each TreeShrink analysis (e.g. 8).
 8. Filtered alignments (removed the taxa with abnormally long branches) have been deposited in the folder $DIR_OUTPUT/treeshrink_clean/ (all these alignments should be redone the gene trees), and list of loci containing outlier sequences was saved in the file $DIR_OUTPUT/list.clean. If all alignments have no abnormally long branches, the file list.clean and the folder treeshrink_clean/ are nonexistent.
-9. *NOTE*: The taxa of each alignment must more than 10. If not, these alignments will not be analysed. Check them carefully!
+9. Alignments and gene trees without abnormally long branches have been deposited in the folder $DIR_OUTPUT/treeshrink_keep/alignments and $DIR_OUTPUT/treeshrink_keep/gene_trees, respectively.
+10. *NOTE*: The taxa of each alignment must more than 10. If not, these alignments will not be analysed. Check them carefully!
 
  ● **matrix_generation.sh:**
  
