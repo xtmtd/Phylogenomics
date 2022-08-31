@@ -1,4 +1,4 @@
-# Scripts of phologenomics
+# Scripts of phylogenomics
 
 ## Introduction
 
