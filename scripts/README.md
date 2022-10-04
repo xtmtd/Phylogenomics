@@ -6,7 +6,7 @@ We present a set of custom scripts for aligning, trimming, filtering and creatin
 
 ![image](https://user-images.githubusercontent.com/45136134/171126928-a850eabf-60d6-4b60-8623-3afd2b5468a1.png)
 
-All nine bash scripts are tested in Linux systems, such as Centos 7, Centos 8, ubuntu18.04 LTS, ubuntu20.04 LTS etc. Their functions are described below.
+All nine bash scripts are tested in Linux systems, such as CentOS 7, CentOS 8, ubuntu18.04 LTS, ubuntu20.04 LTS etc. Their functions are described below.
 
 1. **BUSCO_extraction.sh:** this script extracts the amino acid and nucleotides sequences for all the BUSCO results (run_* folders) by using TransDecoder, i.e., modifying the head name of the fasta files for each locus and merging sequences of the same locus into the fasta files, then filtering loci having too few taxa (less than three).
 2. **align_MAFFT.sh:** this script performs multiple sequence alignment by using MAFFT or MAGUS.
@@ -39,7 +39,7 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
    TreeShrink v1.3.8 (https://github.com/uym2/TreeShrink)   
    
    
-To faciliate the use of our pipeline and simplify the installation of various packages, we also prepared the virtual mirror (.vmdk), including all the bioinformatic tools and custom scripts ready in the CENTOS 7.3 system. It can be directly opened by VMware or VirtualBox, which are often installed on Windows systems. Please download it here: XXXXX. More than 100 Gb (at least 50) disk space is recommented for its use. Below is related information on CENTOS system:
+To faciliate the use of our pipeline and simplify the installation of various packages, we also prepared the virtual mirror (.vmdk), including all the bioinformatic tools and custom scripts ready in the CENTOS 7.3 system. It can be directly opened by VMware or VirtualBox, which are often installed on Windows systems. Please download it here: XXXXX. More than 100 Gb (at least 50) disk space is recommented for its use. Below is related information on CentOS system:
 
 operating system: centos 7.3
 
