@@ -36,7 +36,7 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
    paml4.9j (http://abacus.gene.ucl.ac.uk/software/)   
    GNU Parallel 2018 (http://www.gnu.org/software/parallel/)   
    R v4.1.2 (https://www.r-project.org/)   
-   TreeShrink v1.3.8 (https://github.com/uym2/TreeShrink)   
+   TreeShrink v1.3.8b (https://github.com/uym2/TreeShrink)   
    
    
 To faciliate the use of our pipeline and simplify the installation of various packages, we also prepared the virtual mirror (.vmdk), including all the bioinformatic tools and custom scripts ready in the CENTOS 7.3 system. It can be directly opened by VMware or VirtualBox, which are often installed on Windows systems. Please download it here: XXXXX. More than 100 Gb (at least 50) disk space is recommented for its use. Below is related information on CentOS system:
