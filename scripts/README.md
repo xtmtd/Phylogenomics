@@ -37,6 +37,16 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
    GNU Parallel 2018 (http://www.gnu.org/software/parallel/)   
    R v4.1.2 (https://www.r-project.org/)   
    TreeShrink v1.3.8 (https://github.com/uym2/TreeShrink)   
+   
+   
+To faciliate the use of our pipeline and simplify the installation of various packages, we also prepared the virtual mirror (.vmdk), including all the bioinformatic tools and custom scripts ready in the CENTOS 7.3 system. It can be directly opened by VMware or VirtualBox, which are often installed on Windows systems. Please download it here: XXXXX. More than 100 Gb (at least 50) disk space is recommented for its use. Below is related information on CENTOS system:
+
+operating system: centos 7.3
+
+passwords of accounts, i.e. root and zf: 1
+
+Most packages are installed under /usr/local/bin, /home/zf/install/ etc. Environmental variables and paths can be checked by "vi ~/.bashrc" and "printenv". Most executables can be directly performed without typing the installation paths. UCE-related analyses should be executed by initiating conda environments (/home/zf/install/miniconda/envs/), such as phyluce, just type 'source activate phyluce'.
+
 
 ## User manual
 
