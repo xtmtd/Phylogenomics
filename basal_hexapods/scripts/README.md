@@ -87,9 +87,7 @@ All commands are labelled as bold. Operating system is popular Linux ones with â
         done
       cat loci.list | grep -v -f loci.incomplete.list > loci.complete.list
       
-*prepared all the alignments according to the loci of **loci.complete.list**, and deposited in the **loci/** folder*
-
-**#prepare T1.tre, T2.tre, T3.tre and T4.tre from the hypotheses H1, H2, H3 and H4**
+**#prepare T1.tre, T2.tre, T3.tre and T4.tre from the hypotheses H1, H2, H3 and H4, and prepare all the alignments according to the loci of *loci.complete.list*, and deposited in the *loci/* folder**
 
       phykit tip_labels T1.tre > species.list
       mkdir compare && cd compare
