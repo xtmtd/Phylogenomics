@@ -167,7 +167,7 @@ We tested the resultant four alternative topologies with the all four matrices u
 
       mpirun -np $THREADS pb_mpi -d learn.phy -ncat 1 -lg -x 1 -1 $CHAIN_NAME
 
-**#obtain posterior consensus trees and parameter estimates**
+**#calculate CV scores**
 
       mpirun -np $THREADS readpb_mpi -cv test.phy -x 2000 1 5000 $CHAIN_NAME
 
