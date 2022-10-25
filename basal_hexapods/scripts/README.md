@@ -85,6 +85,7 @@ All commands are labelled as bold. Operating system is popular Linux ones with â
           test -s t1 && test -s t2 && test -s t3 && test -s t4 && cp loci/$loci $loci || echo $loci >> loci.incomplete.list
           rm t*
         done
+       cat loci.list | grep -v -f loci.incomplete.list > loci.complete.list
 
 **#prepare T1.tre, T2.tre, T3.tre and T4.tre from the hypotheses H1, H2, H3 and H4**
 
