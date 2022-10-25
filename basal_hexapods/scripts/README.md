@@ -120,7 +120,7 @@ All maximum likelihood (ML) supermatrix analyses are performed using IQ-TREE. Mi
 
       iqtree -s FcC_supermatrix.fas -m LG+C60+F+R -ft guide.tree -B 1000 -alrt 1000 -T $THREADS
 
-*resulting tree (file ‘XXX.treefile’) from previous partitioned ML analysis can be used as the guide tree*
+*resulting tree (file **XXX.treefile**) from previous partitioned ML analysis can be used as the guide tree*
 
 #### 5.4 CAT-GTR mixture model
 
