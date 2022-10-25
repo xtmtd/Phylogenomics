@@ -1,7 +1,7 @@
 #!/bin/bash
 #2021.11.22 wrote by ZF, 2021.12.20 modified by DSY
 
-#Type 'bash sgene-wise_likelihood.sh', e.g. bash gene-wise_likelihood.sh
+#Type 'bash gene-wise_likelihood.sh', e.g. bash gene-wise_likelihood.sh
 
 COMPARE_fun() {
 	  mkdir $1 && cd $1
