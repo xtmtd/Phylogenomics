@@ -71,9 +71,7 @@ All commands are labelled as bold. Operating system is popular Linux ones with â
       awk '{for(i=1;i<=NF;i++)a[NR,i]=$i}END{for(j=1;j<=NF;j++)for(k=1;k<=NR;k++)printf k==NR?a[k,j] RS:a[k,j] FS}' H1-2-3-4.sitelh > temp1
       bash site-wise_likelihood.sh
 
-### 4. Gene-wise likelihood analysis
-
-**#detect distribution of gene tree support (gene-wise likelihood score)**
+### 4. Gene-wise likelihood analysis (i.e., detect distribution of gene tree support)
 
 **#exclude loci with one of the four group taxa (P: Protura; D: Diplura; C: Collembola; I: Insecta) complete lacking**
 
