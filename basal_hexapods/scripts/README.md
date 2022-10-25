@@ -201,4 +201,4 @@ We tested the resultant four alternative topologies with the all four matrices u
 
 ## Contact
 
-For questions, please contact zjjhdsy@126.com (Dr. Shiyu Du) or fzhang@njau.edu.cn (Prof. Feng Zhang).
+For questions, please contact fzhang@njau.edu.cn (Prof. Feng Zhang) or zjjhdsy@126.com (Shiyu Du).
