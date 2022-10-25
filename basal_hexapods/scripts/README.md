@@ -75,7 +75,7 @@ All commands are labelled as bold. Operating system is popular Linux ones with â
 
 **#detect distribution of gene tree support (gene-wise likelihood score)**
 
-**#exclude loci with one of the three group taxa (P, D, C) complete lacking (P: Protura; D: Diplura; C: Collembola)**
+**#exclude loci with one of the three group taxa (P: Protura; D: Diplura; C: Collembola) complete lacking**
 
       for loci in $(cat loci.list)
         do
