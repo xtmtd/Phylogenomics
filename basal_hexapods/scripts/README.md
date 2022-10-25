@@ -87,9 +87,48 @@ All commands are labelled as bold. Operating system is popular Linux ones with â
           rm t*
         done
 
+**#prepare T1.tre and T2.tre from the hypotheses H1 and H2**
 
+      phykit tip_labels T1.tre > species.list
+      cd compare
 
+      COMPARE_fun() {
+        mkdir $1 && cd $1
+        cp loci/$1 .
+        cat $1 | grep "^>" | sed "s/^>//g" > taxa.list
+        cat species.list | grep -v -f taxa.list > prune.list
+        phykit prune_tree T1.tre prune.list -o T1.prune.tre
+        phykit prune_tree T2.tre prune.list -o T2.prune.tre
+        cat T1.prune.tre T2.prune.tre > candidate.trees
+        iqtree -s $1 -m EX_EHO+F+R4 -z candidate.trees -n 0 -zb 10000 -zw -au -T 1
+        
+ **#summary logL and p=value of AU tests**
+ 
+        cat $1.iqtree | grep -E ' \+ | - ' | grep "^ " | awk -v OFS='\t' '{print $1,$2,$3,$17}' > $1.summary
+        sig=$(cat $1.summary | grep -P "\t""-$")
+        if ["$sig"] ; then
+          TREE=$(cat $1.summary | grep -P "\t""\+$" | cut -f1)
+          echo $1 >> loci.T"$TREE".sig 
+        else
+          TREE=$(cat $1.summary | grep -P "\t"0"\t" | cut -f1)
+          echo $1 >> loci.T"$TREE".exclude_sig
+        fi
+        rm $1 $1.ckp.gz
+        cd ..
+      }
 
+      export -f COMPARE_fun
+      cat loci.list | parallel -I% -j $THREADS --max-args 1 COMPARE_fun %
+
+**#too few significant genes, thus restrict genes of |logL1-logL2| >=2 as strong evidence**
+
+      for loci in $(cat ../loci.list)
+        do
+          TREE=$(cat $loci/*.summary | grep -P "\t"0"\t" | cut -f1)
+          diff=$(cat $loci/*.summary | grep -v -P "\t"0"\t" | cut -f3 | awk '{printf("%f",$0)}')
+          num=`echo "$diff < 2" |bc`
+          test "$num" = 0 && echo $loci >> loci.T"$TREE".strong || echo $loci >> loci.T"$TREE".weak
+        done
 
 ### 5. Phylogenetic inference
 
