@@ -88,7 +88,7 @@ All commands are labelled as bold. Operating system is popular Linux ones with â
           rm t*
         done
 
-**#prepare T1.tre, T2.tre, T3.tre and T2.tre from the hypotheses H1, H2, H3 and H4**
+**#prepare T1.tre, T2.tre, T3.tre and T4.tre from the hypotheses H1, H2, H3 and H4**
 
       phykit tip_labels T1.tre > species.list
       mkdir compare && cd compare
