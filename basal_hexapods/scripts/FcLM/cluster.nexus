@@ -1,0 +1,8 @@
+#NEXUS
+begin sets;
+  taxset C = Sinella_curviseta Oncopodura_yosiiana Neelides_sp Thalassaphorura_encarpata Pseudachorutes_palmiensis Lipothrix_lubbocki Pseudobourletiella_spinata;
+  taxset D = Occasjapyx_japonicus Catajapyx_aquilonaris Octostigma_sinensis Campodea_augens Lepidocampa_weberi;
+  taxset P = Acerentomon_sp Sinentomon_erythranum;
+  taxset I = Machilis_hrabei Meinertellus cundinamarcensis Thermobia_domestica Tricholepidion_gertschi Atelura_formicaria Cloeon_dipterum Calopteryx_splendens Apachyus_charteceus Zorotypus_caudelli Capnura_wanica Laupala_kohalensis Acontista_multicolor Zootermopsis_nevadensis Tanzaniophasma_sp Galloisiana_yuasai Ptilocerembia_catherinae Timema_cristinae Pediculus_humanus Rhopalosiphum_maidis Thrips_palmi Apis_mellifera Plectrocnemia_conspersa Bombyx_mori Anopheles_arabiensis Oropsylla_silantiewi Boreus_hyemalis Coccinella_septempunctata Stylops_melittae Inocellia_crassicornis Protohermes_xanthodes Mantispa_styriaca;
+  taxset IGNORED = Penaeus_vannamei Tigriopus_japonicus Daphnia_magna;
+end;
