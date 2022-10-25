@@ -9,7 +9,7 @@ All commands are labelled as bold. Operating system is popular Linux ones with â
 
       mkdir GLS && cd GLS
       cat T1.tre T2.tre > ML2ASTRAL.tre
-      iqtree -s FcC_supermatrix.fas -Q FcC_supermatrix_partition.txt -m LG+F+R4 -z ML2ASTRAL.tre -wsl -T 12 --prefix ML2ASTRAL
+      iqtree -s FcC_supermatrix.fas -Q FcC_supermatrix_partition.txt -m LG+F+R4 -z ML2ASTRAL.tre -wsl -T $THREADS --prefix ML2ASTRAL
       perl GLS_parser_v1.pl ML2ASTRAL.sitelh FcC_supermatrix_partition.txt GLS
 
   *the perl script of **GLS_parser_v1.pl** from Shen et al. (2021)*
