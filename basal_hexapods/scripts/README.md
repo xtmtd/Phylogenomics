@@ -93,16 +93,6 @@ All commands are labelled as bold. Operating system is popular Linux ones with â
       mkdir compare && cd compare
       bash gene-wise_likelihood.sh
 
-**#too few significant genes, thus restrict genes of |logL1-logL2| >=2 as strong evidence**
-
-      for loci in $(cat loci.list)
-        do
-          TREE=$(cat $loci/*.summary | grep -P "\t"0"\t" | cut -f1)
-          diff=$(cat $loci/*.summary | grep -v -P "\t"0"\t" | cut -f3 | awk '{printf("%f",$0)}')
-          num=`echo "$diff < 2" |bc`
-          test "$num" = 0 && echo $loci >> loci.T"$TREE".strong || echo $loci >> loci.T"$TREE".weak
-        done
-
 ### 5. Phylogenetic inference
 
 All maximum likelihood (ML) supermatrix analyses are performed using IQ-TREE. Mixture model CAT-GTR is performed using PhyloBayes MPI v1.8b. Multispecies coalescent (MSC) model is executed using ASTRAL-III v5.6.1.
