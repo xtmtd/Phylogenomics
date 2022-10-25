@@ -12,7 +12,7 @@ All commands are labelled as bold. Operating system is popular Linux ones with â
       iqtree -s FcC_supermatrix.fas -Q FcC_supermatrix_partition.txt -m LG+F+R4 -z ML2ASTRAL.tre -wsl -T 12 --prefix ML2ASTRAL
       perl GLS_parser_v1.pl ML2ASTRAL.sitelh FcC_supermatrix_partition.txt GLS
 
-  *the perl script (GLS_parser_v1.pl) from Shen et al. (2021)*
+  *the perl script of **GLS_parser_v1.pl** from Shen et al. (2021)*
 
 **#estimate the quartet score for alternative hypothesis, and prune tips of T1 and T2 to make their tips equal to gene trees**
 
@@ -54,24 +54,43 @@ All commands are labelled as bold. Operating system is popular Linux ones with â
 
       iqtree -s FcC_supermatrix.fas -m LG+C60+F+R -ft guide.tree -lmap ALL -lmclust cluster.nexus -n 0 -T $THREADS
 
+*specify a NEXUS file containing taxon clusters (see **cluster.nexus** file) for quartet mapping analysis*
+
 ### 3. Site-wise likelihood analysis
 
-**#calculate site-wise likelihood scores for H1, H2, H3 and H4**
+**#calculate site-wise likelihood scores for hypotheses H1, H2, H3 and H4**
 
       iqtree -s FcC_supermatrix.fas -m EX_EHO+F+R4 -z H1.tre -n 0 -wsl -T $THREADS
       iqtree -s FcC_supermatrix.fas -m EX_EHO+F+R4 -z H2.tre -n 0 -wsl -T $THREADS
       iqtree -s FcC_supermatrix.fas -m EX_EHO+F+R4 -z H3.tre -n 0 -wsl -T $THREADS
       iqtree -s FcC_supermatrix.fas -m EX_EHO+F+R4 -z H4.tre -n 0 -wsl -T $THREADS
       
-**#get the number of sites supporting H1, or H2, or H3, or H4**
+**#get the number of sites supporting hypotheses H1, or H2, or H3, or H4**
 
       cat H1.sitelh H2.sitelh H3.sitelh H4.sitelh | grep "^Tree" | awk '{$1="";print}' | awk 'BEGIN{c=0;} {for(i=1;i<=NF;i++) {num[c,i] = $i;} c++;} END{ for(i=1;i<=NF;i++){str=""; for(j=0;j<NR;j++){ if(j>0){str = str" "} str= str""num[j,i]}printf("%s\n", str)} }' > H1-2-3-4.sitelh
       awk '{for(i=1;i<=NF;i++)a[NR,i]=$i}END{for(j=1;j<=NF;j++)for(k=1;k<=NR;k++)printf k==NR?a[k,j] RS:a[k,j] FS}' H1-2-3-4.sitelh > temp1
-
-**#type**
-
       bash site_likelihood.sh
-      
+
+### 4. Gene-wise likelihood analysis
+
+**#detect distribution of gene tree support (gene-wise likelihood score)**
+
+**#exclude loci with one of the three group taxa (P, D, C) complete lacking (P: Protura; D: Diplura; C: Collembola)**
+
+      for loci in $(cat loci.list)
+        do
+          seqkit seq -n loci/$loci > taxa
+          grep -f P taxa > t1
+          grep -f D taxa > t2
+          grep -f C taxa > t3
+          test -s t1 && test -s t2 && test -s t3 && cp loci/$loci $loci || echo $loci >> loci.incomplete.list
+          rm t*
+        done
+
+
+
+
+
 ### 5. Phylogenetic inference
 
 All maximum likelihood (ML) supermatrix analyses are performed using IQ-TREE. Mixture model CAT-GTR is performed using PhyloBayes MPI v1.8b. Multispecies coalescent (MSC) model is executed using ASTRAL-III v5.6.1.
@@ -126,6 +145,10 @@ We tested the resultant four alternative topologies with the all four matrices u
 **#topology tests under PMSF(C60) model**
       
       iqtree -s FcC_supermatrix.fas -m LG+C60+F+R -ft guide.tree -z trees -n 0 -zb 10000 -zw -au -T $THREADS
+
+### 6. The selection of subsample of 10,000 sites for cross-validation analysis
+
+
 
 ### 7. Bayesian cross-validation analysis
 
