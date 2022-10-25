@@ -159,11 +159,11 @@ We tested the resultant four alternative topologies with the all four matrices u
       
       iqtree -s FcC_supermatrix.fas -m LG+C60+F+R -ft guide.tree -z trees -n 0 -zb 10000 -zw -au -T $THREADS
 
-### 6. The selection of subsample of 10,000 sites for cross-validation analysis
+### 6. Bayesian cross-validation analysis
+
+**#select subsample of 10,000 sites for cross-validation analysis**
 
 
-
-### 7. Bayesian cross-validation analysis
 
 **#transform FASTA format into PHYLIP format using one component of trimAl v1.4.1.**
 
@@ -184,7 +184,7 @@ We tested the resultant four alternative topologies with the all four matrices u
 
 *numbers ‘2000 1 5000’ as the burn-in of 2000, taking every tree, up to the 5000th point of the chains*
 
-### 8. Phylogeny without outgroup taxa
+### 7. Phylogeny without outgroup taxa
 
 **#an unrooted tree was inferred by using reversible models**
 
