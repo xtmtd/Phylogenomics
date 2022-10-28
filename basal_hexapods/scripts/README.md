@@ -2,60 +2,13 @@
 
 All commands are labelled as bold. Operating system is popular Linux ones with ‘BASH’ shell, such as Centos, UBUNTU etc.
 
-### 1. Identify 'inconsistent' genes resulting topological differences in supermatrix-based (T1) and supertree-based (T2) phylogenies
-
-**#estimate site-wise loglk for alternative hypothesis**
-
-      mkdir GLS && cd GLS
-      cat T1.tre T2.tre > ML2ASTRAL.tre
-      iqtree -s FcC_supermatrix.fas -Q FcC_supermatrix_partition.txt -m LG+F+R4 -z ML2ASTRAL.tre -wsl -T $THREADS --prefix ML2ASTRAL
-      perl GLS_parser_v1.pl ML2ASTRAL.sitelh FcC_supermatrix_partition.txt GLS
-
-*the perl script of **GLS_parser_v1.pl** from Shen et al. (2021)*
-
-**#estimate the quartet score for alternative hypothesis, and prune tips of T1 and T2 to make their tips equal to gene trees**
-
-      mkdir GQS && cd GQS
-      GQS_fun() {
-        phykit tl trees/$1 > tip.$1
-        phykit tl T1.tre > tip.T1.$1
-        cat tip.T1.$1 | grep -v -f tip.$1 > tip.missing.$1
-        phykit prune T1.tre tip.missing.$1 -o T1.prune.tre.$1
-        phykit prune T2.tre tip.missing.$1 -o T2.prune.tre.$1
-        java -jar $ASTRAL_PATH/astral.5.7.1.jar -i trees/$1 -q T1.prune.tre.$1 2> log.txt.T1.$1
-        GQS_T1=$(cat log.txt.T1.$1 | grep "^Final quartet" | cut -d ":" -f2 | sed "s/ //g")
-        java -jar $ASTRAL_PATH/astral.5.7.1.jar -i trees/$1 -q T2.prune.tre.$1 2> log.txt.T2.$1
-        GQS_T2=$(cat log.txt.T2.$1 | grep "^Final quartet" | cut -d ":" -f2 | sed "s/ //g")
-        diff=$(echo "scale=0;($GQS_T1-$GQS_T2)"| bc)
-        echo -e $1"\t"$GQS_T1"\t"$GQS_T2"\t"$diff > trees/$1.GQS
-        rm tip*$1 log.txt*$1 *prune.tre.$1
-      }
-      export -f GQS_fun
-      cat tree.list | parallel -I% -j $THREADS --max-args 1 GQS_fun %
-      cat trees/*GQS > GQS_table.txt
-
-**#get the inconsistent loci**
-
-      cat GQS/GQS_table.txt | cut -f1 | cut -d "." -f1 > loci.list
-      for loci in $(cat loci.list)
-        do  
-          num1=$(cat GLS/GLS_table.txt | grep $loci | cut -f5 | sed "s/e-//g;s/e+//g")
-          num2=$(cat GQS/GQS_table.txt | grep $loci | cut -f4)
-          c_num1=`echo "$num1 > 0" |bc`
-          c_num2=`echo "$num2 > 0" |bc`
-          test "$c_num1" = 1 -a "$c_num2" = 1 && echo $loci >> loci.consistent
-          c_num3=`echo "$num1 < 0" |bc`
-          c_num4=`echo "$num2 < 0" |bc`
-          test "$c_num3" = 1 -a "$c_num4" = 1 && echo $loci >> loci.consistent
-        done
-
-### 2. Four-cluster likelihood mapping analysis
+### 1. Four-cluster likelihood mapping analysis
 
       iqtree -s FcC_supermatrix.fas -m LG+C60+F+R -ft guide.tree -lmap ALL -lmclust cluster.nexus -n 0 -T $THREADS
 
 *specify a NEXUS file containing taxon clusters (see **cluster.nexus** file) for quartet mapping analysis*
 
-### 3. Site-wise likelihood analysis
+### 2. Site-wise likelihood analysis
 
 **#calculate site-wise likelihood scores for hypotheses H1, H2, H3 and H4**
 
@@ -70,7 +23,7 @@ All commands are labelled as bold. Operating system is popular Linux ones with �
       awk '{for(i=1;i<=NF;i++)a[NR,i]=$i}END{for(j=1;j<=NF;j++)for(k=1;k<=NR;k++)printf k==NR?a[k,j] RS:a[k,j] FS}' H1-2-3-4.sitelh > temp1
       bash site-wise_likelihood.sh
 
-### 4. Gene-wise likelihood analysis (i.e., detect distribution of gene tree support)
+### 3. Gene-wise likelihood analysis (i.e., detect distribution of gene tree support)
 
 **#exclude loci with one of the four group taxa (P: Protura; D: Diplura; C: Collembola; I: Insecta) complete lacking**
 
@@ -92,25 +45,25 @@ All commands are labelled as bold. Operating system is popular Linux ones with �
       mkdir compare && cd compare
       bash gene-wise_likelihood.sh
 
-### 5. Phylogenetic inference
+### 4. Phylogenetic inference
 
 All maximum likelihood (ML) supermatrix analyses are performed using IQ-TREE. Mixture model CAT-GTR is performed using PhyloBayes MPI v1.8b. Multispecies coalescent (MSC) model is executed using ASTRAL-III v5.6.1.
 
-#### 5.1 Partitioned ML model
+#### 4.1 Partitioned ML model
 
       iqtree -s FcC_supermatrix.fas -p FcC_supermatrix_partition.txt -m MFP --mset LG --msub nuclear --rclusterf 10 -B 1000 --alrt 1000 -T $THREADS
 
-#### 5.2 Across-site compositional heterogeneity model
+#### 4.2 Across-site compositional heterogeneity model
       
       iqtree -s FcC_supermatrix.fas -m C60+F+R -B 1000 -alrt 1000 -T $THREADS
 
-#### 5.3 PMSF(C60) mixture model
+#### 4.3 PMSF(C60) mixture model
 
       iqtree -s FcC_supermatrix.fas -m LG+C60+F+R -ft guide.tree -B 1000 -alrt 1000 -T $THREADS
 
 *resulting tree (file **XXX.treefile**) from previous partitioned ML analysis can be used as the guide tree*
 
-#### 5.4 CAT-GTR mixture model
+#### 4.4 CAT-GTR mixture model
 
 **#transform FASTA format into PHYLIP format using one component of trimAl v1.4.1.**
       
@@ -127,11 +80,11 @@ All maximum likelihood (ML) supermatrix analyses are performed using IQ-TREE. Mi
       
 *number '3000' as the burn-in*
 
-#### 5.5 Calculate concordance factors gCF and sCF given a tree 'XXX.treefile'
+#### 4.5 Calculate concordance factors gCF and sCF given a tree 'XXX.treefile'
 
       iqtree -t XXX.treefile --gcf all.gene.tre -s FcC_supermatrix.fas --scf 100 --prefix concord -T $THREADS
 
-#### 5.6 Topology tests
+#### 4.6 Topology tests
 
 We tested the resultant four alternative topologies with the all four matrices using approximately the unbiased (AU), weighted Kishino-Hasegawa (WKH), and weighted Shimodaira-Hasegawa (WSH) tests under the across-site compositional heterogeneity model and PMSF(C60) model in IQ-TREE.
 
@@ -147,7 +100,7 @@ We tested the resultant four alternative topologies with the all four matrices u
       
       iqtree -s FcC_supermatrix.fas -m LG+C60+F+R -ft guide.tree -z trees -n 0 -zb 10000 -zw -au -T $THREADS
 
-### 6. Bayesian cross-validation analysis
+### 5. Bayesian cross-validation analysis
 
 **#select subsample of 10,000 sites for cross-validation analysis**
 
@@ -172,7 +125,7 @@ We tested the resultant four alternative topologies with the all four matrices u
 
 *numbers ‘2000 1 5000’ as the burn-in of 2000, taking every tree, up to the 5000th point of the chains*
 
-### 7. Phylogeny without outgroup taxa
+### 6. Phylogeny without outgroup taxa
 
 **#an unrooted tree was inferred by using reversible models**
 
