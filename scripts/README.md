@@ -47,6 +47,7 @@ passwords of accounts, i.e. root and zf: 1
 
 Most packages are installed under /usr/local/bin, /home/zf/install/ etc. Environmental variables and paths can be checked by "vi ~/.bashrc" and "printenv". Most executables can be directly performed without typing the installation paths. UCE-related analyses should be executed by initiating conda environments (/home/zf/install/miniconda/envs/), such as phyluce, just type 'source activate phyluce'.
 
+The video introduction and “walk-through” for each script are provided at https://space.bilibili.com/319699648/channel/seriesdetail?sid=2682055.
 
 ## User manual
 
