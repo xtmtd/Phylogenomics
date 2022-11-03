@@ -39,9 +39,9 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
    TreeShrink v1.3.8b (https://github.com/uym2/TreeShrink)   
    
    
-To faciliate the use of our pipeline and simplify the installation of various packages, we also prepared the virtual mirror (.vmdk), including all the bioinformatic tools and custom scripts ready in the CentOS 7 system. It can be directly opened by VMware or VirtualBox, which are often installed on Windows systems. Please download it here: https://dx.doi.org/10.6084/m9.figshare.21283026. More than 100 Gb (at least 50) disk space is recommented for its use. Below is related information on CentOS system:
+To faciliate the use of our pipeline and simplify the installation of various packages, we also prepared the virtual mirror (.vmdk), including all the bioinformatic tools and custom scripts ready in the CentOS 7.3 system. It can be directly opened by VMware or VirtualBox, which are often installed on Windows systems. Please download it here: https://dx.doi.org/10.6084/m9.figshare.21283026. More than 100 Gb (at least 50) disk space is recommented for its use. Below is related information on CentOS system:
 
-operating system: CentOS 7
+operating system: CentOS 7.3
 
 passwords of accounts, i.e. root and zf: 1
 
