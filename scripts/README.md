@@ -4,9 +4,9 @@
 
 We present a set of custom scripts for aligning, trimming, filtering and creating concatenation matrix before reconstructing the phylogenetic trees, employing a series of computationally efficient bioinformatic tools. All the scripts must be used in LINUX systems. The analysis process is shown in the following figure. These scripts have major advantages in data analysis automatically, and reducing computing consumption. Most scripts are already parallelized. It provides an important process for phylogenomics.
 
-![image](https://user-images.githubusercontent.com/45136134/193782440-a75f512d-dbf1-4335-81b7-ddbde4b9b6f3.png)
+![image](https://user-images.githubusercontent.com/45136134/199656510-200f05e3-2227-428a-97ac-69f0b3d96fb6.png)
 
-All nine bash scripts are tested in Linux systems, such as CentOS 7, CentOS 8, ubuntu18.04 LTS, ubuntu20.04 LTS etc. Their functions are described below.
+All nine bash scripts are tested in Linux systems, such as CentOS 7, CentOS 8, ubuntu18.04 LTS, ubuntu20.04 LTS, ubuntu22.04 LTS etc. Their functions are described below.
 
 1. **BUSCO_extraction.sh:** this script extracts the amino acid and nucleotides sequences for all the BUSCO results (run_* folders) by using TransDecoder, i.e., modifying the head name of the fasta files for each locus and merging sequences of the same locus into the fasta files, then filtering loci having too few taxa (less than three).
 2. **align_MAFFT.sh:** this script performs multiple sequence alignment by using MAFFT or MAGUS.
