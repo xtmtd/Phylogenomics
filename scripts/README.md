@@ -22,9 +22,9 @@ All nine bash scripts are tested in Linux systems, such as CentOS 7, CentOS 8, u
 
 Some bioinformatic tools are neccessary for above scripts. Most of them are recommended to be added into the environmental paths. Softwares, versions and source are listed below. All the softwares must be installed in LINUX systems.
 
-   FASconCAT-G v1.04 (https://github.com/PatrickKueck/FASconCAT-G)   
-   PHYLUCE v1.6.6 (http://phyluce.readthedocs.io/en/latest/index.html)   
-   PhyKIT v1.11.10 (https://github.com/JLSteenwyk/PhyKIT)   
+   FASconCAT-G v1.04 (https://github.com/PatrickKueck/FASconCAT-G)      
+   PHYLUCE v1.6.6 (http://phyluce.readthedocs.io/en/latest/index.html)      
+   PhyKIT v1.11.10 (https://github.com/JLSteenwyk/PhyKIT)      
    TransDecoder v5.5.0 (https://github.com/TransDecoder/TransDecoder)   
    MAGUS v0.1.0b0 (https://github.com/vlasmirnov/MAGUS)   
    MAFFT v7.407 (https://mafft.cbrc.jp/alignment/software/)   
