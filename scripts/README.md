@@ -8,7 +8,7 @@ We present a set of custom scripts for aligning, trimming, filtering and creatin
 
 All nine bash scripts are tested in Linux systems, such as CentOS 7, CentOS 8, ubuntu18.04 LTS, ubuntu20.04 LTS, ubuntu22.04 LTS etc. Their functions are described below.
 
-1. **BUSCO_extraction.sh:** this script extracts the amino acid and nucleotides sequences for all the BUSCO results (run_$SPECIES folder generated from BUSCO v3) by using TransDecoder, i.e., modifying the head name of the fasta files for each locus and merging sequences of the same locus into the fasta files, then filtering loci having too few taxa (less than three).
+1. **BUSCO_extraction.sh:** this script extracts the amino acid and nucleotides sequences for all the BUSCO results (run_$SPECIES folder generated from BUSCO v3, or $SPECIES folder generated from BUSCO v5.4) by using TransDecoder, i.e., modifying the head name of the fasta files for each locus and merging sequences of the same locus into the fasta files, then filtering loci having too few taxa (less than three).
 2. **align_MAFFT.sh:** this script performs multiple sequence alignment by using MAFFT or MAGUS.
 3. **trimming_alignments.sh:** this script performs trimming of multiple sequence alignments by using trimAl, BMGE or ClipKIT, i.e., identifying and removing highly divergent sites, or retaining parsimony-informative/constant sites from multiple sequence alignments.
 4. **loci_filtering_alignment-based.sh:** this script filters loci by detecting alignment length, number of parsimony-informative sites, percentage of parsimony-informative sites in the alignment, GC content, compositional heterogeneity (RCV, Relative composition variability), evolutionary rate (average pairwise identity) and likelihood mapping criteria by using PhyKIT or IQ-TREE.
@@ -64,10 +64,11 @@ Details of all scripts usage are shown below. Operating system is popular Linux 
 1. Type 'bash BUSCO_extraction.sh'.
 2. Tools TransDecoder, parallel are used in this script and will be automatically checked prior to formal analyses.
 3. Input the number of threads/cores (e.g., 8).
-4. Input the name of input directory containing all alignments, e.g., /PATH/BUSCOs/ (All the BUSCO results (run_* folders) are deposited in the same folder, e.g., BUSCOs/).
-5. Modify the head name of the fasta files for each locus, and placed all them in 0-raw_busco/.
-6. Merge sequences of the same locus into the fasta files, and placed all these fasta files in 1-raw_loci/.
-7. Filter loci having too few taxa (less than three), and placed the rest of the fasta files in 2-loci_filter/.
+4. Please input the version of BUSCO for assessments: 1. BUSCOv3; 2. BUSCOv5(version 5.4).
+5. Input the name of input directory containing all alignments, e.g., /PATH/BUSCOs/ (All the BUSCO results (run_* folders) are deposited in the same folder, e.g., BUSCOs/).
+6. Modify the head name of the fasta files for each locus, and placed all them in 0-raw_busco/.
+7. Merge sequences of the same locus into the fasta files, and placed all these fasta files in 1-raw_loci/.
+8. Filter loci having too few taxa (less than three), and placed the rest of the fasta files in 2-loci_filter/.
 
  ● **align_MAFFT.sh:**
 
