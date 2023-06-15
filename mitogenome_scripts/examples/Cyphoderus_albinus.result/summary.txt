@@ -1,0 +1,50 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+Cyphoderus_albinus14836          no             Orchesella villosa  
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+Cyphoderus_albinus1      65     65         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+Cyphoderus_albinus63     130    68         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+Cyphoderus_albinus127    195    69         +          tRNA   trnM(cau)  tRNA-Met                          1              
+Cyphoderus_albinus213    1191   979        +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+Cyphoderus_albinus1189   1262   74         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+Cyphoderus_albinus1261   1329   69         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+Cyphoderus_albinus1330   1397   68         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+Cyphoderus_albinus1398   2934   1537       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+Cyphoderus_albinus2936   2997   62         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+Cyphoderus_albinus2997   3678   682        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+Cyphoderus_albinus3676   3747   72         +          tRNA   trnK(cuu)  tRNA-Lys                          1              
+Cyphoderus_albinus3747   3813   67         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+Cyphoderus_albinus3813   3978   166        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+Cyphoderus_albinus3971   4652   682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+Cyphoderus_albinus4654   5443   790        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+Cyphoderus_albinus5449   5512   64         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+Cyphoderus_albinus5512   5857   346        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+Cyphoderus_albinus5855   5915   61         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+Cyphoderus_albinus5915   5979   65         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+Cyphoderus_albinus5979   6047   69         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+Cyphoderus_albinus6047   6113   67         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+Cyphoderus_albinus6114   6180   67         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+Cyphoderus_albinus6182   6247   66         -          tRNA   trnF(gaa)  tRNA-Phe                          1              
+Cyphoderus_albinus6253   7910   1658       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+Cyphoderus_albinus7946   8012   67         -          tRNA   trnH(gug)  tRNA-His                          1              
+Cyphoderus_albinus8007   9354   1348       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+Cyphoderus_albinus9380   9644   265        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+Cyphoderus_albinus9658   9721   64         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+Cyphoderus_albinus9721   9788   68         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+Cyphoderus_albinus9789   10275  487        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+Cyphoderus_albinus10274  11408  1135       +          CDS    CYTB       cytochrome b                      1              
+Cyphoderus_albinus11406  11477  72         +          tRNA   trnS(uga)  tRNA-Ser                          2              
+Cyphoderus_albinus11535  12462  928        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+Cyphoderus_albinus12483  12545  63         -          tRNA   trnL(uag)  tRNA-Leu                          2              
+Cyphoderus_albinus12498  13899  1402       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+Cyphoderus_albinus13736  13805  70         -          tRNA   trnV(uac)  tRNA-Val                          1              
+Cyphoderus_albinus13800  14596  797        -          rRNA   s-rRNA     12S ribosomal RNA                 1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                37

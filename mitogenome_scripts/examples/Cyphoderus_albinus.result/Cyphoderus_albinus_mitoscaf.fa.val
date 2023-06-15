@@ -1,0 +1,2 @@
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|Cyphoderus_albinus
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 5 [lcl|Cyphoderus_albinus:c7909-6253] [lcl|Cyphoderus_albinus: raw, dna len= 14836] -> [lcl|Cyphoderus_albinus_8]
