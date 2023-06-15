@@ -1,0 +1,1845 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "MENG" ,
+            first "Guanliang" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            email "mengguanliang@genomics.cn" ,
+            postal-code "518083" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "MENG" ,
+                  first "Guanliang" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            postal-code "518083" } } ,
+      date
+        std {
+          year 2023 ,
+          month 6 ,
+          day 15 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 5 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 6 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 15 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2023 } } } ,
+              create-date
+                std {
+                  year 2023 ,
+                  month 6 ,
+                  day 15 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 14683 ,
+                  seq-data
+                    iupacna "TTTGTTAATTTTTCTTTTCCTAAAAATAGTATCTCTACGAAAACCAGGC
+CAAAAGAAATTAAAACTCCTGACAATACTATTAGCTTTCAAACAATTGGTAAAAAAATATCAAAACTTGGAAACCCTA
+ACCAGGACAAGACTCTCCCCCCAACTGTTGCTAATATAAATAAAATTCTTATAGGTAAAATTATAACTAAATCCTCCG
+ATGAAGAACAATAAATTTTTAACCCTAAACTCTTAAAATAGAGATAATACACTAACCGTACTGAATAAGTCGCCGTAA
+ATATAGTCCCAAGAAAAGCCACTAGCAGGATAAAAAAATTTATCTCTCCTATAAAAAATATTTCTAGAATCAAATCTT
+TTGAATAAAACCCAGATAAGAAAGGAAACCCGCATAAAGATAATGAACAGACTGTGAAATAAACGGAACTAACCGGAA
+AATAAGAAGAAACCCCCCCAAGAAAACGAATATCTTGAGCATCTCCTATTCCATGAATAAAGACTCCAGCGCATAAGA
+ACAATAGAGATTTAAATAAAGCATGCGTAAGAAGATGAAAAAAAGACAGTTCTAAATAACCTAAAGATAAAGTAAACA
+TTATCACCCCTAATTGTCTTAATGTTGATAAAGCAATAATTTTTTTTAAGTCATTCTCAAAATTAGCCCCTAAGCCGG
+ATATAAATATAGTGAAACACCCAATAAAAAATATAAAATTATTTAAGGACAGTAGAGTTCTAAATCGAATCAAAAGAT
+ACACTCCGGCAGTGACCAAAGTTGAAGAGTGAACTAAAGCTGAGACAGGAGTAGGAGCTGCTATAGCTGCCGGTAACC
+AAGCTGAAAACGGAATTTGAGCACTTTTAGTTATTCCTGCCAAAATTACTATAAATAAAATGAAAGAAAGAATGTCTC
+TTTTATAAATTTCCTGCAAGTAAAAAAAATTTCATGACCCATAATCAACAGCCCAAGCAATTCTTAAAAGTAAAGCCA
+CATCTCCTACCCGATTTGATAAAATCGTCAATATGCCGGCATTTGCAGATTTTACATTTTGATAATAAATTACTAAAC
+AATAAGACACCAAACCTAACCCGTCCCATCCTAACAAAATACTAATTAAATTAGGACTTATAATTATAAGAAGTATAG
+ATAAAACAAACAAATATACCAGTATAATAAAACGATAGACATATTTATCACCTATCATATATATGCATCTATAAATCA
+AAACTATAGAAGAAATAATTAATACAAAGGATATAAATAGCACTCTTATTCAGTCAAATAAAAGAGTTATAATGATAG
+AAGAGCCTAATAAACAAAAAACTTCTCATTCAATAAAATACACAATCCCCCTAAAATAAAAGTAAACACCCGCAATTA
+ACCCTCCTGACGCCATTGCTAACATTATAAAACCTAAATAAAAGCTCACCTTCAAAAAATTATTTAATATTATTTAAG
+AGTTATAAACTTTCTTTAAGACCACAACTTAATATTTTAAATAAAATACATAAATTAAAGTATAAATATTAAATACTC
+AGATTTTAAGATTAAAAAATTCAAAGGCAAAATATGTATCACTCCCAAATGAAACTCACGATAGAAACAGAAACTTCT
+AGATATCCTCCCTCCAAAAAATTTACCATGCTGAGAAAAAGAAAATATAAATAAAGTAAACACAGCCCCTAAATAACT
+ACCTAGTGGAAATAATAAAAATATAATTTTATCAAATTTTAAAATACTAATTATTAAAAAAATTTCAGATATTAAATT
+AATTGTRGGGGGAGCCGCGATATTAGCCACTCTYAACAAAAAGAATAATAATGTAAATACAGGAAAAACTGTAATTAA
+ACCTTTATTCAAAAAAAAACTTCGGCTTCCTAAACGCTCATAGTAAAAATTTACTATACAAAAAAGCCCGGAAGAACA
+TAAGCCGTGACTAATTATTAAAAGCAATGAACCTCTGAAACCATAAATATAAAAATTTAAAATCCCGCAAATTACCAA
+GCCCATGTGAGCAACTGAAGAGTAAGCCACTAACGCCTTAATGTCATTTAACCGACAACAAATAAACCCAACAAAAAC
+TATACCTGAAATTCTAACTCCATAAAAAATTCTTCTATAAGACCCTAAAGAACTAGAAAACAAACCAGATACTCGAAT
+CAAACCATAACCTCCTAACTTTAAAAGAACCCCAGCCAAAATTATTGACCCGGATACAGGAGCCTCTACATGAGCCTT
+GGGAAGTCACAGATGAGTAAAAAATATAGGAAGTTTAACTAAAAATGCTAGGGTCAAACACAAAAAATAAAATATTCT
+CAAGTCTCTATTTAAAATATAATCTAAAGTAAAAAAATCTAATCCACCTAAATTTTTGTATCTATAAAATAAACTAAA
+AAATAATGGTAAAGAAGCAGTCAATGTATAAAATAAAAAATACAGCCCAGCCTGTAGACGCTCAGGTTGATAACCCCA
+ACCTATAATAATAAGAAGTGTAGGAATTAAAGAAAATTCAAAAAAAAAATAGAAAGAAAATAAATTAACGGTTCTAAA
+AGAAAAAATTAAACTATTTAGTAAAATAACCACTAAAAAAGAAAAAAATAAAGGAGAAACCCTCGAATTAAAAATAGA
+AGAACTAGAAATAATTATAACAATAGATACCCAAATTCTTAAAATAATCAATCTCAGAGATAATGAATCTATAGAGAT
+ATCTATTGAATAAATAAAATAATCAACGTAACTAAAACCCTCTAAAAAAAAATAGAATAAAAAAAAAATTAATAATAA
+ATTTATAACCCAAAAATAATCCAATGAAAAAAAAATTAAAAAAGTAATTGATAAAATACCCAAAATTAAATTTATCAT
+TATTTAAAGTAAGCTAAAGGACTTAAAATAATCTCCTCCATTTGTACGACTTATAATTACTAAAATTGACAAACCTAA
+AGCACCTTCACAAGCAGCCATAATTAAATAAATTAATGAATAAAATAAACCAACCCCCAAAAGAGAAACAATTAGATA
+AAAAACCAACAGAACTATAAATTCCAAACTTAATAAAGAAGATAACAAATGCTCTTGTATAGAGCAAAATACTAAAAA
+CCCACATAAGACTCCTAACAGACAAACAAAATTCAAATCAATAAGTTTCTATAGTTTAAAAAAAATATCAATTTTGTA
+AATTGAAGATTAACTAATTATAGAAACTTCAAGAAAAACTAAAAGTTAACTTTAACTTCCAAAGCTAAAATTTTAAAA
+TTTAAACTACTTCTTGTATCTTACAAATTTTATCCATACTAACAGCTATTTCTTTAACAATAATCAACCACCCAACAG
+GAATTATAATCTTAGTACTCCTACAAACTGTAAATATTTGTCTAATTACACTTATTAACATTAAAAGTAACTGGATAG
+CATTCATTCTATTTATAATTTTCTTAGGAGGATTAATAGTACTATTCATTTATATTACAAGATTAGCGTCTAACGAAA
+AATTTAAGAACAATTTAATAACACAAGTAGAGTCGTTAAGAAAAATTTTTCTCATCTTATTTTTAACTTTAACAGTAA
+TATACTTTTCCTTTAAAGAAAACCCAATCATAATAAAGCCATTAACTAGACTAGAGAATATCTTTTCATTAACTAGAA
+CCTTTATTATCACCTCTATAATAACCTATTTATTTCTAGTATTAGTTGTAGCTGTAAAGGTTGCCTACAAATTTGAGG
+GCCCTTTACGAAATATAATCAAATAATGATAAATATCCGCAAGGAACATCCATTAATTAAAATTGTTAATAATGCATT
+AGTAGATTTACCAGCCCCTATAAATATCTCAGCTTGATGAAACTTTGGTTCTTTGCTAGGTCTATGTTTAGTAACACA
+AATTGTCACTGGTTTATTTCTAGCTATACATTATACAGCAGATATCAGTCTAGCTTTTAATAGAGTTTCCCATATCAC
+ACGAGACGTTAACCAAGGTTGATTGCTACGAACCATTCATGCTAATGGCGCGTCTTTCTTTTTCGTATGTCTCTACTT
+ACATGCTGGGCGAGGTATATATTATGCATCTTTTTTCTACATACACACATGAATAATTGGAGTGCTAATTTTATTAGT
+AGTTATAGGAACAGCCTTTATAGGATACGTATTAATCTGAGGACAAATATCATTCTGAGCAGCCACAGTTATTACAAA
+TCTACTTTCTGCTATTCCTTATCTAGGGCAAACCTTAGTACAATGAATTTGAGGAGGGTTCGCAGTTGATAACGCAAC
+CCTTACTCGCTTCTTTACATTCCATTTTTTACTTCCTTTCGTTATCGCAGGGTTATCAATAGTACACCTCCTATTCCT
+TCATCAAACAGGATCAAGAAGCCCAACTGGTACAAATCCTAATCTTGACAAAATCCCATTTCATCCATACTTTTCCTT
+TAAAGATCTATTTGGTTTTATATTAATAATATGAGCATTAATTATACTAGTGTTAACAAACCCATTCCTTTTAGGAGA
+TGTAGAAAATTTTATCCCAGCTAACCCTCTAGTAACCCCAGTTCATATTCAACCAGAGTGATACTTTCTATTTGCATA
+CGCAATCCTACGGTCTATCCCTAACAAATTAGGAGGAGCTATCGCTCTAGTAGCCTCAATCGCTATTCTTTTTATCCT
+TCCTTTTTCTCAAATTTCTAACACACGGGGTAACCAATTCTACCCTATATCGCAAATTTCATTTTGAATTCTAGTAAA
+TATAGTAATCCTCTTAACTTGAATTGGAGCCCGACCAGCTGAAGACCCATATATTTTGGTAGGACAAGTCCTAACTAT
+CTTATATTTTATATATTTTATTATCAACCCATGATGTTTATTTTCATGAGACAAATTAATAAAGTAATTGTTTGGCTG
+AATGATCTAAGCTGTTATCTTGAAAATAACTTAAAAGAGTTAAATTCTCTTAACAATTTTGAACAAAACTTCAAGAGA
+CCCCTAAAATTCCTAATCAAAAAAATATAAATATTAAAGCCACTGGTAAATAAATTTTTCAAGCTAAATACATAAGTT
+TATCATAACGGAAACGAGGTAAAGTACCACGGACTCAAATAAATCAAAAACAAAAAAATACCCCTAAAAAATTTATAA
+GCCAAAAGTTTAATCCTCCCCCAAAAAATATAATTACTAAGAGGTAACTTATAAAAATAATTCTCCCATACTCAGAAA
+GAAATAATAGAGCAAACCCACCTCTACCATACTCAATATTGAAACCAGAAACTAATTCGGACTCCCCCTCCGCAAAAT
+CGAAAGGAGTGCGATTAGTTTCCGCCAAAACTGAGGAAGCTCAACATATAAAAATTGGGAAAAATATCAAAACAAATC
+AAATATATTCCTGATTAACTAAAAAAAAATAAAAATTGTAAGAAATTACTAAAAAAATTATAGACAAAAAAATGAGTG
+CTATACTCACTTCGTAAGAAATGGTTTGAGCTACTCCTCGCACAGCCCCTAATATAGCATAATTAGAATTAGAAGACC
+ACCCTCTACCCATTAAGGTATAAACCCCAAATCCTGTACAACAAAAAAAAAATAGCCCCCCCAAGCTAAAGTTTAATA
+TCAAGGAATTTAAAGGTATAACTAACCACACAAGTAATATAACAAACAAAGAAATAACAGGAGAAAAGTAATACAAAT
+AAAAATTAGAAATCGAAGGTATAAACTGTTCCTTAATAAATAATTTAATTGCATCCCCAAAAGATTGAACAATTCCTA
+TAAAACCCACTTTATTAGGACCTTTACGAATCTGGATATAGCCTAAAACCTTACGTTCTAGCAAAACTATAAAAGCTA
+CTCTAACCAACACTCCCACTATCAACAATAAATAAGAAATAAAAATTAAAAATAACTCTAAAAACAAAATAATTACTG
+AATAAAGGATAAACTTTTTAAATTGATTCTAAATCAAGCACATTAAATCTGCCAAATCAGTAAATAAATTTATAACCC
+ACGGTCCTTTCGTACTAGAGAGCCTTCATAGAAATAAAAGATAGAAACCAACCTGGCTCACGCCGGTTTGAACTCAAA
+TCATGTAAGAATTTAATAGTCGAACAGACTCCTCAAAAAAACTGCTACATATTATTTTAAATCTTAATTCAACATCGA
+GGTCGCAAACTAAACTATCGATATGGTCTCTCAAATCTCATTACGCTGTTATCCCTAAGGTAACTTTTTAACTTTTCC
+AAAGAAAGATTTTTTTATAAATTACTCATACCTTTAATAAGAAGTTTTTATTATTCTTAAATTGCCCCAATTAAATAA
+TAAAAAATATAAAAATAAAATTTCAAAATAAAGCTCTATAGGGTCTTATCGTCTATTTAAAAAACTAAAATTTTCTCA
+TTTTAAAAATAATTTAAAAATAAAAAGTGAAAATAATATCTGTYTATTAAACCATTCATTCCATTTTCTAATTAAGAA
+ACTAATGATTATGCTACCTTAGTACGGTCAAAATACCGCAGCCCTTCAATAATATCAGTGGGCAGGCCCTACTTTTTA
+AAAAATCTAAAAGAAATGTTTTTGTTAAACAATTAAACAAAATATTGTAGAGTTCTTAAACCTCTTACTTCATATTCT
+AAAAGTAAAAATTATATCTACTAATAATTTAATTATAAAATAAAAATAAAAATTTAATTATATTTATTAAAAAATTAA
+GTCCTCAAAAATTATAAACTAAAATAACTAAAGTATAAACTAATTAAAGTAAATTCTAAACATCACACACTTTTTAAA
+AATTTTTAGGATTATAAAATAATAAAGAAAAGGATTTTCCCTTTTACAATAAATTACTTAAAAAATTAAATTTTAATT
+AAGTAAAAAAAATATTTCTTTTAATAAAACTAGATATAAAATAAATCGTAACTTTATCAGTGCAAAAATTAATTTATT
+TAAATTATGAAATATTTATTTAAAATAATGTTTAACCTTTATTTTTCGAGAATAAGAATACAATTCAAAATATAAATT
+CCATGATACAAAAAGTAATAATTATAATTTTTGTATAGAAACTATTTAAACTATTTAACTGGCCCCCTACCAGTTATT
+TAATATAAATAATTTCTTAATACTAAAAAAAATAAAATCTTAAAATTAATTAAAATAAAATAAGTCAGTAAATACTAA
+AAGTAATCCTTTCATCGTAAATGAATTGCTTAAAATCAAGCTCTATACTGATCTAATAACTCCTTCCGGAAATATTAC
+TTTGTTACGACTTATCTAATAATATTAGAGCGACGGGCGATATGTACATAAATTAAAACTTAATTATAAATTAATAAA
+TTAAAAATATACTCTCAAATCCTATATTATTTTTACAATAAATTATTCAATAATAAAAATAAAGTAACCCACCTCTTC
+ATTAATGTAAACTAAACCTTGATTTGAATTATTTAAATAATTAAAATAAAAATTTATTTTAAAATAAATTTTTAATAC
+AACGGTATATAAACTAAATTAAAGAAAATTTCATCGTGTAATATCGATTACAGGGCAGGTTCCTCTGAAAAGAATAAT
+TTACCGCCAAATTCTTTAAGTTTCATTATACTACTACTTCTAACCATAAATAATAACAGGGTATCTAATCCTGGTTTT
+AAAATAATACTTTAAAGCTTAAATATAAAATTAATAATTAAAAATAATTTCACCTAATTTTTAAATATTTTATTAAAA
+ATAAAATTCTTTTCAATTACAATTTATTAGAATTTTTAGTCTAACCGCAAATGCTGGCACTAAATTTATTCAATCCTA
+CCAAAAAATTTTATAACCTAATATTCATAATTTATATAATATAAAATACTGCATAAAAACATGTAAATAAAATTTTAT
+ATATAAATTTACAAGCCAGAATCAAACTTTTCAATTTTAATTTTAAATGTTTTCCTCTCACTTTTTAAAATTGTGAGA
+GGAAAATATTATATAATATATATATATATGTATACATTTATATTTAGAATCAAATCTTTAATTTTCAATAWATAATTT
+TTTCTTTTTTAATTATATAAAATATTTATATATATATATATAATATTTAATATAAAATATATGTACATTTTAAATATA
+ACATATATTAAATATATATATATATATATAAATAAATATTATATATTATAAAATAATATAAATTTAGAAAACACGTAA
+ATCACTAATAGTAAAGTACCAAGAAAGTGCCTGATTAAAAGGGTTATTTTGATAGAATAAATTATACATTTTATATGT
+CTTTCTTAATAATTACAGTTAACAGAATTCCACTGTCTCCTTTAAAATCAAAATTTAATATTCATACTAAAATAAACT
+ATAAAGATAAGCTAAATAAGCTAATGGGTTCATACCTCATTTATAAGAGTGAAGTCTCTTTCTTTTTAATGTTTTATA
+AAATTTATCAAATTATATTCATTTTTACCCTAATAGCTGGATCTTTAATTGCTGTCTCCTCAAACAGCTGATTCACAG
+CCTGGCTAGGCTTAGAAATTAACTTAATAAGAATAATCCCCCTTATTCTTGTTAAGTTAAATAAATCTCTTACTGAAT
+CTTCAATTAAATACTTTATAGCCCAAGCTATAGCTTCTATACTACTAATAGCAGCAGCCATAGTAAGACATAGAATAA
+TAAAATCACCTAATTTGGAAATTCAAGAATTTATTATACTAATTGCATTAACTATAAAAGCAGGAATTCCTCCCTTCC
+ATTTCTGATTCCCCCAGATTACTCCTCTGATGGGATGAAGACAATGTTTCATTTTATTTACATGACAAAAAGTTGCCC
+CCCTTATTCTAATAATAAATTTAAATATTAATATAATTTTTTACATCGCCAGCATAGCAGCAATCGTAGGAGCAATAG
+GTGGGTTGAACCAAACTAATTTAAAAATTATTTTAACTTACTCATCAATTTCTCATACATCTTGAATAATTATGTCTT
+TGTACCTGAGAATAAAAATCTGAATTGTTTACATTTCCGTCTATTCAACAATTAATTTAAGACTCATCATAACTGCAC
+AAGAAATAAGAAGAGAATGTAGGATTAATGAAATAAATAAACTACCTGATTCTAACCAATTAAAATACTTGTTCGCTA
+TAAACATACTGTCTCTAGGGGGGTTGCCTCCTCTTTTAGGATTTGTGGGAAAAACTATTGTAGCTGTGTTATTAATAA
+AAAGAAAGGTTATCTTTATAGTTATCCTACTAATCTTTAGATCTTTAGTCTCAATTTTCTTTTATGCTCGTTTAATTT
+ATTCATCACTAATAATAAAAAACAAAATAATCTTTATAAAAAAAATTGATCTTAATTCATCAAATAAATTAATTATAT
+CCTTGACTGTATTTTTAAATATCTTAATTCCGCCTATCCTTATTTTAACATAAAATTTTATGTTAAAAAAAACTTCAG
+TCCTTCAAAGTCTGAGATAGGAAGGAGTCTTAAATTTTAAAAACCTAAAATTAAAATTATCTTAAAACTTGCAATTTT
+AAATCTTTATTAGACTATTAGATTAATAAAGAAAATTATTATTTTGTGATTAAATTTACAGTTTAATGCTTAATCTCA
+GCCACTTTATTTATTTACCGTTGATTTTACTCAACCAATCATAAAGATATTGGAACTTTATATTTAATCTTTGGAGTT
+TGATCTGCTATAGTAGGAACAGCCTTTAGTGTTCTAATCCGTTTAGAACTCGGGCAACCTGGTAGCTTTATCGGAGAC
+GACCAAATTTATAATGTCATAGTAACCGCTCACGCTTTTATTATAATTTTTTTCATAGTTATACCTATTATAATTGGG
+GGGTTTGGAAATTGATTGGTGCCCTTAATGATTGGTGCTCCAGATATGGCTTTCCCTCGTATAAACAATATAAGATTT
+TGACTTCTCCCCCCATCCCTAACTCTTCTTTTAGCAGGAGGTTTAGTAGAAAGAGGAGCGGGCACTGGATGAACAGTT
+TACCCACCACTAGCAGCAGGAATCGCCCACGCCGGAGCCTCTATCGACCTTTCAATTTTCAGTCTCCATTTAGCGGGA
+GCTAGTTCTATTTTAGGAGCCGTAAATTTTATTACAACTATCATTAACATACGAACCCCCGGAATATCATGAGACCAA
+ACACCACTTTTTGTATGATCAGTATTCCTAACTGCCATCCTATTGCTTCTCTCTCTCCCAGTGCTAGCAGGTGCTATC
+ACTATATTATTAACAGACCGAAATCTAAATACAGCCTTCTTTGACCCTGCTGGTGGAGGGGACCCAATTCTTTACCAA
+CACTTATTCTGATTTTTTGGACACCCCGAAGTTTATATTTTAATTCTTCCGGGATTTGGTATAGTGTCTCATATCATT
+ACATTCGAAAGAGGGAAAAAGCAAACATTTGGTCAATTAGGTATAATCTATGCTATGTCAGCTATTGGCCTTCTTGGA
+TTTATTGTATGAGCACATCACATATTTACAGTAGGAATAGATGTAGATACCCGAGCCTACTTCACCACTGCAACTATA
+ATTATTGCAGTCCCTACTGGAGTAAAAATTTTTAGCTGAATCGCAACTCTTCAAGGAAGATTCTTATACATAACCCCT
+GCATTAATATGAGCGATCGGGTTTGTTTTTCTTTTTACAGTAGGAGGATTAACAGGAATTATTTTAGCTAACTCATCT
+ATTGATATTGTACTTCACGACACATACTATGTAGTTGCTCATTTTCACTACGTTTTATCTATAGGAGCTGTCTTCGCT
+ATCATAGGAGGATTAATCCATTGATTCCCTTTATTCTCAGGTACTAGAATAAATCCAACTTGACTAAAAATACAATTC
+GCGGTTATATTTACTGGAGTAAATTTAACTTTCTTCCCCCAACATTTTTTAGGATTAAATGGCATACCACGACGATAT
+TCTGATTACCCTGACGCTTTTACTTCTTGAAATGTGGTTTCCTCGATGGGAGGTTACACCTCAGTCGTGGCTATTCTA
+ATATTTGCGTATATTATTTGAGAAGCCCTTAGTTCTAACCGCCCTGTAGTTTACCCTTTTACACAACCATCTTATATT
+GAATGAATCCAAAATAATCCTCCTTCAGAACACTCTTACAGAGAGTTAACTTTAATTTACAATTTCTAAAATGGCAGA
+CTAGTGCATTGAATTTAAGCTTCAAATATGAATTTAAACTCTTTTAGAAATTTCTTCTTGAGCGGCATTAAATTTTCA
+AAACGCTAATTCCCCTTTGATAGAACAGCTAATTTTTTTTCATGATCACACAATAACAATTTTAATTTTAATTGTATC
+AATTGTAAGATATAATCTCCTATCAACAGGCACAAATACAAATATCGACCAATATATACTAGAATCTCAACCCCTAGA
+ACTATTTTGAACTATTGTACCGAGCTTTGTACTTATCTTCATCGGCTTACCTTCTATTCGCTTACTTTATCTTCTAGA
+TGAATCTTATAAACCTTCAATCACATTAAAGACAATTGGGCACCAATGATATTGATCCTACGAATACTCGGATTTTTT
+AAATGTAGAATTTGATTCCTATATAATTCCAGAAAATGAATTAAACGATCCAAGTTTTCGTTTATTAGATGTAGATAA
+CCGTACAGTGATCCCAATAAATACTCAAATTCGAACTTTAATCACCGCTGCAGACGTCTTGCACTCATGAACTGTACC
+TTCCTTAGGGGTAAAGGTAGATGCAGTCCCCGGACGTTTGAATCAATTGAACTTCTTCTCTAACCGCCCAGGTTTATA
+TTTTGGACAGTGTTCTGAAATTTGTGGAGCCAACCATAGATTTATACCTATCTGCATAGAAATTGTTAACCATAAAGC
+TTTTATTAAATGAATTAAATCTTTATCATAATTAGTTGAATGGCTGAAAGTAAGCAACGGTCTCTTAAACCGCCCTAT
+AATAAATTAACAAATATTTTCAACTAAAAAATTAGTTAATTCATAATATGATCTTGTCAAGATTAAGTAATTTTAAAA
+ATATTTTTTAATTCCTCAAATATCTCCTTTAATATGAGCCGTGCTATTTAGTATATTTACTCTAATTTTAATATTTAT
+TATTGTAAAAATATACTTTTTCACATCAAAAAGCATTACTAATCAAAGAAACACTATTACAGAAAATTCCTTACAAAA
+AAAAATTAATTGAAAATGATAACAAATTTATTTTCTGTTTTTGACCCATCAGCAAACTTCAGCCTATCTATAAATTGA
+TTAAGATCCCTATTAATTTTTATATTTTTAGGACCCGCTTTCTGAGTTATTCAACCAAATTATGAAATTTTATTTAAA
+TCTATCATAAAAAAACTCCATATAGAATTCAAAATACTTTTAGGAAATTCTTCTATACCAGGAAGAACTTTTATATTT
+ATCTCTATCTTTTTATTTATTCTAATAAACAATTTTTTAGGTCTGTTCCCATACATTTTTACTGCTTCTAGCCATATT
+ACCCTTACCTTGACTTTAGCCCTACCTTTGTGATTAACCTTTATATTATTTGGATGATTTAAATTTACCAAATATATA
+TTTGCTCATTTAGTACCCCAAAGAACCCCTGGAGCTCTTATACCATTTATAGTAGTAATTGAATCGATTAGAAATATT
+ATTCGACCATTAACTTTATCTGTTCGATTAATAGCTAATATAGTCGCAGGCCATCTTTTAATAACTTTATTAGGAAAT
+CAAACCGCTTTGGCCTCTAACTTTGTATTACTTAGACTCATCATTACTCAAATTCTACTATTAACTTTAGAAAGAGCG
+GTAGCAATAATTCAAGCCTATGTATTTGCAGTACTCTCTACCCTTTACTCTAGAGAAATTACATCGCATTAATAATGA
+TAATTAAAAGAAATCACTCATTTCATTTAGTAGACCAAAGTCCCTGACCGCTAACAGGAGCTATTGGAGCTTTAATGC
+TAACAACAGGTATTGTAAAATGATTCCATACTTTCAATCCCGAATTATTTCTATTTGGAGTAGCTATTTTAATAATAA
+CTTGCATCCAATGATGACGAGACATCACCCGGGAAAGAACATTTCAAGGCCTTCATACTATAATTGTAGCTAAAGGAA
+TACGATGGGGAATAATTCTATTCATTACTTCAGAAGTTTTATTCTTTTTTTCTTTTTTCTGAGCATTTTTTCATAGAA
+GTCTATCTCCAACATTTGAAGTAGGTTTACAATGACCGCCTACTGGCATCACCCCTTTTAACCCTATCCAAGTTCCTC
+TATTAAATACAATTATTTTATTAGCTTCAGGGGTCACTGTAACTTGAGCCCACCATGGATTAATAGAAAACAAATATA
+CACAAACTTTCCAAGGGCTACTAATTACAGTAATCTTAGGAGTATATTTTACATTACTTCAAGCTATAGAATATATAG
+AAGCATCCTTCACTATCGCTGACTCAACTTACGGAGCAACATTTTTTGTAGCCACAGGATTTCATGGACTTCATGTAA
+TCATCGGAACTACATTTCTTCTAACCTGCCTTATACGACACTTAACCTGTCACTTTTCCAACACTCATCATTTTGGAT
+TCGAGGCAGCTGCCTGATACTGACATTTCGTTGACGTAGTCTGACTTTTTCTATATATAAGAATTTACTGATGAGGTA
+GATAAACTTTTATTATAAACAGTATATTTGGCTTCCAACCAAAAAGTCCTTAAGGGAAAGTTTAATTTTAATATTTAC
+CCTTCCTCTTATTATCTCTGTAGCACTTATTATTGTAAATTCTTTAATTAGAAAGAAAACACCGGAAGAACGAGAAAA
+ACCATCCCCATTTGAATGCGGGTTTGATCCTAAGAGTTCTTCTCGTATTCCTTTTTCTTTACGATTCTATTTAATTGC
+ATTAGTATTTTTGATTTTCGATGTAGAAATTACTATTATTCTTCCTATCCCTATTTTATTAAATTCTACCCAAACATT
+CTTTCTAACAAACTTAACTTTTTTTTTTATTTTTATCTTAATTATCGCTCTTTTCCATGAATGATATCAAGGAGCATT
+AAACTGGGATAACTAAATTTTAGGGATATAGTTAAATATAACATCTGGGTTGCATTCAGAAAGTGCCTAAGGCTTTCC
+TTATATCTATTATTAATATGGGTAGAAAGCGAAATATCGCAATCAGTTTCGACCTGACCTTTGGGTCCACCCTCCACC
+CTTTGAATAGAAACCAATACAACCTAGGTATACCACTGTTAATGGTAGTTAGAGATCTCTCCTTTTCAAGTTAGGGGG
+TTCAAAAGAGAGCTGCTAACTCCCTTTTTAGCAGTTAAACTCTGTTACTTACTTTATTTAGTTAGTTTAAAAAAAACA
+ACACATTTTCATTGTGTAAATAATTAAAATTACTAAACTACTCAAAAGAAAACTCTACCTTAACCTCTTCAGGGACAC
+GCTCTAATTAAGCTAAATGAGTATAAAACAAAAAATAAAAACCCTGTAAATACTAAAAAAATGAATAGATAGGTTTTT
+AAATTTAATAAAAATCTATAGTCCGTTCCTGAAGAAAATTTAGAAAGACCATAATTTACGCCCTGACCTCCAAAAAAT
+TCAACCCATCCCTGATCTAAAAATTTGATTAAAACTCCACCGAAATGATAAAAAGGTATAAAAAATAAGGTAGAAATT
+GAAGGTATAAATCATATTGAAGCAACATAATGCTTCAAAAAACTCATT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND5" } ,
+                          location
+                            int {
+                              from 55 ,
+                              to 1372 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          location
+                            int {
+                              from 1507 ,
+                              to 2856 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 2860 ,
+                              to 3126 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND6" } ,
+                          location
+                            int {
+                              from 3264 ,
+                              to 3740 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "CYTB" } ,
+                          location
+                            int {
+                              from 3740 ,
+                              to 4873 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND1" } ,
+                          location
+                            int {
+                              from 4969 ,
+                              to 5866 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND2" } ,
+                          location
+                            int {
+                              from 8406 ,
+                              to 9383 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX1" } ,
+                          location
+                            int {
+                              from 9577 ,
+                              to 11115 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX2" } ,
+                          location
+                            int {
+                              from 11174 ,
+                              to 11857 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP8" } ,
+                          location
+                            int {
+                              from 11993 ,
+                              to 12160 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          location
+                            int {
+                              from 12154 ,
+                              to 12834 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX3" } ,
+                          location
+                            int {
+                              from 12837 ,
+                              to 13625 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          location
+                            int {
+                              from 13691 ,
+                              to 14026 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnH(gug)" } ,
+                          location
+                            int {
+                              from 1445 ,
+                              to 1507 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 72 } } ,
+                          location
+                            int {
+                              from 1445 ,
+                              to 1507 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnT(ugu)" } ,
+                          location
+                            int {
+                              from 3135 ,
+                              to 3196 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 84 } } ,
+                          location
+                            int {
+                              from 3135 ,
+                              to 3196 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnP(ugg)" } ,
+                          location
+                            int {
+                              from 3197 ,
+                              to 3262 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 80 } } ,
+                          location
+                            int {
+                              from 3197 ,
+                              to 3262 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(uga)" } ,
+                          location
+                            int {
+                              from 4872 ,
+                              to 4943 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 4872 ,
+                              to 4943 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uag)" } ,
+                          location
+                            int {
+                              from 5894 ,
+                              to 5959 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 5894 ,
+                              to 5959 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnV(uac)" } ,
+                          location
+                            int {
+                              from 7133 ,
+                              to 7196 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 86 } } ,
+                          location
+                            int {
+                              from 7133 ,
+                              to 7196 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnI(gau)" } ,
+                          location
+                            int {
+                              from 8181 ,
+                              to 8246 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 73 } } ,
+                          location
+                            int {
+                              from 8181 ,
+                              to 8246 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(uug)" } ,
+                          location
+                            int {
+                              from 8251 ,
+                              to 8319 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 } } ,
+                          location
+                            int {
+                              from 8251 ,
+                              to 8319 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cau)" } ,
+                          location
+                            int {
+                              from 8317 ,
+                              to 8384 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 } } ,
+                          location
+                            int {
+                              from 8317 ,
+                              to 8384 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnW(uca)" } ,
+                          location
+                            int {
+                              from 9382 ,
+                              to 9447 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 87 } } ,
+                          location
+                            int {
+                              from 9382 ,
+                              to 9447 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnC(gca)" } ,
+                          location
+                            int {
+                              from 9449 ,
+                              to 9510 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 67 } } ,
+                          location
+                            int {
+                              from 9449 ,
+                              to 9510 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnY(gua)" } ,
+                          location
+                            int {
+                              from 9511 ,
+                              to 9575 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 89 } } ,
+                          location
+                            int {
+                              from 9511 ,
+                              to 9575 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 11111 ,
+                              to 11173 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 11111 ,
+                              to 11173 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnK(cuu)" } ,
+                          location
+                            int {
+                              from 11860 ,
+                              to 11930 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 75 } } ,
+                          location
+                            int {
+                              from 11860 ,
+                              to 11930 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 11930 ,
+                              to 11992 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 11930 ,
+                              to 11992 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnG(ucc)" } ,
+                          location
+                            int {
+                              from 13624 ,
+                              to 13684 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 71 } } ,
+                          location
+                            int {
+                              from 13624 ,
+                              to 13684 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnA(ugc)" } ,
+                          location
+                            int {
+                              from 14032 ,
+                              to 14091 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 65 } } ,
+                          location
+                            int {
+                              from 14032 ,
+                              to 14091 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnR(ucg)" } ,
+                          location
+                            int {
+                              from 14108 ,
+                              to 14168 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 82 } } ,
+                          location
+                            int {
+                              from 14108 ,
+                              to 14168 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnN(guu)" } ,
+                          location
+                            int {
+                              from 14170 ,
+                              to 14235 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 78 } } ,
+                          location
+                            int {
+                              from 14170 ,
+                              to 14235 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(gcu)" } ,
+                          location
+                            int {
+                              from 14234 ,
+                              to 14299 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 14234 ,
+                              to 14299 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnE(uuc)" } ,
+                          location
+                            int {
+                              from 14300 ,
+                              to 14361 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 69 } } ,
+                          location
+                            int {
+                              from 14300 ,
+                              to 14361 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnF(gaa)" } ,
+                          location
+                            int {
+                              from 14361 ,
+                              to 14422 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 70 } } ,
+                          location
+                            int {
+                              from 14361 ,
+                              to 14422 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "s-rRNA" } ,
+                          location
+                            int {
+                              from 7193 ,
+                              to 7956 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "12S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 7193 ,
+                              to 7956 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "l-rRNA" } ,
+                          location
+                            int {
+                              from 5905 ,
+                              to 7315 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "16S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 5905 ,
+                              to 7315 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 439 ,
+                  seq-data
+                    ncbieaa "MAGVYFYFSGIVYFIEWEVFCLLGSSIIMTLLFDWMSVLFMSFVLIISS
+MVLIYSCMYMMGDKYVYRFIMLVYLFVLSMLLMIMSPNLISILLGWDGLGLVSYCLVIYYQNVKSANAGMLTILSNRV
+GDVALLLSIAWAVDYGSWNFFYLQEIYKSDILSFILFMVILAGMTKSAQIPFSAWLPAAMAAPTPVSALVHSSTLVTA
+GVYLLIRFSTLLSLNNFMFFIGCFTMFMSGLGANFENDLKKIIALSTLSQLGVMMFTLSLGYLELSFFHLLTHALFKS
+LLFLCAGVFIHGMGDAQDIRFLGGVSSYFPVSSVYFTVCSLSLCGFPFLSGFYSKDLILEMFFMGEMNFFILLVAFLG
+TMFTATYSVRLVYYLYFKSLGLKIYCSSSEDLVMILPMSILFMLATVGGSVLSWLGFPSFDIFLPIVWKLMVLSGVLI
+" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 438 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_2" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 449 ,
+                  seq-data
+                    ncbieaa "MMNLILGILSITFLIFFSLDYFWVMNLLLIFFLFYFFLEGFSYVDYFIY
+SMDISMDSLSLSLIILSIWVSIVMIISSSSIFNSSVSPLFFSFLVVILLNSLIFSFSTVNLFSFYFFFEFSLIPTLLI
+IMGWGYQPERLQAGLYFLFYTLTASLPLFFSLFYSYKNLGGLDFFTLDYILNSDLSMFYFLCLTLAFLVKLPMFFTHL
+WLPKAHVEAPVSGSMILAGVLLKLGGYGLIRVSGLFSSSLGSYSSIFYGVSISGMVFVGFICCRLNDIKALVAYSSVA
+HMGLVICGILNFYIYGFSGSLLLMISHGLCSSGLFCMVNFYYERLGSRSFFLNKGLITVFPVFTLLFFLLSVANIAAP
+PTINLMSEIFLMISILKFDKIMFLLFPLGSYLGAVFTLFMFSFSQHGKFFGGSMSSSFCFYREFHLGVMHILPLNFLI
+LKSEYLMFML" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 448 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_3" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 88 ,
+                  seq-data
+                    ncbieaa "MNFVCLLGVLCGFLVFCSMQEHLLSSLLSLEFMVLLVFYLIVSLLGVGL
+FYSLIYLIMAACEGALGLSILVIMSRTNGGDYFKSFSLL" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 87 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_3" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_4" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 158 ,
+                  seq-data
+                    ncbieaa "MLQILSMLTAISLTMINHPTGIMILVLLQTVNICLITLINIKSNWMAFI
+LFMIFLGGLMVLFIYITSLASNEKFKNNLMTQVESLSKIFLILFLTLTVMYFSFKENPIMMKPLTSLENIFSLTSTFI
+ITSMMTYLFLVLVVAVKVAYKFEGPLRNMIK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 157 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_4" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_5" } ,
+                descr {
+                  title "cytochrome b (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 377 ,
+                  seq-data
+                    ncbieaa "MMNIRKEHPLIKIVNNALVDLPAPMNISAWWNFGSLLGLCLVTQIVTGL
+FLAMHYTADISLAFNSVSHITRDVNQGWLLRTIHANGASFFFVCLYLHAGRGMYYASFFYMHTWMIGVLILLVVMGTA
+FMGYVLIWGQMSFWAATVITNLLSAIPYLGQTLVQWIWGGFAVDNATLTRFFTFHFLLPFVIAGLSMVHLLFLHQTGS
+SSPTGTNPNLDKIPFHPYFSFKDLFGFMLMMWALIMLVLTNPFLLGDVENFIPANPLVTPVHIQPEWYFLFAYAILRS
+IPNKLGGAIALVASIAILFILPFSQISNTRGNQFYPMSQISFWILVNMVILLTWIGARPAEDPYILVGQVLTILYFMY
+FIINPWCLFSWDKLMK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome b" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 376 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_5" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_6" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 299 ,
+                  seq-data
+                    ncbieaa "MFISYLLLMVGVLVSVAFMVLLERKVLGYIQIRKGPNKVGFMGIVQSFG
+DAIKLFIKEQFMPSISNFYLYYFSPVISLFVMLLVWLVMPLNSLMLNFSLGGLFFFCCTGFGVYTLMGSGWSSNSNYA
+MLGAVRGVAQTISYEVSMALIFLSMIFLVISYNFYFFLVNQEYIWFVLMFFPIFMCWASSVLAETNRTPFDFAEGESE
+LVSGFNIEYGSGGFALLFLSEYGSIIFMSYLLVIMFFGGGLNFWLMNFLGVFFCFWFIWVRGTLPRFRYDKLMYLAWK
+IYLPVALMFMFFWLGI" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 298 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_7" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 2 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 325 ,
+                  seq-data
+                    ncbieaa "MMFIFTLMAGSLIAVSSNSWFTAWLGLEINLMSMIPLILVKLNKSLTES
+SIKYFMAQAMASMLLMAAAMVSHSMMKSPNLEIQEFIMLIALTMKAGIPPFHFWFPQITPLMGWSQCFILFTWQKVAP
+LILMMNLNINMIFYIASMAAIVGAMGGLNQTNLKIILTYSSISHTSWMIMSLYLSMKIWIVYISVYSTINLSLIMTAQ
+EMSSECSINEMNKLPDSNQLKYLFAMNMLSLGGLPPLLGFVGKTIVAVLLMKSKVIFMVILLIFSSLVSIFFYARLIY
+SSLMMKNKMIFMKKIDLNSSNKLIMSLTVFLNILIPPILILT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 324 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_7" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_8" } ,
+                descr {
+                  title "cytochrome c oxidase subunit I (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 512 ,
+                  seq-data
+                    ncbieaa "MYRWFYSTNHKDIGTLYLIFGVWSAMVGTAFSVLIRLELGQPGSFIGDD
+QIYNVMVTAHAFIMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLTLLLAGGLVESGAGTGWTVY
+PPLAAGIAHAGASIDLSIFSLHLAGASSILGAVNFITTIINMRTPGMSWDQTPLFVWSVFLTAILLLLSLPVLAGAIT
+MLLTDRNLNTAFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMVSHIITFESGKKQTFGQLGMIYAMSAIGLLGF
+IVWAHHMFTVGMDVDTRAYFTTATMIIAVPTGVKIFSWIATLQGSFLYMTPALMWAIGFVFLFTVGGLTGIILANSSI
+DIVLHDTYYVVAHFHYVLSMGAVFAIMGGLIHWFPLFSGTSMNPTWLKMQFAVMFTGVNLTFFPQHFLGLNGMPRRYS
+DYPDAFTSWNVVSSMGGYTSVVAILMFAYIIWEALSSNRPVVYPFTQPSYIEWIQNNPPSEHSYSELTLIYNF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit I" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 511 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_8" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_9" } ,
+                descr {
+                  title "cytochrome c oxidase subunit II (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 227 ,
+                  seq-data
+                    ncbieaa "MSSWAALNFQNANSPLMEQLIFFHDHTMTILILIVSIVSYNLLSTGTNT
+NIDQYMLESQPLELFWTIVPSFVLIFIGLPSIRLLYLLDESYKPSITLKTIGHQWYWSYEYSDFLNVEFDSYMIPENE
+LNDPSFRLLDVDNRTVIPMNTQIRTLITAADVLHSWTVPSLGVKVDAVPGRLNQLNFFSNRPGLYFGQCSEICGANHS
+FMPICMEIVNHKAFIKWIKSLS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit II" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 226 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_9" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_10" } ,
+                descr {
+                  title "ATP synthase F0 subunit 8 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 55 ,
+                  seq-data
+                    ncbieaa "MPQMSPLMWAVLFSMFTLILMFIIVKMYFFTSKSITNQSNTITENSLQK
+KINWKW" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 8" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 54 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_10" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_11" } ,
+                descr {
+                  title "ATP synthase F0 subunit 6 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 226 ,
+                  seq-data
+                    ncbieaa "MMTNLFSVFDPSANFSLSMNWLSSLLIFMFLGPAFWVIQPNYEILFKSI
+MKKLHMEFKMLLGNSSMPGSTFMFISIFLFILMNNFLGLFPYIFTASSHITLTLTLALPLWLTFMLFGWFKFTKYMFA
+HLVPQSTPGALMPFMVVIESISNIIRPLTLSVRLMANMVAGHLLMTLLGNQTALASNFVLLSLIITQILLLTLESAVA
+MIQAYVFAVLSTLYSSEITSH" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 225 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_11" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_12" } ,
+                descr {
+                  title "cytochrome c oxidase subunit III (mitochondrion)
+ [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 262 ,
+                  seq-data
+                    ncbieaa "MMIKSNHSFHLVDQSPWPLTGAIGALMLTTGIVKWFHTFNPELFLFGVA
+ILMMTCIQWWRDITRESTFQGLHTMIVAKGMRWGMILFITSEVLFFFSFFWAFFHSSLSPTFEVGLQWPPTGITPFNP
+IQVPLLNTIILLASGVTVTWAHHGLMENKYTQTFQGLLITVILGVYFTLLQAMEYMEASFTIADSTYGATFFVATGFH
+GLHVIIGTTFLLTCLMRHLTCHFSNTHHFGFEAAAWYWHFVDVVWLFLYMSIYWWGS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit III" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 261 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_12" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Alloscopus_bannaensis_13" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 111 ,
+                  seq-data
+                    ncbieaa "MFTLPLIISVALIIVNSLISKKTPEEREKPSPFECGFDPKSSSRIPFSL
+RFYLIALVFLIFDVEITIILPIPILLNSTQTFFLTNLTFFFIFILIIALFHEWYQGALNWDN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 110 ,
+                              id
+                                local
+                                  str "Alloscopus_bannaensis_13" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_1" ,
+                      location
+                        int {
+                          from 55 ,
+                          to 1372 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_2" ,
+                      location
+                        int {
+                          from 1507 ,
+                          to 2856 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_3" ,
+                      location
+                        int {
+                          from 2860 ,
+                          to 3126 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_4" ,
+                      location
+                        int {
+                          from 3264 ,
+                          to 3740 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_5" ,
+                      location
+                        int {
+                          from 3740 ,
+                          to 4873 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_6" ,
+                      location
+                        int {
+                          from 4969 ,
+                          to 5866 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_7" ,
+                      location
+                        int {
+                          from 8406 ,
+                          to 9383 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_8" ,
+                      location
+                        int {
+                          from 9577 ,
+                          to 11115 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_9" ,
+                      location
+                        int {
+                          from 11174 ,
+                          to 11857 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_10" ,
+                      location
+                        int {
+                          from 11993 ,
+                          to 12160 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_11" ,
+                      location
+                        int {
+                          from 12154 ,
+                          to 12834 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_12" ,
+                      location
+                        int {
+                          from 12837 ,
+                          to 13625 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Alloscopus_bannaensis_13" ,
+                      location
+                        int {
+                          from 13691 ,
+                          to 14026 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Alloscopus_bannaensis" } } } } } } } } } }

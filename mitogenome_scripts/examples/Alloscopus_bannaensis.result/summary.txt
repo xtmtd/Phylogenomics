@@ -1,0 +1,50 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+Alloscopus_bannaensis14683          no             Orchesella cincta   
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+Alloscopus_bannaensis56     1374   1319       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+Alloscopus_bannaensis1446   1509   64         -          tRNA   trnH(gug)  tRNA-His                          1              
+Alloscopus_bannaensis1508   2858   1351       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+Alloscopus_bannaensis2861   3128   268        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+Alloscopus_bannaensis3136   3198   63         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+Alloscopus_bannaensis3198   3264   67         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+Alloscopus_bannaensis3265   3742   478        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+Alloscopus_bannaensis3741   4875   1135       +          CDS    CYTB       cytochrome b                      1              
+Alloscopus_bannaensis4873   4945   73         +          tRNA   trnS(uga)  tRNA-Ser                          2              
+Alloscopus_bannaensis4970   5868   899        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+Alloscopus_bannaensis5895   5961   67         -          tRNA   trnL(uag)  tRNA-Leu                          2              
+Alloscopus_bannaensis5906   7317   1412       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+Alloscopus_bannaensis7134   7198   65         -          tRNA   trnV(uac)  tRNA-Val                          1              
+Alloscopus_bannaensis7194   7958   765        -          rRNA   s-rRNA     12S ribosomal RNA                 1              
+Alloscopus_bannaensis8182   8248   67         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+Alloscopus_bannaensis8252   8321   70         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+Alloscopus_bannaensis8318   8386   69         +          tRNA   trnM(cau)  tRNA-Met                          1              
+Alloscopus_bannaensis8407   9385   979        +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+Alloscopus_bannaensis9383   9449   67         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+Alloscopus_bannaensis9450   9512   63         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+Alloscopus_bannaensis9512   9577   66         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+Alloscopus_bannaensis9578   11117  1540       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+Alloscopus_bannaensis11112  11175  64         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+Alloscopus_bannaensis11175  11859  685        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+Alloscopus_bannaensis11861  11932  72         +          tRNA   trnK(cuu)  tRNA-Lys                          1              
+Alloscopus_bannaensis11931  11994  64         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+Alloscopus_bannaensis11994  12162  169        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+Alloscopus_bannaensis12155  12836  682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+Alloscopus_bannaensis12838  13627  790        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+Alloscopus_bannaensis13625  13686  62         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+Alloscopus_bannaensis13692  14028  337        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+Alloscopus_bannaensis14033  14093  61         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+Alloscopus_bannaensis14109  14170  62         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+Alloscopus_bannaensis14171  14237  67         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+Alloscopus_bannaensis14235  14301  67         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+Alloscopus_bannaensis14301  14363  63         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+Alloscopus_bannaensis14362  14424  63         -          tRNA   trnF(gaa)  tRNA-Phe                          1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                37
