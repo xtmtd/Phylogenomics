@@ -1,0 +1,1850 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "MENG" ,
+            first "Guanliang" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            email "mengguanliang@genomics.cn" ,
+            postal-code "518083" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "MENG" ,
+                  first "Guanliang" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            postal-code "518083" } } ,
+      date
+        std {
+          year 2023 ,
+          month 6 ,
+          day 15 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 5 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 6 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 15 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2023 } } } ,
+              create-date
+                std {
+                  year 2023 ,
+                  month 6 ,
+                  day 15 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Homidia_socia" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 14793 ,
+                  seq-data
+                    iupacna "AGGAAAGTGCCTGATTAAAGGGTTATTTTGATAGAATAAATTAAACAAT
+TTTTTGTCTTTTCTTATAATTAACAGAATTACACTGATTCTTTTAAAATCAAAATTTAATGTTCCTTTAAACTAAATT
+ATAAAGATAAGCTAAAAAAGCTAACGGGTTCATACCTCGTTTATAAGAGTAAAATCTCTTTCTTTTTAAATGTTTTTA
+AAAAATTATCATTTAATATTTTTTTCATCTCTAATTTTAGGCACTATAATTGCTATTTCTTCAAATTCCTGATTTACT
+TGCTGGTTAGGGTTAGAAATTAACTTAATAAGAATAATCCCTCTTATTCTTATTAAGTTAAACAAAAACTTTACTGAA
+GCTTCAATTAAATATTTTTTAGCTCAAGCCTTAGCTTCTATGGTTTTAATTTTTGCTTTAACAGTTAATTTTTTTTTT
+ACTGAAATTCTAATTTTAGAAGTAACAGAAATTTTTATAGTTTCTGCTTTAAGTCTTAAAGGAGGTTTAGCTCCTTTT
+CATTTTTGATTCCCTCAAATTTCGAATTTTTTGAATTGAACTCAATGTTTAGTAATCTTTACTTGACAAAAAATTGCT
+CCTTTATTATTAATAATTTCTTTAAATATTAAATCAATTTTTTTAATCAGAATTTTATCAGCAATTACAGGAGCTATA
+GGAGGCCTAAACCAAAATTTAGCCAAAATTTTAATGACTTACTCTTCAGTAGCTCACAGAGGTTGAATGCTTTTAGGA
+TGCTCCCTAAGAGTATCTTACTGGATAAACTATTTTTTCGTTTACACTTTTTTATCTTTAGTCATTCTAATTTTTCTT
+TATAAAAACCAAATTTTTAAAACTAACCAAATTTTTAACTCTTCAGATTCTAATTTTAATAAAAATATTTTAGTAATA
+AATTTTCTTTCACTAGGAGGACTTCCCCCTTTCATAGGATTTTTTGCTAAAATCTTAATTTTATTGATTTCAATTAAA
+ATAAATATATTAATTATCTTAGTACCTTTAATTTTATCCTCTTTAACTTCTTTATTTTTTTATACCCGAATAATTTAT
+TCCAGATTAATAAGATTTTCTAAATCTAACTTTGAAAAAACAAAAATTAACAAAACTCCAAAAAACTTTTTCTACTCA
+ATAAGAATTATTTTCAATATATTGTTTCCTTTAACAATTTTATTAACTTAAAATTTTAAGTTAATAAAACTCCAGTCC
+TTCAAAGTCTACAATAAAGGTCTTATTCCTTTAAATTTTAAACAATAAAAATTTTATTTTACCTTAAAATTTGCAATT
+TTAAATCATTCAATGACTATTAATGTAATAAAGAAAAATTTATTTTTGTTTTTAAATTTACAGTTTAACACCTAACTC
+AGCCACTTTATCTATTAATCGATGATTTTTCTCTACTAATCATAAAGATATTGGCACTTTATACTTAATTTTCGGTGT
+TTGATCAGCTATAGTTGGGACGGCTTTTAGAGTTCTTATTCGCTTAGAACTAGGTCAACCAGGAAGTTTTATTGGTGA
+CGATCAAATCTATAATGTAATAGTAACTGCTCATGCTTTTATTATAATTTTTTTTATAGTTATACCAATTATAATTGG
+AGGGTTTGGTAACTGACTTGTACCCTTAATAATTGGAGCCCCTGATATAGCTTTCCCCCGTATAAATAATATAAGTTT
+TTGATTGCTCCCCCCATCTTTAACTTTATTACTAACAGGAGGATTAGTAGAAAGAGGAGCAGGAACAGGATGAACTGT
+TTACCCACCTTTAGCTTCTGGGATTGCTCACGCAGGCGCATCAGTTGATTTATCAATTTTTAGTCTTCATTTAGCCGG
+GGCTTCTTCAATTTTAGGGGCTGTTAATTTTATTACTACCATTATTAATATACGAACCCCAGGTATATCTTGAGACCA
+AACTCCTTTATTTGTTTGATCTGTTTTCTTAACAGCTATCCTTCTTTTACTATCCCTTCCAGTTTTAGCTGGAGCTAT
+TACTATACTTTTGACCGACCGTAATTTAAATACATCTTTTTTTGACCCAGCAGGGGGTGGAGACCCTATTTTATACCA
+ACATTTATTTTGATTCTTCGGCCATCCTGAAGTTTATATTTTAATTCTTCCTGGATTCGGAATAATTTCCCACATTAT
+TACATTTGAAAGAGGAAAAAAACAAACCTTTGGTCAGTTAGGCATAATCTACGCTATATCAGCTATTGGTCTTTTAGG
+ATTTATTGTTTGAGCTCACCATATATTTACAGTAGGAATAGATGTAGACACCCGAGCTTATTTTACTACAGCAACTAT
+AATTATTGCTGTACCTACAGGAGTAAAAATTTTTAGATGAATTGCTACACTTCAAGGTAGATTTTTAAATATAACCCC
+AGCATTAATATGATCTGTTGGATTTGTGTTTCTTTTTACTGTCGGAGGTCTAACTGGAATTATTTTAGCCAATTCTTC
+CATTGATATCATTTTACATGACACATACTACGTAGTAGCTCATTTTCACTATGTTTTATCTATAGGAGCTGTATTTGC
+TATTATAGCAGGATTAATTCATTGATTTCCTTTATTTACAGGAAACAGAATGAATCCTCTTTGATTAAAAATTCAATT
+TTTAACAATATTTTTAGGTGTAAATTTAACATTTTTTCCTCAACATTTTTTAGGTTTAAACGGAATACCTCGCCGTTA
+TTCTGATTACCCAGACGCTTTTACTTCATGAAATGTTGTCTCATCTATAGGAAGATACACTTCAGTAGTAGCTATTTT
+ATTTTTTGCTTTTATTATCTGAGAGTCAATAACTTCTAATCGTCCTGTGGTTTATTCCTTTATCCAACCTTCATTTAT
+TGAATGAATTCAAAATAACCCTCCTTCTGAACATTCTTACAGAGAATTAACTTTAATTTATAACTTCTATTATGGCAG
+ATTAGTGCATTGAATTTAAGATTCAAAAAAGAAAGTTATTTCTTTTAGAAATTTCTTCGTGGTCTGCTTTAAATTTAC
+AAAATGCTTCTTCTCCTCTTATAGAACAATTAATTTTTTTCCATGATCATACTATAACTATTTTAATTCTTATCATTT
+CAATTGTAGGATATAATTTAATTTCTACTTGTTATAACCAAAACATTGATTTATATATACTAGAGTCTCAACCATTAG
+AATTATTTTGAACAATTGTACCTAGATTTGTTTTAATTTTTATTGGTCTTCCTTCAATTCGTCTTCTTTATCTTCTAG
+ATGAAGTATTCAAACCTTATATTACATTAAAAACAATTGGCCACCAATGATACTGATCATATGAATATTCAGATTTCT
+TAAATATCGAATTTGATTCTTATATAATTCCCTCTAAAGAATTGACAGAAAGAAATTTCCGTTTATTAGACGTAGACA
+ACCGAACTATTATTCCAATAGGCGCTCAAATTCGAACCTTAGTTACTGCCGCTGATGTTCTTCACTCATGAACAGTTC
+CAGCCCTTGGTGTAAAAGTAGACGCTGTTCCAGGACGTTTAAATCAAGTAAATTTTTTCATTAATCGACCTGGAATTT
+TTTTTGGTCAATGTTCAGAAATTTGTGGAGCAAATCATAGATTTATACCTATTTGTGTAGAATCTACTATACCTAAAT
+CATTTATTAACTGAATTAAATCTGTTTCTTAGTTAAATGGCTGAAAGTAAGTAACGGTCTCTTAAACCGCAAGATAAT
+ATCCTAACAAATATTTTTAACTAAAAAGTTAGTTAAAAAATAATATAATTTTGTCAAAGTTAAGTAACCATAAGGTAC
+TTTTTTATACCACAAATAATACCTTTAATGTGAGGACCTCTATTTCTTATATTCACTTTAATCTTAATAATTTCACTA
+TCAAAAATTTATTTTTCAGCTAATAAAACGCTAGAAAATGAAAATTATAGACAAGCTTCTGTCGTTAAAAAATTATTA
+AATTGAACATGATAACAAATTTATTTTCTGCATTTGACCCTTCGTCAAGCTTTAATTTGTCTATAAATTGAATTAGTT
+CTTTCTTAATTTTAATTTTTTTAACTCCTTTATTTTGAGTTTCTAAAAGAAAAATTACAATTTTATTAAATCTAGTGG
+GGAGTAAATTACATCAAGAATTTAAAATACTTTTAGGACTTACTTCTTTTCAAGGTTCTACTATTATATTTATCTCTT
+TATTTATTTTTATCGTTTTAAACAACTTTTTAGGATTATTTCCCTATATTTTTACATCTTCAAGACACATCTCTTTTA
+CTTTAACTTTAGCTTTACCTTTATGGTTAACTTTTATACTATTCGGCTGAGTTAATATAACTAATCATATATTTTCTC
+ATTTAGTTCCTCAAAGTACACCTTCTATTCTTATACCTTTTATAGTATTAATTGAATCTATTAGAAATGTAATCCGTC
+CTATTACTTTGTCAGTCCGCCTAATAGCAAATATGGTAGCTGGTCATTTATTGATAACTCTTTTAGGAAACCAAACAG
+CCTTAGCTTCTAACTTTATTCTAATTACTTTAATTTTTACCCAAATTTTATTATTAACTCTAGAAAGAGCAGTAGCTA
+TTATTCAATCTTATGTTTTTGCTGTTCTTACTACACTTTACTCTAGAGAAATTACTTCTCATTAATGATAATTAAAAG
+AAACCACGCTTTTCATCTTGTTGACCAAAGACCTTGACCTTTAACTGGAGCCATTGGAGCTCTTGTTATAACTTCAGG
+ATTAGTTAAATGATTCCACACATTTAATTCTCAAGTTTTTATTCTAGGAACATTAATTCTTATTCTTACATGCATTCA
+ATGATGACGAGATGTTAGACGAGAAAGAACTTTTCAAGGATTACACACTTTTATTGTGTCAAAAGGAATACGATGGGG
+TATAATTTTATTTATTACTTCTGAAGTTTTATTTTTTTTTTCCTTTTTTTGAGCATTTTTTCATAGAAGTTTAGCACC
+GACTATAGAAATTGGACTACACTGGCCTCCCTTAGGAATCTTTCCTTTTAACCCTATTCAAGTTCCTTTATTAAATAC
+TATTATTTTACTAGCTTCTGGAGTAACTGTTACTTGAGCTCACCATAGAATTATAGAAAATAAATTTTCGCAAGCATC
+TCAAAGATTAATTTTTACAGTAATTTTAGGATTTTATTTTACTTGTCTTCAAGCTATAGAATATTGAGAAGCAAGATT
+TTCTATCGCTGACTCAGCTTACGGAACAACATTTTTTGTAGCAACAGGATTCCATGGGCTTCACGTAATTATTGGTAC
+TACTTTCCTTTTAACATGTTTGTTTCGTCTAATAAACTGTCATTTCTCAAGATCTCACCACTTTGGCTTCGAAGCCGC
+TGCTTGATATTGACATTTTGTTGATGTAGTTTGGTTATTTCTTTATATAACTATTTATTGATGGGGTAGATACATTTT
+TATTATAAAAGTATATTTGACTTCCAATCAAAAAGTCCGTCTACGGAAAATGTAATTATAATAATTTTTTTTATTTCA
+TTAACAGTTTCTGTAATTTTAATTTTAATTAACTCTTTAATTGCAAAAAAATCTTTAACAGAACGAGAAAAGATCTCT
+CCATTTGAATGCGGCTTTGATCCAAAAAGATCGGCCCGTGTTCCTTTTTCTCTTCGATTTTATTTAATCGCTCTCGTA
+TTCTTAATTTTTGATGTAGAAATTACATTAATTCTTCCTATTCCATTAGTTTCTTCTTGTTCTAACTTTTTGCCTATT
+TTAACTCTTACTTCATTTTTTTTAATAATTTTAGTAATTGGCCTGTATCATGAATGAAATGAAAGAGCCCTAGAATGA
+GATTTTTAGGATTATAGTTAACTATAACATCTGGGTTGCATTCAGAAAGTGTCTTTAGACTTTTCTTACTAAGGAAGC
+GATTATTTGCTATCAGTTTCGACCTGATTCTAGGTTTAAACCCCTTTGTTTTAAATAAAATCAAATCAGCGATGTGCT
+ATTGTTAATAGTAATTAGAGAAATTTCTCTGTTTAAATAGAGAAGAACAAAATTAAGCTGCTAACTTAATTTTTAATG
+GTTAAAATCCGTTATCTATTTTTCAAGTTAGTTTACAAAAAACATTACATTTTCAATGTAAAAATATTTATTCTATAA
+TATTTGAATTATTTAAAAGAAAATATTCTACCTTAGCTTCTTCAGAGCCACGCTCTTTAATTAAGCTATTTAAATTAT
+ATTAAAACAAAATAAATAAATAAAATAAAAAAAATTAAAAAATAAATTTTTATTCTAGTTAAAAAAAAATAATCTAAA
+AAAGAAGATTTTTTTATTACATTTTTTATAAAACCTTGCCCACCTAAATATTCAACTCAACCTTGATCCAAAAATTTT
+AAAAAAAAATTACCTAAATTTAGAAAAGACACTATAAATCTTGAAGAAAAATAAGGTAAAAACCATATGTTACTAAAA
+AAAAAATATTTTTTTTTTAACGGCGCTAATATTCTTAACTCAAAAATTTTTAAACCTAAAATTACTAAAAGCATAAAT
+AATAAGGATAAACATAGAACTAATCCTTTAAAAGTTAAAGGTAAAAAGATAAAATATCCTGGAAAAAAAACTCAGCTT
+ATAAATCTTCCTCCTATTATAGCAAAAATAAACAAGACTCTTATAGGAAAAAGTATAATCTTTTCTTCACCTAAATTT
+ATTATTTTACTTATTCCTAAATTTTTAAAATAAAGATAAAAACCCAAACGAATTGAATAAGTTACAGTAAAAAGTGTA
+CCCACTAAAATTAGCATATATATATAAATATTTATTTCACTTAAAAAAAAGCATTCTAAAATTACATCCTTAGAATAA
+AACCCTGAGAGAAAAGGAAACCCACATAAAGATAAAGAACACCCAATAAAAAATAAAGAACTAGAAGGGCATCTTTCA
+TGAATTCCCCCTAAAAACCGAATGTCCTGATTATCCCCTATTCCGTGAATAAATACCCCAGCGCATAAAAACAGCAGA
+GATTTAAATAAAGCATGTCTTAAAAGATGAAAAAAACTTAACTCAAAAAATCCTAATGATAAAGTTATTATTATAACA
+CCTAACTGACTTAAAGTAGATAAAGCAATAATTTTTTTTAAATCTATTTCAAAATTAGCTCCCAGTCCCGATATAAAC
+ATAGTAAGTCTTCCTATAACAAATAAAAAACTTCTTAAATTTAATAGATGAGAAAAACGAATCAACAAATAGATACCA
+GCTGTTACTAGAGTAGAAGAATGAACAAGAGATGAAACAGGAGTAGGAGCTGCTATGGCAGCCGGCAGCCAAGCAGAA
+AAAGGAATTTGAGCTCTTTTAGTTATTCTAGCTAAAATAACTATAAATAAAATAAAATTTATACTAATTCTAGTTTCT
+ACCATCTGAAGAAAAAAAAAATTTCAAGAACCAAAATTAGATAGTCAAGCAATTCTTAATAAAATAGCTACATCTCCT
+ACACGGTTTGATAAAATAGTAAGTATTCCAGCATTAGCAGATTTTTCATTTTGATAAAAAATTACTAAACAATAAGAA
+ACTAAACCTAAACCATCTCAACCTAAAAGAATTCTAATTAAATTAGGTCTAACAATTAACAAAAGTATGGAAACTACA
+AACAAAAAAACTAATATATTAAATCGATATACAAATTTCTCGGCAGATATGTATCTAGACCCATAAAATAAAACTATA
+GAAGAAATTAATATAACAAAACCTATAAAAGTTAATCTTATTCAATCAATTAAAAAAGTTATAATAATTAATCTTCCA
+AAAATAGAAAATAATTCTCATTCTAAAAACAAAGTTTTTATTTCAAAATAAAAAATTAAACCTTCATATAAAGAAAAA
+AAAGATAAAAAAAATAAAAGAAAACTTAAATAAAAAGAAACTTTAGAAAATAATAAAATTATTAAAAAGATACACTCT
+ATCTTAAAGCCCACAACTTTAAATTTTTTACTTAAACTAATTTAATAAAATAAAACAAAAAAGTAATAAGATTTTAAA
+ATTAAAATATTAACAGGAAAAATATGAATAAATAAAATATGAAACTCTCGAAATGTAAACTTTATATAAGAATAATTA
+GAAAAATAAGTTTTTCCATGCTGAGAAAAAGAAAACATAAAAATAGTAAAAACAGCTCCTATATAAGAACCTAACGGA
+AAAAACAAAAGTATTAAATTATCGTATTTTAAAATTCTCACTATTAAAAAAATTTCTGACATTAAATTTAAAGAAGGA
+GGAGCTGCTATATTTGCTACTAAAAGCAAAAAAATGAATAAAGAACAAGCAGGAAAAATAGTAAGCAAGCCTTTATTC
+ATAAATAATCTACGTCTAGATCTTCGCTCATAAAATATATTTACCACACAAAACATCCCTGAAGAAACTAATCCATGA
+CTTAATATTATTAATAATCTCCCTCTAAAACCCCAAAAAGTTACTCTAAAAACTCCACAAATTACTAAAGCTATATGA
+GCAACCGAAGAATAAGCCACTAAAGCCTTTAAATCATTTAAACGACAACATATGAACCCTACATACATTATACCTAAA
+ATTCTTAAACCAAAAATATAACTTCCAAAAACCAGAACTCTAGAAAGACATAAAGATAAAATTCGATAAAATCCATAC
+CCCCCTAATTTTAACAAAATACCGGCTAAAATTATTGAACCAGAAACAGGAGCTTCTACATGAGCCTTTGGTAATCAT
+AAATGAACAAAAAATATAGGTATTTTAACTAAAAAAGCTAAAGTTAAACTTAAAAATAAAAAAAAAGAAGAATAAAAA
+AAAGTTACTTGATAAAACATAATAAAATCTAAATTTCCAAAAACCCAAAAGATATAAATTAAAACAATTAACAAAGGT
+AAAGAAGCTGTCATTGTATAGAACAAAAAATAAATTCCAGCTTGCAAGCGCTCAGGTTGGTATCCCCATCTAAAAATA
+ATTAAAAGAGTAGGAATTAAAGAAACTTCAAAATAAAAATAAAAATTTAATAAATTTAAAGAATTAAAAGTTAAAACT
+AAAATTAAACATAAAACAAAAACAAAAAAAACAAATCTCACAATATTTAAATTAGAAGAAAAAATGTTATATCTAGAA
+TAAAGTATTAAAGCTCTAATTCACAATCTTAAGATTACTAATCTATATGTAAGTCTGTCATTTAAAAAAGAAGAAGTA
+CAAAAAACATAATCAACTAAAATAAAATTTTTTATAAAAAAAAAGATAACAGAAAAAAGTAAAAAAGTCCCCATTAAT
+CAAAAATAAAAATTTCTTAAGGGAATAATTAGTAAAGCTGATGTTAGTAAAAATAAAATTTTTATCATAATTTTCAAT
+TAAACTAAAAATTTTAAAAAAATCTCCACCGTGAGTTCGTCCTATTACTACTAATAAAGAAAGACCTAAAGCCCCTTC
+ACAAGCAGTTATTACTAAATAAAACAATACATAAAAATAAATTCCTGAAGAAAATCTTGTAAATAAAAAAAAAAAAAT
+TCTTAAAACTATAAATTCTAATCTTAACAAAGATGATAATAAATGTTCTCGAGTAGAACTAAACACTCATGCCCCTAT
+AAAAATTATAATTACCGATAAATATAAAATCTCTATAAGTTTTTATAGTTTAAAATAAAACATTAGTTTTGTAAACTA
+AAAATTAAAAATATTATAAAAACTTCAGAGAAAATTAAGAAATTAACGTTAACTTCCAAAGTTAAAATTTTAAATATA
+AACTACACTCTGTTATAATTTTACTTTATTATATTTTTATTTTTTTAAGAATTCTAATAACATTAGCTTCCCATCCTA
+TTTTTATACTAACTATTATCATTTCCCAAACATTAAATATCTGTTCTATTCTTTGAATTTTAACTAAAAGAAGATGAT
+TTTCTTTAATCTTATTCTTAATTTTTTTAGGGGGATTAATAATTCTTTTTGTGTATATTGTTAGTTTAGCTTCTAATG
+AAATTTTTGACCTAAAATTATTTGAAAATAAAATTTTAATAACTTTATTTCTATTAATTTTTATAAGCTTACCTTTAA
+AGACATTCTTTACTAAAATAGAAAAAAATTTTGATTCTTTAATTTTAAACAAAATTTTAATTATTTTTTCTAATAATA
+TAATTTTACCTACAACATTAATTATAACTTATCTCCTTTTAGTTTTAATCATTGCGGTAAAAATCTCATCTAAAATAG
+AAGGTCCTATTCGAAATTTTACTTAACTAATGTTAACCGTCCGAAAAACAAACCCTCTAACTAAAATATTAAATGGAG
+CTTTAATTGACCTGCCTTCTCCTTTAAACATCTCTGCCTGATGAAATTTTGGCTCTCTATTAGGTTTATGCTTAATTA
+CTCAAATTTTAACAGGTTTATTTTTAGCTATACATTATACAGCTGACGTAAATCTAGCATTTAATAGAGTTTCTCATA
+TTTCTCGAGATGTAAACTACGGGTGACTTTTACGAGCAATCCATGCTAACGGAGCCTCTTTTTTCTTTATTGCCCTTT
+ATCTACATGCAGGACGAGGTATATACTATTCATCATTTAAATTTATCCATGTTTGATCTGTCGGAGTAATTATTCTTC
+TAGTAGTTATAGCTACAGCTTTTATAGGATACGTATTAATTTGAGGTCAAATATCCTTTTGAGCTGCTACAGTTATCA
+CTAATCTTCTTTCAGCAATCCCATATTTAGGACAAAATCTAGTTCAATGAATTTGGGGTGGGTTTGCTGTTGATAACG
+CAACTCTTACTCGATTTTTTACATTTCATTTTTTATTGCCTTTCTTAGTAGCCGGTCTATCAGGAATTCATCTCTTAT
+TTCTTCATCAAACAGGATCAAACAACCCTTTAGGAACTAATTCTAATCTAGAAAAAATTCCTTTCCACCCTTACTTTT
+CTTTTAAGGATATTATAGGATTTGTGGTATTTACTTGACTTCTTTACATATTAGTTTTAACTAATCCTTTCCTTCTAG
+GAGATGTAGAAAACTTTATTCCAGCTAACCCATTAGTAACTCCAGTACATATTCAACCAGAATGATACTTTCTTTTCG
+CTTACGCCATTCTTCGTTCTATTCCAAATAAACTAGGAGGAGCCGTAGCTTTAGTAGCTTCTATCTTAATCCTTTTAA
+TTCTTCCATTTTCTCAAAAAAACATAATCCGAAGATCTAGATTCTATCCTATTAACCAAATTTCTTTTTGAACTATAA
+TTAATATTATTATTCTTTTAACTTGAATTGGAGCCCGACCAGCAGAAGATCCATTTATTCTTGTAGGACAAACTTTAA
+CAATCTTATATTTTTTTTACTTTTTAATAAATCCAATTTTAACAATATTTTGAGATAAAATTATAAAATAATTACTTG
+GCTGAATGTTAAGCAGGTACCTTGAAAGTACCATAAAAGAGTTTAATTCTCTTAGTAATTTTCAACTTTTTTAATTTC
+AATTAAATTAAAAAGATTATAAAGAAATAAAAAAATAAAAACCATAAAGATAAAGGAAGGAAAGACTTTCAAGCTAAA
+TACATTAGCTTATCATAACGATAACGAGGTAAAGTTCCCCGTACTCAAATAAATCAAAAACAAAAAAAAAGACCTAGT
+AAATTAAATAAAAAAAAATATATTCCTCTTCCTAAAAATAATATTACTAAAAAAAATCTTATAAAAATAATTCTTCCA
+TACTCTGCAAGAAACAATAAAGCAAAACCCCCTCTTCCGTACTCAATATTAAAACCAGAAACTAACTCGGATTCTCCT
+TCAGCAAAATCAAAAGGAGTCCGGTTAGTTTCTGCTACTCTTGAACTCACTCAGCATAAAAAAATAGGAAATATAAAT
+AAAAAAAATCAAATAAATTTTTGAGAAAGATAAAAGGAAAAGAAATTAAATTCAGAAACTAAGAAAACTAAGGATAAA
+AAAATTAATGCCATTCTAACTTCATAAGAAATAGTTTGAGCCACCCCTCGCATAGCTCCTAATATTGCATAATTAGAA
+TTAGAAGACCAGCCTCTTCCTATCAAAGTATAGACCCCGAAACTAGTGCAGCAAAAAAAAAATATACCACCTAGTATA
+AAATTTAAAATACTTGATTTAAAAAAAATTAAACCTCAAAGGATAAGTATAATAAACAAAGAAAAAACAGGAGAAAAA
+TAATAAATAAAAAAATTAGCTCTTGAAGGAATAAACTGTTCTTTAATAAACAATTTTACTGCGTCCCCAAAGGACTGT
+AAAATCCCTAATAAACCTACTTTATTAGGGCCTTTACGAATCTGCACGTAACCTAAAATCTTTCGCTCAAACAAAACT
+ATAAAAGCAACTCTAATTAAAACACACACTATTAATAACAAATAAGAAACCACAAAAGTAAAAATTTCTAAAAAAAAA
+ATAATTACTAAATAAAATTTTTAAAATAATTTTTTATGAAGAATCTAAGTCAACTACACTAATCTGCCAATTTAGCCA
+GAAAATAAAATCTAACGATCCTTGCGTACTAAAAAGAAAACTTATTATTTAAAGATAGAAACCAACCTGGCTCACACC
+GGTTTGAACTCAAATCATGTAAAAATTTATTAGTCGAACAGACTGTCTAATTAAAATTCTGCCCCTAAAAGATTTTTT
+AATTCAACATCGAGGTCGCAAACAATTTTATCGATTAGGACTCTTAAAAATTATTACGCTGTTATCCCTAAGGTAACT
+TTTTATGTTTAAAATTCAAGTTTTATTATAAGAAGTTTCTTTTATTCTAAGATTGCCCCAATCAAATTAATTAAGTTA
+AAAAAATTTTCCCCCAAAATTTTTTTAACTTAATTAATCAAGCTCTATAGGGTCTTATCGTCTTTTAAATTTAATAAA
+GAATTTTCACTTTAAAATAAAATTCAAAATTATTAACTTAATAAAAAATTTAAAGGTCAAGCCATTCATTCCATTTTC
+TAATTAAGAAACTAATGATTATGCTACCTTAGCACGGTCAAAATACCGCGGCCCTTCAATTTTTCAGTGGGCAGACTA
+TACTTTTTAAATAAACAAAAAGAAATGTTTTTGTTAAACAATCCTATAAATTATGTAAAGTTCATAAAATTAATATTT
+TTACTAAACTAAAAATTTATAATTTTAATAATTTAACCATTAAAAATAAAATTTTTAGTTAAAATTTACTATTTAAAC
+ATTTTAAATCTTTTAAACAAATTTTTTTAATAAATTTATAAAATATAACTAACTTAAAGCTTTTTTCAAGCTTCATTT
+TAAATTTTATATCATAAAAAATTATAAAATAATAAATTTAAAGCTTATCCCTTAAATTATTTACATAAATTTTTATAT
+TTTTAATAAATATACGCCAAACAAATTTTTAAATAACTAGAAATTTATTAAACCGAAAACCTTTTCAATGCTGAAATT
+AATTTTTTATAATTTTTTATATAATTATTTTAATTAAATTCTAATCTTTAATATTCGAGAAAAAATATTTATTAAAAA
+ATAAACTAACTATGATACAAAAAGTACGTTTCTTATTTTTAAATAAAATTTATTTAATTATATTTCACTGTTCCCCCT
+CAGTTTTTTTTAATTAAATAAATTTTATTTAAAACTAAAATTATACAAACTTAAATAAAAAATTTTTAAACTAATTAT
+AAACACTTGTTTGAACAAGATCGTTTCAATGTAAATGAACTGCTTAACTTTCAAGCTCTACTTAACTAGACACTCCTT
+CCGGAACTTCTACTTTGTTACGACTTATCTAATTATAAAATTAGAGCGACGGGCGATGTGTACATGAATTAGAACTTT
+ATTCAAATAAAAAATATTAAAATAAATTACTCCTAAATCCATCTTTTAACCGAATAATTTTTTAGTGTAACCCATTTG
+AAACCAATTTATAAGCTAAACCTTGATTTGAATTACATTTATTTTAATATATTAAATTAAATTATTAATTTAATTTTG
+TCAACAACGGTATATAAACTAAAAATTAGAATTATAATTGTGTAATTTCATTTAAAAAACAGGTTCCTCTAGAAAGAA
+TAATTCACCGCCAAATTTTTTAGGTTTCTTTTTACTACTACCTAAAAATAAAATAAAAATAATAGGGTATCTAATCCT
+AGTCAAAAAAATTATTTTTTGATTAAGTTAAAAATAAAATTTTAAAAGTATTAATTTCACTAAATATCTTTTTGATAA
+TTTTAAATTATTTAGAAAATCATAAATTTATAAAAATATTTATTTTAGATTATTGTCTAACCGCAGACGCTGGCACAA
+ATTTTTCTACGAAAATTTTAAAAATTTGTAACTTTGTAAAATTTTTACAATACTAAATACTGCCTAAATTTACATGTA
+AAAATTTATAATTTAAAAACTAAAGCTAAAATCAAACTTTTCTAGTAATATTAAAGAATCTTTTTAAATTTTAATTTC
+ATAATTTCATAAAATTTTATGAAATTAAAATTTAAAAAGATTAATATATTAAATAATTTATTATATATATATGTAAAT
+ATTTATATCGTTAATATTAATTAAATAAATATTAATATTAAATATTTTATTTTCAATAATTAAATTTATATTTTAATC
+AAATATTTAATATTCAATAAATATATTTTTTTTTTTTATAACTATATTAATTAAATATAAATATAAATAATTTTTATA
+AATATATAAATTAATATTATAATTATATTATATATTTAATATATATATATATATATAATTAAATGATTTATATATATA
+TATATATTAAATTTTTAATATTAAACATAAATTTTTAAAAAGTCTCTTTAATTTTATTAGAAAATATTAATATTATTT
+TA" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND2" } ,
+                          location
+                            int {
+                              from 196 ,
+                              to 1191 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX1" } ,
+                          location
+                            int {
+                              from 1388 ,
+                              to 2921 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX2" } ,
+                          location
+                            int {
+                              from 2985 ,
+                              to 3668 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP8" } ,
+                          location
+                            int {
+                              from 3799 ,
+                              to 4003 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          location
+                            int {
+                              from 3957 ,
+                              to 4637 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX3" } ,
+                          location
+                            int {
+                              from 4637 ,
+                              to 5424 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          location
+                            int {
+                              from 5503 ,
+                              to 5829 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND5" } ,
+                          location
+                            int {
+                              from 6207 ,
+                              to 7907 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          location
+                            int {
+                              from 7968 ,
+                              to 9320 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 9320 ,
+                              to 9594 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND6" } ,
+                          location
+                            int {
+                              from 9735 ,
+                              to 10214 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "CYTB" } ,
+                          location
+                            int {
+                              from 10218 ,
+                              to 11351 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND1" } ,
+                          location
+                            int {
+                              from 11439 ,
+                              to 12359 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnI(gau)" } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 63 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 73 } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 63 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(uug)" } ,
+                          location
+                            int {
+                              from 62 ,
+                              to 129 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 } } ,
+                          location
+                            int {
+                              from 62 ,
+                              to 129 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cau)" } ,
+                          location
+                            int {
+                              from 127 ,
+                              to 194 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 } } ,
+                          location
+                            int {
+                              from 127 ,
+                              to 194 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnW(uca)" } ,
+                          location
+                            int {
+                              from 1190 ,
+                              to 1258 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 87 } } ,
+                          location
+                            int {
+                              from 1190 ,
+                              to 1258 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnC(gca)" } ,
+                          location
+                            int {
+                              from 1259 ,
+                              to 1322 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 67 } } ,
+                          location
+                            int {
+                              from 1259 ,
+                              to 1322 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnY(gua)" } ,
+                          location
+                            int {
+                              from 1322 ,
+                              to 1386 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 89 } } ,
+                          location
+                            int {
+                              from 1322 ,
+                              to 1386 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 2922 ,
+                              to 2984 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 2922 ,
+                              to 2984 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnK(cuu)" } ,
+                          location
+                            int {
+                              from 3667 ,
+                              to 3736 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 75 } } ,
+                          location
+                            int {
+                              from 3667 ,
+                              to 3736 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 3737 ,
+                              to 3798 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 3737 ,
+                              to 3798 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnG(ucc)" } ,
+                          location
+                            int {
+                              from 5424 ,
+                              to 5484 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 71 } } ,
+                          location
+                            int {
+                              from 5424 ,
+                              to 5484 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnA(ugc)" } ,
+                          location
+                            int {
+                              from 5828 ,
+                              to 5887 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 65 } } ,
+                          location
+                            int {
+                              from 5828 ,
+                              to 5887 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnR(ucg)" } ,
+                          location
+                            int {
+                              from 5888 ,
+                              to 5948 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 82 } } ,
+                          location
+                            int {
+                              from 5888 ,
+                              to 5948 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnN(guu)" } ,
+                          location
+                            int {
+                              from 5949 ,
+                              to 6013 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 78 } } ,
+                          location
+                            int {
+                              from 5949 ,
+                              to 6013 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(gcu)" } ,
+                          location
+                            int {
+                              from 6016 ,
+                              to 6076 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 6016 ,
+                              to 6076 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnE(uuc)" } ,
+                          location
+                            int {
+                              from 6076 ,
+                              to 6141 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 69 } } ,
+                          location
+                            int {
+                              from 6076 ,
+                              to 6141 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnF(gaa)" } ,
+                          location
+                            int {
+                              from 6142 ,
+                              to 6207 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 70 } } ,
+                          location
+                            int {
+                              from 6142 ,
+                              to 6207 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnH(gug)" } ,
+                          location
+                            int {
+                              from 7908 ,
+                              to 7972 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 72 } } ,
+                          location
+                            int {
+                              from 7908 ,
+                              to 7972 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnT(ugu)" } ,
+                          location
+                            int {
+                              from 9603 ,
+                              to 9666 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 84 } } ,
+                          location
+                            int {
+                              from 9603 ,
+                              to 9666 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnP(ugg)" } ,
+                          location
+                            int {
+                              from 9667 ,
+                              to 9732 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 80 } } ,
+                          location
+                            int {
+                              from 9667 ,
+                              to 9732 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(uga)" } ,
+                          location
+                            int {
+                              from 11350 ,
+                              to 11419 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 11350 ,
+                              to 11419 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uag)" } ,
+                          location
+                            int {
+                              from 12378 ,
+                              to 12448 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 12378 ,
+                              to 12448 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnV(uac)" } ,
+                          location
+                            int {
+                              from 13618 ,
+                              to 13685 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 86 } } ,
+                          location
+                            int {
+                              from 13618 ,
+                              to 13685 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "s-rRNA" } ,
+                          location
+                            int {
+                              from 13680 ,
+                              to 14443 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "12S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 13680 ,
+                              to 14443 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            gene {
+                              locus "l-rRNA" } ,
+                          location
+                            int {
+                              from 12393 ,
+                              to 13779 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "16S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 12393 ,
+                              to 13779 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Homidia_socia" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 2 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 331 ,
+                  seq-data
+                    ncbieaa "MFLKNYHLMFFSSLILGTMIAISSNSWFTCWLGLEINLMSMIPLILIKL
+NKNFTEASIKYFLAQALASMVLIFALTVNFFFTEILILEVTEIFMVSALSLKGGLAPFHFWFPQISNFLNWTQCLVIF
+TWQKIAPLLLMISLNIKSIFLISILSAITGAMGGLNQNLAKILMTYSSVAHSGWMLLGCSLSVSYWMNYFFVYTFLSL
+VILIFLYKNQIFKTNQIFNSSDSNFNKNILVMNFLSLGGLPPFMGFFAKILILLISIKMNMLIILVPLILSSLTSLFF
+YTRMIYSSLMSFSKSNFEKTKINKTPKNFFYSMSIIFNMLFPLTILLT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 330 ,
+                              id
+                                local
+                                  str "Homidia_socia_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_2" } ,
+                descr {
+                  title "cytochrome c oxidase subunit I (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 511 ,
+                  seq-data
+                    ncbieaa "MNRWFFSTNHKDIGTLYLIFGVWSAMVGTAFSVLIRLELGQPGSFIGDD
+QIYNVMVTAHAFIMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLTLLLTGGLVESGAGTGWTVY
+PPLASGIAHAGASVDLSIFSLHLAGASSILGAVNFITTIINMRTPGMSWDQTPLFVWSVFLTAILLLLSLPVLAGAIT
+MLLTDRNLNTSFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIITFESGKKQTFGQLGMIYAMSAIGLLGF
+IVWAHHMFTVGMDVDTRAYFTTATMIIAVPTGVKIFSWIATLQGSFLNMTPALMWSVGFVFLFTVGGLTGIILANSSI
+DIILHDTYYVVAHFHYVLSMGAVFAIMAGLIHWFPLFTGNSMNPLWLKIQFLTMFLGVNLTFFPQHFLGLNGMPRRYS
+DYPDAFTSWNVVSSMGSYTSVVAILFFAFIIWESMTSNRPVVYSFIQPSFIEWIQNNPPSEHSYSELTLIYN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit I" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 510 ,
+                              id
+                                local
+                                  str "Homidia_socia_2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_3" } ,
+                descr {
+                  title "cytochrome c oxidase subunit II (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 227 ,
+                  seq-data
+                    ncbieaa "MSSWSALNLQNASSPLMEQLIFFHDHTMTILILIISIVGYNLISTCYNQ
+NIDLYMLESQPLELFWTIVPSFVLIFIGLPSIRLLYLLDEVFKPYITLKTIGHQWYWSYEYSDFLNIEFDSYMIPSKE
+LTESNFRLLDVDNRTIIPMGAQIRTLVTAADVLHSWTVPALGVKVDAVPGRLNQVNFFINRPGIFFGQCSEICGANHS
+FMPICVESTMPKSFINWIKSVS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit II" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 226 ,
+                              id
+                                local
+                                  str "Homidia_socia_3" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_4" } ,
+                descr {
+                  title "ATP synthase F0 subunit 8 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 68 ,
+                  seq-data
+                    ncbieaa "MPQMMPLMWGPLFLMFTLILMISLSKIYFSANKTLENENYSQASVVKKL
+LNWTW*QIYFLHLTLRQAL" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 8" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 67 ,
+                              id
+                                local
+                                  str "Homidia_socia_4" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_5" } ,
+                descr {
+                  title "ATP synthase F0 subunit 6 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 226 ,
+                  seq-data
+                    ncbieaa "MMTNLFSAFDPSSSFNLSMNWISSFLILIFLTPLFWVSKSKITILLNLV
+GSKLHQEFKMLLGLTSFQGSTIMFISLFIFIVLNNFLGLFPYIFTSSSHISFTLTLALPLWLTFMLFGWVNMTNHMFS
+HLVPQSTPSILMPFMVLIESISNVIRPITLSVRLMANMVAGHLLMTLLGNQTALASNFILITLIFTQILLLTLESAVA
+IIQSYVFAVLTTLYSSEITSH" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 225 ,
+                              id
+                                local
+                                  str "Homidia_socia_5" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_6" } ,
+                descr {
+                  title "cytochrome c oxidase subunit III (mitochondrion)
+ [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 262 ,
+                  seq-data
+                    ncbieaa "MMIKSNHAFHLVDQSPWPLTGAIGALVMTSGLVKWFHTFNSQVFILGTL
+ILILTCIQWWRDVSRESTFQGLHTFIVSKGMRWGMILFITSEVLFFFSFFWAFFHSSLAPTMEIGLHWPPLGIFPFNP
+IQVPLLNTIILLASGVTVTWAHHSIMENKFSQASQSLIFTVILGFYFTCLQAMEYWEASFSIADSAYGTTFFVATGFH
+GLHVIIGTTFLLTCLFRLMNCHFSSSHHFGFEAAAWYWHFVDVVWLFLYMTIYWWGS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit III" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 261 ,
+                              id
+                                local
+                                  str "Homidia_socia_6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_7" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 108 ,
+                  seq-data
+                    ncbieaa "MSLTVSVILILINSLIAKKSLTEREKISPFECGFDPKSSARVPFSLRFY
+LIALVFLIFDVEITLILPIPLVSSCSNFLPILTLTSFFLMILVIGLYHEWNESALEWDF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 107 ,
+                              id
+                                local
+                                  str "Homidia_socia_7" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_8" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 566 ,
+                  seq-data
+                    ncbieaa "MLLFSKVSFYLSFLLFFLSFFSLYEGLIFYFEMKTLFLEWELFSIFGSL
+IIMTFLIDWMSLTFMGFVMLISSMVLFYGSSYMSAEKFVYRFNMLVFLFVVSMLLLIVSPNLISILLGWDGLGLVSYC
+LVIFYQNEKSANAGMLTILSNRVGDVAILLSIAWLSNFGSWNFFFLQMVETSISMNFILFMVILASMTKSAQIPFSAW
+LPAAMAAPTPVSSLVHSSTLVTAGIYLLIRFSHLLNLSSFLFVMGSLTMFMSGLGANFEMDLKKIIALSTLSQLGVMM
+MTLSLGFFELSFFHLLSHALFKSLLFLCAGVFIHGMGDNQDIRFLGGIHESCPSSSLFFIGCSLSLCGFPFLSGFYSK
+DVILECFFLSEMNIYMYMLILVGTLFTVTYSIRLGFYLYFKNLGMSKMMNLGEEKIMLFPMSVLFIFAMMGGSFMSWV
+FFPGYFIFLPLTFKGLVLCLSLLFMLLVILGLKIFELSMLAPLKKKYFFFSNMWFLPYFSSSFMVSFLNLGNFFLKFL
+DQGWVEYLGGQGFMKNVMKKSSFLDYFFLTSMKIYFLIFFILFIYFVLM" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 565 ,
+                              id
+                                local
+                                  str "Homidia_socia_8" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_9" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 450 ,
+                  seq-data
+                    ncbieaa "MMKILFLLTSALLIIPLSNFYFWLMGTFLLFSVIFFFMKNFILVDYVFC
+TSSFLNDSLTYSLVILSLWISALMLYSSYNIFSSNLNIVSFVFFVFVLCLILVLTFNSLNLLNFYFYFEVSLIPTLLI
+IFSWGYQPERLQAGIYFLFYTMTASLPLLIVLIYIFWVFGNLDFIMFYQVTFFYSSFFLFLSLTLAFLVKMPMFFVHL
+WLPKAHVEAPVSGSMILAGILLKLGGYGFYRILSLCLSSVLVFGSYIFGLSILGMMYVGFMCCRLNDLKALVAYSSVA
+HMALVICGVFSVTFWGFSGSLLMMLSHGLVSSGMFCVVNMFYERSSSRSLFMNKGLLTIFPACSLFIFLLLVANMAAP
+PSLNLMSEIFLMVSILKYDNLMLLFFPLGSYMGAVFTIFMFSFSQHGKTYFSNYSYMKFTFREFHILFIHIFPVNILI
+LKSYYFFVLFY" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 449 ,
+                              id
+                                local
+                                  str "Homidia_socia_9" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_10" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 91 ,
+                  seq-data
+                    ncbieaa "MLYLSVIMIFMGAWVFSSTREHLLSSLLSLEFMVLSIFFFLFTSFSSGI
+YFYVLFYLVMTACEGALGLSLLVVMGRTHGGDFFKIFSLIEN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 90 ,
+                              id
+                                local
+                                  str "Homidia_socia_10" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_11" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 159 ,
+                  seq-data
+                    ncbieaa "MILLYYIFIFLSILMTLASHPIFMLTIIISQTLNICSILWILTKSSWFS
+LILFLIFLGGLMILFVYIVSLASNEIFDLKLFENKILMTLFLLIFMSLPLKTFFTKMEKNFDSLILNKILIIFSNNMI
+LPTTLIMTYLLLVLIIAVKISSKMEGPIRNFT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 158 ,
+                              id
+                                local
+                                  str "Homidia_socia_11" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_12" } ,
+                descr {
+                  title "cytochrome b (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 377 ,
+                  seq-data
+                    ncbieaa "MLTVRKTNPLTKMLNGALIDLPSPLNISAWWNFGSLLGLCLITQILTGL
+FLAMHYTADVNLAFNSVSHISRDVNYGWLLRAIHANGASFFFIALYLHAGRGMYYSSFKFIHVWSVGVIILLVVMATA
+FMGYVLIWGQMSFWAATVITNLLSAIPYLGQNLVQWIWGGFAVDNATLTRFFTFHFLLPFLVAGLSGIHLLFLHQTGS
+NNPLGTNSNLEKIPFHPYFSFKDIMGFVVFTWLLYMLVLTNPFLLGDVENFIPANPLVTPVHIQPEWYFLFAYAILRS
+IPNKLGGAVALVASILILLILPFSQKNMIRSSSFYPINQISFWTMINIIILLTWIGARPAEDPFILVGQTLTILYFFY
+FLMNPILTMFWDKIMK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome b" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 376 ,
+                              id
+                                local
+                                  str "Homidia_socia_12" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Homidia_socia_13" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 306 ,
+                  seq-data
+                    ncbieaa "MFTFVVSYLLLMVCVLISVAFMVLFERKILGYVQIRKGPNKVGLLGILQ
+SFGDAVKLFIKEQFIPSSANFFIYYFSPVFSLFIMLILWGLIFFKSSILNFMLGGMFFFCCTSFGVYTLMGSGWSSNS
+NYAMLGAMRGVAQTISYEVSMALIFLSLVFLVSEFNFFSFYLSQKFIWFFLFMFPIFLCWVSSSVAETNRTPFDFAEG
+ESELVSGFNIEYGSGGFALLFLAEYGSIIFMSFFLVMLFLGSGMYFFLFNLLGLFFCFWFIWVRGTLPRYRYDKLMYL
+AWKSFLPLSLWFLFFYFFMIFLI" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 305 ,
+                              id
+                                local
+                                  str "Homidia_socia_13" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_1" ,
+                      location
+                        int {
+                          from 196 ,
+                          to 1191 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_2" ,
+                      location
+                        int {
+                          from 1388 ,
+                          to 2921 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_3" ,
+                      location
+                        int {
+                          from 2985 ,
+                          to 3668 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_4" ,
+                      location
+                        int {
+                          from 3799 ,
+                          to 4003 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_5" ,
+                      location
+                        int {
+                          from 3957 ,
+                          to 4637 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_6" ,
+                      location
+                        int {
+                          from 4637 ,
+                          to 5424 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_7" ,
+                      location
+                        int {
+                          from 5503 ,
+                          to 5829 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_8" ,
+                      location
+                        int {
+                          from 6207 ,
+                          to 7907 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_9" ,
+                      location
+                        int {
+                          from 7968 ,
+                          to 9320 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_10" ,
+                      location
+                        int {
+                          from 9320 ,
+                          to 9594 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_11" ,
+                      location
+                        int {
+                          from 9735 ,
+                          to 10214 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_12" ,
+                      location
+                        int {
+                          from 10218 ,
+                          to 11351 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Homidia_socia" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Homidia_socia_13" ,
+                      location
+                        int {
+                          from 11439 ,
+                          to 12359 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Homidia_socia" } } } } } } } } } }

@@ -1,0 +1,7 @@
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|Homidia_socia
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit I [lcl|Homidia_socia:1389-2922] [lcl|Homidia_socia: raw, dna len= 14793] -> [lcl|Homidia_socia_2]
+ERROR: valid [SEQ_FEAT.InternalStop] 1 internal stops. Genetic code [5] FEATURE: CDS: ATP synthase F0 subunit 8 [lcl|Homidia_socia:3800-4004] [lcl|Homidia_socia: raw, dna len= 14793] -> [lcl|Homidia_socia_4]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: ATP synthase F0 subunit 8 [lcl|Homidia_socia:3800-4004] [lcl|Homidia_socia: raw, dna len= 14793] -> [lcl|Homidia_socia_4]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit III [lcl|Homidia_socia:4638-5425] [lcl|Homidia_socia: raw, dna len= 14793] -> [lcl|Homidia_socia_6]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 4L [lcl|Homidia_socia:c9595-9321] [lcl|Homidia_socia: raw, dna len= 14793] -> [lcl|Homidia_socia_10]
+ERROR: valid [SEQ_INST.StopInProtein] [1] termination symbols in protein sequence (ATP8 - ATP synthase F0 subunit 8) BIOSEQ: lcl|Homidia_socia_4: raw, aa len= 68

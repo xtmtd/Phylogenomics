@@ -1,0 +1,50 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+Homidia_socia  14793          no             Orchesella cincta   
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+Homidia_socia  1      65     65         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+Homidia_socia  63     131    69         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+Homidia_socia  128    196    69         +          tRNA   trnM(cau)  tRNA-Met                          1              
+Homidia_socia  197    1193   997        +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+Homidia_socia  1191   1260   70         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+Homidia_socia  1260   1324   65         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+Homidia_socia  1323   1388   66         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+Homidia_socia  1389   2923   1535       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+Homidia_socia  2923   2986   64         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+Homidia_socia  2986   3670   685        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+Homidia_socia  3668   3738   71         +          tRNA   trnK(cuu)  tRNA-Lys                          1              
+Homidia_socia  3738   3800   63         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+Homidia_socia  3800   4005   206        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+Homidia_socia  3958   4639   682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+Homidia_socia  4638   5426   789        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+Homidia_socia  5425   5486   62         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+Homidia_socia  5504   5831   328        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+Homidia_socia  5829   5889   61         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+Homidia_socia  5889   5950   62         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+Homidia_socia  5950   6015   66         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+Homidia_socia  6017   6078   62         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+Homidia_socia  6077   6143   67         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+Homidia_socia  6143   6209   67         -          tRNA   trnF(gaa)  tRNA-Phe                          1              
+Homidia_socia  6208   7909   1702       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+Homidia_socia  7909   7974   66         -          tRNA   trnH(gug)  tRNA-His                          1              
+Homidia_socia  7969   9322   1354       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+Homidia_socia  9321   9596   276        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+Homidia_socia  9604   9668   65         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+Homidia_socia  9668   9734   67         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+Homidia_socia  9736   10216  481        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+Homidia_socia  10219  11353  1135       +          CDS    CYTB       cytochrome b                      1              
+Homidia_socia  11351  11421  71         +          tRNA   trnS(uga)  tRNA-Ser                          2              
+Homidia_socia  11440  12361  922        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+Homidia_socia  12379  12450  72         -          tRNA   trnL(uag)  tRNA-Leu                          2              
+Homidia_socia  12394  13781  1388       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+Homidia_socia  13619  13687  69         -          tRNA   trnV(uac)  tRNA-Val                          1              
+Homidia_socia  13681  14445  765        -          rRNA   s-rRNA     12S ribosomal RNA                 1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                37

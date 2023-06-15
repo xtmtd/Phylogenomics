@@ -1,0 +1,4 @@
+     1 ERROR:   SEQ_FEAT.InternalStop
+     4 ERROR:   SEQ_FEAT.NoStop
+     1 ERROR:   SEQ_INST.StopInProtein
+     1 INFO:    SEQ_DESCR.OrganismIsUndefinedSpecies
