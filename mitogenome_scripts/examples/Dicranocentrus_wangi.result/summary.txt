@@ -1,0 +1,50 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+Dicranocentrus_wangi14883          no             Orchesella cincta   
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+Dicranocentrus_wangi244    308    65         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+Dicranocentrus_wangi306    374    69         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+Dicranocentrus_wangi373    442    70         +          tRNA   trnM(cau)  tRNA-Met                          1              
+Dicranocentrus_wangi448    1438   991        +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+Dicranocentrus_wangi1436   1502   67         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+Dicranocentrus_wangi1501   1565   65         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+Dicranocentrus_wangi1565   1632   68         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+Dicranocentrus_wangi1633   3172   1540       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+Dicranocentrus_wangi3167   3232   66         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+Dicranocentrus_wangi3233   3914   682        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+Dicranocentrus_wangi3913   3985   73         +          tRNA   trnK(cuu)  tRNA-Lys                          1              
+Dicranocentrus_wangi3985   4049   65         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+Dicranocentrus_wangi4049   4211   163        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+Dicranocentrus_wangi4204   4885   682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+Dicranocentrus_wangi4887   5672   786        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+Dicranocentrus_wangi5671   5734   64         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+Dicranocentrus_wangi5734   6079   346        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+Dicranocentrus_wangi6077   6138   62         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+Dicranocentrus_wangi6138   6203   66         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+Dicranocentrus_wangi6204   6268   65         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+Dicranocentrus_wangi6268   6335   68         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+Dicranocentrus_wangi6335   6399   65         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+Dicranocentrus_wangi6398   6463   66         -          tRNA   trnF(gaa)  tRNA-Phe                          1              
+Dicranocentrus_wangi6466   8165   1700       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+Dicranocentrus_wangi8168   8231   64         -          tRNA   trnH(gug)  tRNA-His                          1              
+Dicranocentrus_wangi8231   9509   1279       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+Dicranocentrus_wangi9585   9840   256        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+Dicranocentrus_wangi9869   9931   63         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+Dicranocentrus_wangi9931   9992   62         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+Dicranocentrus_wangi9993   10479  487        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+Dicranocentrus_wangi10478  11612  1135       +          CDS    CYTB       cytochrome b                      1              
+Dicranocentrus_wangi11610  11681  72         +          tRNA   trnS(uga)  tRNA-Ser                          2              
+Dicranocentrus_wangi11702  12617  916        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+Dicranocentrus_wangi12644  12706  63         -          tRNA   trnL(uag)  tRNA-Leu                          2              
+Dicranocentrus_wangi12648  13950  1303       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+Dicranocentrus_wangi13904  13971  68         -          tRNA   trnV(uac)  tRNA-Val                          1              
+Dicranocentrus_wangi13966  14727  762        -          rRNA   s-rRNA     12S ribosomal RNA                 1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                37
