@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Mitochondrial genome (mitogenome) is widely used in phylogenetic relationships at different taxonomic levels. 
+Mitochondrial genome (mitogenome) is widely used in phylogenetic relationships at different taxonomic levels. This script for constructing the mitogenetic matrices rapidly, integrating a series of computationally efficient bioinformatic tools, and were used with a universal ‘BASH’ shell or visual interface by Windows-like ‘drag and drop’ operations in LINUX systems.
+
+This procedure was completed in a few min on desktop PCs (about 20 species). It provides convenience for accurate and rapid construction of matrices, before reconstructing the phylogentic trees.
 
 
 ## Requirements
