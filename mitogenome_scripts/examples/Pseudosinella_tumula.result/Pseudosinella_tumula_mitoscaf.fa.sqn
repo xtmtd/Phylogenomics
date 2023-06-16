@@ -1,0 +1,1802 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "MENG" ,
+            first "Guanliang" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            email "mengguanliang@genomics.cn" ,
+            postal-code "518083" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "MENG" ,
+                  first "Guanliang" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            postal-code "518083" } } ,
+      date
+        std {
+          year 2023 ,
+          month 6 ,
+          day 15 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 5 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 6 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 15 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2023 } } } ,
+              create-date
+                std {
+                  year 2023 ,
+                  month 6 ,
+                  day 15 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 16077 ,
+                  seq-data
+                    iupacna "AGAGAAGTGCCTGATAAAAGGATTATTTTGATAGAATAAATCATGCAAA
+ACCTGCCTTCCCTTTTACAAATAATAAGCTGCCCTATTTCCTTTAAAATCAAAATTTAATATTCCTGAAAACTAATTT
+ATATTATAAATAAAAAGATAAGCTAAATAAAGCTTACGGGYTCATACCCCGTCCATAGGATTATCCTTCTTTTTAAAT
+GTTTATTAAAAACTACCAGCTTATTTTTACCTCCACTTTATTAGGCGGGACTCTACTAGCCGTTTCCTCTAACTCTTG
+ATTCACAGCCTGACTCGGGCTAGAAATCAATTTAATAAGAATGATCCCTCTCATTCTTATTAAATCAGACAGAAACCT
+AAGAGAAGCAGCTATTAAATATTTTTTAGCCCAAGCCCTAGCCTCAGTAATTCTAATTTTTAGCGTCACCCTATCATT
+ACAATCGAACCTTATAAAAAATATAAACCTACAGGAACTCCTCTTATTATCAAGACTTGCTCTTAAAGCAGGCATCCC
+ACCCCTACACTTTTGGTTCCCTCAAATCACCCCACTAATAAACTGAGCCCAAAATTTTGTCATTTTTACATGACAAAA
+AGTAGCGCCATTGCTACTGCTATCTAATTGTAACGCGCACCCTATACTAGGCCTTGCGGCCTTCGCCGCAATCACTGG
+AGCCCTAGGGGGTATTAATCAAATCAATATTAAACCCCTATTAACATACTCGTCCATCGCCCATACAGGCTGATTAGT
+TCTTTCGGCTCTACTTAATATTACAACATGATTATTATACTTCGTAGTCTATTCTTTTCTCTCAGCATGCATTATTCT
+AACAACCAAATGAGTTCTTACTGAATCCGCGCAAGAACTTATAAAATCCAATAAACTGCAACACTTAAAATATTTATT
+TAGTTTTAATTTATTTTCCCTAGGGGGGCTGCCCCCTTTTCTTGGTTTTACCGCAAAAATTTCAGTCCTAGCCCTTCT
+GTTAACATTTAAAATAAATCTTCTCACAATTATTTTTATCCTATCCTCCTTAGTTTCTCTTTATTACTACTATCGCCT
+AACTTATTCAATAGCACAAAAACACAACAAAGAAACATATATCTCCTCTGTGGAAAGCCCCCCAGCCCAAGGGCTAGT
+CACAACTTTATGCCTTTTAACCAATCTTTCCGCTCCCTTACTAATTGTTCTTTTAATATAAATTAATGTCTTAAGTTA
+GCCCGCTAAACTATAGTCCTTCAAAGCCTAATTCATAGAGTTCGATCCTATAGACTTTAAGCACAGGGCTACCCATCT
+AAAAACTTGCAATTTTTCATTTTTTCCTATTAAACTACTGCACCCATAGCAAAGGATTTTTAATCATATTTAAATTTA
+CAGTCTAACACCTAAATTTTCAGCCACTTTACTTAATTTAATCTACCGGTGATTATATTCAACCAACCATAAAGACAT
+TGGAACTTTATACCTAATTTTCGGAGCTTGATCGGCTATAGTAGGGACAGCCTTCAGAGTTCTTATCCGCCTAGAGCT
+CGGTCAACCTGGCAGCTTTATTGGTGACGACCAGATTTACAATGTTATAGTTACAGCGCACGCATTTATTATAATTTT
+CTTCATAGTAATGCCTATTATAATTGGAGGCTTCGGTAACTGACTAGTGCCCCTTATAATTGGCGCGCCAGATATAGC
+TTTCCCTCGAATAAATAACATAAGTTTTTGACTGCTACCCCCCTCTCTAACTCTTCTCCTTGCAGGAGGTTTAGTAGA
+AAGCGGAGCAGGAACAGGTTGAACAGTCTACCCTCCATTAGCAGCAGGCTTAGCCCACTCTGGGGCTTCTGTGGACCT
+CTCAATTTTTAGCCTCCATTTAGCTGGGGCTTCCTCAATTTTGGGGGCAGTAAACTTCATTACTACAATTATTAACAT
+ACGAACCCCAGGAATAACTTGAGACCAAGCCCCATTATTCGTCTGATCTGTTTTCTTAACGGCCATTTTACTATTACT
+CTCCCTCCCGGTACTAGCAGGGGCCATTACAATACTTCTCACAGACCGAAATTTTAATACTTCTTTCTTTGACCCTGC
+CGGGGGTGGGGACCCTATTCTTTACCAGCACCTATTTTGATTCTTTGGGCACCCAGAAGTCTATATTTTAATTCTACC
+AGGGTTTGGCATAATTTCACACATTATTACTTTCGAAGCTGGGAAAAAACAGACCTTTGGTCAATTAGGAATAATTTA
+TGCAATATCTGCCATCGGCCTCCTGGGGTTCATTGTTTGGGCCCACCACATATTCACAGTAGGGATAGACGTGGACAC
+CCGCGCTTACTTTACCACCGCTACTATAATTATTGCAGTACCAACAGGAGTAAAAATCTTTAGTTGAATTGCCACCTT
+ACAAGGAAGAGTATTATCTATAACCCCGTCAATCCTATGAGCGGTCGGATTCGTTTTCCTTTTTACTGTTGGGGGGCT
+CACAGGAATTATTCTTGCCAACTCTTCAATTGATATTATTCTTCATGATACTTACTATGTAGTCGCACACTTCCATTA
+TGTGCTCTCAATAGGAGCAGTGTTCGCTATTATAGGAGGCTTAATCCATTGATTCCCTTTAATTAGAGGGGGGAGTAT
+AAACCCACTATGACTAAAAATGCAATTTTTTATTATATTCTTAGGCGTAAATATAACCTTTTTTCCACAACATTTCTT
+AGGCCTTAACGGTATGCCACGCCGCTACTCAGACTATCCTGATGCATTCACATCTTGAAACATTATTTCATCTATAGG
+AAGATACACTTCAGTTGCCGCTATTTTCGTTTTTGCTTTTATTATATGAGACTCTCTTTCAGTAAACCGCACTGAACT
+AAATAACTCTGTTCAACCAACTTTTATTGAATGAGGCCATAATAGCCCCCCAGCCGAACACACTTATAATGAATTAAC
+GTTGCTTTACCACTTCTAATATGGCAGAATAGTGCCTTAGATTTAAGCTCTAAACATAAAATAAACTTAATATTTTTA
+CTAGAAATCTCCTCTTGAAACGCCATTAACCTACAAAATGCAGCATCCCCCCTAATAGAACAATTAACTTTCTTCCAC
+GATCACACAATAACAATCCTTATTCTAATCGTCACTATTGTAGGGTTTCACTTAATCTCAACCTGCTCTAACAAAAAT
+ATTGATCAACTAATACTAGAATCTCAACCACTAGAACTTTTCTGAACTATTACCCCGAGATTTGTACTAATTTTCATC
+GGCCTGCCGTCTATCCGCCTACTTTACCTTCTAGACGAAACTTTTAAACCTGCAATCACTCTAAAAACTATAGGTCAC
+CAGTGATACTGATCTTACGAATACTCAGACTTTCTAAATATTGAATTTGACGCGTATATAACACCTTCGACCGAACTA
+CAAGAAGGCTCTCCCCGATTATTAGATGTAGACAACCGCACTGTAATCCCCTTTAATTCTCAAATCCGCTCCCTCATT
+TCAGCCGCAGACGTATTACACGCTTGAACTGTGCCAGCCCTAGGAGTCAAAGCAGATGCTGTCCCCGGCCGACTTAAT
+CAAGTTAATTTTTTTACTAGACGGCCGGGCCTATTCTTTGGACAATGTTCCGAGATCTGCGGTGCCAATCACAGCTTT
+ATACCAGTAGCGATAGAAAGCGTGACACCTAAATCTTTCATTAATTGAGTAAAAATATTCAACTAACTAAATGGCTGA
+AAAGTAAGCCCCGGTCTCTTAAACCGCCATATAATAAACTAACAAATATTTTTAGTTAAAAAATTAGTTAACCCTATA
+ATATAATTTTGTCAAAATTAAGTAATTTATTAAAAATATTTTTTAATTCCTCAAATATCTGCTCTTAATTGACTAATA
+TTAACCATTTTATTTGCTCTGCTTCTTCTTCTATTAGTTAACAAAGTGTATTTTACCCCAAACTTCCCTAACCTAAGA
+AACCTAAACAACAATAAAAGACACAAACAATATAAAAATTGAATATGATAACAAATTTATTTTCTAGCTTCGACCCCT
+CCTCATCCTGACTTCTACCATTAAACTGACTCGCCGCTCTGACCCCGTTAACTTTAGCCCCCCTCTTTTGAAAAATCC
+CAAATAAAAAAGCCACAGCCTTCTCCTTAGTTATAACAACCCTGCATAAAGAATTTAACACCCTCCTTGGGACCGCTT
+ACCGGAATGGGGCCACAATTATTTTTATTTCTTTATTCACCTTGATTATTATTAATAATTTCCTCGGGCTCTTCCCTT
+ATATTTTCACCTCCTCTAGACATTTAACCTTAACACTGGGCTTAGCCCTACCTCTATGGCTATGCTTTATACTATTCG
+GATGAGTAAAAAACACCCTTCATATGCTAGCTCACCTTGTCCCCACAGGGACCCCTGGCCCATTAATACCATTCATAG
+TATTAATTGAATCTATCAGAAATATCATCCGCCCTATTACCCTCTCTGTCCGTCTTATGGCAAATATAGTCGCGGGTC
+ACCTACTAATAACATTACTAGGAAACCAAACGGCCTTAGCTTCAAATACTATTTTAGCCGGCCTTATTGTAACGCAAA
+TTCTTCTGCTGACTTTAGAAAGTGCTGTAGCTATTATTCAATCCTATGTATTTACAGTCTTATCCACCCTCTACTCTA
+GCGAAGTAGTAGCTCATTAATGATAATTAAAAAAGACCACGCTTTTCATATAGTAAATCAAAGACCATGACCGCTAAC
+AGGAGCTTTGGGGGCCCTATTCTTAACCACAGGGCTCATTAAATGATTTCATCACTTAGACCCCTCTTTATTCCTATT
+TGGCAAGCTAATCCTTGCCCTAACTTGCCTTCAATGATGACGAGACATCAGCCGGGAGAGAACTCTTCAAGGCTTACA
+TACTAAAATCGTCACGCACGGAATGCGCTGAGGTATAATTCTATTTATTACATCAGAAGTTTTATTTTTCTTCTCCTT
+CTTTTGAGCCTTTTTCCACTCAAGCCTCTCCCCAACCATAGAAATCGGAATACAATGGCCTCCTTTAGGTATTTACCC
+TTTTAACCCCATTCAAGTTCCTTTACTAAACACAATTATTCTGCTAGCGTCCGGAGTGACAGTCACCTGAGCCCACCA
+CAGCCTCATAGAAAATAAACACTCCCAAGCCTTCCAAGGATTATTAGTAACCGTAACTTTAGGCGTTTATTTCACCTG
+CCTCCAAGGCATAGAATACTGAGAGGCCTCTTTCACCTTCACCGACTCTGCCTATGGTAGTACCTTTTTCATCGCTAC
+CGGGTTCCACGGAATACATGTAATTATTGGGTCTTTATTTCTATTAACCTGCCTCGCCCGCACAAACAAACACCATTT
+TTCAGGAGATCATCATTTTGGCTTTGAGGCAGCTGCATGATACTGACATTTTGTAGATGTTGTGTGATTATTTCTCTA
+TATAACTATTTATTGATGAGGAAGATAATTTTCCTAGTATACAAGTACATTTGACTTCCAATCAAAAAGTCCATTTTA
+GGGGAAAATAATTCTTATCTTGCTTTCCTTTACAATAATTCTATCCTCAGTACTTCTTATCATAAACCTTTTTATCTC
+CAAAAAATCACTGAATGACCGCGAAAAAACATCTTCTTTTGAGTGCGGCTTCACTCCTAAATCTTCGGCTCGAGTGCC
+GTTTTCATTACGATTCTACCTTGTAGCTGTTGTTTTTTTAATTTTTGATGTAGAAATCGCCCTAATTCTCCCCATACC
+TATTATCAATAAAATCACCAACACCGCTAGCTTAGCGGTGTTGGTGATTTTCTTTATTTTTTTACTACTTTGAGGGCT
+CTACCACGAATGAAATCAAGGGGCGCTTGATTGAGACAATTAGGAATATAGTTAATTATAACATCTGGTTTGCATCTA
+GAAGATGCTCAATAGCTATTCTTGTAAAAGAAACGAAATACTACGTGATCAGTTTCGACCTGATAATTGAGAAAAAAT
+CTCCTTTTATTTAATAGAATCCAATATTCTAGGAGCGTCACTGTTAATGACGAATAGGGTAACCCGCCCCTTTTAAAA
+AAGAAAAAGGCTTCTAATTATAAGCTGCTAACTTAAAATTTAATGGTTAAACTCCATTATTTCTTTTTTTTTACTAAT
+TAATTTAGTTTACCTAAAACATTACATTTTCATTGTAAAAACAAATTAAAGTTTAATTAATGGCGGGGACCCTATTAA
+TTTTCCGTAAATAGGGTCCCCGCCTTTCACTTAAAAGCTGCATGGCTCCCACAGCCTCTTCAGGGCCGTATTCTTAAC
+TAAACTACTTAAGTAAAACAATAAAAACATTAAAAAACAAAGAGCCATGAAAAGGCTAAATAAATATATCTTTATGCT
+AAACACGACTCTAAAATCGGTGCGAGCTGTTCCTTGCTTAATCAGATTAAGCCCCCCTTGCCCCCCAAAAAACTCTAA
+TCACCCTTGATCAAAATACTTTATTAGCCCCTGCCCTATTTTTAAGCCCCCTATCAACAAACTAGTTGACAAAACAGG
+TATAAATCACATGCCCCCTATAAAACGAACTGAGCTTTCAATTAATCTTGGTCAATACCCCCACATTTTTATTAAACC
+TAAGTAAACCGTGCCCCCTAAGGCCAACACAGCTAAATTAAAAATCATTTTAAACCCCCCAGCAAGCACTACACTATA
+GGATGGGAATATAACTCAAATTAACCCACCCCCGGCGATAATAGAGACCAAATATAAAAAAAACATAGGGGCTGCTAT
+ACCCCCTAACTCCCCGTAACTAACCTCGCCCCCCCGGCCCAGGTTACGCAAAAATAAATAAATCACCAACCGCATAGA
+GTAAGTAACAGTAAAAAAAGTCCCCACAAAAGCAATCCCCAAGCCCATTACATTCATTCCCCCCATTATAAACAACTC
+TAAAATTAAATCTTTAGAGTAAAACCCTGAAAGGAAAGAAACCCCGCACAATGACAGGGAGCAACAAACAAAAAAAAT
+TGCTGCCAAAGGTATTAACCCTAACACCCCCCCTAAATAACGAATATCTTGCGTGTCTCTAGCTGAGTGAATAAATCC
+CCCCGCGCATAAAAATAACAATGACTTAAATAAGGCGTGAGTTAATAAATGGAAAAAAGCTAAGTCCTTAACCCCCAG
+CCCGAGAACGAATATTATAACCCCCAACTGACTTAAAGTAGACAAAGCAATAATTTTTTTAAGGTCTATTTCAAAATT
+AGCCCCAAGGCCAGATATAAATATAGTCACGACACCTAAAAATATAATAACCTCATTAATATTATACACGCAACTGAA
+ACGAATTAACAAATAAACCCCCGCTGTAACCAAGGTTGAAGAATGAACCAGAGCAGAAACCGGAGTGGGCGCTGCTAT
+AGCAGCAGGCAGCCAAGCAGAAAAAGGAATTTGGGCGCTTTTTGTTATAGCGGCCACTGCCACTATTAAAAGAATAAA
+AAAAAGCTCTCCCCGGCCTAAGAAATTATGTAAATAACTAAAGCTTCATGAACCATAATTAAATAATCAAGCAATACT
+TAATAAAATGGCTACATCCCCAACACGATTAGAAAGAATAGTAAGCATCCCCGCATTGGCTGATTTCACCCCCTGGTA
+ATAAATTACCAAACAATAGGAAACAAGTCCTAGCCCGTCTCACCCTAACAAAATTCTAATTAAATTAGGGCTTAAAAT
+TATCAATAATATAGAGCAAACAAATAAATAAACTAAAATAATAAACCGGTAAAAATAACGATCGCCAAGCATATAGTA
+GAAGCTATATATAAGAACTATAGAAGAAATAAATAGCACAAACCCAGAAAATAAGCCTCTTATTCAATCTAATAAAAT
+CACTATAATTACTCTCTCCCCGAAAAATCTTAATAACTCCCACTCTAAAAAATAAGCCCCCCCCTGAAAATACAAAGC
+AGCCCCGGTATAAACTAGCCCCCCTCCAAGTAAAACCAATATAACCCCTAAATAAAAACTAATATATCTGTATATTTT
+AATTATCTAAAAGAAAGCCCCATCTCAACAACCACAGCGTTAAATTTTTTAAATTAAACTATTTAGATAAACACACAA
+CCTATAATAAGTTCCATTTTATTAATACATATTTAAAAAAAAATCATAATTTAAAACTAAAATATTTAGCGGAGCCGA
+GTGTATAGTTAAAAGGCTAAACTCGCGTAAATCTCTAGCCCAAAAACTAGCTCCCCCTTCATGCCCACGACCATGCTG
+TGAGTAAGAAAATATAAATAAGGTAAAAACAGCCCCCAAATAAGACCCCAAAGGAAATAACACAAGCATTAAAAAATC
+AAACTTCAATATTCTTCCTATCAGAGAGATTTCTGCTAATAAATTAACCGTCGGAGGAGCAGCCATATTAGCCGCGCA
+CAAAATAAATATCATTAACGTAAAGACTGATAAGGTGGTAAGTAAGCCCCTATTTATCATAAAAGCCCGGCTTCCTCT
+CCGCCCATAATATATATTAACGCCACAAAACAAGCCCGAAGAACAAACTCCATGCCCAATCATCATAATTAACGCCCC
+ATTAAACCCTCAATAGTAAAATCTAACAATACCTCTAATTACTAACCCCATGTGAGCCACTGATGAATAAGCTACTAA
+CGCCTTTAAATCAACCAAACGAAGACAAATAAACCCAACCACAGCTATGCCAGCTACTCTTAACCCAAAAAAATAGGC
+TCCATATATTACTCCCCCTGAGCCCACCAAAAATATAACACGATAAAGCCCGTACCCCCCTAATTTAAGAAGTACTCC
+AGCCAAAATCATAGAACCTGACACAGGTGCCTCTACATGCGCCTTCGGCAGCCACAAGTGTAATATAAATATCGGCAT
+TTTCACTATAAAAGCTATAACTATAAAAAAAAATAAAACGCCTTTCACAGCTCTCAAAGCCATTACCCCACCGAATAA
+AAAAAAATCCAACCCCCCGTTCCCTCTATAAAAATAAATTACGCCAATCAACAAAGGAAGTGATGCCCCCAAAGTATA
+AAAAATAAAATAAATTCCAGCTTGAACCCGCTCGGGCTGATAGCCCCAACCTAAAATAATACACAAAGTGGGAATTAA
+AGTAAACTCAAAAAAAAAATAAAACGAAAATAAATTTACAACTACAAAAGTAATTATTAAACCTAATATTAACACAAA
+AACAAAAAAACAAAAATAGCCCCACCCCCATCTAAAATAAACGGTATTTCTAGCTTGGTATATTAAAACAGTAACTCA
+AAATCTCAATATAATCAAACTAAAAGAAACTACATCCATACCTAAATATAAAGAATAAAAAATATAGTCTGCAAAAAA
+AAATAACTCCTTAGTAAAAAATAAGCATCCCACAATAATTAACCCGCTTAACGCTCACGCCCCCCCTTCAATTAACCC
+AACCCCCACTCAGCCTAATAATATCAAAATAAAAAATTTTATCATTAATTAACCCCCAATGCACTAACACCCCTTAAA
+TAATCCCCTCCACAATTACGGCCCATAATAATTAAAACAGATAACCCCAAAGCCCCCTCACAAGCCCCCATAACTAAA
+TACATTAACGCATAATACCCCCCAAAATAATCAACCCCTAAAATTATAAATAAATAAATTACTAAAACCATAAACTCC
+AATCTCAACAAGACAATTAACAAATGCTCGCGAACCGAACAATAGATATAAATCGCTACCAATACTCTATAAACCAAA
+AATAAATTTAACAAACTAATTTGTTTTTATAGTTTAAAAAAAAACATTAGTCTTGTAAACTAAAATTTAAGAAATTAT
+AAAAACTTCAGAAAAGTTAATAAACATCTTTAATTTCCAAAATTAAAATTTTCTATTTAAACTACCTCCTGAAATAAA
+AACACTCGCCCTAATGTCCTTAATATTAACTTCATTAAGACTAACTGTAGCCCACCCTATAATATTTATAGCATTAGT
+ACTCCTTCAAGCTATAAACACATGCCTGCTTTCATGAACAATTTCCCCCTCAAGATGACTCTCATACACGTTATTTCT
+TATTTTTATTGGGGGCCTAATAATTTTATTTATCTACACAACTAGCCTTGCCCCCAACGAAAAATTTAATCTCAACAT
+AACAATAAATCCATTAACATTAATTATCATTTTAATAATAACTGTCGCGCTGACATCATTTTTTAGCCCAACCTCCTA
+TTATCCTTCTAACTCAGCATACTTACAATTAGCCCCAAGCCTCTCATCTACAGTGTCCCCCCTAACAATTATAATTAT
+ATCTTTCTTACTACTAACACTTGCCGTAGTTGTTAAAACAGCCAATAAATCTAAAGGCCCACTCCGAAGAGCCATTAA
+AAATAACTAATGATAAAACCACAAAAAACTCACCCTCTTATTAAAATTATTAACAGAGCCCTAGCCGACCTCCCTGCC
+CCCYCTAACATCTCAAACCTCTGAAACTTCGGCTCCCTCCTAGGACTATGTTTAACTATTCAAATTATCACTGGGCTG
+TTCTTAGCTATACACTTCTCTGCAGACGTAGGCCTGTCTTTCAATACCGTCGCCCATATTTCACGAGACGTAAACCAC
+GGCTGACTAATTCGAACTATGCACGCTAACGGCGCCTCTTTATTCTTTATCTGCTTATATCTGCACGCAGGCCGTGGT
+ATGTACTATTTTTCCCACACGCTTAGACACACTTGACTGATTGGAGTTGTAATTCTCCTAGTGACTATAGGCGCAGCT
+TTCATAGGGTATGTATTAATCTGGGGGCAAATATCATTTTGAGCTGCAACAGTAATTACTAATCTTTTATCTGCTATC
+CCTTATTTAGGGCAAACATTAGTTCAATGAATCTGAGGAGGCTTCGCTGTTGATAACGCCACCTTAACCCGATTCTTT
+ACCTTCCACTTCTTGCTTCCATTCATAATTGCAGCCCTCTCCGCAGTACATCTTCTTTTCCTTCATCAAACGGGCTCT
+ACTAACCCTACCGGCACAAACTCCAACACAGATAAAATCTCTTTCCATCCATTTTACACACTTAAAGATTTAACAGGC
+TATTTAATTACCTTAACACTACTAGTGGCGCTAGTCTTAACTAATCCCTTTCTTCTTGGAGACACAGAAAATTTCATC
+CCCGCTAACCCATTGGTTACTCCGGTACACATTCAACCAGAATGATATTTCCTTTTTGCCTACGCTATTTTACGATCT
+ATCCCTAATAAGCTAGGAGGAGCTATCGCCTTAGTTGCCTCTATTGCAATCTTAATAATCTTACCTTTTTCTCAAAAA
+AGAATAACTAAAGGACTTCAATTTTACCCGTTAGCACAAATTAATTTTTGAGCTATAATTAGAATTATTATTCTTCTA
+ACTTGAATCGGAGCCCGACCTGCAGAAGATCCCTATATTCTAGTAGGACAAACACTAACTATTTTATATTTTATATTC
+TTTATCTCAAACCCCATAATTACTAAATCCTGAGACCAAACAATTAACAATTAATTGTTTGGCTGACTGGTATTTAAG
+CAGCTACCTTGAAAGTAGCTCAAAAGAGTTTAATTCTCTTAACAATTTCACTTTAATTATTTCTTTTTGTAATTAATT
+TAATCTCACACCCACTATCAAACCTGCCCCATGATAAAAAAATAATAAGCCCAAAGAAATAGGTAAAAATGATTTCCA
+GGCTAAGTACATCAATTTATCATAACGATACCGAGGAAGAGTGCCCCGAACTCAAACAAATCAAAAACACAACAACAC
+ACCAAAAAGATTAAATAGAAAAAGCCCTATAAAATACAACCCCCCCATAAATAAACAAACCACCAAATAACTCATAAA
+AATAATTCTACCATATTCAGCCAAAAATAAAAGAGCAAACCCCCCTGCCCCATACTCAATATTAAACCCAGAAACTAG
+CTCCGACTCCCCCTCTGCAAAGTCAAAGGGAGTTCGGTTAGTTTCTGCTAAAGATGATGTAACCCAACAAAAAAAAAT
+TGGGAAAAATATTAAAATAAATCACACCCCCTCTTGAGAAAGAACCGCGCCTTTAAAGTTATACCCCCCGACTAGAAA
+TACAACACTCAAAAAAATAAGTGCTATACTCACTTCATACGAAATAGTTTGGGCCACCCCCCGGGTGGCCCCAAGTAT
+TGCATAATTAGAATTAGAAGACCACCCACTTCCCATTAAAATATACACCCCTAAACTAGTGCAACAAATAAAAAAAAG
+GCCCCCTAACCCTATGTTCAATACCATGGACTTATATGGTATGACTAACCACAAGGCTAAACTTAAAAATAAAGAAAA
+AACTGGGCAAAAGCAATAAACTAAATAGTTAAAAGTAACACCACTTAAAGACTCTTTAATAAATAATTTAACAGCATC
+ACCAAAGGATTGCAAAACCCCCAAATACCCAACTTTATTGGGCCCCTTACGAATTTGAACATAACCTAAAACCCTACG
+CTCAAGTAGTACTAAAAAAGCCACTCTCACTAAAACCCCAACTACGATAATAAGATAACCTAAAAACTCCATAATAAA
+CTCATAAAAAATAATTATTATCAAGTAAAAATAACTTTATATATAGATTCTAAATCGACCGCACTATTCTGCCAACTT
+AATAAAATAACCATTACACGCCGTCGGCCCTTTCGTACTAGAAGGCGCCCCCAAAACATCTAAAAGATAGAAACCAAC
+CTGGCTCTCACCGATTTGAACTCAAATCATGTAAAAATTTAATAGTCGAACAGACTTTCTTTTTTAAAATCTGCCCCA
+AAAAGACCTTTTAATTCAACATCGAGGTCGCAAAAAATTTTATCGATACGGACTCTCAAAAAATATAACGCTGTTATC
+CCTTAGGTAACTTTTTTAAATTCAAACATAAAGATCACTAAAAATAAAAACAACACCCTATAGAAGTTAATAATATTC
+TACTATTGCCCCAATAAAAACACCCTAAGTATCTTTGACCAGCCTCCAATCTCACAGATAATTAAGCTACTCAAGCTC
+TAAAGGGTCTTATCGTCTAATAAAGATATTAAAGATTTCTCACTTAAATTTAAAATTAAAAATTACTGCGCAATAAAG
+CCCCAGCCAGTCAAGCCATTCATTCCATTCTCTAATTAAGAGACTAATGATTATGCTACCTTAGCACGGTCAAAATAC
+CGCGGCCCTTCATTTCTACAGTGGGCAGACTTTATCTTAAATTTAAAATAAAAAATATGTTTTTGTTAAACAGACTAA
+CTAATTAATGCAAAATTCATACACACGACACATAAAACTACTTTTAACTGAATTAACTTTCTACTAATAAAATCATTA
+AACCACAAATAACTATATTATAACTCTTTGTTATACCCCAACTAAACCTTATGTAAATTTTAACCTTAAATTAAATTA
+AAGTATAAACCACTTTTTAACGTATTAGACCTTACTTAACTAATTAACACTTTAACTAAAATTATAGACAATGAATCT
+GCTAGCTCACCCCAACAAACCTAAATTAATTATAATCTCGCCCACACAAATTAACGCAGTCATAAATTAATTCTATTC
+AATAAATAACAACTAGATATCAATAAATCCGTTAAACGTTTCGCCTCATTTTTAAATTTTTAAATATAATTAAATATA
+GCCCCACAATCAAAAAGAACCATTTATTTTCGAGAAATATAAACTAATTAAAATAAATCAACCTCCCATAATACAAAA
+AGTACACCACCACTCCTAATAAAATTAAAACTATTTAAACTATCGCACTGTCCCTCTTCAGTGGTCTAATTTTAATAA
+ATTCTAAAATACTAAGCTCTTATAAACATAAAACAAAAAATAAAAATATAAAATTAAAGTACATAAACTGACTACAAT
+CTCTTCATTGTAAATGAAATGCTTACCACTCAAGCTCTACTTTAACACTCAAACTACTCCTTCCGAAACAGCTACTTT
+GTTACGACTTATCTAATTTAATAATTAGAGCGACGGGCGATGTGTACACAAATTTAAACTCAATTCAAATCAAATATA
+CTAGTGTATCAAATTACTTTTAAATCCACTTTATTCTTAAACCACGAAAACATACAATGTAACCCATCTCTTCTTTTT
+TATAAATTAAACCTTGATTTGAATTTTTTTACTAACTTATATTAAAAATTAATTAAACAACTAACTTTTAAAACAACG
+GTATATAAATTAAAAAAAAGTAACTAGCATTGTGTAGTGTCAATTAAAGAACAGGTTCCTCGAAAAAGACAATTTACC
+GCCAAACCCTTTAAGTTTACGTAAAACATACTACTTTAACATTATGTGCATTAAATAACAGGGTATCTAATCCTGGTT
+TTTATTTAAAAATTAAGTACTAAAATAAAAATAAAGATAAAAATAAAAATAAATTTCACCTAAATTATTTAAATTAAA
+CAATAAATCAAATCACTATTAAATCTTAAAACTTCAATAAAATTTTTGGTCTAACCGCAAATGCTGGCACCAATTTTA
+TTCAATTTAAAAATAAAAATTTTAAATCTCATATTTTTAATATAAAACACTACCACAAATATATGTGCAAAATTTTAA
+CAATAAAATCTAAAGTTAGAGTCAAACTTTTCTACTTACAGAATTCATTATTTTTTAGCCCCACACTGTTTACTCTTT
+GTGGGGCTAAAAAATAATTATTTACATAAAAAAATTTTTTTTATATCTTTAAATAAATAATTTATTTTAAATAAATAA
+TAATTTTTATATATATTAAGGCTATATTTTAAATAAATAATTTATTTTAAATAAATAATAATTTTTATATATATTAAG
+ACTATATTTTAAATAAATAATTTATTTTAAATAAATAATAATTTTTATATATATTAAGACTATATTTTAAATAAATAA
+TTTATTTTAAATAAATAATAATTTTTATATATATTAAGGCTATATTTTAAATAAATAATTTATTTTAAATAAATAATA
+ATTTTTATATATATTAAGACTATATTTTAAATAAATAATTTATTTTAAATAAATAATAATTTTTATATATATTAAGAC
+TATATTTTAAATAAATAATTTATTTTAAATAAATAATAATTTTTATATATATTAAGGCTATATTTTAAATAAATAATT
+TATTTTAAATAAATAATAATTTTTATATATATTAAGACTATATTTTAAATAAATAATTTATTTTAAATAAATAATAAT
+TTTTATATATATTAAGACTATATTTTAAATAAATAATTTATTTTAAATAAATAATAATTTTTATATATATTAAGGCTA
+TATTTTAAATAAATAATTTATTTTAAATAAATAATAATTTTTATATATATTAAGACTATATTTTAAATAAATAATTTA
+TTTTAAATAAATAATAATTTTTATATATATTAAGACTATATTTTAAATAAATAATTTATTTTAAATAAATAATAATTT
+TTATATATATTAAGGCTATATTTTAAATAAATAATTTATTTTAAATAAATAATAATTTTTATATATATTAAGACTATA
+TTTTAAATAAATAATTTATTTTAAATAAATAATAATTTTTATATATATTAAGACTATATTTTAAATAAATAATTTATT
+TTAAATAAATAATAATTTTTATATATATTAAGGCTATATTTTAAATAAATAATTTATTTTAAATAAATAATAATTTTT
+ATATATATTAAGACTATATTTTAAATAAATAATTTATTTTAAATAAATAATAATTTTTATATATATTAAGACTATATT
+TTAAATAAATAATTTATTTTAAATAAATAATAATTTTTATATATATTAAGGCTATATTTTAAATAAATAATTTATTTT
+AAATAAATAATAATTTTTATATATATTAAGGCTATATTTTAAATAAATAATTTATTTTAAATAAATATTCTTTTTAAT
+TAAAAGAAAATATGTATAATAATTATAAAATATTTAATATAAAATAAATATTTATATTAATAGAATAATTTTAAATTA
+TTTATATAAAATATACTAATATATATATATATATATAATTTTATAGTATAATCCCTTATATTATCGGGGCCTTAATAA
+GTATCTTTTTTATAACTAGAAAACTTTCACTAAAGAAA" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND2" } ,
+                          location
+                            int {
+                              from 209 ,
+                              to 1201 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX1" } ,
+                          location
+                            int {
+                              from 1415 ,
+                              to 2953 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX2" } ,
+                          location
+                            int {
+                              from 3019 ,
+                              to 3702 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          location
+                            int {
+                              from 3993 ,
+                              to 4670 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX3" } ,
+                          location
+                            int {
+                              from 4670 ,
+                              to 5458 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          location
+                            int {
+                              from 5528 ,
+                              to 5863 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND5" } ,
+                          location
+                            int {
+                              from 6306 ,
+                              to 7968 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          location
+                            int {
+                              from 8104 ,
+                              to 9453 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 9485 ,
+                              to 9695 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND6" } ,
+                          location
+                            int {
+                              from 9872 ,
+                              to 10354 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "CYTB" } ,
+                          location
+                            int {
+                              from 10354 ,
+                              to 11490 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND1" } ,
+                          location
+                            int {
+                              from 11587 ,
+                              to 12522 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnI(gau)" } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 62 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 73 } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 62 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(uug)" } ,
+                          location
+                            int {
+                              from 63 ,
+                              to 129 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 } } ,
+                          location
+                            int {
+                              from 63 ,
+                              to 129 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cau)" } ,
+                          location
+                            int {
+                              from 138 ,
+                              to 201 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 } } ,
+                          location
+                            int {
+                              from 138 ,
+                              to 201 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnW(uca)" } ,
+                          location
+                            int {
+                              from 1205 ,
+                              to 1277 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 87 } } ,
+                          location
+                            int {
+                              from 1205 ,
+                              to 1277 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnC(gca)" } ,
+                          location
+                            int {
+                              from 1277 ,
+                              to 1340 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 67 } } ,
+                          location
+                            int {
+                              from 1277 ,
+                              to 1340 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnY(gua)" } ,
+                          location
+                            int {
+                              from 1343 ,
+                              to 1407 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 89 } } ,
+                          location
+                            int {
+                              from 1343 ,
+                              to 1407 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 2949 ,
+                              to 3018 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 2949 ,
+                              to 3018 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnK(cuu)" } ,
+                          location
+                            int {
+                              from 3701 ,
+                              to 3772 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 75 } } ,
+                          location
+                            int {
+                              from 3701 ,
+                              to 3772 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 3772 ,
+                              to 3837 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 3772 ,
+                              to 3837 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnG(ucc)" } ,
+                          location
+                            int {
+                              from 5458 ,
+                              to 5518 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 71 } } ,
+                          location
+                            int {
+                              from 5458 ,
+                              to 5518 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnA(ugc)" } ,
+                          location
+                            int {
+                              from 5862 ,
+                              to 5922 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 65 } } ,
+                          location
+                            int {
+                              from 5862 ,
+                              to 5922 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnR(ucg)" } ,
+                          location
+                            int {
+                              from 5923 ,
+                              to 5986 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 82 } } ,
+                          location
+                            int {
+                              from 5923 ,
+                              to 5986 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnN(guu)" } ,
+                          location
+                            int {
+                              from 5987 ,
+                              to 6053 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 78 } } ,
+                          location
+                            int {
+                              from 5987 ,
+                              to 6053 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(gcu)" } ,
+                          location
+                            int {
+                              from 6054 ,
+                              to 6121 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 6054 ,
+                              to 6121 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnE(uuc)" } ,
+                          location
+                            int {
+                              from 6131 ,
+                              to 6194 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 69 } } ,
+                          location
+                            int {
+                              from 6131 ,
+                              to 6194 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnF(gaa)" } ,
+                          location
+                            int {
+                              from 6238 ,
+                              to 6302 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 70 } } ,
+                          location
+                            int {
+                              from 6238 ,
+                              to 6302 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnH(gug)" } ,
+                          location
+                            int {
+                              from 8008 ,
+                              to 8072 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 72 } } ,
+                          location
+                            int {
+                              from 8008 ,
+                              to 8072 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnT(ugu)" } ,
+                          location
+                            int {
+                              from 9743 ,
+                              to 9805 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 84 } } ,
+                          location
+                            int {
+                              from 9743 ,
+                              to 9805 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnP(ugg)" } ,
+                          location
+                            int {
+                              from 9806 ,
+                              to 9869 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 80 } } ,
+                          location
+                            int {
+                              from 9806 ,
+                              to 9869 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(uga)" } ,
+                          location
+                            int {
+                              from 11489 ,
+                              to 11562 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 11489 ,
+                              to 11562 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uag)" } ,
+                          location
+                            int {
+                              from 12547 ,
+                              to 12609 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 12547 ,
+                              to 12609 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnV(uac)" } ,
+                          location
+                            int {
+                              from 13830 ,
+                              to 13898 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 86 } } ,
+                          location
+                            int {
+                              from 13830 ,
+                              to 13898 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "s-rRNA" } ,
+                          location
+                            int {
+                              from 13898 ,
+                              to 14676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "12S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 13898 ,
+                              to 14676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            gene {
+                              locus "l-rRNA" } ,
+                          location
+                            int {
+                              from 12559 ,
+                              to 13982 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "16S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 12559 ,
+                              to 13982 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 2 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 330 ,
+                  seq-data
+                    ncbieaa "MKNYQLIFTSTLLGGTLLAVSSNSWFTAWLGLEINLMSMIPLILIKSDS
+NLSEAAIKYFLAQALASVILIFSVTLSLQSNLMKNMNLQELLLLSSLALKAGIPPLHFWFPQITPLMNWAQNFVIFTW
+QKVAPLLLLSNCNAHPMLGLAAFAAITGALGGINQINIKPLLTYSSIAHTGWLVLSALLNITTWLLYFVVYSFLSACI
+ILTTKWVLTESAQELMKSNKLQHLKYLFSFNLFSLGGLPPFLGFTAKISVLALLLTFKMNLLTIIFILSSLVSLYYYY
+RLTYSMAQKHNKETYISSVESPPAQGLVTTLCLLTNLSAPLLIVLLM" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 329 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_2" } ,
+                descr {
+                  title "cytochrome c oxidase subunit I (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 512 ,
+                  seq-data
+                    ncbieaa "MYRWLYSTNHKDIGTLYLIFGAWSAMVGTAFSVLIRLELGQPGSFIGDD
+QIYNVMVTAHAFIMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLTLLLAGGLVESGAGTGWTVY
+PPLAAGLAHSGASVDLSIFSLHLAGASSILGAVNFITTIINMRTPGMTWDQAPLFVWSVFLTAILLLLSLPVLAGAIT
+MLLTDRNFNTSFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIITFEAGKKQTFGQLGMIYAMSAIGLLGF
+IVWAHHMFTVGMDVDTRAYFTTATMIIAVPTGVKIFSWIATLQGSVLSMTPSILWAVGFVFLFTVGGLTGIILANSSI
+DIILHDTYYVVAHFHYVLSMGAVFAIMGGLIHWFPLISGGSMNPLWLKMQFFIMFLGVNMTFFPQHFLGLNGMPRRYS
+DYPDAFTSWNIISSMGSYTSVAAIFVFAFIMWDSLSVNRTELNNSVQPTFIEWGHNSPPAEHTYNELTLLYHF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit I" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 511 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_3" } ,
+                descr {
+                  title "cytochrome c oxidase subunit II (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 227 ,
+                  seq-data
+                    ncbieaa "MSSWNAINLQNAASPLMEQLTFFHDHTMTILILIVTIVGFHLISTCSNK
+NIDQLMLESQPLELFWTITPSFVLIFIGLPSIRLLYLLDETFKPAITLKTMGHQWYWSYEYSDFLNIEFDAYMTPSTE
+LQEGSPRLLDVDNRTVIPFNSQIRSLISAADVLHAWTVPALGVKADAVPGRLNQVNFFTSRPGLFFGQCSEICGANHS
+FMPVAMESVTPKSFINWVKMFN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit II" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 226 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_3" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_4" } ,
+                descr {
+                  title "ATP synthase F0 subunit 6 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "MMTNLFSSFDPSSSWLLPLNWLAALTPLTLAPLFWKIPNKKATAFSLVM
+TTLHKEFNTLLGTAYRNGATIIFISLFTLIIINNFLGLFPYIFTSSSHLTLTLGLALPLWLCFMLFGWVKNTLHMLAH
+LVPTGTPGPLMPFMVLIESISNIIRPITLSVRLMANMVAGHLLMTLLGNQTALASNTILAGLIVTQILLLTLESAVAI
+IQSYVFTVLSTLYSSEVVAH" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_4" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_5" } ,
+                descr {
+                  title "cytochrome c oxidase subunit III (mitochondrion)
+ [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 262 ,
+                  seq-data
+                    ncbieaa "MMIKKDHAFHMVNQSPWPLTGALGALFLTTGLIKWFHHLDPSLFLFGKL
+ILALTCLQWWRDISRESTLQGLHTKIVTHGMRWGMILFITSEVLFFFSFFWAFFHSSLSPTMEIGMQWPPLGIYPFNP
+IQVPLLNTIILLASGVTVTWAHHSLMENKHSQAFQGLLVTVTLGVYFTCLQGMEYWEASFTFTDSAYGSTFFIATGFH
+GMHVIIGSLFLLTCLARTNKHHFSGDHHFGFEAAAWYWHFVDVVWLFLYMTIYWWGS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit III" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 261 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_5" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_6" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 111 ,
+                  seq-data
+                    ncbieaa "MLSFTMILSSVLLIMNLFISKKSLNDREKTSSFECGFTPKSSARVPFSL
+RFYLVAVVFLIFDVEIALILPMPIINKITNTASLAVLVIFFIFLLLWGLYHEWNQGALDWDN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 110 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_7" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 554 ,
+                  seq-data
+                    ncbieaa "MLVLLGGGLVYTGAALYFQGGAYFLEWELLSFFGESVIMVILLDWMSGL
+FSGFVLFISSMVLMYSFYYMLGDRYFYRFIILVYLFVCSMLLMILSPNLISILLGWDGLGLVSYCLVIYYQGVKSANA
+GMLTILSNRVGDVAILLSIAWLFNYGSWSFSYLHNFLGRGELFFILLMVAVAAMTKSAQIPFSAWLPAAMAAPTPVSA
+LVHSSTLVTAGVYLLIRFSCVYNINEVIMFLGVVTMFMSGLGANFEMDLKKIIALSTLSQLGVMMFVLGLGVKDLAFF
+HLLTHALFKSLLFLCAGGFIHSASDTQDIRYLGGVLGLMPLAAIFFVCCSLSLCGVSFLSGFYSKDLILELFMMGGMN
+VMGLGIAFVGTFFTVTYSMRLVIYLFLRNLGRGGEVSYGELGGMAAPMFFLYLVSIIAGGGLIWVMFPSYSVVLAGGF
+KMIFNLAVLALGGTVYLGLMKMWGYWPSLIESSVRFMGGMWFMPVLSTSLLMGGLKMGQGLMKYFDQGWLEFFGGQGG
+LNLIKQGTARTDFSVVFSMKMYLFSLFMALCFLMFLL" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 553 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_7" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_8" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 449 ,
+                  seq-data
+                    ncbieaa "MMKFFILMLLGWVGVGLIEGGAWALSGLIIVGCLFFTKELFFFADYIFY
+SLYLGMDVVSFSLIMLSFWVTVLMYQASNTVYFSWGWGYFCFFVFVLMLGLMITFVVVNLFSFYFFFEFTLIPTLCII
+LGWGYQPERVQAGIYFIFYTLGASLPLLIGVIYFYSGNGGLDFFLFGGVMALSAVKGVLFFFMVMAFMVKMPMFMLHL
+WLPKAHVEAPVSGSMILAGVLLKLGGYGLYRVMFLVGSGGVMYGAYFFGLSVAGMAVVGFICLRLVDLKALVAYSSVA
+HMGLVISGIVSFYYWGFNGALIMMIGHGVCSSGLFCGVNMYYGRSGSRAFMMNSGLLTTLSVFTLMMFILCAANMAAP
+PTVNLLAEISLMGSMLKFDFLMLVLFPLGSYLGAVFTLFMFSYSQHGRGHEGGASFWASDLREFSLLTMHSAPLNILV
+LNYDFFLNMY" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 448 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_8" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_9" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 70 ,
+                  seq-data
+                    ncbieaa "MYIYCSVREHLLIVLLSLEFMVLVIYLFMILGVDYFGGYYALMYLVMGA
+CEGALGLSVLIIMGRNCGGDY" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 69 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_9" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_10" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 160 ,
+                  seq-data
+                    ncbieaa "MKTLALMSLMLTSLSLTVAHPMMFMALVLLQAMNTCLLSWTISPSSWLS
+YTLFLIFIGGLMILFIYTTSLAPNEKFNLNMTMNPLTLIIILMMTVALTSFFSPTSYYPSNSAYLQLAPSLSSTVSPL
+TIMIMSFLLLTLAVVVKTANKSKGPLRSAIKNN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 159 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_10" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_11" } ,
+                descr {
+                  title "cytochrome b (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 378 ,
+                  seq-data
+                    ncbieaa "MMKPQKTHPLIKIINSALADLPAPXNISNLWNFGSLLGLCLTIQIITGL
+FLAMHFSADVGLSFNTVAHISRDVNHGWLIRTMHANGASLFFICLYLHAGRGMYYFSHTLSHTWLIGVVILLVTMGAA
+FMGYVLIWGQMSFWAATVITNLLSAIPYLGQTLVQWIWGGFAVDNATLTRFFTFHFLLPFMIAALSAVHLLFLHQTGS
+TNPTGTNSNTDKISFHPFYTLKDLTGYLITLTLLVALVLTNPFLLGDTENFIPANPLVTPVHIQPEWYFLFAYAILRS
+IPNKLGGAIALVASIAILMILPFSQKSMTKGLQFYPLAQINFWAMISIIILLTWIGARPAEDPYILVGQTLTILYFMF
+FISNPMITKSWDQTINN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome b" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 377 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_11" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Pseudosinella_tumula_12" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 311 ,
+                  seq-data
+                    ncbieaa "MEFLGYLIIVVGVLVSVAFLVLLERSVLGYVQIRKGPNKVGYLGVLQSF
+GDAVKLFIKESLSGVTFNYLVYCFCPVFSLFLSLALWLVMPYKSMVLNMGLGGLFFICCTSLGVYILMGSGWSSNSNY
+AMLGATRGVAQTISYEVSMALIFLSVVFLVGGYNFKGAVLSQEGVWFILMFFPIFFCWVTSSLAETNRTPFDFAEGES
+ELVSGFNIEYGAGGFALLFLAEYGSIIFMSYLVVCLFMGGLYFMGLFLFNLFGVLLCFWFVWVRGTLPRYRYDKLMYL
+AWKSFLPISLGLLFFYHGAGLMVGVSLN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 310 ,
+                              id
+                                local
+                                  str "Pseudosinella_tumula_12" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_1" ,
+                      location
+                        int {
+                          from 209 ,
+                          to 1201 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_2" ,
+                      location
+                        int {
+                          from 1415 ,
+                          to 2953 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_3" ,
+                      location
+                        int {
+                          from 3019 ,
+                          to 3702 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_4" ,
+                      location
+                        int {
+                          from 3993 ,
+                          to 4670 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_5" ,
+                      location
+                        int {
+                          from 4670 ,
+                          to 5458 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_6" ,
+                      location
+                        int {
+                          from 5528 ,
+                          to 5863 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_7" ,
+                      location
+                        int {
+                          from 6306 ,
+                          to 7968 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_8" ,
+                      location
+                        int {
+                          from 8104 ,
+                          to 9453 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_9" ,
+                      location
+                        int {
+                          from 9485 ,
+                          to 9695 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_10" ,
+                      location
+                        int {
+                          from 9872 ,
+                          to 10354 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_11" ,
+                      location
+                        int {
+                          from 10354 ,
+                          to 11490 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Pseudosinella_tumula_12" ,
+                      location
+                        int {
+                          from 11587 ,
+                          to 12522 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Pseudosinella_tumula" } } } } } } } } } }

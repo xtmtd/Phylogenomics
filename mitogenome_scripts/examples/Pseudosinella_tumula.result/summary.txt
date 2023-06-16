@@ -1,0 +1,60 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+Pseudosinella_tumula16077          no             Orchesella villosa  
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+Pseudosinella_tumula1      64     64         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+Pseudosinella_tumula64     131    68         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+Pseudosinella_tumula139    203    65         +          tRNA   trnM(cau)  tRNA-Met                          1              
+Pseudosinella_tumula210    1203   994        +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+Pseudosinella_tumula1206   1279   74         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+Pseudosinella_tumula1278   1342   65         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+Pseudosinella_tumula1344   1409   66         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+Pseudosinella_tumula1416   2955   1540       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+Pseudosinella_tumula2950   3020   71         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+Pseudosinella_tumula3020   3704   685        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+Pseudosinella_tumula3702   3774   73         +          tRNA   trnK(cuu)  tRNA-Lys                          1              
+Pseudosinella_tumula3773   3839   67         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+Pseudosinella_tumula3994   4672   679        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+Pseudosinella_tumula4671   5460   790        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+Pseudosinella_tumula5459   5520   62         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+Pseudosinella_tumula5529   5865   337        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+Pseudosinella_tumula5863   5924   62         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+Pseudosinella_tumula5924   5988   65         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+Pseudosinella_tumula5988   6055   68         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+Pseudosinella_tumula6055   6123   69         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+Pseudosinella_tumula6132   6196   65         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+Pseudosinella_tumula6239   6304   66         -          tRNA   trnF(gaa)  tRNA-Phe                          1              
+Pseudosinella_tumula6307   7970   1664       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+Pseudosinella_tumula8009   8074   66         -          tRNA   trnH(gug)  tRNA-His                          1              
+Pseudosinella_tumula8105   9455   1351       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+Pseudosinella_tumula9486   9697   212        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+Pseudosinella_tumula9744   9807   64         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+Pseudosinella_tumula9807   9871   65         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+Pseudosinella_tumula9873   10356  484        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+Pseudosinella_tumula10355  11492  1138       +          CDS    CYTB       cytochrome b                      1              
+Pseudosinella_tumula11490  11564  75         +          tRNA   trnS(uga)  tRNA-Ser                          2              
+Pseudosinella_tumula11588  12524  937        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+Pseudosinella_tumula12548  12611  64         -          tRNA   trnL(uag)  tRNA-Leu                          2              
+Pseudosinella_tumula12560  13984  1425       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+Pseudosinella_tumula13831  13900  70         -          tRNA   trnV(uac)  tRNA-Val                          1              
+Pseudosinella_tumula13899  14678  780        -          rRNA   s-rRNA     12S ribosomal RNA                 1              
+
+
+Protein coding genes totally found: 12
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                36
+
+
+Potential missing genes:
+#Gene             total_missing_number
+--------------------------------------
+ATP8                                 1
+
+If you got the mitochondrial genome using the `findmitoscaf`
+or `assemble` module of MitoZ, the missing genes might be
+found from the '*.high_abundance*' and '*.low_abundance*' files
+in the 'tmp' directory!
