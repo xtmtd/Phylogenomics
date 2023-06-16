@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Mito
+Mitochondrial genome (mitogenome) is widely used in phylogenetic relationships at different taxonomic levels. 
 
 
 ## Requirements
