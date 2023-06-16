@@ -1,0 +1,50 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+Orchesella_cincta15728          no             Orchesella cincta   
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+Orchesella_cincta4      69     66         +          tRNA   trnL(uag)  tRNA-Leu                          2              
+Orchesella_cincta93     1041   949        +          CDS    ND1        NADH dehydrogenase subunit 1      1              
+Orchesella_cincta1021   1092   72         -          tRNA   trnS(uga)  tRNA-Ser                          2              
+Orchesella_cincta1090   2224   1135       -          CDS    CYTB       cytochrome b                      1              
+Orchesella_cincta2223   2709   487        -          CDS    ND6        NADH dehydrogenase subunit 6      1              
+Orchesella_cincta2711   2776   66         +          tRNA   trnP(ugg)  tRNA-Pro                          1              
+Orchesella_cincta2776   2839   64         -          tRNA   trnT(ugu)  tRNA-Thr                          1              
+Orchesella_cincta2841   3120   280        +          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+Orchesella_cincta3188   4463   1276       +          CDS    ND4        NADH dehydrogenase subunit 4      1              
+Orchesella_cincta4462   4523   62         +          tRNA   trnH(gug)  tRNA-His                          1              
+Orchesella_cincta4574   6235   1662       +          CDS    ND5        NADH dehydrogenase subunit 5      1              
+Orchesella_cincta6234   6299   66         +          tRNA   trnF(gaa)  tRNA-Phe                          1              
+Orchesella_cincta6298   6362   65         -          tRNA   trnE(uuc)  tRNA-Glu                          1              
+Orchesella_cincta6368   6434   67         -          tRNA   trnS(gcu)  tRNA-Ser                          2              
+Orchesella_cincta6434   6499   66         -          tRNA   trnN(guu)  tRNA-Asn                          1              
+Orchesella_cincta6497   6560   64         -          tRNA   trnR(ucg)  tRNA-Arg                          1              
+Orchesella_cincta6560   6622   63         -          tRNA   trnA(ugc)  tRNA-Ala                          1              
+Orchesella_cincta6620   6965   346        -          CDS    ND3        NADH dehydrogenase subunit 3      1              
+Orchesella_cincta6965   7028   64         -          tRNA   trnG(ucc)  tRNA-Gly                          1              
+Orchesella_cincta7027   7812   786        -          CDS    COX3       cytochrome c oxidase subunit III  1              
+Orchesella_cincta7814   8495   682        -          CDS    ATP6       ATP synthase F0 subunit 6         1              
+Orchesella_cincta8488   8656   169        -          CDS    ATP8       ATP synthase F0 subunit 8         1              
+Orchesella_cincta8656   8720   65         -          tRNA   trnD(guc)  tRNA-Asp                          1              
+Orchesella_cincta8719   8790   72         -          tRNA   trnK(cuu)  tRNA-Lys                          1              
+Orchesella_cincta8791   9478   688        -          CDS    COX2       cytochrome c oxidase subunit II   1              
+Orchesella_cincta9478   9541   64         -          tRNA   trnL(uaa)  tRNA-Leu                          2              
+Orchesella_cincta9536   11075  1540       -          CDS    COX1       cytochrome c oxidase subunit I    1              
+Orchesella_cincta11078  11144  67         +          tRNA   trnY(gua)  tRNA-Tyr                          1              
+Orchesella_cincta11145  11207  63         +          tRNA   trnC(gca)  tRNA-Cys                          1              
+Orchesella_cincta11206  11274  69         -          tRNA   trnW(uca)  tRNA-Trp                          1              
+Orchesella_cincta11272  12244  973        -          CDS    ND2        NADH dehydrogenase subunit 2      1              
+Orchesella_cincta12265  12333  69         -          tRNA   trnM(cau)  tRNA-Met                          1              
+Orchesella_cincta12338  12406  69         +          tRNA   trnQ(uug)  tRNA-Gln                          1              
+Orchesella_cincta12405  12469  65         -          tRNA   trnI(gau)  tRNA-Ile                          1              
+Orchesella_cincta13701  14463  763        +          rRNA   s-rRNA     12S ribosomal RNA                 1              
+Orchesella_cincta14363  15729  1367       +          rRNA   l-rRNA     16S ribosomal RNA                 1              
+Orchesella_cincta14458  14524  67         +          tRNA   trnV(uac)  tRNA-Val                          1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                37

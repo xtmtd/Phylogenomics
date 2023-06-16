@@ -1,0 +1,1859 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "MENG" ,
+            first "Guanliang" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            email "mengguanliang@genomics.cn" ,
+            postal-code "518083" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "MENG" ,
+                  first "Guanliang" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            postal-code "518083" } } ,
+      date
+        std {
+          year 2023 ,
+          month 6 ,
+          day 15 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 5 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 6 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 15 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2023 } } } ,
+              create-date
+                std {
+                  year 2023 ,
+                  month 6 ,
+                  day 15 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 15728 ,
+                  seq-data
+                    iupacna "GGCACCAGATTGGCAGACTAGTGCTACTGGTTTAGGGCCAGTGTATAAA
+AATTATTATTTATTTGGTAATATTTTTTTTAGAATTACTGAGTATTATTATTTCTTATTTAATTTTATTAGTGGGGGT
+GCTAGTAAGAGTCGCTTTTATAGTTTTATTTGAGCGTAAAATTTTAGGCTATATTCAAATCCGTAAGGGCCCTAATAA
+AGTGGGCTATCTTGGAATTTTGCAGTCTTTTGGGGATGCAATCAAATTATTTATTAAGGAACAATCTATTCCATTCAA
+TTCTAACTTGTTAATTTATTATTTTTCCCCTGTTATATCATTATTTTTAGTTTTAATTTTATGAGTAGTTACTCCTGT
+TAAGTCCTTATTGTTAAATTTTAGTTTGGGGGGCTTATTTTTTTTTTGTTGTACTAGATTTGGTGTTTACACTCTCAT
+GGGTAGAGGCTGATCGTCTAATTCAAACTATGCTTTATTGGGGGCAATTCGTGGGGTTGCACAAACAGTGTCCTATGA
+AGTGAGTATAGCTTTAATTTTTATTTCATTAATTTTTATGACCTATAGTTATAATTTTTTATTATTAGTTATTTCCCA
+AAAAATTATTTGACTATTATTTATAATATTCCCTATTTTTTTATGTTGGGTTACTTCATGCGTAGCTGAAACTAACCG
+GACTCCCTTTGACTTTGCTGAGGGGGAGTCCGAGTTAGTTTCTGGTTTTAATATCGAGTATGGAAGAGGAGGGTTTGC
+CTTACTTTTTTTGGCGGAGTATGGAAGAATTATTTTTATAAGTTACTTAATTTCTTTTTTATTTATAGGAAGTTTAAG
+ATTTTTGGTTTTTAACTTTCTAGGCTGCTTTTTTTGTTTTTGGTTTATTTGAATTCGAGGTACTCTCCCCCGGTATCG
+TTATGATAAATTAATATATTTGGCTTGAAAGGCTTTTTTGCCTCTTTCTCTATGTTTTATATTTTTTTTTAGCGGGTT
+GAGTATTATTTTGATATTGAAACTTTTTAAGCAAAAAATTGTTAAAGGAATTTAACCTTTTTGCTCTACTTTCAAGGT
+AGCTACTTTGGCATTCAGTCAAACAATTATTTAAGAATTTTATCTCAGTATTTTAAAATAAGGGGGTTTATAATAAAG
+TAAGCAAAGTACAGAACTGTTAGAATTTGTCCTACTAGAATATACGGGTCTTCTGCGGGTCGTGCTCCAATTCAAGTT
+AATAAGATTACTGTGTTTACTATAAACCAGAAAGTAAATTGCGATAGGGGATAAAATTGATTTCCTCGTGTTTTAGTC
+TTTTGCGAAAAGGGTAATACTAGCAGAATTAGAATCGATAAAACTAAGGCTGCGGCTCCTCCTAATTTATTGGGGATG
+GACCGAAGAATTGCGTATGCAAATAGAAAGTATCATTCTGGTTGGATATGTACTGGTGTTACTAAAGGATTTGCGGGG
+ATGAAATTTTCTACGTCTCCTAGGAGAAACGGGTTTGTTAATGCTAGCATAGATAATAATATTATTATAATAACAAAT
+CCTACAAGGTCTTTAATCGAAAAGTAAGGGTGAAACGGAATTTTGTCTAGATTGGCATTAGTTCCTGTTGGGTTTCTT
+GACCCTGTTTGGTGGAGAAATAGTAAATGCACTATTGATAGTCCTGCGATAATAAATGGTAAAAGAAAGTGAAAAGTA
+AAAAATCGTGTTAAAGTAGCGTTATCTACAGCAAACCCCCCTCAGATTCATTGTACTAGAGTCTGTCCAAGATAAGGA
+ATAGCTGATAATAAGTTAGTAATAACAGTAGCAGCCCAAAAGGATATCTGTCCTCAAATGAGTACATATCCCATAAAG
+GCTGTAGCTATTACTGCTAAAAGAATAATAACTCCTACACTTCATGTGTGTGTAAAATTGTAAGATGCATAGTATATC
+CCTCGTCCAGCATGCGCGTATAGACAAACAAAAAAAAATGAGGCTCCGTTAGCATGTATAGCTCGGAGTAGTCATCCG
+TAATTTACATCTCGTGAGATGTGTGATACTCTGTTAAATGCTAATGAAACATCTGCAGTGTAGTGTATAGCTAAAAAT
+AATCCTGTTGCGATTTGAGTGATTAAGCATAGCCCTAGCAATGAACCAAAATTTCATCAGGCTGAAATATTTACTGGA
+GCCGGTAGGTCTACTAATGCGTTATTAGCAATTTTTAGTAGGGGGTGATTTTTTCGTAGATTTATCATTATTTATGAA
+AAATACTGCGTAAAGGTCCTTCAAATTTTGTTGTAATTTTTACAGCTACTACCAGGGTAATTAGTAGAAAGCTTATAA
+TAATCAATGTTAAGTATGTTACAGGGCTTCTAAAAATTATTCTATTTTGTTGGGATAAAATATTTAAGGGGGGTTGCA
+TATTAAAATTAAAATAGACAATTAGTAAAGAAAAAAATATTACAGTTCTTCCTATTCCTGCGGTTGTCTTTATTTCTT
+CAATATTTATTTCAAATTTTTCGTTAGAAGCTAAACTAGTAACGTATATAAATAAAACTATTAATCCTCCTAAAAAGA
+TTAGGAACAGAATGTAGGGGAGTCAATTAATTTTAATTAACATTCAAATTAGAAAACATAAGTTTATAGTTTGTATTA
+AAATTAATGATAGGATTGCAATTGGGTGTGAAACTATTATTAATCTAATACTAATTATTGTAGACATACTTAAAAATA
+AATAAATTTCAGAGAATAGTTTAATTTATAAAATTTTAGCTTTGGAAGTTAATAATATCGTTTGGTTTCTCTGAAGTT
+TTTATAATTACTTAATTTTTAGTTTACAAGACTAATGTTTTATTTTAAACTATAAAAACTTATTTATTATTTAGTTTT
+TTTTATTGGTTTATTAAGAGGATTTTGAATTTATTGTTCTACACGAGAGCATTTACTTTCTGTTTTAATAAGATTAGA
+GTATTTAGCGTTAATTATATTTTTAGTATTCATTATTTCTTTTTCAGGGGGGTCTCTTTATTATTCTTTTATATATTT
+AATTATGGCTGCTTGTGAGGGTGCTTTAGGACTATCCATTTTAATTAATATAAACCGCACTCACGGGGGGGATTATTT
+TAAAAGATTTAATTTATTTTTAGTTTAATGATAAAATTTATTTTAGGGATTCTGTTTGTTTTAGGTTTAATTTTTTTT
+TATTTAGAATTATTTTGGTTGGTCAGAGGATTTTTTATTTTAGTAATCTTTTACTTGCTAATAATAAATTTATTTTAC
+TTAGATGTAGTATTTTTAAGCTTTGATTTTATATATGATACACTATCTTACAGACTGATTATTTTAAGTTTGTGACTA
+ACAGTTTTAATGTTATATTCTAGAGAAAATATTTTTAAATTTAGTAATTCGGTTAAATACTATGGTGCTAGACTCAGT
+TTTTTATTATTAATATTAGTGTTATCATTTTCTAGTTTAAATCTGATTTCCTTTTATTTTTTTTTTGAGGCATCATTA
+ATCCCCACCTTATTAATTATTATAGGCTGGGGTTATCAACCAGAGCGATTACAAGCAGGTATCTATTTTTTGTTTTAT
+ACACTGCTTGCTTCTTTACCTTTATTAGTTTGTTTAGTTTATATTTCTTGGGTTCTAGGCTCTTTAGATTGTTTTTTA
+ATTTCTTTGTTTAATAAGGAGAGAATTTTAATGTTTTTGGGGTTAAGATTGGCATTTTTAGTTAAAATACCAATATTC
+TATACTCATTTATGATTACCTAAGGCTCATGTAGAAGCTCCCGTGGCAGGCTCCATGATTTTGGCTGGGGTTTTGCTA
+AAATTAGGTGGTTACGGTCTGTTTCGAGTTTTTTCTGTTGGTTTGTTGAGTTTTATGGGGTACGGGATTTATTTGTTT
+AGAATTAGAATTTTAGGTATGTTTTATGTTGGTCTTATATGTTGTCGGTTAAACGATTTGAAGGCTTTGGTGGCGTAT
+TCTTCAGTAGCTCATATGGGGTTAGTAATTTGTGGTATTTTTAGATTTTTTTATTCTGGATTAACTGGTGCTTTAATA
+ATAATGATTGCTCATGGTTTAGCTTCTTCAGGCCTTTTTTGTGTGGTGAATATATACTATGAACGAGTGGGTAGACGA
+AGTATATTTTTGATTAAGGGATTCATTTTAATTTTACCTTTATTTAGTTTATTTTTTTTTATATTATGTGCTGCTAAC
+ATTGCAGCCCCTCCTACTATTAATCTACTATCGGAAATTTTTTTAATAATTAGAATTTTGAAGTTTAGCAAGTTTATA
+CTACTATTATTTCCTATTGCTTCGTATTTAGGGGCTGTATTTACTTTATTTTTATTTTCTTACTCACAGCATGGCAAA
+ATTAATTTTGGGGGTTATTCTTATTATAATGTAAATTCTCGGGAGTATATGTTACTTGTATTACATTTAATTCCTGTT
+AATTTTTTAGTCCTAAAAAGTGATTATTTTTTATTCATATATTAATTTAAGTAGTTTAAAAAAAATTTAAAGTTGTGG
+TCTTTTAGATAGGGTTCCTCTTAAATAATTACTAAATTTTTGACAGATTTTCGTTACGTAAGATACTACTTAGGCTTG
+ATGCTTTTTTTTATCTCTTTATATTTAGTGTGTGTAGGTACAACTTTCTATTTAAATTCTAAAGTAGTTTTTGTAGAG
+TGGGAGATTTATTTTTTATTCAGATCAAATATTATTATAACTTTATTATTCGATTGAATAAGATTAACTTTTATAGGA
+TTTGTTTCTTTTATTTCGGGTATAATTTTAATTTACAGAACTTATTACATAGAAGGAGACAATTATTTTGTTCGTTTT
+ATTTTGTTGGTTTATTTATTTGTTTTATCTATACTTTTTTTAATTATGAGCCCCAATATAATTAGTATTCTTTTAGGT
+TGAGACGGGTTAGGCTTGGTTTCATATTGTTTAGTGATTTACTATCAAAATGAAAAATCAGCTAATGCCGGTATACTT
+ACTATTTTATCTAATCGAGTAGGTGACGTAGCCATTCTTCTTAGAATTGCTTGGTTAGCTATATACGGGTCATGGAAT
+TTTTATTATCTTCAGTTTATGTATACAGACGAACTATTTTTTATTCTGTTAATGGTTATTCTGGCTGGTATAACTAAA
+AGAGCGCAGATTCCCTTTTCTGCTTGACTGCCGGCTGCTATAGCAGCTCCTACCCCAGTCTCGGCTTTAGTACATTCT
+TCTACATTAGTGACAGCCGGGGTTTATTTATTGATTCGTTTTCATTTTTGTCTTAATGTTAGAATATTTTTATTTTAC
+ATTGGGGCGTTTACTATATTTATATCGGGGTTGGGGGCTATTTTTGAGATAGATTTAAAAAAAATTATTGCTTTATCT
+ACTTTAAGACAGTTGGGGGTTATAATATTTGTTTTATCCTTAGGATTTTTAGAGCTTTCTTTTTTTCATCTTTTGTCA
+CACGCTTTATTTAAGTCACTTTTATTTTTATGCGCTGGGGTGTTTATTCATAGTATGGGGGATATTCAGGATATTCGT
+TATTTAGGGGGCTTAAGTCAAGGGTTTCCTATTAGTTCTTTCTATTTTATTGGTTGTTCTATATCTTTGGGGGGGTTT
+CCTTTTTTATCTGGGTTTTATTCAAAAGATATAATTTTGGAGACATACATAAGTAGTGAGATAAGCTTATTTATATTT
+ATGGTGGTTGTTTTAGGTACATTTTTTACCTGCATATACTCTTTACGGTTAATTTTTTATGTTTTTTTTAAAAATTTA
+GGGTTAAAAATTTATAACTCAATAAGAGAGGTTTCGGGTATAACTAGCCCGATAAGAGGATTATTTTTAGTTTCTGTT
+GTGGCTGGTAGAGCTATTTCTTGATTTTTTATTCCTTCCTTTTCTATTTTTTTGCCTGTTTTTTTTAAATTTTTAATT
+TTATTGGGAATTTTAGGATTATCTTTATTTGTATATTTTTATATATCTCGTAGAGCTTTTTTAAACATTAAGCACTTA
+GTTAATAATATTTATTTCATGGGTTTAATATGATTTATACCTATATTATCTACTTTGAATTTTATACCTTTGTTAAAT
+CTAGGTAAATTTTTATTAAAAACTTTGGATCAAGGTTGAGTTGAATTTTTTGGGGGGCAAGGTGTTTACTCCACTTTA
+CGGTTTAGAGGTTCTTATTTAGATTACGGATTGTTATCAAATGTTAAAGCCTATCTATTTATATTTTTTATAACGTTA
+ATTTTTTTATTTTATTATATTTATTTAAATAGCTTAAGGTTAGAGCGTAGCTCTGAAGAAGCTAAGGTAGTTTTTAAT
+TTTTAAATAATTAAATAAACGATTGCTTATTTTTACATTGAAAATGTAAGGTTTTTCTTAAACTAAAATAACAGTTAA
+AAAGAAAATAACGGAGTTTAACCGCTAAGCCTAAAGTTAGCAGCTTTATACTAAATCTTTTTTCTTTTTAAATGGAGT
+TTTACTCTAAATACTATTAACAATAGCATACCTCTATTTTTGGTTTCATTTAAAATGAGGAGGCAAGCCCCTTAAACC
+AGGTCGAAACTGATTACAATACATCGTTTCACATTATAAGAAAAACCGTGACGGTACCTTCTGAATGCAACCCAGACG
+TTATAATTAACTATAATCCTATTTGTCCCAATCTAGAGCTCCTTCATTTCATTCATGAAATAATCCAATAATTAAAAT
+TATTAAAAAAAAAATAATTAGTGTAAACATGACAAGACTGTTTGATTGATTTATTAATACTGGTATAGGTAGAATTAA
+GGTAATTTCTACGTCAAAAATTAAAAACACCAAGGCTACCAAATAGAACCGTAGCGAGAAAGGCACACGCGCTGATCT
+TTTAGGGTCAAATCCACATTCAAATGGAGACGGTTTTTCACGGTCATTAGTTGATTTTTTCCCAATTATTGAGTTTAA
+AAAAATTAATACAGAGCATAAAGCTAATGAAAGAACAATAGGTAAAAATATTACACTTTCCAATAAATTGGGCTTTTT
+AATTGGAAGTTAAAAGTACTATTATACTAAAAGTGTAGCTTCCTCATCAGTAGATTGTCATATATAAGAATAATCAAA
+CAACATCAACGAAGTGTCAGTATCAGGCGGCTGCTTCAAATCCGAAATGGTGGGTTCTAGAAAAATGACATCTTTTGT
+GCCGTAACAGGCATGTAATTAAAAATGTCGTTCCAATAATGACATGGAGCCCATGGAACCCAGTAGCTACAAAAAAAG
+TAGCTCCGTAGGCAGAGTCAGCGATAGTAAATGAAGCTTCAATATATTCTATAGCTTGAAGAGCTGTAAAATATAATC
+CTAGAATTACTGTACTTATTAATCCTTGTAAAGTTTGACTAAATTTATTTTCTATTAGACCATGGTGGGCTCATGTGA
+CAGTCACCCCTGAAGCTAAAAGGATAATAGTATTTAATAAGGGAACTTGAATAGGGTTAAAAACCTGGATTCCTGTCG
+GCGGTCACGCTAGACCAATTTCTATAGTAGGGGCCAGGCTTCTATGAAAAAAAGCTCAAAAAAATGAAAAAAAAAATA
+ATACTTCAGAAGTAATAAATAAAATTATTCCCCATCGTATACCTTTTGCGACTACTAGTGTATGAAGACCTTGAAAGG
+TTCTTTCACGTCTGATATCTCGTCATCACTGGATTGAAGTTAATACAAGAATAATTAGACCACTAATAAATAAAGTTA
+TATTGAATGAATGAAATCATTTAACGATGCCGGAAGTTAGTATTAGGGCACCTAAAGCTCCCGTTAAAGGTCACGGAC
+TTTGGTCTACTAGATGAAATGCATGATTACTTTTAATTATCATTAATGGGACGTAATTTCTCTAGCGTATAAAGTAGT
+TAAAACAGCAAACACATAGGATTGAATAATAGCAACCGCTCTTTCCAGAGTTAATAAAAGGATCTGAGTAATAATTAA
+TCTTATTAGAATAAAATGAGAAGCTGTTGCAGTTTGATTACCTAAAAGAGTTATAAGTAAATGTCCTGCTACTATATT
+AGCCATAAGTCGAACTGATAATGTAATTGGGCGAATTACATTTCTAATTGATTCAATTAACACCATAAAAGGTATTAA
+TGCTGATGGGGTACTTTGAGGCACTAAGTGGGCAAATATATGGTTAGTATTATTTATTCAACCAAAAATTATGAATGT
+TAATCAGAGGGGTAGGGCAAGAGCTAACGTTAAAGTTAAGTGTCTGGAAGCGGTAAAAATGTAAGGAAAAAGTCCTAT
+AAAATTGTTTAGAATAATAAAAATAAATAAAGAGATAAAGATGAAAGCAGACCCCGTTAGAGCGGTTTCTCCTAAAAG
+AGTTTTAAATTCTCCATATAATTTGTTTGTAATTAAATTTATTCTTTTATTTATTTTAGATGAAATAGCTCAGAAAGT
+AGGAATAACCATAATGATTACTAAATATCCACTGACTCAGTTTAAAGGCAAATTAAAGTTAGCGGATGGGTCAAATAC
+GGAGAATAAATTTGTTATCATTTTCAAGCTATAATATATTTATTTTGGACCTGGTTAATAGGTTTTTGCTCATTAGAG
+GGTGCTTTAATATTGTTAAAGTATGTTTTTACCATACTAATTATTAAAGCGGCTGAGAATAAAGAAAATAAAATTAAT
+CATATCAATGGGGATATTTGAGGAATTAAAAAATATCTTTTGATTACTTAATCTTGACAAGATTATATTATACGGATT
+AACTAATTCTTTAATTAAAAGTATTTGTTAATATACTATAAAGCGGTTTAAGAGACCGGCGCTTACTTTCAGCCATTT
+AATTATTAGTCTCTTATTTTTTTAACTCATTTAATAAAAATAGAAGGAGGAACTCTTTCGATAGAAATAGGTATAAAA
+CTATGGTTTGCTCCACAAATTTCTGAGCATTGTCCGAAAAATAATCCTGGGCGGTTAGAGTAGAAATTTACTTGGTTT
+AACCGCCCAGGTACAGCGTCAGCTTTTACACCTAGGGCAGGTACTGTTCATGAGTGAAGTACATCTGCGGCTGAAATT
+AAAGTTCGTACTTGAGTGTTAAATGGAATAACGGTTCGGTTGTCTACGTCTAATAGACGAAAGTTAAAATCAGCTCTT
+TCATTTACAGGAATTATGTAAGAGTCAAACTCTAAGTTTAAAAAATCTGAATATTCATAAGATCAATATCACTGGTGC
+CCGATAGTTTTGATAGTGATGGAAGGTTGGTATACTTCATCTAATAAGTATAGTAGGCGAATTGAGGGTAGCCCAATA
+AATACTAAAATAAAGCTAGGAACAATAGTTCAGAATAGTTCCAGAGGTTGGGATTCTAGCATATGCTGGTCAATATTA
+ATGTTTGTGTAAGTTGAGATAATGTTATAACCTACAATAGTAATAATAAGGATTAAAATAGTTATTGAATGATCATGG
+AAAAAAATTAACTGTTCTATGAGAGGAGAGGCAGCGTTCTGAAAATTTAATGCGGCTAAAGTAGAAATTTCTAAAGGA
+ATAATAATTCATTTTTGAAGCTTAAATTCATTGCACTAGTCTGCCACATTAGAAGTTGTAGATTAAAGTAAGCTCAGA
+GTAAGAATGTTCTGAGGGTGGGTTATTTTGTAGTCACTCAATAAAAGATGGTTGAATTCTTGAATACACTACGGGACG
+GCTAGTGGCCATGGCTTCTCAAATAATTAGGCTGAATAGTAAGATTGCTACTACAGACGTGTAGCTTCCTATGGAAGA
+TACTACATTTCATGAAGTAAAAGCATCTGGGTAGTCAGAGTAGCGACGAGGCATTCCGTTTAAACCTAAAAAATGCTG
+AGGGAAAAATGTCATATTTACTCCGATAAATATAATAATAAACTGAATTTTCAGTCATGCTGGATTTATGCTGTTTCC
+TGTAAATAATGGGAATCAGTGAATCAGCCCTGCTATAATCGCAAAAACTGCTCCCATAGAAAGCACGTAATGGAAATG
+GGCTACTACATAATAAGTATCGTGTAGTACAATATCAATAGAAGAATTAGCTAAAATAATTCCGGTGAGTCCTCCCAC
+GGTGAATAAAAAGACAAATCCTACAGCTCATATTAAGGCGGGGGTTATATTTAAAAAGCTACCTTGTAAAGTAGCAAT
+TCAACTAAAAATTTTTACACCTGTGGGTACTGCAATAATTATAGTTGCTGTAGTAAAATAAGCTCGGGTATCTACATC
+CATACCTACGGTAAATATATGATGTGCTCACACAATAAAACCTAGAAGCCCAATTGCTGACATGGCATAGATTATCCC
+CAACTGTCCAAATGTTTGTTTTTTACCTCTTTCAAAAGTAATAATATGAGAGATTATTCCAAACCCCGGAAGAATTAA
+AATGTACACTTCTGGGTGCCCAAAAAATCAAAATAAATGTTGGTATAAAATTGGGTCTCCTCCTCCAGCAGGGTCAAA
+AAATGATGTATTTAAATTACGATCTGTTAAAAGTATGGTAATTGCCCCAGCTAATACTGGTAGAGATAAAAGTAGAAG
+GATAGCCGTTAAAAATACTGACCAAACAAATAAGGGGGTCTGATCTCAGGATATACCAGGGGATCGCATATTAATAAT
+AGTGGTAATAAAATTTACTGCTCCTAAAATAGATGAGGCTCCAGCTAAGTGAAGACTAAAAATCGAAAGATCTACTGA
+CGCTCCTGCGTGAGCAATACCCGCTGCCAATGGTGGATAAACCGTCCACCCGGTTCCTGCTCCTCTTTCCACTAACCC
+TCCAGCTAATAGAAGGGTTAGGGAGGGGGGTAAGAGTCAGAATCTTATATTATTTATACGGGGGAAAGCTATATCTGG
+GGCTCCGATTATTAAAGGTACTAGTCAATTACCAAATCCTCCAATTATAATAGGCATAACTATGAAAAAAATTATAAT
+AAAAGCATGGGCAGTAACTATTACGTTATAGATTTGATCATCTCCAATGAATCTTCCTGGTTGTCCTAGCTCCAGACG
+AATTAGTACTCTAAAGGCGGTTCCTACTATAGCTGACCACACGCCAAAAATTAAATATATAGTTCCAATGTCTTTATG
+ATTTGTAGAATAAAGTCAACGGTTAATTTTAATAGAATGGCTGAGAATTAGGCATTAAACTGTAAATTTAATTACGAA
+ATAAATATTCTTCTGTTAGGGTTTAATAGTCAAAATTATGATATAAAATTGCAAGTTTTAAGTTAAGTTATTTTTAAG
+CTTAAAATTTACAGGGTTTAGTCTATAATTTAGACTTTGAAGGACTAGAGTTTTATTAACTTAAAATTTTATAGCAGC
+ATAAATAATGGAATTAAAATGTTTATTGAAATGGACAGAGTAATAAATAAAGGATTTATTTTGCTTTTCATGATATTT
+AAGATAGTTTTGTCGGAATTAATTATTATGGCAGCATAAATTACTCGGCAATAAAAATAGAGGGAGATTAAAGACGAT
+AACACTAGATTTACGATTAAAAAAATTATTTTGAATTGAATTATCAGTTTAATTACTAATAATTTTCTTATAAAACCT
+AAAAGGGGTGGTAGTCCACCTAGTGAAAGTATATTTATAATAAAAAAAATTTTTGTTCTTTTGGAAGTTCTTCAAATA
+TTTATTTCTGTAATAAAATTGATTTTAGAGCTTTTTATAAGTCTGTTAATAATTATAAAAGACAGGATAGAATATACT
+ATAAAATAAATGGCTCAAAAATTTATTCTTAAATAAGAAGCTGCTATCATTCAACCTAAGTGAGAAATAGAGGAATAA
+GTTAAAATTAATTTAATTTTAGTTTGATTAATTCCTCTAATTCCTCCAATTAATGCTGATATAAATCTAAATATTAGT
+AGTATTTTTCTTATTACACATGACAATAAAACAAAGGGGGCAATTTTTTGTCATGTAAATAAAATTAAACACTGAGGC
+CATTCAGTTAATTCAATCACTTGGGGGAATCAGAGATGGAAAGGAACGGCCCCTAATTTAATTATTATCGCAGTCATT
+AAAAAAAATTCGGAAGACTCTAAATTTATTATTTCATTGGAAGTGAAATTGGTTATTACTCTTAAGATTAAGATTAAA
+GAAGCAAATGCTTGTGATAAAAAATATTTAATTGAAGTTTCTGTATTTTCTTTTCTTAACTTAATAAGTATAAGGGGG
+ATTATACTTATTAAGTTAATTTCTAGACCTAACCAAGCTGTAAATCATGATCTTGAAGATACACAAATTAAAGTTCCT
+CTAATAAGAGTTAATATAAATAGAATTTGGTGCATTTTAAATAACATTTAAAAGAAAGAGGCTTGACTCTTATAAATG
+GGGTATGAACCCATTAGCTTTATTAGCTTATCTTTTATTTAATATAATTTAGTTTAAAGGAACCTTAAATTTTGATTT
+TAAAAGAAATAGTGTAATTCTATTAATTGTAAAGAAAGGGTGTGCAACACATGATTTATTCTATCAAAATAATCCTTT
+TTTTCAGGCACCTTTCTTTTTATGTATTTTCTGGTAGAATTATAAGTGCTTTTTTAAAAAAAAAAACTTTTTTTTTTA
+AAATAACTTAGGTAGATTTAATTTATTTCTTACACATTTTAATTTATGTTTTTACAAAAAAAAATTAGATTTAGCTAC
+ATTTTTAATTTAATTTATTTTTGAGTCTTAAATTTATAGAAATATTTATTTTTATAATAAAAATTTATAAATTATTTC
+CTAAACATACCATATATAATATTTATGCTCATATATATCAAATATTTAATTTAAATTTATATATATGTTAATTAGATA
+TATTAATTAAATATATACATATATAAAATATTTAATATATATTAATATTTAATTATTATATTAAATAAATAAAAAAAT
+TACATATATTAAAAATAATAAATTATAATTAATATATACATATAATATATATACATATATTAAATATTTATATTAAAT
+TATATATATATATATATAATTAATATATTAATTAAATATATATATATATAATATATTTAATATATATTAATATTTAAT
+TATTATATTAAATAAATAAAAAAATTACATATATTAAAAATAATAAATTATAATTAATATATACATATAATATATATA
+TATACATATATTAAATATATTATATTATAATTAATATATACATATAATATATATACATATATTAAATATTTAATTTAA
+ATTTATATATATATATATTTAATTAGATATATTAATTAAATATATATATATAAAATATTTAATATATATTAATATTTA
+ATTATTATATTAAATAAATAAAAAAATTACATATATTAAAAATAATAAATTATAATTAATATATACATATAATATATA
+TATATACATATATTAAATATATTATATTATAATTAATATATACATATAATATATATACATATATTAAATATTTAATTT
+AAATTTATATATATATGTTAATTAGATATATTAATTAAATATATATATATATAAAATATTTAATATATATTAATATTT
+AATTATTATATTAAATAAATAAAAAAATTACATATATTAAAAATAATAAATTATAATTAATATATACATATAATATAT
+ATACATATATTAAATATATTATATTATAATTAATATATACATATAATATATATATATACATATATTAAATATTTAAAC
+ATATAAAATATTTGATTAAAATTAAATCAATAAATTTTCAGTAAAAAAATTTATTATAATACTGTACTATTTAATTTT
+TAAAACTAATTTAATTTAATTAAAAATTAGTTTTAAAAATTAAAAAGTCAGTATATTTAGACCAGAAAAGTTTGATTC
+TAGCTTCAAATTTAATTAGTTAAATTTTATCATATACAATTAGGTAGTGTTAAGTATTATATTAATAATAGTTATAAA
+AATTTTAGGCCTTAAAGCAGAAGAATTTTGTGCCAGCGTCTGCGGTTAGACAATCACTTAAAATTAAGTTATCCGGTT
+TAATAAAATTTTATTAATTTATTAAAATACCTATTTTAATTAAGTGAAACTATATTTTGGGAATTATTTTTTGTATAA
+AGGTTTTTTAAGATTAATTCTGAGACTAGGATTAGATACCCTTTTATTTAATTTATATTTTTTCTTAGGTAGTATCAC
+TTATTAAAACTTAAAGAATTTGGCGGTAAGTTATTTTTTTAGAGGAACCTGTCCTGTTATAGATGGTACACTATTATT
+TTTACTTTATTTAAATTTATATACCGTTGTTGTAAAAATTAAATGACTATTTAATTTAATTATTTTAATTGATTTAAA
+TTCAAATCAAGGTTTAGTTTATAATAAAGAAGAGATGGGTTACATTTTTTGTTAAAGTCTGAGTCTAAATTTAGTCTG
+AGTTGGATTTAAAAGTAATTATATTAAATAATTTATATGAATTAAACTCTAATTTATGTACATATCGCCCGTCGCTCT
+AATTATGAAATTAGATAAGTCGTAACAAAGTAGGCGTTCTGGAAAGAGTATCTTGACAAAACAGAGCTTGATGAAAAG
+CAATTCATTTACATTGAAAAGATCATTACGAAAATGTGTTTTGATACTTTTTATTGATTAAATATTTTTATTAATGTA
+GTATAAATTAGAATTTTTTTTTAGTTTATTTCACCGAGGGGGACGGTGAAATAAATTAAAAATATAATATTCAAAATT
+TTTATTAAGTACTTTTTGTGTCACGGGTTATTAATTTATTTTTTTATATCTACATCTCGAAATTAAAAGATCAAGTTA
+TTCTGTATTTTTCTGTCGAAAAATAAAAGTTAAAGCTTAATTAGTATTGATACGGTATTCGGGTTTAAGGATATCTAG
+TTTTTATTAAAAAAATATTTTAGTTTATCGGTTTTATGTTTAATTTAAAAATTTAAAATTTAGTGGACTACAATTACT
+TAGGGATGAGCTTAGGGGTTAAATTATTATAACATATTTTAAATTAATAGTTTTAATAAGGTTTAAAATTATCCTTTG
+TTTAATTATATATCTTTTAATATAATAGTAAATTTAATTTTGTTTAACACAAAAATAAAAGTTAATTAAAATATATAC
+CATTAATTTTAAATTATAATATTAGTAGAATTATATTTTTATTTAAAAATATTATAGTTAATGGCTAGAAACTCGACT
+TTATTTTATGGACTGTTTACCAAAAACATTTCTTTAATATTATTTTTAAAGTAATACCTGCCCACTGTGAAAATGAAG
+GGCCGCGGTATATTGACTGTGCTAAGGTAGCGTAATCATTAGCCCTTTAATTAAGGGATAGAATGAAGGGTTTAACCG
+TGAAATATTTTCTTTGCTTTTAAAGTATCAAATTTAAGATTAGAATTAAAATGTTCTAAAGTTTTTAAAAGACGATAA
+GACCCTATAGAATTTTATTGTATCTGTCTTAGTAAACTTTGGGGGAAGATTACTAAAACAGATACAAATTAGTTGGGG
+CAACTTAAGAATATAAATAATTTCTTTCAATTTTTATAAATATTTTAATTAAAATCTTAAATTTTAAAAATTAATTAA
+TTACCTTAGGGATAACAGCGTTATCATTTTTGAGAGCCCGAATCGACAAAGTTTATTGCGACCTCGATGTTGAATTAA
+GAATTCTTAAGGGGGCAGCGTTTCATTAGAGATAGTCTGTTCGACTATAAAATTCTTACATGATTTGAGTTCAAACCG
+GCGTGAGCCAGGTTGGTTTCTATCTTTAAAAATAAATTTTTATTACTAGTACGAAAGGACCGTTTTACTCTAACTTTT
+T" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND1" } ,
+                          location
+                            int {
+                              from 92 ,
+                              to 1039 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "CYTB" } ,
+                          location
+                            int {
+                              from 1089 ,
+                              to 2222 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND6" } ,
+                          location
+                            int {
+                              from 2222 ,
+                              to 2707 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 2840 ,
+                              to 3118 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          location
+                            int {
+                              from 3187 ,
+                              to 4461 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND5" } ,
+                          location
+                            int {
+                              from 4573 ,
+                              to 6233 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          location
+                            int {
+                              from 6619 ,
+                              to 6963 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX3" } ,
+                          location
+                            int {
+                              from 7026 ,
+                              to 7810 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          location
+                            int {
+                              from 7813 ,
+                              to 8493 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP8" } ,
+                          location
+                            int {
+                              from 8487 ,
+                              to 8654 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX2" } ,
+                          location
+                            int {
+                              from 8790 ,
+                              to 9476 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX1" } ,
+                          location
+                            int {
+                              from 9535 ,
+                              to 11073 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND2" } ,
+                          location
+                            int {
+                              from 11271 ,
+                              to 12242 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uag)" } ,
+                          location
+                            int {
+                              from 3 ,
+                              to 67 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 3 ,
+                              to 67 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(uga)" } ,
+                          location
+                            int {
+                              from 1020 ,
+                              to 1090 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 1020 ,
+                              to 1090 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnP(ugg)" } ,
+                          location
+                            int {
+                              from 2710 ,
+                              to 2774 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 80 } } ,
+                          location
+                            int {
+                              from 2710 ,
+                              to 2774 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnT(ugu)" } ,
+                          location
+                            int {
+                              from 2775 ,
+                              to 2837 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 84 } } ,
+                          location
+                            int {
+                              from 2775 ,
+                              to 2837 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnH(gug)" } ,
+                          location
+                            int {
+                              from 4461 ,
+                              to 4521 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 72 } } ,
+                          location
+                            int {
+                              from 4461 ,
+                              to 4521 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnF(gaa)" } ,
+                          location
+                            int {
+                              from 6233 ,
+                              to 6297 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 70 } } ,
+                          location
+                            int {
+                              from 6233 ,
+                              to 6297 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnE(uuc)" } ,
+                          location
+                            int {
+                              from 6297 ,
+                              to 6360 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 69 } } ,
+                          location
+                            int {
+                              from 6297 ,
+                              to 6360 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(gcu)" } ,
+                          location
+                            int {
+                              from 6367 ,
+                              to 6432 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 6367 ,
+                              to 6432 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnN(guu)" } ,
+                          location
+                            int {
+                              from 6433 ,
+                              to 6497 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 78 } } ,
+                          location
+                            int {
+                              from 6433 ,
+                              to 6497 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnR(ucg)" } ,
+                          location
+                            int {
+                              from 6496 ,
+                              to 6558 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 82 } } ,
+                          location
+                            int {
+                              from 6496 ,
+                              to 6558 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnA(ugc)" } ,
+                          location
+                            int {
+                              from 6559 ,
+                              to 6620 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 65 } } ,
+                          location
+                            int {
+                              from 6559 ,
+                              to 6620 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnG(ucc)" } ,
+                          location
+                            int {
+                              from 6964 ,
+                              to 7026 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 71 } } ,
+                          location
+                            int {
+                              from 6964 ,
+                              to 7026 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 8655 ,
+                              to 8718 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 8655 ,
+                              to 8718 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnK(cuu)" } ,
+                          location
+                            int {
+                              from 8718 ,
+                              to 8788 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 75 } } ,
+                          location
+                            int {
+                              from 8718 ,
+                              to 8788 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 9477 ,
+                              to 9539 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 9477 ,
+                              to 9539 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnY(gua)" } ,
+                          location
+                            int {
+                              from 11077 ,
+                              to 11142 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 89 } } ,
+                          location
+                            int {
+                              from 11077 ,
+                              to 11142 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnC(gca)" } ,
+                          location
+                            int {
+                              from 11144 ,
+                              to 11205 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 67 } } ,
+                          location
+                            int {
+                              from 11144 ,
+                              to 11205 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnW(uca)" } ,
+                          location
+                            int {
+                              from 11205 ,
+                              to 11272 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 87 } } ,
+                          location
+                            int {
+                              from 11205 ,
+                              to 11272 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cau)" } ,
+                          location
+                            int {
+                              from 12264 ,
+                              to 12331 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 } } ,
+                          location
+                            int {
+                              from 12264 ,
+                              to 12331 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(uug)" } ,
+                          location
+                            int {
+                              from 12337 ,
+                              to 12404 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 } } ,
+                          location
+                            int {
+                              from 12337 ,
+                              to 12404 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnI(gau)" } ,
+                          location
+                            int {
+                              from 12404 ,
+                              to 12467 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 73 } } ,
+                          location
+                            int {
+                              from 12404 ,
+                              to 12467 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnV(uac)" } ,
+                          location
+                            int {
+                              from 14457 ,
+                              to 14522 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 86 } } ,
+                          location
+                            int {
+                              from 14457 ,
+                              to 14522 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "s-rRNA" } ,
+                          location
+                            int {
+                              from 13700 ,
+                              to 14461 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "12S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 13700 ,
+                              to 14461 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "l-rRNA" } ,
+                          location
+                            int {
+                              from 14362 ,
+                              to 15727 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "16S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 14362 ,
+                              to 15727 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Orchesella_cincta" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 315 ,
+                  seq-data
+                    ncbieaa "MIISYLILLVGVLVSVAFMVLFERKILGYIQIRKGPNKVGYLGILQSFG
+DAIKLFIKEQSIPFNSNLLIYYFSPVMSLFLVLILWVVTPVKSLLLNFSLGGLFFFCCTSFGVYTLMGSGWSSNSNYA
+LLGAIRGVAQTVSYEVSMALIFISLIFMTYSYNFLLLVISQKIIWLLFMMFPIFLCWVTSCVAETNRTPFDFAEGESE
+LVSGFNIEYGSGGFALLFLAEYGSIIFMSYLISFLFMGSLSFLVFNFLGCFFCFWFIWIRGTLPRYRYDKLMYLAWKA
+FLPLSLCFMFFFSGLSIILMLKLFKQKIVKGI" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 314 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_2" } ,
+                descr {
+                  title "cytochrome b (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 377 ,
+                  seq-data
+                    ncbieaa "MMNLRKNHPLLKIANNALVDLPAPVNISAWWNFGSLLGLCLITQIATGL
+FLAMHYTADVSLAFNSVSHISRDVNYGWLLRAMHANGASFFFVCLYAHAGRGMYYASYNFTHTWSVGVIILLAVMATA
+FMGYVLIWGQMSFWAATVITNLLSAIPYLGQTLVQWIWGGFAVDNATLTRFFTFHFLLPFIIAGLSMVHLLFLHQTGS
+SNPTGTNANLDKIPFHPYFSIKDLVGFVIMMMLLSMLALTNPFLLGDVENFIPANPLVTPVHIQPEWYFLFAYAILRS
+IPNKLGGAAALVLSILILLVLPFSQKTKTRGNQFYPLSQFTFWFMVNTVILLTWIGARPAEDPYILVGQILTVLYFAY
+FIMNPLILKYWDKILK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome b" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 376 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_3" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 161 ,
+                  seq-data
+                    ncbieaa "MYLFLSMSTMISISLMMVSHPIAILSLILMQTMNLCFLIWMLIKINWLP
+YILFLIFLGGLMVLFMYVTSLASNEKFEMNIEEMKTTAGMGSTVMFFSLLIVYFNFNMQPPLNILSQQNSMIFSSPVT
+YLTLIIMSFLLITLVVAVKITTKFEGPLRSIFHK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 160 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_3" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_4" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 92 ,
+                  seq-data
+                    ncbieaa "MYYLVFFIGLLSGFWIYCSTREHLLSVLMSLEYLALIMFLVFIISFSGG
+SLYYSFMYLIMAACEGALGLSILINMNRTHGGDYFKSFNLFLV" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 91 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_4" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_5" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 424 ,
+                  seq-data
+                    ncbieaa "MVSGFFILVIFYLLMMNLFYLDVVFLSFDFMYDTLSYSLIILSLWLTVL
+MLYSSENIFKFSNSVKYYGASLSFLLLMLVLSFSSLNLISFYFFFEASLIPTLLIIMGWGYQPERLQAGIYFLFYTLL
+ASLPLLVCLVYISWVLGSLDCFLISLFNKESILMFLGLSLAFLVKMPMFYTHLWLPKAHVEAPVAGSMILAGVLLKLG
+GYGLFRVFSVGLLSFMGYGIYLFSISILGMFYVGLMCCRLNDLKALVAYSSVAHMGLVICGIFSFFYSGLTGALMMMI
+AHGLASSGLFCVVNMYYERVGSRSMFLIKGFILILPLFSLFFFMLCAANIAAPPTINLLSEIFLMISILKFSKFMLLL
+FPIASYLGAVFTLFLFSYSQHGKINFGGYSYYNVNSREYMLLVLHLIPVNFLVLKSDYFLFMY" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 423 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_5" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_6" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 553 ,
+                  seq-data
+                    ncbieaa "MLFFISLYLVCVGTTFYLNSKVVFVEWEIYFLFSSNIIMTLLFDWMSLT
+FMGFVSFISGMILIYSTYYMEGDNYFVRFILLVYLFVLSMLFLIMSPNMISILLGWDGLGLVSYCLVIYYQNEKSANA
+GMLTILSNRVGDVAILLSIAWLAMYGSWNFYYLQFMYTDELFFILLMVILAGMTKSAQIPFSAWLPAAMAAPTPVSAL
+VHSSTLVTAGVYLLIRFHFCLNVSMFLFYIGAFTMFMSGLGAIFEMDLKKIIALSTLSQLGVMMFVLSLGFLELSFFH
+LLSHALFKSLLFLCAGVFIHSMGDIQDIRYLGGLSQGFPISSFYFIGCSMSLGGFPFLSGFYSKDMILETYMSSEMSL
+FMFMVVVLGTFFTCMYSLRLIFYVFFKNLGLKIYNSMSEVSGMTSPMSGLFLVSVVAGSAISWFFIPSFSIFLPVFFK
+FLILLGILGLSLFVYFYMSRSAFLNIKHLVNNIYFMGLMWFMPMLSTLNFMPLLNLGKFLLKTLDQGWVEFFGGQGVY
+STLRFSGSYLDYGLLSNVKAYLFMFFMTLIFLFYYI" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 552 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_7" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 114 ,
+                  seq-data
+                    ncbieaa "MFLPIVLSLALCSVLIFLNSMIGKKSTNDREKPSPFECGFDPKSSARVP
+FSLRFYLVALVFLIFDVEITLILPMPVLMNQSNSLVMFTLIIFFLMILIIGLFHEWNEGALDWDK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 113 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_7" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_8" } ,
+                descr {
+                  title "cytochrome c oxidase subunit III (mitochondrion)
+ [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 261 ,
+                  seq-data
+                    ncbieaa "MIKSNHAFHLVDQSPWPLTGALGALMLTSGIVKWFHSFNMTLFISGLII
+LVLTSIQWWRDISRESTFQGLHTLVVAKGMRWGMILFITSEVLFFFSFFWAFFHSSLAPTMEIGLAWPPTGIQVFNPI
+QVPLLNTIILLASGVTVTWAHHGLMENKFSQTLQGLMSTVILGLYFTALQAMEYIEASFTIADSAYGATFFVATGFHG
+LHVIIGTTFLITCLLRHKSCHFSSTHHFGFEAAAWYWHFVDVVWLFLYMTIYWWGS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit III" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 260 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_8" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_9" } ,
+                descr {
+                  title "ATP synthase F0 subunit 6 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 226 ,
+                  seq-data
+                    ncbieaa "MMTNLFSVFDPSANFNLPLNWVSGYLVIIMVIPTFWAISSKMNKSMNLI
+TNKLYGEFKTLLGETALTGSAFIFISLFIFIILNNFMGLFPYIFTASSHLTLTLALALPLWLTFMIFGWMNNTNHMFA
+HLVPQSTPSALMPFMVLIESISNVIRPITLSVRLMANMVAGHLLMTLLGNQTATASHFILMSLIITQILLLTLESAVA
+IIQSYVFAVLTTLYASEITSH" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 225 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_9" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_10" } ,
+                descr {
+                  title "ATP synthase F0 subunit 8 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 55 ,
+                  seq-data
+                    ncbieaa "MPQMSPLMWLILFSLFSAALMISMVKTYFNNIKAPSNEQKPINQVQNKY
+IMAWKW" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 8" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 54 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_10" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_11" } ,
+                descr {
+                  title "cytochrome c oxidase subunit II (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 228 ,
+                  seq-data
+                    ncbieaa "MSTLAALNFQNAASPLMEQLIFFHDHSMTILILIITIVGYNIISTYTNI
+NIDQHMLESQPLELFWTIVPSFILVFIGLPSIRLLYLLDEVYQPSITIKTIGHQWYWSYEYSDFLNLEFDSYMIPVNE
+SADFNFRLLDVDNRTVIPFNTQVRTLISAADVLHSWTVPALGVKADAVPGRLNQVNFYSNRPGLFFGQCSEICGANHS
+FMPISIESVPPSIFIKWVKKMSD" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit II" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 227 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_11" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_12" } ,
+                descr {
+                  title "cytochrome c oxidase subunit I (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 512 ,
+                  seq-data
+                    ncbieaa "MNRWLYSTNHKDIGTMYLIFGVWSAMVGTAFSVLIRLELGQPGSFIGDD
+QIYNVMVTAHAFIMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLTLLLAGGLVESGAGTGWTVY
+PPLAAGIAHAGASVDLSIFSLHLAGASSILGAVNFITTIINMRSPGMSWDQTPLFVWSVFLTAILLLLSLPVLAGAIT
+MLLTDRNLNTSFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIITFESGKKQTFGQLGMIYAMSAIGLLGF
+IVWAHHMFTVGMDVDTRAYFTTATMIIAVPTGVKIFSWIATLQGSFLNMTPALMWAVGFVFLFTVGGLTGIILANSSI
+DIVLHDTYYVVAHFHYVLSMGAVFAIMAGLIHWFPLFTGNSMNPAWLKIQFIIMFIGVNMTFFPQHFLGLNGMPRRYS
+DYPDAFTSWNVVSSMGSYTSVVAILLFSLIIWEAMATSRPVVYSSIQPSFIEWLQNNPPSEHSYSELTLIYNF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit I" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 511 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_12" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Orchesella_cincta_13" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 2 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 323 ,
+                  seq-data
+                    ncbieaa "MLFMLTLISGTLICVSSSSWFTAWLGLEINLMSMIPLMLIKLSKENTET
+SIKYFLSQAFASLILILSVMTNFTSNEMMNLESSEFFLMTAMMIKLGAVPFHLWFPQVIELTEWPQCLILFTWQKIAP
+FVLLSCVMSKMLLMFSFMSALIGGISGINQTKIKLILTYSSISHLGWMMAASYLSMNFWAIYFMVYSILSFMIINSLM
+KSSKINFITEMNIWSTSKSTKIFFIMNMLSLGGLPPLLGFMSKLLVIKLMIQFKMIFLIVNLVLSSLISLYFYCRVIY
+AAMMINSDKTILNIMKSKMNPLFITLSISMNILIPLFMLL" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 322 ,
+                              id
+                                local
+                                  str "Orchesella_cincta_13" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_1" ,
+                      location
+                        int {
+                          from 92 ,
+                          to 1039 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_2" ,
+                      location
+                        int {
+                          from 1089 ,
+                          to 2222 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_3" ,
+                      location
+                        int {
+                          from 2222 ,
+                          to 2707 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_4" ,
+                      location
+                        int {
+                          from 2840 ,
+                          to 3118 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_5" ,
+                      location
+                        int {
+                          from 3187 ,
+                          to 4461 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_6" ,
+                      location
+                        int {
+                          from 4573 ,
+                          to 6233 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_7" ,
+                      location
+                        int {
+                          from 6619 ,
+                          to 6963 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_8" ,
+                      location
+                        int {
+                          from 7026 ,
+                          to 7810 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_9" ,
+                      location
+                        int {
+                          from 7813 ,
+                          to 8493 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_10" ,
+                      location
+                        int {
+                          from 8487 ,
+                          to 8654 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_11" ,
+                      location
+                        int {
+                          from 8790 ,
+                          to 9476 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_12" ,
+                      location
+                        int {
+                          from 9535 ,
+                          to 11073 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Orchesella_cincta_13" ,
+                      location
+                        int {
+                          from 11271 ,
+                          to 12242 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Orchesella_cincta" } } } } } } } } } }

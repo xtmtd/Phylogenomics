@@ -1,0 +1,3 @@
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|Orchesella_cincta
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 5 [lcl|Orchesella_cincta:4574-6234] [lcl|Orchesella_cincta: raw, dna len= 15728] -> [lcl|Orchesella_cincta_6]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit III [lcl|Orchesella_cincta:c7811-7027] [lcl|Orchesella_cincta: raw, dna len= 15728] -> [lcl|Orchesella_cincta_8]
