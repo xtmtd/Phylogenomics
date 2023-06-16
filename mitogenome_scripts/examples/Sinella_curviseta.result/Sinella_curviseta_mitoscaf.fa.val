@@ -1,0 +1,3 @@
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|Sinella_curviseta
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit III [lcl|Sinella_curviseta:4641-5428] [lcl|Sinella_curviseta: raw, dna len= 14840] -> [lcl|Sinella_curviseta_5]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 5 [lcl|Sinella_curviseta:c7913-6224] [lcl|Sinella_curviseta: raw, dna len= 14840] -> [lcl|Sinella_curviseta_7]

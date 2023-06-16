@@ -1,0 +1,60 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+Sinella_curviseta14840          no             Orchesella cincta   
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+Sinella_curviseta1      65     65         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+Sinella_curviseta62     130    69         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+Sinella_curviseta127    195    69         +          tRNA   trnM(cau)  tRNA-Met                          1              
+Sinella_curviseta217    1192   976        +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+Sinella_curviseta1190   1257   68         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+Sinella_curviseta1256   1318   63         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+Sinella_curviseta1319   1383   65         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+Sinella_curviseta1384   2923   1540       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+Sinella_curviseta2918   2981   64         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+Sinella_curviseta2981   3668   688        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+Sinella_curviseta3666   3737   72         +          tRNA   trnK(cuu)  tRNA-Lys                          1              
+Sinella_curviseta3739   3803   65         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+Sinella_curviseta3961   4642   682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+Sinella_curviseta4641   5429   789        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+Sinella_curviseta5428   5490   63         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+Sinella_curviseta5490   5835   346        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+Sinella_curviseta5833   5893   61         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+Sinella_curviseta5893   5954   62         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+Sinella_curviseta5956   6021   66         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+Sinella_curviseta6021   6089   69         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+Sinella_curviseta6089   6153   65         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+Sinella_curviseta6155   6218   64         -          tRNA   trnF(gaa)  tRNA-Phe                          1              
+Sinella_curviseta6224   7914   1691       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+Sinella_curviseta7920   7984   65         -          tRNA   trnH(gug)  tRNA-His                          1              
+Sinella_curviseta7964   9257   1294       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+Sinella_curviseta9325   9574   250        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+Sinella_curviseta9606   9669   64         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+Sinella_curviseta9669   9734   66         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+Sinella_curviseta9736   10219  484        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+Sinella_curviseta10218  11352  1135       +          CDS    CYTB       cytochrome b                      1              
+Sinella_curviseta11350  11420  71         +          tRNA   trnS(uga)  tRNA-Ser                          2              
+Sinella_curviseta11441  12356  916        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+Sinella_curviseta12383  12449  67         -          tRNA   trnL(uag)  tRNA-Leu                          2              
+Sinella_curviseta12400  13678  1279       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+Sinella_curviseta13633  13698  66         -          tRNA   trnV(uac)  tRNA-Val                          1              
+Sinella_curviseta13693  14486  794        -          rRNA   s-rRNA     12S ribosomal RNA                 1              
+
+
+Protein coding genes totally found: 12
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                36
+
+
+Potential missing genes:
+#Gene             total_missing_number
+--------------------------------------
+ATP8                                 1
+
+If you got the mitochondrial genome using the `findmitoscaf`
+or `assemble` module of MitoZ, the missing genes might be
+found from the '*.high_abundance*' and '*.low_abundance*' files
+in the 'tmp' directory!

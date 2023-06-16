@@ -1,0 +1,1785 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "MENG" ,
+            first "Guanliang" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            email "mengguanliang@genomics.cn" ,
+            postal-code "518083" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "MENG" ,
+                  first "Guanliang" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            postal-code "518083" } } ,
+      date
+        std {
+          year 2023 ,
+          month 6 ,
+          day 15 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 5 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 6 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 15 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2023 } } } ,
+              create-date
+                std {
+                  year 2023 ,
+                  month 6 ,
+                  day 15 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 14840 ,
+                  seq-data
+                    iupacna "AGAAAAGTGCCTGATAAAAGGATTATTTTGATAGAATAAATTATGCAAA
+ATTTTGCCTTTTCTATAATTAACAGAATCGCACCGCTTCTTTTAAAATCAAAATTTAATGTTCCTTTAAACTAAATTA
+TAAAGATAAGCTAATAAAGCTAATGGGTTCATACCCCATTTATAAGAGTCCAATCTCTTTCTTTTTAAATGTTCATTA
+AAAATTTTCAAATTCTATTTTCTTCTCTTTTATTTTTAGGGTCTCTAATTGCTATCTCCTCAAATTCATGATTTACAT
+GCTGGCTGGGCTTAGAAATTAACTTAATAAGTATAATCCCCCTTATACTTATTAATTCTACGACTCTCGCAACAGAAG
+CTGCAATCAAATACTTCCTTGCTCAAGCATTAGCATCAATCATATTAATCTTTTCCATAGTATTAAATTTATTCTTTT
+CCCAACAGCTAAATCTAGAAATAACAGAAATTTTTATTTTTTTAGCATTAATTATAAAAGCAGGGTTAGCGCCCCTCC
+ACTTCTGGTTCCCTCAGGTCAGAGCTAACCTAAAATGGTTGCAATGTTTAATTCTCTTCACATGACAAAAAGTAGCCC
+CTTTATTACTTCTCTGCTCGTTTAGATTCAATTTTATTATAGCTGTAAGAATAACATCGGCCCTCGCCGGAGCCTTAG
+GTGGATTAAATCAAACTGTGCTTAAACTTATATTAACCTACTCTTCTATTTCTCATGGGGGGTGAATGTTAATAAACT
+GTTTTACGAATTTTAAATCCTGGGTAGTTTACTTTTCCATTTATACCTTCCTTTCTTTTTCAATTATTTCATTTTTTG
+TAAAAAATAAAATTTATAAGATCAGAAATATTTTTTCAAACAGAGATTCTTATATTAACAAAATAATTATCATTATAA
+ATATCTTCTCTCTTGGTGGGCTTCCTCCTCTCTTAGGTTTTACAGCTAAGTTAAGTGTAATTTTAACAGTATTAAAAC
+TTGATTTAATCCTTGTGTTTTTTATTTTAATCTTAAGCTCTATCATCTCCCTTTTTTACTATACACGTATTACATATT
+CTAATATAATAAACTTAAACAGAAAACTTATATTCAACCCCATCAATCAACAAAAAAGAGGATTAATTTTCCACACAA
+TGAGAGTGGCTCTTAATATCTCTGCCCCTTTTATCTTTATTTTATTCTAAAATCTTAAGTTAAAAAAACTTTAGTCCT
+TCAAAGTCTAGATTAAAGAAAGGATCTTTAGATTTTAACAAAAAGAGATTTTCCCACCTTAAGATTTGCAATCTTAAA
+TCATTAATGAATATATTTGTCTAACAAGAGAATTTTAATTCATAATTAGATTTACAGTCTAACACCTAAATTCAGCCA
+CCTTGCTAATTAGTCGTTGACTTTTCTCCACCAACCATAAAGATATTGGAACTTTATACTTAATTTTTGGTGTTTGAT
+CCGCTATAGTAGGTACTGCGTTTAGAGTTCTTATCCGGCTAGAATTAGGGCAACCTGGGAGTTTTATTGGAGACGATC
+AAATTTATAATGTTATAGTTACAGCCCATGCTTTTATTATAATTTTCTTTATAGTTATACCGATTATAATTGGAGGGT
+TCGGAAACTGACTTGTACCCTTAATAATTGGAGCCCCTGATATAGCATTCCCTCGAATAAATAATATAAGTTTTTGAT
+TACTTCCCCCATCATTAACATTATTATTAGCAGGAGGCTTGGTAGAAAGAGGGGCTGGGACAGGGTGAACAGTCTACC
+CCCCTTTAGCAGCAGGAATCGCCCACGCCGGGGCATCTGTAGACCTTTCAATTTTCAGACTTCATTTAGCCGGGGCTT
+CGTCCATTCTAGGGGCAGTAAATTTTATTACAACAATTATTAATATACGAGCCCCAGGAATATCATGAGACCAAACTC
+CTTTATTCGTTTGGTCAGTTTTCCTAACTGCAATCCTTCTTTTACTATCTCTTCCTGTTTTAGCAGGGGCTATTACTA
+TACTTTTAACAGACCGTAATTTAAACACGTCTTTCTTCGACCCCGCAGGAGGTGGTGACCCTATTCTTTACCAACATT
+TGTTTTGATTCTTCGGTCACCCAGAAGTTTACATTCTGATTCTCCCAGGATTTGGTATAATTTCTCACATTATTACAT
+TCGAAAGTGGGAAAAAACAAACATTCGGACAGCTAGGAATAATTTATGCTATATCAGCTATTGGTCTTCTAGGATTTA
+TTGTTTGAGCTCATCATATATTTACTGTAGGAATAGATGTAGACACCCGAGCATATTTTACTACAGCAACTATAATTA
+TTGCAGTACCTACTGGAGTTAAAATCTTTAGATGAATTGCGACCCTACAAGGAAGTTTCCTGATTATAACTCCAGCGC
+TTATATGAGCTGTTGGGTTTGTGTTTCTTTTTACTGTAGGAGGTTTAACTGGAATCATCCTAGCCAACTCTTCTATTG
+ATATCGTTCTTCATGACACATATTATGTTGTTGCTCATTTTCACTACGTTCTTTCTATGGGGGCCGTATTTGCTATTA
+TAGGAGGGTTAATTCACTGATTTCCTTTATTCACAGGAACTAGTATAAACCCTGCTTGATTAAAAATTCAATTCTTAG
+TAATGTTTTTAGGGGTTAATCTAACATTTTTCCCTCAACATTTTTTAGGTTTAAATGGTATGCCACGACGTTATTCTG
+ATTACCCAGATGCTTTCACTTCATGAAATGTTGTCTCTTCTATAGGAAGTTACACATCAGTAGTCGCTATTCTTATAT
+TCGCGTTTATTATTTGAGAAGCTATAAGTTCTAACCGCCCAGTTTTAGATAGAAGAATTCAACCTTCTTATATTGAGT
+GACTTCAAAATAATCCTCCTTCAGAGCATTCTTACAGAGAGCTAACTCTAATTTACAATTTCTAATATGGCAGACTAG
+TGCGCTGAATTTAAGCTTCAATTATGAGGGCTCCCTCTTTTAGAAATCTCTTCTTGATCGGCTTTAAATCTACAAAAT
+GCTGCTTCGCCTCTCATAGAACAATTAATCTTTTTCCATGACCACGCTATAACCATTTTAATTTTAATTATTACTATT
+GTAGGTTATAACTTAATTTCAACAGCCATAAATAAAAATATTGACCAATTTATATTAGAGTCTCAACCTCTAGAGTTA
+TTCTGAACAATTGTGCCCAGATTTGTATTAATTTTTATCGGGCTTCCATCTATTCGACTTTTATATCTTTTAGATGAA
+GTTTATAAGCCTTCTATTACTATCAAAACTATCGGCCACCAGTGATACTGATCTTACGAATATTCAGACTTTCTAAAT
+TTAGAATTCGACTCATATATAATTCCATCAGCAGAGATAGAAAACTCAAACTTTCGCCTCCTTGATGTAGATAACCGA
+ACGGTTATCCCAGTTAATACTCAAATCCGTACTCTAATTACAGCAGCAGATGTTCTTCATTCATGAACAGTGCCTGTT
+CTTGGAGTAAAAGCAGACGCTGTACCAGGCCGTCTTAACCAGGTAAACTTCTTACTAAACCGACCTGGTCTTTTCTTC
+GGACAATGTTCAGAAATTTGTGGAGCAAATCACAGTTTTATACCTATTTCTTTAGAAAGTGTTAATCCTAAAACTTTT
+ATTAAATGAGTAAAGACTAGTTCTAATTAGTTAAATGGCTGAAAGTAAGCAACGGTCTCTTAAACCGCAGTATAATAA
+ATTAACACATATTTTTAACTAAAAAAAAATTAGTTAAAAAAATAATATAATTTTGTCAAAATTAAGTAATCAATTTGA
+TATTTTTTGATTCCTCAAATATCTCCTCTATTATGATCTTACCTATTTTTAACATTTTCTTTACTACTATTAATCTCT
+CTTATTAAAATTTACTTTTTTTCTTTTAGTTCTATCTCTCCAGGAAAAAGAGGGCTGGACTTGAATAAAAGAAATTCA
+ATAACTTGAATATGATAACAAATTTATTTTCTGTTTTTGACCCTTCAGCTAATTTTAATATGCCTTTAAATTGAATTA
+GTTCTTTTCTCATTATTATATTCATCATACCAGTTTACTGATTAATTCCTAGAAAATTCTCGTCTTCCGTAAAGCTAG
+TTTTAAATAAACTTCACTCAGAGTTTAAAACACTCTTGGGAAGCACAAGACACCAAGGATCTACATTCATTTTTATTG
+CTTTATTTATTTTTATTATTATAAACAATTTCCTAGGGTTGTTCCCGTATATTTTTACAGCATCTAGTCACCTAACCT
+TAACGCTAACCCTAGCATTCCCTCTATGATTAACATTTATGTTGTTTGGTTGAATTAATAACACAAATCATATATTTG
+CCCACATAGTCCCCCAAAGAACTCCCTCCGCCCTTATACCTTTTATAGTTCTAATTGAGTCGATTAGAAATGTAATTC
+GCCCTATTACATTATCAGTACGTCTAATGGCTAATATAGTAGCAGGACATCTTCTTATAACTTTATTAGGCAACCAAA
+CGGCAGTTGCCTCTAACATTATTTTAGTAAGATTAATTATCACACAAATTCTCCTTTTAACATTAGAGAGAGCTGTAG
+CTATTATTCAATCCTATGTATTCGCCGTTTTAACAACCCTTTATTCTAGAGAAATTACCTCTCACTAATGATAATTAA
+AAGTAACCACGCGTTCCATTTAGTAGACCAAAGTCCTTGACCTTTAACAGGTGCTATTGGGGCCCTTCTTATAACATC
+TGGAATCGTGAAATGATTTCATTCCTTTAATCCTCAATTATTTTTTTTAGGAACATTAATTCTAGCCCTCACCTGTAT
+CCAATGGTGACGAGATATCAGACGAGAGAGAACTTTTCAAGGACTACACACCTTTATTGTAGCAAGGGGAATACGCTG
+AGGTATAATTTTATTTATTACATCAGAAGTGTTATTCTTTTTTTCATTCTTCTGAGCTTTCTTCCATAGAAGACTAGC
+CCCTACAATAGAAATTGGTCTTCAATGACCCCCTTCAGGTATTTCCCCTTTTAACCCTCTTCAAGTACCTCTTTTAAA
+TACAATCATTCTTTTAGCCTCAGGAGTAACAGTTACTTGAGCCCACCACGGACTTATAGAAAATAAGTTTTCTCAGAC
+ATTCCAAGGACTTCTTTTAACAGTAACGTTAGGAGTTTACTTTACTATACTTCAAGCTATAGAATATTGAGAGGCTAG
+CTTCTCCATCGCAGACTCTGCCTACGGATCTACATTCTTTATCGCTACAGGATTTCATGGACTTCATGTTATCATTGG
+AACAACATTTCTGTTAGTATGTTTATCACGACATATTAAATGCCACTTCTCCAGCGGCCACCATTTCGGTTTTGAAGC
+AGCTGCCTGATACTGACACTTTGTAGATGTAGTCTGGTTATTCCTTTATATAACAATTTACTGATGAGGTAGATACAT
+CTTTATTATACAAGTATATTTGACTTCCAATCAAAAGGCCCAATTTATGGAAGATGTAATATTAACAATTTTAATTAT
+TTCTTTAGGACTCTCAGTCATTTTAATTCTAGTTAATTCTCTTATTGCAAAAAAATCTTTTTTTGATCGGGAAAAGCC
+CTCCCCCTTCGAATGCGGGTTTGACCCTAAAAGATCCTCACGGGTCCCATTTTCCCTCCGATTTTATTTAATTGCACT
+AATTTTCCTAATCTTTGATGTTGAAATCACATTAATTCTACCTATTCCAATCTTTATGAATTCTATAAACGCCACTTT
+AATATCAACAGTAGCATCATTTTTCATTTTTATTTTAATTGCCGGGCTCTTCCATGAGTGGAATGAAGGAGCCTTACA
+ATGAGATCGGTAGGATTATAGTTAACTATAACATCTGGGTTGCATTCAGAAGGTACCTGAAGGTTTTTCTTGAGTGAG
+AAGCGAAAATTCGCTTTCAGTTTCGACCTGAACCTTGGTTAAAGCCCTCTCTTTATTTGAACAAAATCAAAATTAGCG
+ATATACCACTGTTAATGGTAATTAGAGACTTCCTCTGTTTAAAGAGAAAGGCTGCCGCAAAAATAAGCTGCTAACTTA
+ATTTTTTAGCGGTTAAAATCCGTTACTAGCTCTATCGTTTTAGTTTAATTAAAACATTACTTTTTCGTTGTAAAAATA
+AATATGTATTTATCCGATTTTTATTTAAAAGAATTACTCTACCTTAGCTTCTTCAGAACCACGCTCTTTTTGAGCTAT
+TTAAATAAATTAAAATAATAATGAAAACTGAAAATATTAAAAAAATTACTAAATAACTTTTAATATTCAACCAAAAAA
+AATAATCAAAAAAAGATGATTTTTTTCTTAATAGATAATAAGAGCCCTGCGCCCCTACAGCCTCAACCCACCCTTGGT
+CCACAAATTTAATAAGCTGCCGTCCTAGGTGTAAGGACGGGGAAATTATATATGTCGATAGTAAAGGTATAAACCATA
+TCGTGCATAAAAAATGAATTCATTTACTTGTGATAGCTAAAATATATAAATCTAAAATAATTATAAGCTGGTATATAA
+TTATAAAAAACGTTAAAACTAAAAATAAAACTGAAAGCTTAAAAAAGGAAGATAAAAATACAAGATAAGAGGGAAAAT
+AAAATCAACTTATAGCTCTTCCAGCTCTTACAGCTGTAATAAAAAGCACTCTTATAGGTGCAATTATAATTATATGTT
+CCTCTAAGTGAACTAAAGACTTTAAACCCAAATTTTTAAAAAATAAATAATACCCTAGCCGGACAGAGTACGTCACCG
+TAAATAGGGTTCCTATAATAATAGCTGTATATATAAAAAAATTCATATTTAATATTATGTAAGACTCCAAAATAATAT
+CTTTAGAATAGAATCCTGAAAGAAAAGGGAACCCACACAAAGAAAGAGAGCACGCAACAAAAAAAAAAGAGCTAGCGG
+GACACCCAGTCTCTATACCGCCTAAAAACCGAATATCTTGAATATCCCCCATTCTGTGAATAAAAACTCCTGCACATA
+AGAAGAGTAAAGACTTAAATAAGGCATGGCTTAATAAATGAAAAAATGCTAACTCTCACAAACCTAAAGACAAAATTA
+TTATCATTACACCCAGTTGTCTTAACGTAGAGAGGGCAATAATTTTTTTTAAATCTATCTCAAAATTAGCCCCTAACC
+CAGATATGAATATAGTAAAGCTTCCAATAATGAACATAAAATTGTTAACGCATAAAAGATCATGAAAACGAATTAATA
+AATACACACCAGCTGTGACTAGAGTTGATGAGTGCACTAAAGCCGAAACTGGAGTGGGGGCAGCCATTGCTGCCGGTA
+GCCAAGCAGAAAATGGAATTTGAGCTCTTTTAGTTATCCCAGCAATAATTACTATAATTATAATAAACTTCAATTCAC
+CCTCAGAAATTAGTAGCTGTAAAAAATAAAAATTTCAAGACCCGTAATTAGCTAGCCACGCAATTCTTAATAAAATAG
+CTACGTCTCCTACTCGGTTAGATAAAATGGTTAATATCCCCGCGTTCGCTGATTTTTCATTTTGGTAATAAATCACCA
+AGCAATAAGAGACCAATCCTAAACCATCTCAACCTAACAAAATTCTAATTATATTAGGTCTTATAATTAAAAATAATA
+TAGAAATAACAAATAGATAAACTAATAAAATAAAACGATATAAAAATTTATCCCCCTCCATATAACTAGTTCTGTAAA
+TCAATACTATCGAAGAAATTAATATAACAAACCCTATAAAAGTAAGTCTTATTCAATCAAAAATTAAAGTTATAATCA
+CTATATTCCCAAAAAGAGAAAAAATTTCTCACTCTAAAAACTTTACCACTGAATAAAAATAAAACTCTAACCCAGTCA
+CCAGAGAGTATAAGGACAAAAATAACAACATTAAACCTAAATAAAAAGTCACCAAACGAAAAATATTTATTATCTAAG
+AGAAAACTCTATCTTAAAGACCACAACTTTAAATTTTTAATTTAAAATACTTAGATAAAGCAAACTTATAAAAAATTC
+AGACTTTAAAACAAGAAAGTTAACTGGAATGATGTGAAGAGAGAGAACATGAAACTCACGAAAGTTTGGGTGAAAAAA
+AGAGTAAACCCCCTTATAAATCTTCCCATGCTGGGAGTAGGAAAATATAAACAATGTAAAAACAGCTCCCATGTAAGA
+CCCGAGAGGGAAAAATAATAATATTACACTATCAAATTTCAAAATTCTAATTATCAAAAAAATTTCTGACATTAAATT
+AATAGTTGGGGGCGCTGCTATATTCGCAGCTCTTATTAAAAAAATAAAAAGAGATAGGATAGGAAACATTAAAATAAA
+CCCCTTATTTAAAAATATTCTTCGTCTCCCTGTACGCTCATAGTATATATTTACTATACAAAAAAGACCGGAAGAAGC
+TAACCCATGGGCCACCATTATTACCAGGGCACCTGTGTAACCTCATATATAAAAACTAAAAACACCACAAATAACTAA
+ACCTATGTGAGCTACTGAAGAATAAGCCACCAATGCCTTTAAATCATTTAAACGACAGCAAATAAATCCTACATAAAC
+CATGCCTAAAATTCTTAAGCCAAAAAAATATCTACCATAATTTTTCAAACCTAATGTGCATAAAGGCATAACACGATA
+AAACCCATAACCTCCTAACTTCAGTAAAATTCCGGCTAAAATTATAGAACCTGACACCGGAGCCTCAACATGAGCCTT
+TGGGAGTCATAGATGAGTAAAAAACATTGGTATTTTTACTAAAAAAGCTAAAGTTAAACCTAAAAAAATATAAAAAGA
+ATTATACCCAACAAAATTTAATATAATTATGTCTAACCCCCCTCCCTTAGAAAAAATATAAAATAAGACTACTAAAAG
+AGGTAGAGAAGCAGTTAAAGTGTAAAACAAAAAATAAATACCAGCCTGCAGCCGCTCAGGTTGATAACCTCATCCTAT
+AATAATTAAAAGTGTGGGGATTAAAGAGACCTCAAAATAAAAGTAAAAAGATAGGAAATTAAAGGATAAAAAAGTTAA
+AACTAAAACAAAACATAAAATGTAAACGCATAAAAAAAAATAAAATAAATTAAGATTTCTTCTATAGATCCCGTATCT
+AGAATGATATATTAAAATAGTAATCCATAGACTCAACAAAATAAGACTAAAAGAAAGAGAGTCTAAATAGAAAGAAGA
+GCCATCTAAAATGGAGTCAGTAAAATTTAAACCAAAAACAAGAAACCCTATCCCTAAAATACATAAAAGCCCAGTAAA
+TATTCAAAAATAAAGTTTATTTAAAAAAACTAAAAATAAAGAAAATAATATAAAAAATAAAAATTTTATCATTAACTT
+ATTAACCCTAAAAGCTTAAAATAATCACCCCCATGAGAGCGCCCTATGGCAACTAAAATAGAAAGCCCTAGAGCCCCC
+TCACAGGCCGTAATGATTAAGTAAAATAAAGAATAAAATAAACAAATATTTCTAAGGGAAAAAATTAACGAAAAAAAA
+ATTCCTAAAACTATAAATTCAAGTCTTAAAAGAGCTGTTAAAAGATGTTCTCGAGTTGAACTATAAAGTAAAACACCA
+CAAAAAATTAATAAGAGAAAGCCAAAGACTAAAAATATAAGTTTTTATAGTTTAAAATAAAACATTAGTCTTGTAAAC
+TAAAAATTAAGAAATTATAAAAACTTCAGAGAAAGTAAGCTACTATCATTAACTTCCAAAGTTAGTATTTTAATTATA
+AACTACACCCTGATATAATTTTTCTTTCCTTAGCTACAATAATTGTGAGTCTTACAATCGCTATTTCTTCACACCCAG
+TATCAATTTTAATATTAATTCTTCTCCAAACTTTATTCATCTGTATTTTAATATTTTCCATATTAAAAACCAGATGAT
+TTTCTTACATTTTATTCTTAATTTTTTTAGGGGGGTTAATAGTTCTATTTGTTTATATTGTAAGATTAGCTTCCAACG
+AAAAATTTTCAGTTAATTTTTCATTAACAATCATTTTGTCAGCAGCTGTAAGATTCATGTCATTTTCAATTCTTTATT
+TATCATTCTTTGACAAAACTCAATCTCTATTTAGAAATAATTTTTTTGAGCAAACAATAATAATTTTTAGAGGCACAC
+TAGTCGCACCAACTATTTTGATTATATTCTATCTTCTATACACTCTAATTGTGGCCGTCAAAGTGTCATCAAAACTTG
+AAGGACCGTTACGAAACTTTATAGGATAATGACAAACTTACGAAAAACCCACCCATTAATTAAAATTGCTAACAACGC
+ATTAATTGACCTTCCAGCCCCAATCAATATCTCTGCATGATGAAATTTCGGATCTCTTTTAGGATTATGTTTAATTAC
+ACAAATTTTAACGGGGTTATTTTTAGCAATACATTATACAGCAGACATCTCATTAGCCTTCAACAGAGTATCTCACAT
+CTCACGAGATGTAAATTATGGATGACTCCTCCGAGCCACTCATGCCAACGGAGCTTCATTCTTCTTTATTTGCCTTTA
+CCTTCATGCGGGACGTGGTATATATTACTCCTCTTATTTCTACACACATACATGAACTATCGGAGTAATCATTTTACT
+AGCAGTTATAGCTACCGCCTTTATAGGGTATGTCTTAATTTGAGGGCAAATATCATTTTGGGCCGCCACTGTAATTAC
+AAACCTCCTTTCAGCAATTCCTTATTTAGGCCAAACTCTAGTTCAATGAATTTGAGGGGGGTTTGCAGTCGATAACGC
+CACTTTAACACGATTTTTTACCTTCCATTTCCTTTTACCTTTTGTTATTGCTGGCTTATCAGGGGTACATCTTTTATT
+TCTTCACCAAACAGGATCAAATAACCCCACAGGAATAAATTCTAATGTAGACAAAATCCCTTTCCACCCTTATTTTTC
+TATAAAGGATTTATTCGGTTTTATCTTCATGTTTTGACTTTTAATGATACTAGTTTTAACTAACCCATTCCTTCTAGG
+GGATGTAGAAAACTTCATCCCAGCTAATCCATTAGTTACGCCGGTCCATATTCAACCAGAATGATACTTCCTCTTTGC
+TTACGCTATTTTACGTTCGATTCCTAATAAATTGGGAGGAGCTGTAGCTTTAGTAGCTTCAATTCTAATTCTAATGAT
+CCTTCCATTTTCTCAAAAAAGAAATATCCGGGGAAGACAATTTTACCCTCTAGTTCAAATCTCCTTCTGAATTATAGT
+TAATACTGTGATTCTACTTACATGAATTGGAGCGCGACCTGCTGAAGACCCTTATATTATTGTCGGCCAAATCTTAAC
+TATTATTTATTTCTTGTACTTTATTTTAAACCCATTAATATTCTCTTTTTGAGACAAAACCCTGGAATAATTGTTTGG
+CTGACTGGAAAGCAGTTACCTTGAAAGTAATTTAAAAGAGTTTAATTCTCTTAACAATTTCACACCCTAAAAATTTCA
+AAATTAAACTACAACCAATCTTAAAAAATAAAAAAAAAATAAAAAATAAAGAGAAACAGGGAGATAAGATTTTCAAGC
+TAAATACATTAATTTATCATAACGAAACCGAGGTAATGTACCCCGAACTCAAATAAATCAATAACAAAAAAAACAACC
+TAAAATATTAAACAAAATAAAATTTATCCCTCCTCCTAAAAACAACAGAACAATGAGATAGCTTATAAAAATAATTCT
+ACCGTATTCAGCTAAAAACAAAAGAGCAAACCCCCCTCTTCCATATTCAATATTAAACCCCGAAACTAACTCGGATTC
+TCCTTCCGCAAAATCAAACGGAGTCCGGTTAGTTTCGGCTAAACAGGAAGTGACTCAACATAAAAAAATAGGAAATAG
+TATAAACATAAACCACATAACAGACTGGGATATGACTAAAGAACTTAATCTGTAGTGCCCAGCCAAAAAAATTAAAGA
+CAAAAAAATTAAAGCCATTCTCACTTCGTAAGAAATGGTTTGAGCTACTCCCCGTATGGCCCCTAAAAGAGCATAATT
+AGAATTAGACGACCACCCTCTTCCCATTAAAGTATAAACCCCAAATCTAGTGCAGCAAAAAAAAAATAACCCTCCGAA
+TATAAAATTTATTATTAAAGAGTTAAAAGGAGTTAAAGACCACAAAAGAAGAACGATAAACAAAGAAAATACTGGGGA
+AAAATAATAAACTAAAAAATTTGAAGAAAGAGGCAAAAACTGTTCTTTAATAAATAATTTAATAGCATCCCCAAAAGA
+TTGAAGAATTCCCGAATAACCTACTTTATTCGGGCCCTTCCGAATCTGAATGTAACCTAAAATTTTACGCTCGAATAA
+AACCATAAAAGCCACTCTAATGAGAACACCTACTACTAAAATTAAATAACTTAAAGAAATGGACAAAATATCAAAAAA
+GAACTTAATTACTAAATAAAATAATAAATTTCTTATAATGATTCTAAGTCAATTGCACTAATCTGCCAATCTAGCAAA
+CAGTCAATCTAATGGTCCTTTCGTACTAAAAAGAAACCTTTAAACAAAAGATAGAAACCAACCTGGCTCACACCGATT
+TGAACTCAAATCATGTAAAAATTTTATAGTCGAACAGACTATCTATTAAAAGAACTGCCCCTTAAAGAAATTTTAATT
+CAACATCGAGGTCGCAAACAATTTTGTCGATTTGGGCTCTCAAAAATTATAACGCTGTTATCCCTAAGGTAACTTTTT
+AGTTTCTAAAATTAAGGGTATAATTATGCAAAGAAGTTAAAATTATTCTTTTGTTGCCCCAACAAAATACACTAATAA
+ATTTACTTTACCCCCATGAAATAAATTTATTTATGTATAAAGCTCTATAGGGTCTTATCGTCTTTTTGCAAAATTTAA
+GAATTTTCACTTAAACCTAAATTTTAATTTATCTTTATAACAAAGTACTTGAAAGTATCACCATTCATACAATTCCCT
+AATTAAGAGACTAATGATTATGCTACCTTAGCACGGTCATAATACCGCGGCCCTTTAGATTAACCAGTGGGCAGGTGT
+TACTTTTTAGATAATTAAAAAAAAATGTTTTTGATAAACAGTCTTTCAAGCTAGCCGAATTTATAATAAAAAAAATAA
+TTAACAAGACATTAATTTAAATTCTAATCATTGAGTCATTAAAATAAATTAATTTAAATTAAAAATTTTAACTTAAAG
+TCTAATCTAAATTTTTAGTAATTAATTTAATAATTTAAATAAAATATAACTTACTTTTAGCTAATTCTAAGCTTAAAA
+ATTCATTCTTTTAAAAATAAAATTATAGAAAAATAAACTTGAAGCTCATCCCTCAAGCTTTATCTAACAGATAGAAAA
+ATTCGTCTTTGTAAACCTTACCAACTAATAAAATTTAAAATTTTAAGCAACCGGATATAATTAAAATCGCAACAATTT
+CTGTTCTAAAAACAATTTTTTATTAATATTTCCACACTAATTTTTAATAAAATTTAAATCTTTTAATTTCAGGAAATA
+TAAAATGTTACATAACTAAAAGCACCATGATACAAAAAGTAAAATTTTATCTATCTTTATAAAGTTTATTTTATTATA
+TTTCACCGTTCCCCCTCAGTTCATACAACAAAATAAATTCTATTTAATACTTAAATTTTAAAAACTTTAACACAACAA
+TAAAAATATAATATAAACACCTAACTAAAAGGATCCTTTCAATGTAAATGAATAGCTTAACTCAAGCTCTGCTTAAAC
+AAGATGTTCCTTCCGGAGCGTCTACTTTGTTACGACTTATCTAATTTCATAACTAGAGCGACGGGCGATGTGTACATA
+ACCTAGAGCCTAATTCAAATAAATAATAAAACCAAATTACTTCCAAATCCAGTTTCAACAATCCATATAATTTTATAA
+TGTAACTCACCTCTTCTTTTATATAAACTAAACCTTGATTTGAATTTTTTTAATAAAAATTAAAACTAAATATTAATT
+TAATTTTTAAAACAACGGTATATAAAATAAATAAAAGTAAAAATAAGCGTGTACTGTCATTTAAAGGGCAAGTTCCTC
+TGGAAGGAATAAGCTACCGCCAAATTATTTAAGTTTCATAAAAACTACTACTTAAGTCATTTAATGAAAATAACAGGG
+TATCTAATCCTGGTCTTTTAAATTCCAATTACAATATAAGAACTAAGCTTTTTAAAATAATATACTTCACAAAATTTC
+ACAAACCATAAAGTAAATAATTTTTAAGTCTTAAAAATTATTTATCCATAAATTTTAATTTAACTATGAAGTCTAACC
+GCAGATGCTGGCACATCTTTATCCTAATATAAATTTAAATTTTATATCTTATTGCAATTTTTATAATACAAAATACTG
+CCTAATTTTACATGTACAAAATTAAAACTATAAAAACTAAAGCTAGAATCAAACTTTTCTGCTTTTCACAAAGATACT
+TTCTACACACCCCAATATTTTAGATGCTATTGGGGTGTGTAGAATTTATTACTATTAATTAAATAATATAATATAAAT
+TATTTGTATATATATATATATATATTATCTTATAATTTAATATAAATTATTTATATACAATAAATATATAATATATAA
+ATTTATATATTAATCAAATATATAATTTTCAATATATATCTTTTTTTTTTTTTAAACTATTGTAATTAAATGTATATA
+TAATTAATTATTTAATATATAATATTACTTATAAATAATTATATTATGTATTAAATATACTAACATATATATATATAT
+AAATTATTTATATTAATTTAAATATTTTAACAAAATGTTTATTTTAATATAAATAAATTACATCGGTAGTTCTGCTAG
+CTTTATTAGACACCTTTAATTAAAGCAGAAAAGTTTTTTTTGAAATAGA" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND2" } ,
+                          location
+                            int {
+                              from 216 ,
+                              to 1190 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX1" } ,
+                          location
+                            int {
+                              from 1383 ,
+                              to 2921 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX2" } ,
+                          location
+                            int {
+                              from 2980 ,
+                              to 3666 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          location
+                            int {
+                              from 3960 ,
+                              to 4640 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX3" } ,
+                          location
+                            int {
+                              from 4640 ,
+                              to 5427 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          location
+                            int {
+                              from 5489 ,
+                              to 5833 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND5" } ,
+                          location
+                            int {
+                              from 6223 ,
+                              to 7912 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          location
+                            int {
+                              from 7963 ,
+                              to 9255 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 9324 ,
+                              to 9572 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND6" } ,
+                          location
+                            int {
+                              from 9735 ,
+                              to 10217 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "CYTB" } ,
+                          location
+                            int {
+                              from 10217 ,
+                              to 11350 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND1" } ,
+                          location
+                            int {
+                              from 11440 ,
+                              to 12354 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnI(gau)" } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 63 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 73 } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 63 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(uug)" } ,
+                          location
+                            int {
+                              from 61 ,
+                              to 128 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 } } ,
+                          location
+                            int {
+                              from 61 ,
+                              to 128 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cau)" } ,
+                          location
+                            int {
+                              from 126 ,
+                              to 193 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 } } ,
+                          location
+                            int {
+                              from 126 ,
+                              to 193 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnW(uca)" } ,
+                          location
+                            int {
+                              from 1189 ,
+                              to 1255 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 87 } } ,
+                          location
+                            int {
+                              from 1189 ,
+                              to 1255 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnC(gca)" } ,
+                          location
+                            int {
+                              from 1255 ,
+                              to 1316 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 67 } } ,
+                          location
+                            int {
+                              from 1255 ,
+                              to 1316 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnY(gua)" } ,
+                          location
+                            int {
+                              from 1318 ,
+                              to 1381 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 89 } } ,
+                          location
+                            int {
+                              from 1318 ,
+                              to 1381 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 2917 ,
+                              to 2979 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 2917 ,
+                              to 2979 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnK(cuu)" } ,
+                          location
+                            int {
+                              from 3665 ,
+                              to 3735 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 75 } } ,
+                          location
+                            int {
+                              from 3665 ,
+                              to 3735 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 3738 ,
+                              to 3801 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 3738 ,
+                              to 3801 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnG(ucc)" } ,
+                          location
+                            int {
+                              from 5427 ,
+                              to 5488 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 71 } } ,
+                          location
+                            int {
+                              from 5427 ,
+                              to 5488 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnA(ugc)" } ,
+                          location
+                            int {
+                              from 5832 ,
+                              to 5891 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 65 } } ,
+                          location
+                            int {
+                              from 5832 ,
+                              to 5891 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnR(ucg)" } ,
+                          location
+                            int {
+                              from 5892 ,
+                              to 5952 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 82 } } ,
+                          location
+                            int {
+                              from 5892 ,
+                              to 5952 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnN(guu)" } ,
+                          location
+                            int {
+                              from 5955 ,
+                              to 6019 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 78 } } ,
+                          location
+                            int {
+                              from 5955 ,
+                              to 6019 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(gcu)" } ,
+                          location
+                            int {
+                              from 6020 ,
+                              to 6087 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 6020 ,
+                              to 6087 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnE(uuc)" } ,
+                          location
+                            int {
+                              from 6088 ,
+                              to 6151 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 69 } } ,
+                          location
+                            int {
+                              from 6088 ,
+                              to 6151 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnF(gaa)" } ,
+                          location
+                            int {
+                              from 6154 ,
+                              to 6216 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 70 } } ,
+                          location
+                            int {
+                              from 6154 ,
+                              to 6216 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnH(gug)" } ,
+                          location
+                            int {
+                              from 7919 ,
+                              to 7982 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 72 } } ,
+                          location
+                            int {
+                              from 7919 ,
+                              to 7982 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnT(ugu)" } ,
+                          location
+                            int {
+                              from 9605 ,
+                              to 9667 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 84 } } ,
+                          location
+                            int {
+                              from 9605 ,
+                              to 9667 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnP(ugg)" } ,
+                          location
+                            int {
+                              from 9668 ,
+                              to 9732 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 80 } } ,
+                          location
+                            int {
+                              from 9668 ,
+                              to 9732 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(uga)" } ,
+                          location
+                            int {
+                              from 11349 ,
+                              to 11418 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 11349 ,
+                              to 11418 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uag)" } ,
+                          location
+                            int {
+                              from 12382 ,
+                              to 12447 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 12382 ,
+                              to 12447 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnV(uac)" } ,
+                          location
+                            int {
+                              from 13632 ,
+                              to 13696 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 86 } } ,
+                          location
+                            int {
+                              from 13632 ,
+                              to 13696 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "s-rRNA" } ,
+                          location
+                            int {
+                              from 13692 ,
+                              to 14484 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "12S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 13692 ,
+                              to 14484 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            gene {
+                              locus "l-rRNA" } ,
+                          location
+                            int {
+                              from 12399 ,
+                              to 13676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "16S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 12399 ,
+                              to 13676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Sinella_curviseta" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 2 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 324 ,
+                  seq-data
+                    ncbieaa "MLFSSLLFLGSLIAISSNSWFTCWLGLEINLMSMIPLMLINSTTLATEA
+AIKYFLAQALASIMLIFSMVLNLFFSQQLNLEMTEIFIFLALIMKAGLAPLHFWFPQVSANLKWLQCLILFTWQKVAP
+LLLLCSFSFNFIMAVSMTSALAGALGGLNQTVLKLMLTYSSISHGGWMLMNCFTNFKSWVVYFSIYTFLSFSIISFFV
+KNKIYKISNIFSNSDSYINKMIIIMNIFSLGGLPPLLGFTAKLSVILTVLKLDLILVFFILILSSIISLFYYTRITYS
+NMMNLNSKLMFNPINQQKSGLIFHTMSVALNISAPFIFILF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 323 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_2" } ,
+                descr {
+                  title "cytochrome c oxidase subunit I (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 512 ,
+                  seq-data
+                    ncbieaa "MSRWLFSTNHKDIGTLYLIFGVWSAMVGTAFSVLIRLELGQPGSFIGDD
+QIYNVMVTAHAFIMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLTLLLAGGLVESGAGTGWTVY
+PPLAAGIAHAGASVDLSIFSLHLAGASSILGAVNFITTIINMRAPGMSWDQTPLFVWSVFLTAILLLLSLPVLAGAIT
+MLLTDRNLNTSFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIITFESGKKQTFGQLGMIYAMSAIGLLGF
+IVWAHHMFTVGMDVDTRAYFTTATMIIAVPTGVKIFSWIATLQGSFLIMTPALMWAVGFVFLFTVGGLTGIILANSSI
+DIVLHDTYYVVAHFHYVLSMGAVFAIMGGLIHWFPLFTGTSMNPAWLKIQFLVMFLGVNLTFFPQHFLGLNGMPRRYS
+DYPDAFTSWNVVSSMGSYTSVVAILMFAFIIWEAMSSNRPVLDSSIQPSYIEWLQNNPPSEHSYSELTLIYNF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit I" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 511 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_3" } ,
+                descr {
+                  title "cytochrome c oxidase subunit II (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 228 ,
+                  seq-data
+                    ncbieaa "MSSWSALNLQNAASPLMEQLIFFHDHAMTILILIITIVGYNLISTAMNK
+NIDQFMLESQPLELFWTIVPSFVLIFIGLPSIRLLYLLDEVYKPSITIKTIGHQWYWSYEYSDFLNLEFDSYMIPSAE
+MENSNFRLLDVDNRTVIPVNTQIRTLITAADVLHSWTVPVLGVKADAVPGRLNQVNFLLNRPGLFFGQCSEICGANHS
+FMPISLESVNPKTFIKWVKTSSN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit II" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 227 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_3" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_4" } ,
+                descr {
+                  title "ATP synthase F0 subunit 6 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 226 ,
+                  seq-data
+                    ncbieaa "MMTNLFSVFDPSANFNMPLNWISSFLIIMFIMPVYWLIPSKFSSSVKLV
+LNKLHSEFKTLLGSTSHQGSTFIFIALFIFIIMNNFLGLFPYIFTASSHLTLTLTLAFPLWLTFMLFGWINNTNHMFA
+HMVPQSTPSALMPFMVLIESISNVIRPITLSVRLMANMVAGHLLMTLLGNQTAVASNIILVSLIITQILLLTLESAVA
+IIQSYVFAVLTTLYSSEITSH" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 225 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_4" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_5" } ,
+                descr {
+                  title "cytochrome c oxidase subunit III (mitochondrion)
+ [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 262 ,
+                  seq-data
+                    ncbieaa "MMIKSNHAFHLVDQSPWPLTGAIGALLMTSGIVKWFHSFNPQLFFLGTL
+ILALTCIQWWRDISRESTFQGLHTFIVASGMRWGMILFITSEVLFFFSFFWAFFHSSLAPTMEIGLQWPPSGISPFNP
+LQVPLLNTIILLASGVTVTWAHHGLMENKFSQTFQGLLLTVTLGVYFTMLQAMEYWEASFSIADSAYGSTFFIATGFH
+GLHVIIGTTFLLVCLSRHIKCHFSSGHHFGFEAAAWYWHFVDVVWLFLYMTIYWWGS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit III" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 261 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_5" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_6" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 114 ,
+                  seq-data
+                    ncbieaa "MLTILIISLGLSVILILVNSLIAKKSFFDREKPSPFECGFDPKSSSRVP
+FSLRFYLIALIFLIFDVEITLILPIPIFMNSMNATLMSTVASFFIFILIAGLFHEWNEGALQWDR" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 113 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_7" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 563 ,
+                  seq-data
+                    ncbieaa "MFRLVTFYLGLMLLFLSLYSLVTGLEFYFYSVVKFLEWEIFSLFGNMVI
+MTLIFDWMSLTFMGFVMLISSMVLIYSTSYMEGDKFLYRFILLVYLFVISMLFLIMSPNMISILLGWDGLGLVSYCLV
+IYYQNEKSANAGMLTILSNRVGDVAILLSIAWLANYGSWNFYFLQLLISEGELKFIMIMVIIAGMTKSAQIPFSAWLP
+AAMAAPTPVSALVHSSTLVTAGVYLLIRFHDLLCVNNFMFIIGSFTMFMSGLGANFEMDLKKIIALSTLSQLGVMMMI
+LSLGLWELAFFHLLSHALFKSLLFLCAGVFIHSMGDIQDIRFLGGMETGCPASSFFFVACSLSLCGFPFLSGFYSKDI
+ILESYMMLNMNFFMYTAIIMGTLFTVTYSVRLGYYLFFKNLGLKSLVHLEEHMIMIAPMSVLFITAVSAGSAMSWFYF
+PSYLVFLSSFFKLSVLFLVLTFFMIMYQLMIILDLYILAITSKWIHFLCTMWFMPLLSTYMISPSLHLGRQLIKFVDQ
+GWVEAVGAQGSYYLLSKKSSFFDYFFWLNIKSYLVIFLMFSVFIII" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 562 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_7" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_8" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 430 ,
+                  seq-data
+                    ncbieaa "MFTGLLCILGMGFLVFGLNFTDSILDGSSFYLDSLSFSLILLSLWITIL
+MYHSSYGIYSSNLNLFYFFLCVYILCFVLVLTFLSFNFLSFYFYFEVSLIPTLLIIMGWGYQPERLQAGIYFLFYTLT
+ASLPLLVVLFYIFSKGGGLDMIMLNFVGYNSFYIFLGLTLAFLVKMPMFFTHLWLPKAHVEAPVSGSMILAGILLKLG
+GYGFYRVMPLCTLGLKNYGSYFFGLSILGMVYVGFICCRLNDLKALVAYSSVAHMGLVICGVFSFYMWGYTGALVMMV
+AHGLASSGLFCMVNMYYERTGSRSMFLNKGFILMFPILSLFIFLMSAANMAAPPTINLMSEIFLMISILKFDSVMLLF
+FPLGSYMGAVFTLFMFSYSQHGKIYKGVYSFFHPNFREFHVLSLHIIPVNFLVLKSEFFMSLLYLSILN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 429 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_8" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_9" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 82 ,
+                  seq-data
+                    ncbieaa "MFCGVLLYSSTREHLLTALLSLEFMVLGIFFSLIFSLSNICLFYSLFYL
+IITACEGALGLSILVAMGRSHGGDYFKLLGLMS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 81 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_9" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_10" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 160 ,
+                  seq-data
+                    ncbieaa "MIFLSLATMIVSLTIAISSHPVSILMLILLQTLFICILMFSMLKTSWFS
+YILFLIFLGGLMVLFVYIVSLASNEKFSVNFSLTIILSAAVSFMSFSILYLSFFDKTQSLFSNNFFEQTMMIFSGTLV
+APTILIMFYLLYTLIVAVKVSSKLEGPLRNFMG" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 159 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_10" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_11" } ,
+                descr {
+                  title "cytochrome b (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 377 ,
+                  seq-data
+                    ncbieaa "MTNLRKTHPLIKIANNALIDLPAPINISAWWNFGSLLGLCLITQILTGL
+FLAMHYTADISLAFNSVSHISRDVNYGWLLRATHANGASFFFICLYLHAGRGMYYSSYFYTHTWTIGVIILLAVMATA
+FMGYVLIWGQMSFWAATVITNLLSAIPYLGQTLVQWIWGGFAVDNATLTRFFTFHFLLPFVIAGLSGVHLLFLHQTGS
+NNPTGMNSNVDKIPFHPYFSMKDLFGFIFMFWLLMMLVLTNPFLLGDVENFIPANPLVTPVHIQPEWYFLFAYAILRS
+IPNKLGGAVALVASILILMILPFSQKSNIRGSQFYPLVQISFWIMVNTVILLTWIGARPAEDPYIIVGQILTIIYFLY
+FILNPLMFSFWDKTLE" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome b" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 376 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_11" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Sinella_curviseta_12" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 304 ,
+                  seq-data
+                    ncbieaa "MSLSYLILVVGVLISVAFMVLFERKILGYIQIRKGPNKVGYSGILQSFG
+DAIKLFIKEQFLPLSSNFLVYYFSPVFSLFIVLLLWSLTPFNSLMMNFMFGGLFFFCCTSFGVYTLMGSGWSSNSNYA
+LLGAMRGVAQTISYEVSMALIFLSLIFLAGHYSLSSLVMSQSVMWFMFMLFPIFLCWVTSCLAETNRTPFDFAEGESE
+LVSGFNIEYGSGGFALLFLAEYGSIIFMSYLIVLLFLGGGMNFILFNILGCFFCYWFIWVRGTLPRFRYDKLMYLAWK
+SYLPVSLYFLFFFYFLSLVVV" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 303 ,
+                              id
+                                local
+                                  str "Sinella_curviseta_12" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_1" ,
+                      location
+                        int {
+                          from 216 ,
+                          to 1190 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_2" ,
+                      location
+                        int {
+                          from 1383 ,
+                          to 2921 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_3" ,
+                      location
+                        int {
+                          from 2980 ,
+                          to 3666 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_4" ,
+                      location
+                        int {
+                          from 3960 ,
+                          to 4640 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_5" ,
+                      location
+                        int {
+                          from 4640 ,
+                          to 5427 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_6" ,
+                      location
+                        int {
+                          from 5489 ,
+                          to 5833 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_7" ,
+                      location
+                        int {
+                          from 6223 ,
+                          to 7912 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_8" ,
+                      location
+                        int {
+                          from 7963 ,
+                          to 9255 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_9" ,
+                      location
+                        int {
+                          from 9324 ,
+                          to 9572 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_10" ,
+                      location
+                        int {
+                          from 9735 ,
+                          to 10217 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_11" ,
+                      location
+                        int {
+                          from 10217 ,
+                          to 11350 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Sinella_curviseta_12" ,
+                      location
+                        int {
+                          from 11440 ,
+                          to 12354 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Sinella_curviseta" } } } } } } } } } }
