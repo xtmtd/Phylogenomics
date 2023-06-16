@@ -1,0 +1,1846 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "MENG" ,
+            first "Guanliang" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            email "mengguanliang@genomics.cn" ,
+            postal-code "518083" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "MENG" ,
+                  first "Guanliang" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            postal-code "518083" } } ,
+      date
+        std {
+          year 2023 ,
+          month 6 ,
+          day 15 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 5 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 6 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 15 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2023 } } } ,
+              create-date
+                std {
+                  year 2023 ,
+                  month 6 ,
+                  day 15 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 14788 ,
+                  seq-data
+                    iupacna "GGAAAAGTGCCTGAAAAAAAAGGGTTATTTTGATAGAATAAATCATGCA
+AGTCTTTGCCTTTTCCTTTATAATTAATAGAATTGCACCATTTCTTTTAAAATCAAAATTTAATGTTCCTTTAAACTA
+AATTATAAAGATAAGCTAATAAAGCTTATGGGTTCATACCCCGTTTATAGAAGTAAAACCTTCTTCTTTTTAATGTTT
+TTTAAAGTCCACCAATTAATTTTCTTAGTGGTTTTATTTTCTGGGTCTATAATCTCTTTGTCGGCCAACTCCTGATTC
+ACTGTTTGATTGGGTTTAGAAATTAATTTAATAAGAATAATCCCCCTTATTCTTATTAAATTAAATCCAAAATTAACA
+GAGTCAGCAATTAAGTATTTCCTTGCCCAAGCCATGGCTTCTATTTTAATAATTTTTTCTGTAACACTAAACTTCTTT
+TTCTATAATATTATTACTTTAGATGCAATAGAATTGCTATTAATCTCTTCAATTTCAATAAAATTAGGGGCTGCCCCC
+TTCCATTTCTGGTTTCCACAGGTAACTGTAGGCTTAAACTGAACACAAAATATTTTAATTTTCACATGACAAAAAGTC
+GCCCCCTTTTTCGTTATTATAACTTTATCATCTAAATATTTAATTTTAATTTCTATGTTTTCAGCTCTAGTAGGAGCA
+TTAGGGGGATTTAACCAATTAGTTATAAAACTCACTATAACCTACTCGTCTATTTCCCATACCGGATGGATGCTATCA
+GCGTCCCTATTAAGAGAAAACTTTTGACTTTCATATTTTTTTATATACTCGCTTCTTTCCATTGTAATTATTCATTTT
+TTTATAAAAAACTCTATTTATAAAATTAACCAAGTTTTTTCTTGTTCAGACTCAACGTTAAATAAATACGTGGCAGCT
+ATGAATATTCTATCCTTGGGGGGTCTTCCTCCTTTAATAGGATTTATTGCTAAGCTATCAGTAATTATTATTTTAGTA
+AAGAAAAATATAATTGTAATATTTTTAATTATAATCACAGCTTCCCTTATCTCATTATTCTTCTATGTGCGTATCATT
+TACTCTAGTATAATAAGAAATACAAAAACCTTTAAAAATAAGACCCACGCTTTTAAACCCTTTTCCTCTTTATTTTTT
+CTTTCTGTATTCTTTAATCTAATATGCCCAGTAATATTTTTCTTAACTTAAAGTCTTAAGTTAAGAAAACTGTAGTCC
+TTCAAAGTCTAAATTAAAGATGCCTACTTTAGACTTTAGCAAAAAGGGAACCCCCACCTTAAAATTTGCAGTCTTAAA
+TCATAAATGACTATATTTGCCTAACAGAAGGAAAATTTTCCGTAATTAAATTTACAGTCTAACGCCTACCCCTCAGCC
+ATTCTGTTAATTAATCGATGGCTCTTTTCTACAAACCATAAGGACATTGGTACTTTATATTTAATTTTCGGTGTATGA
+TCAGCAATAGTAGGAACTGCTTTTAGAGTTCTAATTCGATTAGAATTGGGACAACCAGGAAGTCTTATTGGTAATGAT
+CAAATTTATAATGTGATGGTTACAGCTCATGCATTTATCATAATTTTCTTTATGGTTATACCAATTATAATTGGAGGA
+TTCGGGAACTGACTAGTACCTTTAATGATTGGTGCTCCTGATATAGCCTTTCCACGGATAAACAACATAAGTTTTTGG
+TTACTACCTCCTTCTTTAACTTTATTGCTTGCTGGGGGATTAGTAGAAAGAGGAGCTGGAACAGGTTGAACTGTCTAT
+CCCCCTCTTTCCGCTGGAATCGCTCACGCCGGGGCTTCAGTAGACCTCTCAATTTTTAGACTTCATTTAGCGGGTGCT
+TCTTCTATTTTAGGGGCTGTAAATTTTATTACAACAATTATTAATATACGAACACCTGGAATAACATGAGATCAAACA
+CCGTTATTTGTGTGATCAGTATTTCTGACCGCTATTTTGCTACTACTTTCCCTACCTGTACTTGCAGGTGCTATTACA
+ATACTTTTAACAGACCGGAATTTAAATACATCCTTTTTTGACCCTGCAGGGGGTGGAGACCCAATTCTCTACCAACAC
+TTATTTTGATTTTTTGGGCACCCTGAAGTTTATATTCTAATTCTTCCTGGTTTCGGAATAATTTCCCATATTATTACT
+TTTGAAAGAGGAAAAAAGCAAACATTTGGTCAGTTAGGGATAATTTACGCGATGGCTGCTATTGGACTTTTAGGGTTT
+ATTGTTTGAGCGCACCACATGTTCACTGTTGGTATAGACGTAGACACTCGAGCATACTTCACTACTGCTACTATAATT
+ATTGCCGTACCCACAGGAGTAAAAATTTTCAGCTGAATTGCCACCCTTCAAGGTAGATTCTTAATTATAACACCTGCT
+CTGATATGAGCTATTGGATTTGTATTTTTATTCACAGTGGGGGGTCTCACTGGTATTATTTTAGCTAACTCTTCTATC
+GATATTGTTCTTCATGATACTTACTATGTTGTAGCTCATTTTCATTATGTTCTCTCTATGGGTGCAGTATTTGCTATT
+ATAGGAGGGTTAATTCACTGGTTTCCCTTATTTACAGGTACTAGTATAAACCCATCTTGATTAAAAATTCAATTCATT
+ATTATATTTATTGGGGTTAATTTAACATTTTTTCCCCAACACTTTTTAGGGCTGAATGGAATACCCCGACGATACTCA
+GATTACCCAGATGCTTTCACTTCGTGAAATGTAGTTTCAAGTGTAGGAAGATACACATCAGTAATAGCAATTCTAATT
+TTTAGCTACATTATTTGAGAGGCTATAAGTTCTAATCGACCTGTTATGTACAATTACATTCAACCGTCATATATTGAA
+TGATTCCAAAATAACCCCCCGTCAGAACACTCATATAGAGAATTAACAATTATTTATAACTTCTAATATGGCAGATTA
+GTGCGATGAATTTAAGCTTCATAAATGGGTGTTAAAAACCCTTTTAGAAATCGCAACTTGATCAGCATTAAATCTTCA
+AAACGCAGCCTCGCCTCTTATGGAGCAGCTAATTTTTTTTCATGATCACGCTATGACTATTCTTATTTTAATTGTTAC
+AATTGTTGGTTATAACCTTATATCAACTTCTTATAACATAAATATTGACCAGTATATGCTGGAGTCACAACCATTAGA
+GTTATTCTGAACTATTGTGCCCAGCTTTGTGTTAATTTTTATTGGACTACCATCAATCCGACTTCTATACCTTTTAGA
+TGAAGTATATAAACCTTCAATTACAATCAAAACCATCGGACATCAGTGATACTGGTCTTATGAATATTCTGATTTTAT
+TAATCTAGAGTTTGATTCTTACATAACCCCATCTGCAGAGATGGCTGAAAACAGTTTTCGACTTTTAGATGTAGATAA
+CCGGACAGTCATCCCTACAAACACGCAAATTCGAACTTTAATTACAGCCGCTGATGTACTTCATTCGTGAACTGTGCC
+AGTACTAGGTGTAAAAGCTGATGCAGTCCCAGGTCGTCTTAATCAAGTAAATTTTTTAACTAACCGGCCGGGTGTTTT
+TTTTGGTCAATGCTCAGAAATTTGTGGCGCTAACCACAGATTTATGCCAATTTCTATTGAAAGTGTACCTGCTAAAAC
+TTTTATTAAATGAATTAAAAATAACACTTAATTAAGTTAAATGGCTGAAAGTAAGTATCGGTCTCTTAAACCGCACTA
+TAATATTGTGACGAATATTTTTAACTAAAGAATTAGTTAAAACATAACATGATTTTGTCAGGATCAAATTATCATAAG
+ATATTTTTTAATCCCTCAAATATCGCCTTTAATATGAGCCCCTCTATTTATTTCATTCTCTACCCTTCTTCTTTTTGC
+TATGATCAAGATCTACTTTAAACCTGGGTCTACCTTAAGTAGACTAAAAAGTGAAACAAACAGCATTACTAACCCAGT
+AAAGCTAGACAATCCGTGAATATGATAACTAATCTTTTCTCCGTATTTGACCCCTCTGCTAACTATAATATACCCTTA
+AACTGGGCTAGCTCCCTGCTTTTAATTATTGCAATTCTTCCTTCATACTGATTAATTCCTGGTAAAGCTGTTAAACTA
+GTAAGAAACATTACATTAAAGCTTCACTCAGAATTTAAAACACTTTTAGGTCCTTCTGCTAATGTAGGCTCCTCATTT
+GTCTTTATTGCATTATTCATATTCATTTTAATCAATAATTTTTTGGGCTTATTTCCATATATTTTCACATCTTCTAGC
+CATATTACTATGACACTAGCTCTAGCTCTTCCCTTGTGATTTAGCTTTATATTATATGGGTGAATCAACCATACTAAC
+CACATGTTCGCCCACCTAGTACCGCAAAGAACCCCCACCGCTTTAATACCTTTTATGGTATTAATTGAATCTATTAGA
+AATATTATCCGCCCGATTACTTTATCGGTGCGATTAATGGCTAATATAGTAGCAGGGCATCTTTTAATAACTCTACTG
+GGAAACCAGACAGCTATTGCCTCTAATCTAGTTTTAATAAGCTTAATTGTTACCCAAATTTTACTTTTAACCTTAGAG
+AGTGCTGTAGCGGTAATTCAGTCTTATGTTTTTGCAGTATTAACAACTCTATATTCTAGAGAAATTACATCACATTAA
+TGATAGTTAAAAGTAATCACGCCTTTCATCTAGTAGACCAAAGCCCCTGACCTTTAACAGGGGCTATTGGAGCTTTAA
+TTATAACATCGGGGATTGTAAAATGATTTAATATGTTTTCACCGCATTTGTTTATTTTAGGGACAGTAATTCTAGGAT
+TAACTTGTATTCAATGATGACGAGATATTAGTCGCGAAGGAACCTTCCAAGGGCTTCATACTTTAGTGGTAGCCTTAG
+GCCTTCGATGGGGAATAATCTTATTTATTACATCTGAAGTATTATTTTTCTTTTCTTTTTTTTGAGCATTTTTCCATA
+GAAGCCTGGCCCCTACAATAGAAATTGGTTTACAGTGACCACCTTCAGGAATTGCTACTTTCAACCCAATTCAAGTCC
+CCCTTCTTAATACTATTATTTTGTTAGCTTCAGGGGTAACCGTTACATGGGCTCACCATGGTTTAATAGAAAACAAAT
+TTTCTCAAACTAAACAAGGATTAATTCTTACAGTAATTTTAGGGGTTTATTTTACTTGTCTACAGGCAATAGAATACT
+GAGAGGCATCTTTTACTATTGCTGACTCCGCTTATGGTTCAACTTTCTTTATCGCAACAGGGTTCCATGGTCTACACG
+TAATTATCGGTACCACTTTCTTAATCACATGCCTAGCTCGTCACATAGGATGTCATTTCTCCAGAGGGCATCACTTTG
+GATTTGAAGCTGCTGCATGGTACTGACACTTTGTCGATGTAGTCTGACTTTTCCTTTATTTAACTATTTACTGATGAG
+GAAGTTAAATTAAAATTTTTTAGTATAAAGTATATTTGACTTCCAATCAAAAGGACCGCCGAGCGGAAAAATTAATAA
+TCTTAATTTTTTTATTTAGCCTAGTTCTGTCTATTATTCTCATTATTGTAAATTCTTTAATCGCCAAAAAATCAACCA
+TGGATCGAGAGAAGCCATCCCCCTTTGAGTGTGGATTTGATCCTAAAAGAACAGCACGAGTTCCTTTTTCCCTGCGAT
+TTTACTTAATTGCACTAGTTTTTTTAATTTTCGATGTAGAAATTACTTTAATTCTTCCTATCCCGGTTCTTCCAATTC
+TAAGAAACACCCTCCCCTTATTGATTTTGAGATGTTTTTTCATTATTATTCTGATTGTAGGCCTTTTCCACGAATGAA
+ATGAAGGGGCTTTAAACTGAGACAAATAGGAAAGTAGTTAACTATAACACCTGGGTTGCATTCAGGAGGTACTTTGAA
+GTCTTTCTTAAGTAAGAAGCGATTATTTGCTTTCAGTTTCGACCTGAACCTAGGTTGTATAACCCTTACTTTTTAAAA
+GAAATCAAAATTAGCGATTTATCACTGTTAATGATACTTAGGTATTTAAGCCCTTTTAAAGAACTAGGGGGTTTCGGA
+AATAAGCTGCTAACTTAATTTTTAAGTGGTTAAACTCCATTTATAGTTTTTTATATTAGTTTAACTAAAACCTTACAT
+TTTCATTGTAAAAATAAATAAATTTAATTTATATAAATTATTTAAAAGAGAAACCTCTACCTTAGCTTCTTCAGAGCT
+AAGCTCTTAATCTTGAGCTATTTAAATAAACGTAAATAATCATAAAATAAAAAAAGATTAAAAAAAAGAATAAAAGAT
+ATATTTTTAGGTTAAAAAAAAAAGATTTATCTGAGTATAAAAACCCCCTATCTAAAGTCTTAGCGATTTTTCCCTGAG
+AAAAAATATATTCTATTCAACCTTGATCCAAATATTTTAATAGGGTGTTTCCAGATTTAAGCACAGGTATAATAAAAG
+TAGTAGAAATTATAGGCATAAACCATATAGACCCTAAAAAATGAATTAAAGCCTTAACTTTTACCACCCCGTATAAAT
+AATTTATTTTTATAAACAAATAAACAACCCCTATAAGTATTAGTACTAAAGTAATAATTAATAATTTGAAAAAAAATG
+GTAAAATAACAAAGTTTACTGGAAAATACAACCATGATATAGCTCTGCCAGCAGAAATAGCTAAAATAAATAAAACTC
+TTATAGGAACAACTATAATAATTCTTTCTCCTAAATGAAGAAATCTTTTAGATCCTAAATTCTTAAAAAACAAATAAT
+AAACTAATCGAACTGAGTAAGTAACCGTAAACATAGTCCCTAAGACAATCACTAAAAACATAAAAAAATTTATATTAT
+TTAAAAAATAAAATTCTAAAATTGAATCCTTAGAGTAAAACCCGGATAAAAATGGAAACCCGCATAAAGATAGAGAGC
+AACCTATAAAATAAAAAGATCTGATGGGCAATCCTACCTCCAACCCCCCAAGATTGCGGATATCTTGCGTGTCCCCCA
+TTCTATGAATAAAAGAGCCCGCGCATAAAAATAATAAAGACTTAAAAAGAGCGTGGCTCAATAAATGAAAAAAAGCCA
+ACTCTCTTCTACCTAAAGATAAAATTATTATTATAACACCCAACTGTCTTAAAGTAGATAAAGCAATAATTTTTTTTA
+GGTCAGTTTCAAAATTAGCCCCTAACCCAGATATGAATATAGTGAAAACACCAACTAAGAACATAAAATTTCTCACAG
+ATAAAAGCTCACTAAAACGAATTAATAGGTAGACCCCAGCGGTCACCAGAGTAGAAGAATGCACTAAAGCTGAGACAG
+GAGTTGGAGCTGCTATAGCAGCAGGAAGCCAAGCAGAAAAAGGAATTTGAGCTCTTTTAGTTATAGCAGCAATAACAA
+CCATACACAGAATAAATATAAGCTCTGCGTCTCTGTACACTAGTTGTAAAAAATAAAAGTTTCAAGTTCCATAATTAG
+CTATTCAAGAAATTCTTAATAAAATTGCAACATCCCCCACGCGATTAGACAAAATAGTTAATATACCAGCATTAGCAG
+ACTTAACATTTTGATAATAAATCACTAAACAATAAGACACTAAACCTAGTCCGTCCCACCCTAAAAGAATTCTAATTA
+TATTAGGACTTATAATTAACAAAAGTATAGAGATTACAAACAGATAAACTAACATAATAAATCGGTAAATAAATTTAT
+CCCCCTCCATGTAATTACCGCTATAAAATAAAACCATTGAAGAAATTAATAAAACAAATCCTATAAAAGTTAATCTTA
+TTCAATCAAGTAAAATAGTTATGATAATATTTCTTCCTAATAAAGAAAAAATTTCCCATTCTAAAAATACAACATTAG
+ATCTAAAATAAAAACTGTAACCCCTGACAACGAAATAACCTGAAATTAGTATAAGCATAAAACCTAGGTAACAATTAA
+CCAGCCGAAAAAATAAAATTATTTAGAAGAAATCTCTTTCTTAAAGACCACAACTTTAAATTTTAAATTATAAACTAT
+CTAAATATTTCTAATTAATAAATATAAAATACTCCGGCTTTAAAATTAACAAATTTACTGGATAAACATGCAAACCTA
+AACAATGAAGCTCGCGATAGGTAGAAAAATTAAAAGATATAGAACCTGAAAATAACTTCCCGTGCTGGGAAAAAGAAA
+ACAAAAATAATGTAAATACGGCTCCTATATAAGAAGCTAACGGAAACACCACCAACATTAACCTGTCAAACTTTAACA
+TTCTTACTATAAGAAAAATTTCCGACATTAAATTAATAGTTGGTGGCGCAGCCATGTTGGCTGCGCATAATATAAAAA
+CGTATAAAGAGAAAACAGGAAAAACCAAAATTAAGCCTTTATTAAAATATATTCTTCGTCTTCTTGAACGCTCGTAAT
+ATATATTTACCACACAAAATAAACCAGATGAAGCCAACCCATGACTTAGTATTATTATTAAAGAACCTCTAAACCCCC
+ATAAACAAAAACTAAAAACACCACAAATTACCAACCCTATGTGAGCTACTGAAGAATAAGCAACTAATGCCTTCAAAT
+CATTTAACCGACAGCATATAAAACCAACAAATAGTATTCCTAAAACTCTTAATCCAAAAATATACCCCCCATAAAGCT
+TTAAACCCCCCTGGCAAAAATAAAGAATTCGAAAGAATCCGTAACCACCTAATTTTAATAAAACCCCAGCCAAAATTA
+TAGACCCTGAAACGGGAGCTTCTACATGAGCTTTAGGTAACCATAGGTGAACAAAAAATATAGGTATTTTTACTAAAA
+AAGCTATAGTAAAACAAAAAAATACCAATAAAGAAAAAGTAGTTCTCAAGATTTTAAACTCAACAAATAACTCTAACC
+CACCGAGATTAAAATAAAGGTATACTAATACTAATAACAAGGGTAAAGATGCTACTAAAGTGTAAAATAAAAAGTAAA
+GCCCTGCTTGAAGGCGTTCAGGTTGATAACCCCACCCTAAAATAATAATAAGAGTGGGGAGCAGAGAAAACTCAAAAT
+AAAAATAAAATGACAAAAGATTAGAAGTAGAAAAAGTTAAAAGTAGAATTAAGCATAAAAGAACTACTATAAAAGAAA
+AAATTACTTCTTTAAAGCCGTTAATAAAAATACCCCCTCTAGACATAAATATTAATACAGTAATTCAAAAACTAAGAA
+CAATAAGTCTATAGGAAAGAACGTCTAATCTCATAGAGCATCTTAATATAGAGACGCCCACCCCTAAAGTGTTTTGAG
+TTAAAAAAACCAAGCCTAAAATAACTAATAAAACTCTAATTATTCAAAACCCTATACTTCTTAAAAGTAGAGAACATA
+AAGAAAAAATCATAAAAAAAATAAATTTTATCATTAACTTGAAAATAAAAAACTTAATGATTTAAAATAATCACCTCC
+GTGAGTCCGACCTATTATAATCAAAACCGAAAGGCCTAGAGCCCCTTCGCAAGCAGTTATAATTAAATAAAACAAACT
+ATAATAATAAAACCCTGAACAAAATCTAAGCATTAAAAAAATAAAAACCCCTAAAACCATAAACTCCAAACTAAGAAG
+AGTTGAAAGAAGATGCTCACGCACAGAACAATAAATTCAAAACCCCGCAAAAATAACAACAAACCCGATTAACAACTC
+CAAAATAAGTTTTTATAGTTTAAAGTAAAACATTAGTCTTGTAAACTAAAAATTAAGTAATTATAAAAACTTCAGAGA
+AAGCCGTTAAGCTATCTTTAACTTCCAAAGTTAAAATTTTAATAAACTATACTCTGTAATTTTAATAGTTCTTTTATT
+TATTTCTATAACAGCTACCACACTTTTTATATCATCACACCCCGTTACTATTTTAACTATAATCTTAACCCAAACTTT
+TTTAATCTGCATTTCATTATGAATTATAATTAAGTCTTCTTGATTTTCTTTTATTCTGTTTCTTATCTTTCTAGGTGG
+TTTAATAGTTCTATTTGTCTATGTAGTAAGTCTAGCCTCTAATGAAAAATTTGAAATAAAAATATCTTTATTCTACCA
+AATAATTACTTTAAATAGACTAATAGTTCTAATTGTAGGGGTATGAAATTATTTTCAAGTAAATAATCTACTAGTTGA
+TCAAACTAACATACTAATAAAAACAATAATGATTTTTTCTTCCAGAAACATTTTAACATCAATTTTAATTATAACATA
+CCTTCTTTTTACTTTATTAGTAGCTGTCAAAATCGCCTCAAAGTACGAAGGCCCCCTTCGTAAAATTAATTAATGATA
+AATATTCGTAAAACCCACCCATTAATTAAAATCGCTAACGGAGCATTAATTGATCTTCCGGCCCCTATTAACATTTCA
+GCCTGATGAAACTTTGGGTCTCTATTAGGTCTTTGCTTAATCACTCAAATTGTCACAGGACTTTTTCTAGCTATGCAT
+TACACAGCTGATGTCACTTTAGCTTTTAATAGTGTATCACACATCTCACGAGATGTCAATTACGGATGACTTCTGCGT
+GCTACTCATGCTAATGGAGCATCATTCTTTTTTATCTGTCTTTACCTACACGCTGGGCGAGGAATATACTACGCCTCA
+TACTTTTATTCACATACCTGAACAATCGGGGTAATTATTATACTAGCCGTAATGGGAGCAGCTTTTATAGGATATGTC
+TTAATTTGAGGTCAAATATCATTTTGGGCTGCCACAGTAATTACTAATCTTTTATCAGCAATCCCGTACCTAGGGCAA
+ACATTAGTTCAATGAATTTGAGGGGGTTTTGCTGTAGATAACGCCACTTTAACACGATTTTTTACATTTCATTTTTTA
+ATTCCTTTTATTATTGCAGGACTGTCAGCAGTGCATATCCTATTTCTTCATCAAACAGGATCTAATAATCCAATGGGA
+ATAAACTCTAACTCAGATAAAATCCCGTTTCACCCTTATTTTACTAGAAAAGATTTATTTGGTTTCCTAGTTATATAC
+TGGGCCTTATTAATATTAGTTTTAACTAATCCTTTTCTTCTAGGAGATGTAGAAAACTTCATCCCCGCTAATCCTTTA
+GTTACCCCTGTACATATCCAGCCAGAGTGATATTTTTTGTTTGCTTATGCAATTCTTCGTTCGATTCCAAACAAGCTA
+GGGGGGGCTATTGCACTAGTTGCTTCAATTGTTATTTTAATAATCTTACCTCTAAGACAAAAAACTAACACCCGAGGT
+ACCCAATTTTATCCTTTAGCTCAAATCTCATTTTGAACGTTAGTAAATGTAGTAATTCTTCTTACGTGAATCGGAGCT
+CGTCCAGCTGAAGACCCTTATATCGTTGTGGGTCAAATCCTGACAGTCATTTATTTTGCGTACTTCTTACTAAATCCA
+ATGATTTTAAAATCGTGGGATAAAATCCTTAAATAATTATTTGGCTGAACGCCCAAGCAACTACCTTGAAAGTAGTCT
+AAAAGAGTTTAACTCTCTTAATAATTTCTCGTTAAAAGTTTCAAATTAAACAATTTTTAACATAAAATAAACAAACAA
+AACAAAAAGGGACACAGGTAAAAAAATTTTTCAAGCCAAATACATAAGCTTGTCATAACGAAACCGGGGTAAGGTTCC
+TCGAACCCAAATAAATCAAAAACAAAAAAAACAACCTAATAAATTAAACCCTAAAAAATTTATTCCCCCGCCAAGAAA
+AATAAGGACTAAAAAATATCTTATAAAAATAATTCTTCCATACTCCGCTAAAAATAAAAGAGCAAAGCCCCCTCTCCC
+GTACTCAATATTAAACCCAGAAACTAATTCTGACTCCCCTTCCGCGAAGTCAAAGGGGGTCCGATTAGTTTCTGCTAG
+AGACGAGGTAACCCAGCATAAAAAAATAGGAAATAATAAAAACACAAACCAGACATAACCCTGTCTTAATTGGAAAGA
+GCCTAGTCTATACTGGGAAACTAAAAAAACTACAGATAAAAAGATCAAAGCTATTCTTACTTCATAGGAGATGGTCTG
+CGCTACCCCTCGTATTGCTCCTAGGAGGGCATAATTAGAGTTAGATGACCAACCTCTACCCATTAGAGTGTACACACC
+AAATCTAGTACAACAAAAAAAAAATAGCCCCCCCAAACTAAAATTTAAGAAAACACTTCCGTCAAAAGGCATTACGCT
+TCAAACAAACAAAGTAATAAATAAAGAAAAAACAGGAGAAAAATAATAAAGTAAAAAATTAGATGTGGATGGAAAAAA
+CTGCTCCTTAATAAATAATTTAATGGCGTCACCAAACGACTGAAGAACTCCCGTTACCCCAACTTTATTAGGACCCTT
+ACGAATTTGAATATAACCCAAAATTTTACGCTCAAATAAAACTATAAAAGCCACTCTAATTAAAACTCCAACTACCAA
+TAATAAATAACCTAAAATTACATTCAACAGCTCGAAAAAAAAAAATATTACCACATAGAGTACAACCCTATATTTCGA
+ATCTAAATCAACCGCACTAGTCTGCCAATGTAGTAAAAAAATTACCTCATAACGGTCCTTGCGTACTAGAAAGATTAA
+TTAGATGTAAAAGATAGAAACCAACCTGGCTCGCACCGATTTGAACTCAAATCATGTAAAATTTTAATGGTCGAACAG
+ACCACCTATTATAAGAACTGCCCCAAACAGAAATTTTAATTCAACATCGAGGTCGCAAACAATTATGTCGATAAGAAC
+TCTCAATAAACATTACGCTGTTATCCCTAAGGTAACTTTTTCATTTTTAAATTTTAAGATCTAAGAATTCAAAGAAGT
+TTTTTCTATTCTTTAATTGCCCCAATTAAACTTTAAAAAATAAAATCTCCCCACAACTATAATTGACATTAATTTTCA
+AAATCAAGCTCTATAGGGTCTTATCGTCTTTTTACCAAAATTAAGCATTTTCACTTAAATTTAAAATTCAAAAATAAT
+TAACTCACACAATACACCTAAGTTTAACCATTCATTCTATTCCTTAATTAAAAGACTAATGATTATGCTACCTTAGCA
+CGGTCAATATACCGCGGCCCTTCAAACTTCAGTGGGCAGGCTTTACTTTTCATGTAAACAAAAAGAAATGTTTTTGAT
+AAACAGTCTTAAGCGATCTGTCGAATTTATAAATTAATTTTAACTATAACCTAAACTAATTATTTAACTAATAATTTA
+TTCAGTAACACTAAGATTAAATAATTTGAGCAAAAAAATATTTTAATAAAAGCTAAATAAATTTTCTAAAAAAATAAA
+TAAGGTATAACCCACCAATAGACGCTTCTAAACTTTTCTATTTTATTAAACCATTTTAGCTTTATAAATATTTAATCC
+TTAAGCTAATCCTAAAGGAAATTTCGATTTTAAACTTTAAATATTGAAAAATATATAAACTTAAAAGCCCAAAGTAAA
+CATTTTACTAAACCAAAAATTAATAAAATCGGAATTATATCAATACTAAATAAATTTTTGCCTTAATATTTCAACATT
+AAACAAACAATTTATTTAACTCTTTTATTTTAGGGAAACAAAAAACTTTTTAAAAATTAAATAACCATGATACAAAAA
+GTACTATATATTTTATTAAAATGAATAATATTTAAAATATTTCACTGATATCCCCCTCAGTAAAATATAAAAAATAAA
+TTCTTTTTAATACTTAAACAATAAAAACTTTAAAAATATAAAATATTTTCATCAAAACACCCTGGCGAAAGAGATCTT
+TTCATTGTAAGTGAATTGCTTATCATCAAGCTCCATTTTGACAAGATGCCCCTTCCGGAACGTCTACTTTGTTACGAC
+TTATCTAATTTCATAATTAGAGCGACGGGCGATGTGTACATAACTTAGAGCTTAATTCAAATATATAAATAAAATAAA
+TTAATTTCAAATCCATTTTTTTACCACATAAAAATATAGTGTAACCCATTTCTTCTTTAATATAAACTAAACCTTGAT
+TTGAATTATTTTTTATTAAAAAAATTAAACTAATTATAAAATTAATTTTTAAAACAACGGTATATAAAATTAATTAAA
+GTAAAATAAATAGTGTAGTATCTTTTATAGAACAGGTTCCTCTGATAAGAAATAAATTACCGCCAAATTCTTTAAGTT
+TCATAATTACTACTACTTAAAACCATTAAAAATAATAGGGTATCTAATCCTAGTTTTTTAAAAATAACTTTCAAATTG
+AAATAAATTATTTTAAAGAAATACTTTATTTCACCAAAATTAAATCTTATTAAATAAATAAAAAGCTACAATTTTAGA
+TAATAAATTAATTTAAATATAATGTCTAACCGCAGATGCTGGCACATCTTTATCCTAGTATAAAATAAAATTTTACAT
+CTTTATATAATTTTTTGTAATACTAAATACTGCCAAAATTTACATGTATAAAATTTATAGTATAAATTTCTAAGCTAG
+AATCAAACTTTTCCTAAAGTCAAATAGAGACTTTTAAATTTTAATTACAATCTTTTAATTCTTGTAATTAAAATTTAA
+TATATAAATTATTTATTATAAATATATGTATAAATATTAATATAATAAGATAATTATTCTTTAATTTTAAATAAATAA
+TTTATTTTAAATAAATATACTTTTTTTCTTTTTTATTTATATATATAATATATGTTTAATATAAATAAATATAAAATA
+TTTAATTAAATATATATATATATAATTATATAAAATTAAACATATATATATATATAATAAATTTATTATATTATAATA
+ACACAAAAAAAAATTTTTTTCTAAAAGTCCCTATTTGACTTTAGGAAAAGTTTGGAAAAAGAAATATTTACTTAG" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND2" } ,
+                          location
+                            int {
+                              from 199 ,
+                              to 1191 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX1" } ,
+                          location
+                            int {
+                              from 1384 ,
+                              to 2922 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX2" } ,
+                          location
+                            int {
+                              from 2984 ,
+                              to 3667 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP8" } ,
+                          location
+                            int {
+                              from 3803 ,
+                              to 3899 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          location
+                            int {
+                              from 3970 ,
+                              to 4650 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX3" } ,
+                          location
+                            int {
+                              from 4650 ,
+                              to 5438 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          location
+                            int {
+                              from 5505 ,
+                              to 5849 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND5" } ,
+                          location
+                            int {
+                              from 6243 ,
+                              to 7945 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          location
+                            int {
+                              from 8015 ,
+                              to 9364 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 9364 ,
+                              to 9639 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND6" } ,
+                          location
+                            int {
+                              from 9785 ,
+                              to 10261 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "CYTB" } ,
+                          location
+                            int {
+                              from 10261 ,
+                              to 11394 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND1" } ,
+                          location
+                            int {
+                              from 11482 ,
+                              to 12399 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnI(gau)" } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 65 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 73 } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 65 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(uug)" } ,
+                          location
+                            int {
+                              from 66 ,
+                              to 133 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 } } ,
+                          location
+                            int {
+                              from 66 ,
+                              to 133 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cau)" } ,
+                          location
+                            int {
+                              from 131 ,
+                              to 198 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 } } ,
+                          location
+                            int {
+                              from 131 ,
+                              to 198 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnW(uca)" } ,
+                          location
+                            int {
+                              from 1190 ,
+                              to 1256 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 87 } } ,
+                          location
+                            int {
+                              from 1190 ,
+                              to 1256 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnC(gca)" } ,
+                          location
+                            int {
+                              from 1256 ,
+                              to 1316 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 67 } } ,
+                          location
+                            int {
+                              from 1256 ,
+                              to 1316 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnY(gua)" } ,
+                          location
+                            int {
+                              from 1318 ,
+                              to 1382 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 89 } } ,
+                          location
+                            int {
+                              from 1318 ,
+                              to 1382 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 2918 ,
+                              to 2983 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 2918 ,
+                              to 2983 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnK(cuu)" } ,
+                          location
+                            int {
+                              from 3671 ,
+                              to 3741 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 75 } } ,
+                          location
+                            int {
+                              from 3671 ,
+                              to 3741 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 3741 ,
+                              to 3802 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 3741 ,
+                              to 3802 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnG(ucc)" } ,
+                          location
+                            int {
+                              from 5444 ,
+                              to 5504 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 71 } } ,
+                          location
+                            int {
+                              from 5444 ,
+                              to 5504 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnA(ugc)" } ,
+                          location
+                            int {
+                              from 5848 ,
+                              to 5907 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 65 } } ,
+                          location
+                            int {
+                              from 5848 ,
+                              to 5907 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnR(ucg)" } ,
+                          location
+                            int {
+                              from 5908 ,
+                              to 5970 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 82 } } ,
+                          location
+                            int {
+                              from 5908 ,
+                              to 5970 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnN(guu)" } ,
+                          location
+                            int {
+                              from 5971 ,
+                              to 6036 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 78 } } ,
+                          location
+                            int {
+                              from 5971 ,
+                              to 6036 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(gcu)" } ,
+                          location
+                            int {
+                              from 6037 ,
+                              to 6104 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 6037 ,
+                              to 6104 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnE(uuc)" } ,
+                          location
+                            int {
+                              from 6104 ,
+                              to 6170 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 69 } } ,
+                          location
+                            int {
+                              from 6104 ,
+                              to 6170 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnF(gaa)" } ,
+                          location
+                            int {
+                              from 6171 ,
+                              to 6237 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 70 } } ,
+                          location
+                            int {
+                              from 6171 ,
+                              to 6237 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnH(gug)" } ,
+                          location
+                            int {
+                              from 7946 ,
+                              to 8010 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 72 } } ,
+                          location
+                            int {
+                              from 7946 ,
+                              to 8010 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnT(ugu)" } ,
+                          location
+                            int {
+                              from 9651 ,
+                              to 9713 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 84 } } ,
+                          location
+                            int {
+                              from 9651 ,
+                              to 9713 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnP(ugg)" } ,
+                          location
+                            int {
+                              from 9714 ,
+                              to 9776 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 80 } } ,
+                          location
+                            int {
+                              from 9714 ,
+                              to 9776 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(uga)" } ,
+                          location
+                            int {
+                              from 11393 ,
+                              to 11463 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 11393 ,
+                              to 11463 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uag)" } ,
+                          location
+                            int {
+                              from 12421 ,
+                              to 12484 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 12421 ,
+                              to 12484 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnV(uac)" } ,
+                          location
+                            int {
+                              from 13672 ,
+                              to 13738 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 86 } } ,
+                          location
+                            int {
+                              from 13672 ,
+                              to 13738 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "s-rRNA" } ,
+                          location
+                            int {
+                              from 13734 ,
+                              to 14477 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "12S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 13734 ,
+                              to 14477 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            gene {
+                              locus "l-rRNA" } ,
+                          location
+                            int {
+                              from 12435 ,
+                              to 13879 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "16S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 12435 ,
+                              to 13879 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Salina_celebensis" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 2 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 330 ,
+                  seq-data
+                    ncbieaa "MFFKVHQLIFLVVLFSGSMISLSANSWFTVWLGLEINLMSMIPLILIKL
+NPKLTESAIKYFLAQAMASILMIFSVTLNFFFYNIITLDAMELLLISSISMKLGAAPFHFWFPQVTVGLNWTQNILIF
+TWQKVAPFFVIMTLSSKYLILISMFSALVGALGGFNQLVMKLTMTYSSISHTGWMLSASLLSENFWLSYFFMYSLLSI
+VIIHFFMKNSIYKINQVFSCSDSTLNKYVAAMNILSLGGLPPLMGFIAKLSVIIILVKKNMIVMFLIMITASLISLFF
+YVRIIYSSMMSNTKTFKNKTHAFKPFSSLFFLSVFFNLMCPVMFFLT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 329 ,
+                              id
+                                local
+                                  str "Salina_celebensis_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_2" } ,
+                descr {
+                  title "cytochrome c oxidase subunit I (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 512 ,
+                  seq-data
+                    ncbieaa "MNRWLFSTNHKDIGTLYLIFGVWSAMVGTAFSVLIRLELGQPGSLIGND
+QIYNVMVTAHAFIMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLTLLLAGGLVESGAGTGWTVY
+PPLSAGIAHAGASVDLSIFSLHLAGASSILGAVNFITTIINMRTPGMTWDQTPLFVWSVFLTAILLLLSLPVLAGAIT
+MLLTDRNLNTSFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIITFESGKKQTFGQLGMIYAMAAIGLLGF
+IVWAHHMFTVGMDVDTRAYFTTATMIIAVPTGVKIFSWIATLQGSFLIMTPALMWAIGFVFLFTVGGLTGIILANSSI
+DIVLHDTYYVVAHFHYVLSMGAVFAIMGGLIHWFPLFTGTSMNPSWLKIQFIIMFIGVNLTFFPQHFLGLNGMPRRYS
+DYPDAFTSWNVVSSVGSYTSVMAILIFSYIIWEAMSSNRPVMYNYIQPSYIEWFQNNPPSEHSYSELTIIYNF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit I" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 511 ,
+                              id
+                                local
+                                  str "Salina_celebensis_2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_3" } ,
+                descr {
+                  title "cytochrome c oxidase subunit II (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 227 ,
+                  seq-data
+                    ncbieaa "MATWSALNLQNAASPLMEQLIFFHDHAMTILILIVTIVGYNLMSTSYNM
+NIDQYMLESQPLELFWTIVPSFVLIFIGLPSIRLLYLLDEVYKPSITIKTIGHQWYWSYEYSDFINLEFDSYMTPSAE
+MAENSFRLLDVDNRTVIPTNTQIRTLITAADVLHSWTVPVLGVKADAVPGRLNQVNFLTNRPGVFFGQCSEICGANHS
+FMPISIESVPAKTFIKWIKNNT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit II" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 226 ,
+                              id
+                                local
+                                  str "Salina_celebensis_3" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_4" } ,
+                descr {
+                  title "ATP synthase F0 subunit 8 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 32 ,
+                  seq-data
+                    ncbieaa "MPQMSPLMWAPLFISFSTLLLFAMIKIYFKPG" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 8" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 31 ,
+                              id
+                                local
+                                  str "Salina_celebensis_4" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_5" } ,
+                descr {
+                  title "ATP synthase F0 subunit 6 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 226 ,
+                  seq-data
+                    ncbieaa "MMTNLFSVFDPSANYNMPLNWASSLLLIIAILPSYWLIPGKAVKLVSNI
+TLKLHSEFKTLLGPSANVGSSFVFIALFMFILINNFLGLFPYIFTSSSHITMTLALALPLWFSFMLYGWINHTNHMFA
+HLVPQSTPTALMPFMVLIESISNIIRPITLSVRLMANMVAGHLLMTLLGNQTAIASNLVLMSLIVTQILLLTLESAVA
+VIQSYVFAVLTTLYSSEITSH" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 225 ,
+                              id
+                                local
+                                  str "Salina_celebensis_5" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_6" } ,
+                descr {
+                  title "cytochrome c oxidase subunit III (mitochondrion)
+ [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 262 ,
+                  seq-data
+                    ncbieaa "MMVKSNHAFHLVDQSPWPLTGAIGALIMTSGIVKWFNMFSPHLFILGTV
+ILGLTCIQWWRDISREGTFQGLHTLVVALGLRWGMILFITSEVLFFFSFFWAFFHSSLAPTMEIGLQWPPSGIATFNP
+IQVPLLNTIILLASGVTVTWAHHGLMENKFSQTKQGLILTVILGVYFTCLQAMEYWEASFTIADSAYGSTFFIATGFH
+GLHVIIGTTFLITCLARHMGCHFSSGHHFGFEAAAWYWHFVDVVWLFLYLTIYWWGS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit III" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 261 ,
+                              id
+                                local
+                                  str "Salina_celebensis_6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_7" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 114 ,
+                  seq-data
+                    ncbieaa "MILIFLFSLVLSIILIIVNSLIAKKSTMDREKPSPFECGFDPKSTARVP
+FSLRFYLIALVFLIFDVEITLILPIPVLPILSNTLPLLILSCFFIIILIVGLFHEWNEGALNWDK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 113 ,
+                              id
+                                local
+                                  str "Salina_celebensis_7" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_8" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 567 ,
+                  seq-data
+                    ncbieaa "MLFFRLVNCYLGFMLMLISGYFVVSGYSFYFSSNVVFLEWEIFSLLGSN
+IIMTILLDWMSLTFMGFVLLISSMVLFYSGNYMEGDKFIYRFIMLVYLFVISMLLLIMSPNMISILLGWDGLGLVSYC
+LVIYYQNVKSANAGMLTILSNRVGDVAILLSISWMANYGTWNFYFLQLVYSDAELMFILCMVVIAAMTKSAQIPFSAW
+LPAAMAAPTPVSALVHSSTLVTAGVYLLIRFSELLSVSNFMFLVGVFTMFMSGLGANFETDLKKIIALSTLSQLGVMM
+MILSLGSSELAFFHLLSHALFKSLLFLCAGSFIHSMGDTQDIRNLGGLEVGLPISSFYFMGCSLSLCGFPFLSGFYSK
+DSILEFYFLNNMNFFMFLVIVLGTMFTVTYSVRLVYYLFFKNLGSKSFLHLGESIIMVVPMSVLFILAISAGSAMSWL
+YFPVNFVILPFFFKLLIITLVLMLMGVVYLFMKMNYLYGVVKVKALIHFLGSMWFMPMISTTFIMPVLKSGNTLLKYL
+DQGWMEYIFSQGKIAKTLDSGFLYSDKSFFFNLKMYLLFFFLIFFYFMII" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 566 ,
+                              id
+                                local
+                                  str "Salina_celebensis_8" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_9" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 449 ,
+                  seq-data
+                    ncbieaa "MMKFIFFMIFSLCSLLLSSMGFWMISVLLVILGLVFLTQNTLGVGVSML
+SCSMSLDVLSYSLIVLSFWITVLMFMSSGGIFINGFKEVIFSFMVVLLCLILLLTFSTSNLLSFYFYFEFSLLPTLII
+ILGWGYQPERLQAGLYFLFYTLVASLPLLLVLVYLYFNLGGLELFVEFKILSTTFSLLVFFCFTMAFLVKMPMFFVHL
+WLPKAHVEAPVSGSMILAGVLLKLGGYGFFRILYFCQGGLKLYGGYIFGLSVLGMLFVGFMCCRLNDLKALVAYSSVA
+HMGLVICGVFSFCLWGFSGSLMMMLSHGLASSGLFCVVNMYYERSSSRSMYFNKGLILVFPVFSLYVFMLCAANMAAP
+PTINLMSEIFLMVSMLKFDSLMLVVFPLASYMGAVFTLFLFSFSQHGKLFSGSMSFNFSTYRELHCLGLHVYPVNLLI
+LKPEYFMFIN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 448 ,
+                              id
+                                local
+                                  str "Salina_celebensis_9" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_10" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 91 ,
+                  seq-data
+                    ncbieaa "MLIGFVVIFAGFWIYCSVREHLLSTLLSLEFMVLGVFIFLMLSFCSGFY
+YYSLFYLIMTACEGALGLSVLIMMGRTHGGDYFKSLSFLFSS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 90 ,
+                              id
+                                local
+                                  str "Salina_celebensis_10" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_11" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 158 ,
+                  seq-data
+                    ncbieaa "MVLLFISMTATTLFMSSHPVTILTMILTQTFLICISLWIMIKSSWFSFI
+LFLIFLGGLMVLFVYVVSLASNEKFEMKMSLFYQMITLNSLMVLIVGVWNYFQVNNLLVDQTNMLMKTMMIFSSSNIL
+TSILIMTYLLFTLLVAVKIASKYEGPLRKIN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 157 ,
+                              id
+                                local
+                                  str "Salina_celebensis_11" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_12" } ,
+                descr {
+                  title "cytochrome b (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 377 ,
+                  seq-data
+                    ncbieaa "MMNIRKTHPLIKIANGALIDLPAPINISAWWNFGSLLGLCLITQIVTGL
+FLAMHYTADVTLAFNSVSHISRDVNYGWLLRATHANGASFFFICLYLHAGRGMYYASYFYSHTWTIGVIIMLAVMGAA
+FMGYVLIWGQMSFWAATVITNLLSAIPYLGQTLVQWIWGGFAVDNATLTRFFTFHFLIPFIIAGLSAVHILFLHQTGS
+NNPMGMNSNSDKIPFHPYFTSKDLFGFLVMYWALLMLVLTNPFLLGDVENFIPANPLVTPVHIQPEWYFLFAYAILRS
+IPNKLGGAIALVASIVILMILPLSQKTNTRGTQFYPLAQISFWTLVNVVILLTWIGARPAEDPYIVVGQILTVIYFAY
+FLLNPMILKSWDKILK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome b" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 376 ,
+                              id
+                                local
+                                  str "Salina_celebensis_12" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Salina_celebensis_13" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 305 ,
+                  seq-data
+                    ncbieaa "MNVILGYLLLVVGVLISVAFMVLFERKILGYIQIRKGPNKVGVTGVLQS
+FGDAIKLFIKEQFFPSTSNFLLYYFSPVFSLFITLFVWSVMPFDGSVFLNFSLGGLFFFCCTSFGVYTLMGSGWSSNS
+NYALLGAMRGVAQTISYEVSMALIFLSVVFLVSQYSLGSFQLSQGYVWFVFLLFPIFLCWVTSSLAETNRTPFDFAEG
+ESELVSGFNIEYGSGGFALLFLAEYGSIIFMSYFLVLIFLGGGMNFLGFNLLGCFFCFWFIWVRGTLPRFRYDKLMYL
+AWKIFLPVSLFVLFVYFMLKIV" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 304 ,
+                              id
+                                local
+                                  str "Salina_celebensis_13" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_1" ,
+                      location
+                        int {
+                          from 199 ,
+                          to 1191 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_2" ,
+                      location
+                        int {
+                          from 1384 ,
+                          to 2922 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_3" ,
+                      location
+                        int {
+                          from 2984 ,
+                          to 3667 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_4" ,
+                      location
+                        int {
+                          from 3803 ,
+                          to 3899 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_5" ,
+                      location
+                        int {
+                          from 3970 ,
+                          to 4650 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_6" ,
+                      location
+                        int {
+                          from 4650 ,
+                          to 5438 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_7" ,
+                      location
+                        int {
+                          from 5505 ,
+                          to 5849 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_8" ,
+                      location
+                        int {
+                          from 6243 ,
+                          to 7945 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_9" ,
+                      location
+                        int {
+                          from 8015 ,
+                          to 9364 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_10" ,
+                      location
+                        int {
+                          from 9364 ,
+                          to 9639 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_11" ,
+                      location
+                        int {
+                          from 9785 ,
+                          to 10261 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_12" ,
+                      location
+                        int {
+                          from 10261 ,
+                          to 11394 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Salina_celebensis_13" ,
+                      location
+                        int {
+                          from 11482 ,
+                          to 12399 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Salina_celebensis" } } } } } } } } } }

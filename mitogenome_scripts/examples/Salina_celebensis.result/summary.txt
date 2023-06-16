@@ -1,0 +1,50 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+Salina_celebensis14788          no             Orchesella villosa  
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+Salina_celebensis1      67     67         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+Salina_celebensis67     135    69         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+Salina_celebensis132    200    69         +          tRNA   trnM(cau)  tRNA-Met                          1              
+Salina_celebensis200    1193   994        +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+Salina_celebensis1191   1258   68         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+Salina_celebensis1257   1318   62         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+Salina_celebensis1319   1384   66         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+Salina_celebensis1385   2924   1540       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+Salina_celebensis2919   2985   67         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+Salina_celebensis2985   3669   685        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+Salina_celebensis3672   3743   72         +          tRNA   trnK(cuu)  tRNA-Lys                          1              
+Salina_celebensis3742   3804   63         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+Salina_celebensis3804   3901   98         +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+Salina_celebensis3971   4652   682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+Salina_celebensis4651   5440   790        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+Salina_celebensis5445   5506   62         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+Salina_celebensis5506   5851   346        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+Salina_celebensis5849   5909   61         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+Salina_celebensis5909   5972   64         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+Salina_celebensis5972   6038   67         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+Salina_celebensis6038   6106   69         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+Salina_celebensis6105   6172   68         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+Salina_celebensis6172   6239   68         -          tRNA   trnF(gaa)  tRNA-Phe                          1              
+Salina_celebensis6244   7947   1704       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+Salina_celebensis7947   8012   66         -          tRNA   trnH(gug)  tRNA-His                          1              
+Salina_celebensis8016   9366   1351       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+Salina_celebensis9365   9641   277        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+Salina_celebensis9652   9715   64         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+Salina_celebensis9715   9778   64         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+Salina_celebensis9786   10263  478        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+Salina_celebensis10262  11396  1135       +          CDS    CYTB       cytochrome b                      1              
+Salina_celebensis11394  11465  72         +          tRNA   trnS(uga)  tRNA-Ser                          2              
+Salina_celebensis11483  12401  919        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+Salina_celebensis12422  12486  65         -          tRNA   trnL(uag)  tRNA-Leu                          2              
+Salina_celebensis12436  13881  1446       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+Salina_celebensis13673  13740  68         -          tRNA   trnV(uac)  tRNA-Val                          1              
+Salina_celebensis13735  14479  745        -          rRNA   s-rRNA     12S ribosomal RNA                 1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                37
