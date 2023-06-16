@@ -1,0 +1,165 @@
+>Feature Willowsia_japonica
+212	1192	gene
+			gene	ND2
+212	1192	CDS
+			product	NADH dehydrogenase subunit 2
+			transl_table	5
+1388	2921	gene
+			gene	COX1
+1388	2921	CDS
+			product	cytochrome c oxidase subunit I
+			transl_table	5
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+2986	3669	gene
+			gene	COX2
+2986	3669	CDS
+			product	cytochrome c oxidase subunit II
+			transl_table	5
+3802	3966	gene
+			gene	ATP8
+3802	3966	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	5
+3960	4640	gene
+			gene	ATP6
+3960	4640	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	5
+4640	5443	gene
+			gene	COX3
+4640	5443	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	5
+5498	5833	gene
+			gene	ND3
+5498	5833	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	5
+7914	6219	gene
+			gene	ND5
+7914	6219	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	5
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+9324	7976	gene
+			gene	ND4
+9324	7976	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	5
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+9590	9324	gene
+			gene	ND4L
+9590	9324	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	5
+9738	10220	gene
+			gene	ND6
+9738	10220	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	5
+10220	11353	gene
+			gene	CYTB
+10220	11353	CDS
+			product	cytochrome b
+			transl_table	5
+12362	11442	gene
+			gene	ND1
+12362	11442	CDS
+			product	NADH dehydrogenase subunit 1
+			transl_table	5
+1	68	gene
+			gene	trnI(gau)
+1	68	tRNA
+			product	tRNA-Ile
+133	66	gene
+			gene	trnQ(uug)
+133	66	tRNA
+			product	tRNA-Gln
+131	199	gene
+			gene	trnM(cau)
+131	199	tRNA
+			product	tRNA-Met
+1192	1256	gene
+			gene	trnW(uca)
+1192	1256	tRNA
+			product	tRNA-Trp
+1319	1258	gene
+			gene	trnC(gca)
+1319	1258	tRNA
+			product	tRNA-Cys
+1386	1321	gene
+			gene	trnY(gua)
+1386	1321	tRNA
+			product	tRNA-Tyr
+2922	2985	gene
+			gene	trnL(uaa)
+2922	2985	tRNA
+			product	tRNA-Leu
+3668	3737	gene
+			gene	trnK(cuu)
+3668	3737	tRNA
+			product	tRNA-Lys
+3738	3801	gene
+			gene	trnD(guc)
+3738	3801	tRNA
+			product	tRNA-Asp
+5427	5488	gene
+			gene	trnG(ucc)
+5427	5488	tRNA
+			product	tRNA-Gly
+5832	5893	gene
+			gene	trnA(ugc)
+5832	5893	tRNA
+			product	tRNA-Ala
+5893	5955	gene
+			gene	trnR(ucg)
+5893	5955	tRNA
+			product	tRNA-Arg
+5955	6019	gene
+			gene	trnN(guu)
+5955	6019	tRNA
+			product	tRNA-Asn
+6020	6086	gene
+			gene	trnS(gcu)
+6020	6086	tRNA
+			product	tRNA-Ser
+6087	6148	gene
+			gene	trnE(uuc)
+6087	6148	tRNA
+			product	tRNA-Glu
+6212	6148	gene
+			gene	trnF(gaa)
+6212	6148	tRNA
+			product	tRNA-Phe
+7976	7915	gene
+			gene	trnH(gug)
+7976	7915	tRNA
+			product	tRNA-His
+9608	9670	gene
+			gene	trnT(ugu)
+9608	9670	tRNA
+			product	tRNA-Thr
+9735	9671	gene
+			gene	trnP(ugg)
+9735	9671	tRNA
+			product	tRNA-Pro
+11352	11422	gene
+			gene	trnS(uga)
+11352	11422	tRNA
+			product	tRNA-Ser
+12456	12390	gene
+			gene	trnL(uag)
+12456	12390	tRNA
+			product	tRNA-Leu
+13687	13621	gene
+			gene	trnV(uac)
+13687	13621	tRNA
+			product	tRNA-Val
+14454	13683	gene
+			gene	s-rRNA
+14454	13683	rRNA
+			product	12S ribosomal RNA
+13788	12402	gene
+			gene	l-rRNA
+13788	12402	rRNA
+			product	16S ribosomal RNA

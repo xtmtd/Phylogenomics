@@ -1,0 +1,50 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+Willowsia_japonica14890          no             Orchesella villosa  
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+Willowsia_japonica1      69     69         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+Willowsia_japonica66     134    69         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+Willowsia_japonica131    200    70         +          tRNA   trnM(cau)  tRNA-Met                          1              
+Willowsia_japonica212    1193   982        +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+Willowsia_japonica1192   1257   66         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+Willowsia_japonica1258   1320   63         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+Willowsia_japonica1321   1387   67         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+Willowsia_japonica1388   2922   1535       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+Willowsia_japonica2922   2986   65         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+Willowsia_japonica2986   3670   685        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+Willowsia_japonica3668   3738   71         +          tRNA   trnK(cuu)  tRNA-Lys                          1              
+Willowsia_japonica3738   3802   65         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+Willowsia_japonica3802   3967   166        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+Willowsia_japonica3960   4641   682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+Willowsia_japonica4640   5444   805        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+Willowsia_japonica5427   5489   63         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+Willowsia_japonica5498   5834   337        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+Willowsia_japonica5832   5894   63         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+Willowsia_japonica5893   5956   64         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+Willowsia_japonica5955   6020   66         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+Willowsia_japonica6020   6087   68         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+Willowsia_japonica6087   6149   63         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+Willowsia_japonica6148   6213   66         -          tRNA   trnF(gaa)  tRNA-Phe                          1              
+Willowsia_japonica6219   7915   1697       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+Willowsia_japonica7915   7977   63         -          tRNA   trnH(gug)  tRNA-His                          1              
+Willowsia_japonica7976   9325   1350       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+Willowsia_japonica9324   9591   268        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+Willowsia_japonica9608   9671   64         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+Willowsia_japonica9671   9736   66         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+Willowsia_japonica9738   10221  484        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+Willowsia_japonica10220  11354  1135       +          CDS    CYTB       cytochrome b                      1              
+Willowsia_japonica11352  11423  72         +          tRNA   trnS(uga)  tRNA-Ser                          2              
+Willowsia_japonica11442  12363  922        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+Willowsia_japonica12390  12457  68         -          tRNA   trnL(uag)  tRNA-Leu                          2              
+Willowsia_japonica12402  13789  1388       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+Willowsia_japonica13621  13688  68         -          tRNA   trnV(uac)  tRNA-Val                          1              
+Willowsia_japonica13683  14455  773        -          rRNA   s-rRNA     12S ribosomal RNA                 1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                37

@@ -1,0 +1,4 @@
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|Willowsia_japonica
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit I [lcl|Willowsia_japonica:1388-2921] [lcl|Willowsia_japonica: raw, dna len= 14890] -> [lcl|Willowsia_japonica_2]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 5 [lcl|Willowsia_japonica:c7914-6219] [lcl|Willowsia_japonica: raw, dna len= 14890] -> [lcl|Willowsia_japonica_8]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 4 [lcl|Willowsia_japonica:c9324-7976] [lcl|Willowsia_japonica: raw, dna len= 14890] -> [lcl|Willowsia_japonica_9]
