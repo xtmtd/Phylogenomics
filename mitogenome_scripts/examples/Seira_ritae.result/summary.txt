@@ -1,0 +1,60 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+Seira_ritae    16013          no             Orchesella cincta   
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+Seira_ritae    <2     542    541        -          CDS    ND2        NADH dehydrogenase subunit 2      1              
+Seira_ritae    750    818    69         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+Seira_ritae    819    880    62         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+Seira_ritae    881    945    65         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+Seira_ritae    946    2485   1540       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+Seira_ritae    2480   2549   70         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+Seira_ritae    2549   3233   685        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+Seira_ritae    3231   3301   71         +          tRNA   trnK(cuu)  tRNA-Lys                          1              
+Seira_ritae    3300   3365   66         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+Seira_ritae    3365   3533   169        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+Seira_ritae    3526   4207   682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+Seira_ritae    4206   4995   790        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+Seira_ritae    4998   5060   63         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+Seira_ritae    5060   5405   346        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+Seira_ritae    5403   5473   71         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+Seira_ritae    5472   5537   66         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+Seira_ritae    5541   5613   73         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+Seira_ritae    5611   5673   63         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+Seira_ritae    5674   5740   67         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+Seira_ritae    5738   5804   67         -          tRNA   trnF(gaa)  tRNA-Phe                          1              
+Seira_ritae    5804   7470   1667       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+Seira_ritae    7515   7582   68         -          tRNA   trnH(gug)  tRNA-His                          1              
+Seira_ritae    7584   8862   1279       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+Seira_ritae    8947   9223   277        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+Seira_ritae    9231   9295   65         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+Seira_ritae    9295   9358   64         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+Seira_ritae    9360   9840   481        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+Seira_ritae    9839   10979  1141       +          CDS    CYTB       cytochrome b                      1              
+Seira_ritae    10984  11055  72         +          tRNA   trnS(uga)  tRNA-Ser                          2              
+Seira_ritae    11069  11993  925        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+Seira_ritae    12008  12072  65         -          tRNA   trnL(uag)  tRNA-Leu                          2              
+Seira_ritae    12025  13421  1397       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+Seira_ritae    13208  13276  69         -          tRNA   trnV(uac)  tRNA-Val                          1              
+Seira_ritae    13274  14027  754        -          rRNA   s-rRNA     12S ribosomal RNA                 1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           19
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                34
+
+
+Potential missing genes:
+#Gene             total_missing_number
+--------------------------------------
+tRNA-Gln                             1
+tRNA-Ile                             1
+tRNA-Met                             1
+
+If you got the mitochondrial genome using the `findmitoscaf`
+or `assemble` module of MitoZ, the missing genes might be
+found from the '*.high_abundance*' and '*.low_abundance*' files
+in the 'tmp' directory!
