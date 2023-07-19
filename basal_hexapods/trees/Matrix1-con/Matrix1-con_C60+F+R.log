@@ -1,0 +1,172 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    zf (AVX512, FMA3, 1007 GB RAM)
+Command: iqtree -s FcC_supermatrix.fas -m C60+F+R -B 1000 -alrt 1000 -T 30
+Seed:    664646 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov 10 11:02:44 2021
+Kernel:  AVX+FMA - 30 threads (112 CPU cores detected)
+
+Reading alignment file FcC_supermatrix.fas ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 48 sequences with 201896 columns, 181865 distinct patterns
+162804 parsimony-informative, 350 singleton sites, 38742 constant sites
+                               Gap/Ambiguity  Composition  p-value
+   1  Capnura_wanica                  28.12%    failed      0.00%
+   2  Stylops_melittae                40.62%    failed      0.00%
+   3  Coccinella_septempunctata       27.86%    failed      0.00%
+   4  Plectrocnemia_conspersa         22.31%    failed      0.00%
+   5  Tanzaniophasma_sp               42.57%    failed      0.00%
+   6  Sinella_curviseta               18.38%    failed      0.00%
+   7  Sinentomon_erythranum           39.35%    failed      0.00%
+   8  Anopheles_arabiensis            17.57%    failed      0.00%
+   9  Lepidocampa_weberi              30.48%    failed      0.00%
+  10  Thalassaphorura_encarpata       32.93%    failed      0.00%
+  11  Oncopodura_yosiiana             29.36%    failed      0.00%
+  12  Machilis_hrabei                 38.25%    failed      0.00%
+  13  Timema_cristinae                22.45%    failed      0.00%
+  14  Rhopalosiphum_maidis            24.92%    failed      0.00%
+  15  Inocellia_crassicornis          31.62%    failed      0.00%
+  16  Neelides_sp                     27.38%    failed      0.00%
+  17  Thrips_palmi                    18.22%    failed      0.00%
+  18  Apis_mellifera                  18.87%    failed      0.00%
+  19  Laupala_kohalensis              20.32%    failed      0.00%
+  20  Occasjapyx_japonicus            26.18%    failed      0.00%
+  21  Bombyx_mori                     20.46%    failed      0.00%
+  22  Oropsylla_silantiewi            23.55%    failed      0.00%
+  23  Ptilocerembia_catherinae        40.90%    failed      0.00%
+  24  Acontista_multicolor            28.89%    failed      0.00%
+  25  Catajapyx_aquilonaris           22.40%    failed      0.00%
+  26  Protohermes_xanthodes           21.68%    failed      0.00%
+  27  Atelura_formicaria              32.29%    failed      0.00%
+  28  Lipothrix_lubbocki              29.74%    failed      0.00%
+  29  Penaeus_vannamei                34.08%    failed      0.00%
+  30  Thermobia_domestica             27.55%    failed      0.00%
+  31  Apachyus_charteceus             37.78%    failed      0.00%
+  32  Zorotypus_caudelli              34.23%    failed      0.00%
+  33  Boreus_hyemalis                 24.17%    failed      0.00%
+  34  Tricholepidion_gertschi         41.66%    failed      0.00%
+  35  Octostigma_sinensis             26.30%    failed      0.00%
+  36  Meinertellus_cundinamarcensis   41.63%    failed      0.00%
+  37  Tigriopus_japonicus             20.19%    failed      0.00%
+  38  Mantispa_styriaca               25.95%    failed      0.00%
+  39  Cloeon_dipterum                 20.97%    failed      0.00%
+  40  Pseudobourletiella_spinata      27.83%    failed      0.00%
+  41  Calopteryx_splendens            22.37%    failed      0.00%
+  42  Campodea_augens                 28.93%    failed      0.00%
+  43  Daphnia_magna                   19.62%    failed      0.00%
+  44  Galloisiana_yuasai              37.74%    failed      0.00%
+  45  Pediculus_humanus               21.33%    failed      0.00%
+  46  Acerentomon_sp                  36.76%    failed      0.00%
+  47  Zootermopsis_nevadensis         18.09%    failed      0.00%
+  48  Pseudachorutes_palmiensis       23.09%    failed      0.00%
+****  TOTAL                           28.08%  48 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000495305 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 25.304 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 664646)...
+Model C60+F+R is alias for POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+R
+WARNING: Both Gamma and FreeRate models were specified, continue with FreeRate model
+
+NOTE: 329811 MB RAM (322 GB) is required!
+WARNING: Memory required per CPU-core (10.7361 GB) is higher than your computer RAM per CPU-core (8 GB), thus multiple runs may exceed RAM!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -10100813.770
+2. Current log-likelihood: -9822568.856
+3. Current log-likelihood: -9810896.846
+4. Current log-likelihood: -9808907.536
+5. Current log-likelihood: -9808816.593
+6. Current log-likelihood: -9808803.669
+7. Current log-likelihood: -9808801.161
+8. Current log-likelihood: -9808800.712
+9. Current log-likelihood: -9808800.583
+Optimal log-likelihood: -9808800.483
+Mixture weights: 0.096 0.039 0.027 0.016 0.005 0.016 0.011 0.007 0.006 0.001 0.009 0.043 0.005 0.014 0.008 0.000 0.012 0.010 0.030 0.022 0.013 0.004 0.010 0.012 0.018 0.019 0.007 0.042 0.023 0.023 0.018 0.017 0.011 0.007 0.037 0.031 0.018 0.008 0.034 0.008 0.016 0.006 0.010 0.034 0.016 0.008 0.000 0.012 0.005 0.014 0.007 0.017 0.012 0.010 0.022 0.014 0.019 0.002 0.019 0.006 0.011
+Site proportion and rates:  (0.134,0.001) (0.258,0.269) (0.302,0.880) (0.307,2.167)
+Parameters optimization took 9 rounds (13243.412 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.108425 sec (of wall-clock time) 3.088260 sec(of CPU time)
+Computing RapidNJ tree took 0.037105 sec (of wall-clock time) 1.062903 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -9818120.430
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1983.147 second
+Computing log-likelihood of 98 initial trees ... 17728.672 seconds
+Current best score: -9808800.483
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -9808636.444
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 2: -9808435.775
+Iteration 10 / LogL: -9808491.882 / Time: 20h:24m:25s
+Iteration 20 / LogL: -9808452.572 / Time: 32h:59m:3s
+Finish initializing candidate tree set (9)
+Current best tree score: -9808435.775 / CPU time: 103258.939
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -9808574.539 / Time: 43h:1m:2s (106h:47m:1s left)
+Iteration 40 / LogL: -9808555.070 / Time: 53h:28m:0s (84h:59m:13s left)
+Iteration 50 / LogL: -9808489.031 / Time: 63h:34m:31s (67h:27m:35s left)
+Log-likelihood cutoff on original alignment: -9808638.239
+Iteration 60 / LogL: -9808465.713 / Time: 74h:0m:2s (52h:40m:23s left)
+Iteration 70 / LogL: -9808498.699 / Time: 83h:43m:19s (38h:49m:27s left)
+Iteration 80 / LogL: -9808439.741 / Time: 94h:23m:36s (26h:17m:5s left)
+Iteration 90 / LogL: -9808480.025 / Time: 104h:53m:48s (14h:8m:32s left)
+Iteration 100 / LogL: -9808492.076 / Time: 115h:20m:12s (2h:19m:47s left)
+Log-likelihood cutoff on original alignment: -9808565.406
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 118h:20m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -9808435.775
+2. Current log-likelihood: -9808435.758
+3. Current log-likelihood: -9808435.745
+Optimal log-likelihood: -9808435.736
+Mixture weights: 0.096 0.039 0.027 0.016 0.005 0.016 0.011 0.006 0.006 0.001 0.009 0.043 0.005 0.014 0.008 0.000 0.012 0.010 0.029 0.022 0.013 0.004 0.010 0.012 0.018 0.019 0.007 0.043 0.023 0.023 0.018 0.017 0.011 0.007 0.037 0.031 0.018 0.008 0.034 0.008 0.016 0.006 0.010 0.034 0.016 0.008 0.000 0.012 0.005 0.014 0.007 0.017 0.012 0.010 0.022 0.014 0.019 0.002 0.019 0.006 0.011
+Site proportion and rates:  (0.134,0.001) (0.257,0.268) (0.301,0.878) (0.308,2.165)
+Parameters optimization took 3 rounds (1084.261 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -9808435.736
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+758.917 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file FcC_supermatrix.fas.splits.nex
+Total tree length: 27.111
+
+Total number of iterations: 103
+CPU time used for tree search: 10484457.178 sec (2912h:20m:57s)
+Wall-clock time used for tree search: 410554.319 sec (114h:2m:34s)
+Total CPU time used: 10883214.866 sec (3023h:6m:54s)
+Total wall-clock time used: 427906.403 sec (118h:51m:46s)
+
+Computing bootstrap consensus tree...
+Reading input file FcC_supermatrix.fas.splits.nex...
+48 taxa and 111 splits.
+Consensus tree written to FcC_supermatrix.fas.contree
+Reading input trees file FcC_supermatrix.fas.contree
+Log-likelihood of consensus tree: -9808435.736
+
+Analysis results written to: 
+  IQ-TREE report:                FcC_supermatrix.fas.iqtree
+  Maximum-likelihood tree:       FcC_supermatrix.fas.treefile
+  Likelihood distances:          FcC_supermatrix.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          FcC_supermatrix.fas.splits.nex
+  Consensus tree:                FcC_supermatrix.fas.contree
+  Screen log file:               FcC_supermatrix.fas.log
+
+Date and Time: Mon Nov 15 10:25:15 2021
