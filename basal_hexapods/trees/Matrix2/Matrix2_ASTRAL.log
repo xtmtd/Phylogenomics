@@ -1,0 +1,68 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.6.1
+Gene trees are treated as unrooted
+505 trees read from all.gene.tre
+All output trees will be *arbitrarily* rooted at Cloeon_dipterum
+
+======== Running the main analysis
+Number of taxa: 48 (48 species)
+Taxa: [Cloeon_dipterum, Acerentomon_sp, Sinentomon_erythranum, Meinertellus_cundinamarcensis, Machilis_hrabei, Penaeus_vannamei, Tigriopus_japonicus, Campodea_augens, Lepidocampa_weberi, Rhopalosiphum_maidis, Octostigma_sinensis, Occasjapyx_japonicus, Catajapyx_aquilonaris, Thalassaphorura_encarpata, Pseudachorutes_palmiensis, Neelides_sp, Lipothrix_lubbocki, Pseudobourletiella_spinata, Oncopodura_yosiiana, Sinella_curviseta, Calopteryx_splendens, Acontista_multicolor, Timema_cristinae, Ptilocerembia_catherinae, Tanzaniophasma_sp, Laupala_kohalensis, Pediculus_humanus, Zorotypus_caudelli, Zootermopsis_nevadensis, Capnura_wanica, Thermobia_domestica, Tricholepidion_gertschi, Atelura_formicaria, Apachyus_charteceus, Apis_mellifera, Coccinella_septempunctata, Boreus_hyemalis, Oropsylla_silantiewi, Plectrocnemia_conspersa, Bombyx_mori, Inocellia_crassicornis, Protohermes_xanthodes, Anopheles_arabiensis, Stylops_melittae, Daphnia_magna, Galloisiana_yuasai, Thrips_palmi, Mantispa_styriaca]
+Taxon occupancy: {Ptilocerembia_catherinae=418, Timema_cristinae=488, Catajapyx_aquilonaris=485, Zorotypus_caudelli=435, Laupala_kohalensis=488, Thermobia_domestica=467, Boreus_hyemalis=484, Meinertellus_cundinamarcensis=399, Sinentomon_erythranum=416, Capnura_wanica=458, Atelura_formicaria=450, Daphnia_magna=494, Sinella_curviseta=491, Tricholepidion_gertschi=417, Lipothrix_lubbocki=472, Apachyus_charteceus=441, Thrips_palmi=494, Pseudobourletiella_spinata=478, Bombyx_mori=495, Campodea_augens=469, Oropsylla_silantiewi=481, Anopheles_arabiensis=500, Zootermopsis_nevadensis=503, Thalassaphorura_encarpata=450, Apis_mellifera=505, Inocellia_crassicornis=458, Coccinella_septempunctata=457, Tigriopus_japonicus=483, Oncopodura_yosiiana=474, Calopteryx_splendens=490, Neelides_sp=482, Pediculus_humanus=499, Protohermes_xanthodes=494, Pseudachorutes_palmiensis=481, Galloisiana_yuasai=423, Acontista_multicolor=458, Penaeus_vannamei=430, Lepidocampa_weberi=474, Stylops_melittae=389, Machilis_hrabei=431, Acerentomon_sp=438, Plectrocnemia_conspersa=494, Occasjapyx_japonicus=481, Mantispa_styriaca=487, Cloeon_dipterum=489, Rhopalosiphum_maidis=481, Octostigma_sinensis=479, Tanzaniophasma_sp=376}
+Number of gene trees: 505
+468 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+------------------------------
+gradient0: 9737
+Number of Clusters after addition by distance: 9737
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:1250
+polytomy size limit : 16
+discarded polytomies:  [3, 3, 3, 4, 4, 4, 5, 5, 5, 14, 16]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 9737
+Threshold 0.1:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 9737
+polytomy of size 5; rounds with additions with at least 5 support: 0; clusters: 9739
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 9739
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 9739
+Threshold 0.2:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 9739
+polytomy of size 5; rounds with additions with at least 5 support: 0; clusters: 9739
+polytomy of size 14; rounds with additions with at least 5 support: 0; clusters: 9741
+Threshold 0.3333333333333333:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 9741
+polytomy of size 5; rounds with additions with at least 5 support: 0; clusters: 9741
+polytomy of size 16; rounds with additions with at least 5 support: 0; clusters: 9741
+max k is :0
+Number of Clusters after addition by greedy: 9741
+gradient0 in heuristiic: 9741
+partitions formed in 4.559 secs
+Dynamic Programming starting after 4.559 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 71912595
+Polytree building time: 0.075 seconds.
+Number of quartet trees in the gene trees: 71912595
+Size of largest cluster: 48
+Greedy score: 50788435
+estimationFactor: 1.415924609608467
+Sub-optimal score: 53986383
+Total Number of elements weighted: 40379
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.771671985971303
+Optimization score: 55492935
+Optimal tree inferred in 31.367 secs.
+(Boreus_hyemalis,(Oropsylla_silantiewi,(Anopheles_arabiensis,((Plectrocnemia_conspersa,Bombyx_mori),(((Coccinella_septempunctata,Stylops_melittae),(Inocellia_crassicornis,(Protohermes_xanthodes,Mantispa_styriaca))),(Apis_mellifera,((Rhopalosiphum_maidis,Pediculus_humanus),(Thrips_palmi,((Apachyus_charteceus,(Zorotypus_caudelli,(Laupala_kohalensis,(Capnura_wanica,((Acontista_multicolor,Zootermopsis_nevadensis),((Timema_cristinae,Ptilocerembia_catherinae),(Tanzaniophasma_sp,Galloisiana_yuasai))))))),(Calopteryx_splendens,(Cloeon_dipterum,((Tricholepidion_gertschi,(Thermobia_domestica,Atelura_formicaria)),((Meinertellus_cundinamarcensis,Machilis_hrabei),(((Campodea_augens,Lepidocampa_weberi),(Octostigma_sinensis,(Occasjapyx_japonicus,Catajapyx_aquilonaris))),((Acerentomon_sp,Sinentomon_erythranum),((Daphnia_magna,(Penaeus_vannamei,Tigriopus_japonicus)),((Oncopodura_yosiiana,Sinella_curviseta),((Thalassaphorura_encarpata,Pseudachorutes_palmiensis),(Neelides_sp,(Lipothrix_lubbocki,Pseudobourletiella_spinata))))))))))))))))))));
+Final quartet score is: 55492935
+Final normalized quartet score is: 0.771671985971303
+(Cloeon_dipterum,(((Tricholepidion_gertschi,(Thermobia_domestica,Atelura_formicaria)1:0.17990777355449414)1:1.3804039600204916,((Meinertellus_cundinamarcensis,Machilis_hrabei)1:3.1597596770587457,(((Campodea_augens,Lepidocampa_weberi)1:2.739217841875746,(Octostigma_sinensis,(Occasjapyx_japonicus,Catajapyx_aquilonaris)1:3.2831825515158073)1:0.2133822877388224)1:1.2153911622742055,((Acerentomon_sp,Sinentomon_erythranum)1:2.1300927833885477,((Daphnia_magna,(Penaeus_vannamei,Tigriopus_japonicus)0.99:0.10967270004464025)1:0.20362538530242133,((Oncopodura_yosiiana,Sinella_curviseta)1:0.2690669539503452,((Thalassaphorura_encarpata,Pseudachorutes_palmiensis)1:0.6643115609276165,(Neelides_sp,(Lipothrix_lubbocki,Pseudobourletiella_spinata)1:2.722009724998275)0.85:0.05234476434442556)0.34:0.037009378993946525)1:3.862117109614113)0.38:0.004767035178787092)1:0.10668932936443849)1:0.947987510440354)1:0.7126910087039628)1:0.18217174935968822,(Calopteryx_splendens,((Apachyus_charteceus,(Zorotypus_caudelli,(Laupala_kohalensis,(Capnura_wanica,((Acontista_multicolor,Zootermopsis_nevadensis)1:1.1955356320585697,((Timema_cristinae,Ptilocerembia_catherinae)1:0.338791199688832,(Tanzaniophasma_sp,Galloisiana_yuasai)1:0.6366261947214924)0.96:0.11228164830581296)1:0.197644007448548)1:0.13552740183935047)1:0.1938661955052679)0.97:0.08910894333315802)1:0.4166877645300725,(Thrips_palmi,((Rhopalosiphum_maidis,Pediculus_humanus)0.36:0.009459815148725794,(Apis_mellifera,(((Coccinella_septempunctata,Stylops_melittae)1:0.17540027763551508,(Inocellia_crassicornis,(Protohermes_xanthodes,Mantispa_styriaca)1:0.27512004273047824)1:1.4992296239344638)1:0.3716353920116442,((Plectrocnemia_conspersa,Bombyx_mori)1:1.838439490765829,(Anopheles_arabiensis,(Oropsylla_silantiewi,Boreus_hyemalis)1:1.8668491816555906)1:0.3710761752570545)1:0.7400175373074726)1:0.8491570428710833)1:0.4865283549436114)0.87:0.05373859540797683)1:0.13430035019312778)1:0.4386577707629657)1:0.10501536215155453));
+Weight calculation took 26.043462299 secs
+ASTRAL finished in 31.876 secs
