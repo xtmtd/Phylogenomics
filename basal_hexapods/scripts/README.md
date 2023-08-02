@@ -51,7 +51,7 @@ All maximum likelihood (ML) supermatrix analyses are performed using IQ-TREE. Mi
 
 #### 4.1 Partitioned ML model
 
-      iqtree -s FcC_supermatrix.fas -p FcC_supermatrix_partition.txt -m MFP --mset LG --msub nuclear --rclusterf 10 -B 1000 --alrt 1000 -T $THREADS
+      iqtree -s FcC_supermatrix.fas -p FcC_supermatrix_partition.txt -m MFP --msub nuclear --rclusterf 10 -B 1000 --alrt 1000 -T $THREADS
 
 #### 4.2 Across-site compositional heterogeneity model
       
