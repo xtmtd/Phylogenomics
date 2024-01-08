@@ -119,7 +119,7 @@ We tested the resultant four alternative topologies with the all four matrices u
 
 **#get the site-specfic log likelihood statistics for all chains**
 
-      mpirun -np $THREADS readpb_mpi -x 1000 10 -sitelogl chain1      
+      mpirun -np $THREADS readpb_mpi -x 1000 10 -sitelogl $CHAIN_NAME     
 
 *numbers ‘1000 10’ as the burn-in of 1000, taking every 10 trees*
 
