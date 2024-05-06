@@ -8,4 +8,4 @@ Shiyu Du, Erik Tihelka, Daoyuan Yu, Wan-Jun Chen, Yun Bu, Chenyang Cai, Michael 
 
 #### All matrices and treefiles can be found: https://github.com/xtmtd/Phylogenomics/tree/main/basal_hexapods/matrices and https://github.com/xtmtd/Phylogenomics/tree/main/basal_hexapods/treefile
 
-Any additional information required to reanalyse the data reported in this paper is available from the corresponding author (Feng Zhang: fzhang@njau.edu.cn) upon request.
+Any additional information required to reanalyse the data reported in this study is available from the corresponding author (Feng Zhang: fzhang@njau.edu.cn) upon request.
