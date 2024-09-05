@@ -1,4 +1,4 @@
-## Phylogeny of the hexapod classes: Protura as the sister group to all other hexapods
+## Revisiting the four Hexapoda classes: Protura as the sister group to all other hexapods
 
 Shiyu Du, Erik Tihelka, Daoyuan Yu, Wan-Jun Chen, Yun Bu, Chenyang Cai, Michael S. Engel, Yun-Xia Luan, and Feng Zhang*
 
